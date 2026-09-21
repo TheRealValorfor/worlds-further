@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "mod_name": "Nature\u0027s Spirit",
+  "mod_id": "natures_spirit",
+  "achievements": {
+    "adventure/kaolin_kill": {
+      "display_name": "You\u0027re Kaolin This!",
+      "original_name": "You\u0027re Kaolin This!",
+      "icon": "natures_spirit:kaolin",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/sandy_forage": {
+      "display_name": "Sandy Forage",
+      "original_name": "Sandy Forage",
+      "icon": "natures_spirit:desert_turnip_block",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/collect_all_flowers": {
+      "display_name": "Flower Power",
+      "original_name": "Flower Power",
+      "icon": "natures_spirit:lavender",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/shoot_coconut": {
+      "display_name": "Tropical Blast!",
+      "original_name": "Tropical Blast!",
+      "icon": "natures_spirit:coconut",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

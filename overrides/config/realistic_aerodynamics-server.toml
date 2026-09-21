@@ -1,0 +1,41 @@
+#Shape-aware body aerodynamics for Sable craft.
+[aerodynamics]
+	#Master switch for ordinary-block body drag.
+	enabled = true
+	#Overall multiplier applied to ordinary-block pressure drag and skin friction.
+	#The default 0.7 makes body drag 70% as strong as the original model.
+	# Default: 0.7
+	# Range: 0.0 ~ 10.0
+	body_drag_scale = 0.7
+	#Normalized pressure-drag coefficient. 0.5 approximates half air density times
+	#the drag coefficient of a blunt cube. Force grows with projected area and airspeed squared.
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	pressure_drag_coefficient = 0.5
+	#Quadratic tangential drag on visible surfaces. Keep this much smaller than pressure drag.
+	# Default: 0.01
+	# Range: 0.0 ~ 10.0
+	skin_friction_coefficient = 0.01
+	#Maximum point airspeed used by the quadratic model, in blocks per second.
+	#This safety clamp prevents numerical explosions after teleports or physics glitches.
+	# Default: 128.0
+	# Range: 1.0 ~ 4096.0
+	maximum_modeled_airspeed = 128.0
+
+#Voxel-surface discovery and compatibility settings.
+[geometry]
+	#Ticks between voxel-silhouette rebuilds. Physics still applies drag every substep.
+	#Lower values react faster to block changes; higher values reduce scan cost.
+	# Default: 10
+	# Range: 1 ~ 1200
+	surface_rescan_interval_ticks = 10
+	#Maximum bounding-box volume scanned for one craft. Drag is skipped above this safety limit.
+	#Increase it for exceptionally large or sparse craft.
+	# Default: 8000000
+	# Range: > 1000
+	maximum_scan_volume = 8000000
+	#Use a block's outline when it has no collision shape, allowing thin decorations to add drag.
+	use_outline_shape_fallback = true
+	#Also add generic body drag to Sable lift-provider blocks such as symmetric sails.
+	#Disabled by default because those blocks already provide their own lift and drag.
+	include_lift_providers = false

@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"create_dragons_plus:fluid_hatch"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_aeronautics_ftb_chunks:contraption_claim_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"simulated:engine_assembly"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

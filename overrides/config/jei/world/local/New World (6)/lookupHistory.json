@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"create_hypertube:tube_scanner_attachment"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"functionalstorage:diamond_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:sturdy_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_aeronautics_ftb_chunks:contraption_claim_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ftbquests:missing_item","components":"{\"ftbquests:missing_item\":\"quark:weather_sensor\"}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

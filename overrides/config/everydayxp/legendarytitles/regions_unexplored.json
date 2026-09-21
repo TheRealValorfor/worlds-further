@@ -1,0 +1,142 @@
+{
+  "enabled": true,
+  "mod_name": "Regions Unexplored",
+  "mod_id": "regions_unexplored",
+  "achievements": {
+    "eternal_expedition": {
+      "display_name": "Eternal Expedition",
+      "original_name": "Eternal Expedition",
+      "icon": "regions_unexplored:brimwood_sapling",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "rgbeacon": {
+      "display_name": "RGBeacon",
+      "original_name": "RGBeacon",
+      "icon": "regions_unexplored:prismaglass",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "spelunker": {
+      "display_name": "Spelunker",
+      "original_name": "Spelunker",
+      "icon": "regions_unexplored:dropleaf",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "this_tree_bleeds_red": {
+      "display_name": "This Tree Bleeds Red",
+      "original_name": "This Tree Bleeds Red",
+      "icon": "regions_unexplored:socotra_log",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "got_wood": {
+      "display_name": "Got Wood?",
+      "original_name": "Got Wood?",
+      "icon": "regions_unexplored:redwood_log",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "from_the_tree_tops": {
+      "display_name": "From the Tree Tops",
+      "original_name": "From the Tree Tops",
+      "icon": "regions_unexplored:kapok_vines",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "every_bit_of_the_rainbow": {
+      "display_name": "Every Bit of the Rainbow",
+      "original_name": "Every Bit of the Rainbow",
+      "icon": "regions_unexplored:white_snowbelle",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "regions_explored": {
+      "display_name": "Regions Explored",
+      "original_name": "Regions Explored",
+      "icon": "minecraft:leather_boots",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "pioneer": {
+      "display_name": "Pioneer",
+      "original_name": "Pioneer",
+      "icon": "regions_unexplored:hibiscus",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "mycologist": {
+      "display_name": "Mycologist",
+      "original_name": "Mycologist",
+      "icon": "regions_unexplored:blue_bioshroom",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "light_as_a_frog": {
+      "display_name": "Light as a Frog",
+      "original_name": "Light as a Frog",
+      "icon": "regions_unexplored:flowering_lily_pad",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "downer": {
+      "display_name": "Downer",
+      "original_name": "Downer",
+      "icon": "regions_unexplored:dorcel",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "light_snack": {
+      "display_name": "Light Snack",
+      "original_name": "Light Snack",
+      "icon": "regions_unexplored:hanging_earlight_fruit",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "blind_as_a_bat": {
+      "display_name": "Blind as a Bat",
+      "original_name": "Blind as a Bat",
+      "icon": "regions_unexplored:duskmelon_slice",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "ancient_specimens": {
+      "display_name": "Ancient Specimens",
+      "original_name": "Ancient Specimens",
+      "icon": "regions_unexplored:blue_bioshroom_stem",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

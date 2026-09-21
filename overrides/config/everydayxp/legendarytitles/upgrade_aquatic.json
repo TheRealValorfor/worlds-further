@@ -1,0 +1,79 @@
+{
+  "enabled": true,
+  "mod_name": "Upgrade Aquatic",
+  "mod_id": "upgrade_aquatic",
+  "achievements": {
+    "adventure/kill_great_thrasher": {
+      "display_name": "Gonna Need a Bigger Boat",
+      "original_name": "Gonna Need a Bigger Boat",
+      "icon": "upgrade_aquatic:thrasher_tooth",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/sleep_underwater": {
+      "display_name": "Sleepin\u0027 with the Fishes",
+      "original_name": "Sleepin\u0027 with the Fishes",
+      "icon": "upgrade_aquatic:bedroll",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "husbandry/eat_pickerelweed": {
+      "display_name": "Legal in Most States",
+      "original_name": "Legal in Most States",
+      "icon": "upgrade_aquatic:boiled_pickerelweed",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "nether/sleepless_slave": {
+      "display_name": "Sleepless Slave",
+      "original_name": "Sleepless Slave",
+      "icon": "minecraft:splash_potion",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/unethical_dentistry": {
+      "display_name": "Unethical Dentistry",
+      "original_name": "Unethical Dentistry",
+      "icon": "upgrade_aquatic:tooth_block",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/tooth_fairy": {
+      "display_name": "Tooth Fairy",
+      "original_name": "Tooth Fairy",
+      "icon": "upgrade_aquatic:thrasher_tooth",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/collect_all_pike": {
+      "display_name": "Pike World Tour",
+      "original_name": "Pike World Tour",
+      "icon": "upgrade_aquatic:pike_bucket",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "nether/vibe_check": {
+      "display_name": "Vibe Check",
+      "original_name": "Vibe Check",
+      "icon": "minecraft:lingering_potion",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

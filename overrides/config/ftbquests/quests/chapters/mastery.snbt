@@ -1,0 +1,225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "mastery"
+	group: "78484AB453202A67"
+	id: "3AF8F146988512D5"
+	images: [{
+		height: 1.0d
+		id: "1DA75B4BB771CA1D"
+		image: ""
+		rotation: 0.0d
+		text_on_image: 1b
+		width: 15.6d
+		x: 2.1d
+		y: -2.1d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["162A1206ECFA1B5C"]
+			id: "1A019E26C0ECA5B7"
+			rewards: [{
+				id: "305B0121BD4F015C"
+				item: {
+					count: 1
+					id: "minecraft:nether_star"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "76FCD29E117C20E8"
+				item: { count: 1, id: "iceandfire:dragonsteel_fire_chestplate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["233876CDBCB3C445"]
+			id: "0F3F8931D68B405D"
+			rewards: [{
+				id: "3081B508BECFDB9A"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F5C04256ABAFD0E"
+				item: { count: 1, id: "arcane_abilities:skills_grimoire" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.2d
+		}
+		{
+			dependencies: ["4BB8ECFCC2FB309C"]
+			id: "091FE285CD7F0F31"
+			rewards: [{
+				id: "63348C2A77D4752F"
+				item: {
+					count: 1
+					id: "minecraft:diamond_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7033DC38F6885713"
+				item: { count: 1, id: "simulated:engine_assembly" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.3d
+		}
+		{
+			dependencies: ["6B4B69432896C0D0"]
+			id: "00A3DBE546F74B19"
+			rewards: [{
+				id: "62174F08E480F705"
+				item: {
+					count: 1
+					id: "minecraft:elytra"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B1533EEDB3D4E1C"
+				item: { count: 1, id: "create_aeronautics_ftb_chunks:contraption_claim_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["173D76189F341858"]
+			id: "472CC9F0ED23081F"
+			rewards: [{
+				count: 4
+				id: "35E5B0EDBB252F55"
+				item: {
+					count: 1
+					id: "minecraft:glistering_melon_slice"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EE54289DCE29E57"
+				type: "checkmark"
+			}]
+			x: 2.1d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4427814FE653B1D0"]
+			id: "18EC1BCF4782B77B"
+			rewards: [{
+				count: 2
+				id: "57F6641BC7E0B829"
+				item: {
+					count: 1
+					id: "minecraft:redstone_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "288229F8D197F250"
+				type: "checkmark"
+			}]
+			x: 2.1d
+			y: 4.2d
+		}
+		{
+			dependencies: [
+				"10ECE028BB684E49"
+				"63A0FD50FCDAE637"
+				"22CF447052C365BB"
+			]
+			id: "3ED6D6C659F3BAB4"
+			rewards: [{
+				count: 6
+				id: "58D0F7459B95F651"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "26CD8518B2A3E8F5"
+				type: "checkmark"
+			}]
+			x: 2.1d
+			y: 8.3d
+		}
+		{
+			dependencies: ["07B87913A753F08A"]
+			id: "04508D97C0044D38"
+			rewards: [{
+				id: "7CC3D6278552B6C8"
+				item: {
+					count: 1
+					id: "minecraft:ender_eye"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34CA9B712774FBDF"
+				type: "checkmark"
+			}]
+			x: 2.1d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"1A019E26C0ECA5B7"
+				"0F3F8931D68B405D"
+				"091FE285CD7F0F31"
+				"00A3DBE546F74B19"
+				"472CC9F0ED23081F"
+				"18EC1BCF4782B77B"
+				"3ED6D6C659F3BAB4"
+				"04508D97C0044D38"
+				"34E97BE85383A9A9"
+			]
+			id: "72C9A832BD83B4A7"
+			rewards: [{
+				id: "1B5EC39757908D7D"
+				item: {
+					count: 1
+					id: "minecraft:totem_of_undying"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "25A3C3596A8F3066"
+				type: "checkmark"
+			}]
+			x: 4.2d
+			y: 6.2d
+		}
+		{
+			dependencies: ["1A019E26C0ECA5B7"]
+			id: "34E97BE85383A9A9"
+			rewards: [{
+				id: "5A7419E522A6B444"
+				item: {
+					count: 1
+					id: "minecraft:echo_shard"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CACC454CC9061AE"
+				item: { count: 1, id: "iceandfire:dragon_horn" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 0.0d
+		}
+	]
+}

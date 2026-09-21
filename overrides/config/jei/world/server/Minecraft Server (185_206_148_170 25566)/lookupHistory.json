@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"create:elevator_pulley"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ars_nouveau:frostaya_pod"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

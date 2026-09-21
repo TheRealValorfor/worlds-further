@@ -1,0 +1,3 @@
+[screen]
+	#Force the Legendary Titles screen to show only unlocked titles and hide the checkbox
+	forceShowOnlyUnlockedTitles = false

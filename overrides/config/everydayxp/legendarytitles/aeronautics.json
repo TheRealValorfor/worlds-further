@@ -1,0 +1,61 @@
+{
+  "enabled": true,
+  "mod_name": "Create Aeronautics",
+  "mod_id": "aeronautics",
+  "achievements": {
+    "head_in_the_clouds": {
+      "display_name": "Head in the Clouds",
+      "original_name": "Head in the Clouds",
+      "icon": "aeronautics:adjustable_burner",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "song_of_the_sky": {
+      "display_name": "Song of the Sky",
+      "original_name": "Song of the Sky",
+      "icon": "aeronautics:music_disc_cloud_skipper",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "now_available_in_pink": {
+      "display_name": "Now Available in Pink!",
+      "original_name": "Now Available in Pink!",
+      "icon": "aeronautics:pearlescent_levitite",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "unidentified_floating_object": {
+      "display_name": "Unidentified Floating Object",
+      "original_name": "Unidentified Floating Object",
+      "icon": "aeronautics:levitite",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "ghostbuster": {
+      "display_name": "Ghostbuster",
+      "original_name": "Ghostbuster",
+      "icon": "minecraft:phantom_membrane",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "in_thrust_we_trust": {
+      "display_name": "In Thrust We Trust",
+      "original_name": "In Thrust We Trust",
+      "icon": "aeronautics:propeller_bearing",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

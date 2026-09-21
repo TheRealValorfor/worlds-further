@@ -1,0 +1,124 @@
+{
+  "enabled": true,
+  "mod_name": "Friends\u0026Foes",
+  "mod_id": "friendsandfoes",
+  "achievements": {
+    "nether/obtain_wildfire_crown": {
+      "display_name": "Who\u0027s da New King of Nether?",
+      "original_name": "Who\u0027s da New King of Nether?",
+      "icon": "friendsandfoes:wildfire_crown",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/kill_iceologer": {
+      "display_name": "I was here, i lived, i..",
+      "original_name": "I was here, i lived, i..",
+      "icon": "minecraft:blue_ice",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/complete_hide_and_seek_game": {
+      "display_name": "Hide and Seek",
+      "original_name": "Hide and Seek",
+      "icon": "minecraft:bundle",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "husbandry/shear_a_moobloom": {
+      "display_name": "MooBoom!",
+      "original_name": "MooBoom!",
+      "icon": "minecraft:shears",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/activate_zombie_horse_trap": {
+      "display_name": "Riders On The Storm",
+      "original_name": "Riders On The Storm",
+      "icon": "minecraft:chainmail_helmet",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "nether/kill_wildfire": {
+      "display_name": "Drop it like it\u0027s hot",
+      "original_name": "Drop it like it\u0027s hot",
+      "icon": "friendsandfoes:wildfire_crown_fragment",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "husbandry/tame_a_glare": {
+      "display_name": "Grumpy and Cute",
+      "original_name": "Grumpy and Cute",
+      "icon": "minecraft:glow_berries",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/the_magicians": {
+      "display_name": "The Magicians",
+      "original_name": "The Magicians",
+      "icon": "minecraft:emerald",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/it_bites": {
+      "display_name": "It Bites",
+      "original_name": "It Bites",
+      "icon": "minecraft:stone_sword",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/summon_copper_golem": {
+      "display_name": "Off you go",
+      "original_name": "Off you go",
+      "icon": "minecraft:copper_block",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/kill_illusioner": {
+      "display_name": "World of illusion",
+      "original_name": "World of illusion",
+      "icon": "minecraft:bow",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "husbandry/beehive": {
+      "display_name": "Be Keeper",
+      "original_name": "Be Keeper",
+      "icon": "minecraft:beehive",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "nether/find_citadel": {
+      "display_name": "A fortress? No, a citadel!",
+      "original_name": "A fortress? No, a citadel!",
+      "icon": "minecraft:red_nether_bricks",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

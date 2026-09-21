@@ -1,0 +1,6 @@
+{
+	# When true, ally PvP protection only applies if each team has added the other player as an ally.
+	# Prevents a team from unilaterally blocking PvP by allying an enemy.
+	# Default: false
+	require_mutual_allies: false
+}

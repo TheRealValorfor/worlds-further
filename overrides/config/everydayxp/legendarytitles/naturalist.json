@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "mod_name": "Naturalist",
+  "mod_id": "naturalist",
+  "achievements": {
+    "husbandry/feed_bear_honeycomb": {
+      "display_name": "Oh Bother",
+      "original_name": "Oh Bother",
+      "icon": "minecraft:honeycomb",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "husbandry/ride_giraffe_with_map": {
+      "display_name": "A Whole New World",
+      "original_name": "A Whole New World",
+      "icon": "minecraft:filled_map",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "husbandry/feed_hippo_melon": {
+      "display_name": "Hungry Hungry Hippos",
+      "original_name": "Hungry Hungry Hippos",
+      "icon": "minecraft:melon",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

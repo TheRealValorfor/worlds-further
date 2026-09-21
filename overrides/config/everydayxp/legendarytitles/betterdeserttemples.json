@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "mod_name": "YUNG\u0027s Better Desert Temples",
+  "mod_id": "betterdeserttemples",
+  "achievements": {
+    "temple_entry": {
+      "display_name": "An Ancient Tomb",
+      "original_name": "An Ancient Tomb",
+      "icon": "minecraft:golden_sword",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "temple_clear": {
+      "display_name": "Eternal Slumber",
+      "original_name": "Eternal Slumber",
+      "icon": "minecraft:totem_of_undying",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

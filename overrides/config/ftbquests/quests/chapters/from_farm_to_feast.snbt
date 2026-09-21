@@ -1,0 +1,1405 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "from_farm_to_feast"
+	group: "65F881A52E989F15"
+	id: "67EB989D8936FD27"
+	images: [
+		{
+			height: 1.0d
+			id: "0A2CAF519C8C385A"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 25.5d
+			x: 6.2d
+			y: -2.1d
+		}
+		{
+			height: 1.0d
+			id: "33ADD200FEB2FDBD"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 25.5d
+			x: 11.4d
+			y: 11.4d
+		}
+		{
+			height: 1.0d
+			id: "2594127605E0258B"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 25.5d
+			x: 8.3d
+			y: 20.8d
+		}
+		{
+			height: 1.0d
+			id: "5D4ECC70ABB6CD90"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 25.5d
+			x: 2.1d
+			y: 30.2d
+		}
+		{
+			height: 1.0d
+			id: "0A8266CA29A8D49C"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 25.5d
+			x: 5.2d
+			y: 37.4d
+		}
+		{
+			height: 1.0d
+			id: "426FB3C8F9ED9241"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 25.5d
+			x: 0.0d
+			y: 51.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2FED62C88E34C779"
+			rewards: [{
+				count: 2
+				id: "608BE5D4D02CD20E"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2209186D2DE5F594"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.2d
+		}
+		{
+			dependencies: ["2FED62C88E34C779"]
+			id: "4101CE199E1B605F"
+			rewards: [{
+				count: 4
+				id: "5384498DC80F541C"
+				item: {
+					count: 1
+					id: "minecraft:string"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19BB669442A8EC3A"
+				item: { count: 1, id: "farmersdelight:flint_knife" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 4.2d
+		}
+		{
+			dependencies: ["4101CE199E1B605F"]
+			id: "0A195EECA9A58D1A"
+			rewards: [{
+				count: 2
+				id: "47EB7DF2330F3C72"
+				item: {
+					count: 1
+					id: "minecraft:bowl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "2CB73E2C39560159"
+				item: { count: 1, id: "farmersdelight:cod_slice" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 4.2d
+		}
+		{
+			dependencies: ["2FED62C88E34C779"]
+			id: "21BA562FFB915B1F"
+			rewards: [{
+				id: "14D573711C171CDB"
+				item: {
+					count: 1
+					id: "minecraft:bowl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E34A18569A8B547"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 6.2d
+		}
+		{
+			dependencies: ["21BA562FFB915B1F"]
+			id: "275224B316B1195B"
+			rewards: [{
+				count: 2
+				id: "590AF012C9DC8BCF"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "023EBB725800E0F2"
+				item: { count: 1, id: "farmersdelight:vegetable_soup" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 6.2d
+		}
+		{
+			dependencies: ["275224B316B1195B"]
+			id: "2331616CF3191AFA"
+			rewards: [{
+				count: 2
+				id: "74852CF275E8E237"
+				item: {
+					count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D082CB36D33AFA3"
+				item: { count: 1, id: "farmersdelight:beef_stew" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 6.2d
+		}
+		{
+			dependencies: ["21BA562FFB915B1F"]
+			id: "43C39163F9606417"
+			rewards: [{
+				count: 8
+				id: "0FE1E6F75AAA74B7"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1121C766F281F4C3"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 8.3d
+		}
+		{
+			dependencies: ["43C39163F9606417"]
+			id: "6445384957508B62"
+			rewards: [{
+				id: "5231541EE3C5A9C9"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52069BDC1745F641"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 8.3d
+		}
+		{
+			dependencies: ["6445384957508B62"]
+			id: "2B41D136AE46A457"
+			rewards: [{
+				id: "31474184648BE7A8"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74E422D6A666CFA2"
+				item: { count: 1, id: "farmersdelight:fried_rice" }
+				type: "item"
+			}]
+			x: 8.3d
+			y: 8.3d
+		}
+		{
+			dependencies: ["2FED62C88E34C779"]
+			id: "34E7AA279C481020"
+			rewards: [{
+				count: 4
+				id: "0247C2A280DF49D0"
+				item: {
+					count: 1
+					id: "minecraft:wheat"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "4C702523B005F566"
+				item: { count: 1, id: "farmersdelight:tomato_seeds" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 2.1d
+		}
+		{
+			dependencies: ["2FED62C88E34C779"]
+			id: "0CB11AF2EFCA309B"
+			rewards: [{
+				count: 4
+				id: "7C946EA1833C7FA0"
+				item: {
+					count: 1
+					id: "minecraft:wheat"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "42F4D38745BBE01E"
+				item: { count: 1, id: "farmersdelight:onion" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"34E7AA279C481020"
+				"21BA562FFB915B1F"
+			]
+			id: "6AC02867B50F7842"
+			rewards: [{
+				count: 2
+				id: "3709BF38EC397B9F"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "761F74075E1AE4CC"
+				item: { count: 1, id: "farmersdelight:tomato_sauce" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 2.1d
+		}
+		{
+			dependencies: [
+				"6AC02867B50F7842"
+				"0CB11AF2EFCA309B"
+			]
+			id: "444A764FCAB0E776"
+			rewards: [{
+				id: "5481EBF1DB8AEE22"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BDD303CCBB8E3E4"
+				item: { count: 1, id: "farmersdelight:ratatouille" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 2.1d
+		}
+		{
+			dependencies: ["444A764FCAB0E776"]
+			id: "18E87850D1CA17B1"
+			rewards: [{
+				count: 2
+				id: "7357B4F2375E9F55"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "284D3740B2E667D0"
+				item: { count: 1, id: "delightfulcreators:mechanical_cutter" }
+				type: "item"
+			}]
+			x: 8.3d
+			y: 2.1d
+		}
+		{
+			dependencies: ["18E87850D1CA17B1"]
+			id: "576E81FF3128B35B"
+			rewards: [{
+				id: "098A7302370735F6"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "71344458062D36B6"
+				item: { count: 1, id: "delightfulcreators:rabbit_stew_bucket" }
+				type: "item"
+			}]
+			x: 10.4d
+			y: 2.1d
+		}
+		{
+			dependencies: [
+				"2B41D136AE46A457"
+				"576E81FF3128B35B"
+			]
+			id: "6A22C50B8B802F75"
+			rewards: [{
+				id: "5911D4EFA75E6016"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			size: 1.8d
+			tasks: [{
+				id: "6B522F25753C8A04"
+				item: { count: 1, id: "aquaculturedelight:fish_and_chips" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.2d
+		}
+		{
+			id: "711D90B647468834"
+			rewards: [{
+				id: "198B7675B0F9B862"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "226A859564B8C13F"
+				item: { count: 1, id: "pamhc2crops:tomatoseeditem" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.6d
+		}
+		{
+			id: "31B06A5E5C2F839F"
+			rewards: [{
+				id: "35FA1C5C681487FF"
+				item: {
+					count: 1
+					id: "minecraft:bowl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "25C029914C28B5F2"
+				item: { count: 1, id: "pamhc2crops:onionseeditem" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.7d
+		}
+		{
+			id: "6D1FFDAF49A5BEE1"
+			rewards: [{
+				id: "638F62A37A6B98AF"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "10A5396B67343CD7"
+				item: { count: 1, id: "pamhc2crops:sweetpotatoseeditem" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["711D90B647468834"]
+			id: "76E1D034CAD89A23"
+			rewards: [{
+				count: 2
+				id: "09F80D6954512675"
+				item: {
+					count: 1
+					id: "minecraft:sugar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "58ED96EC67A01207"
+				item: { count: 1, id: "pamhc2crops:riceitem" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 15.6d
+		}
+		{
+			dependencies: ["31B06A5E5C2F839F"]
+			id: "6083BE06EC45C93B"
+			rewards: [{
+				count: 4
+				id: "54BCF7E8E82E9144"
+				item: {
+					count: 1
+					id: "minecraft:string"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "03962EEED4979227"
+				item: { count: 1, id: "pamhc2crops:cottonitem" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 17.7d
+		}
+		{
+			dependencies: [
+				"76E1D034CAD89A23"
+				"6083BE06EC45C93B"
+			]
+			id: "469B91AB07E71694"
+			rewards: [{
+				id: "0CA8BB5618220509"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0320C37E2092DFA1"
+				item: { count: 1, id: "pamhc2foodcore:cuttingboarditem" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 15.6d
+		}
+		{
+			dependencies: ["469B91AB07E71694"]
+			id: "63C61E4268C67D11"
+			rewards: [{
+				count: 2
+				id: "0A626614CE36629B"
+				item: {
+					count: 1
+					id: "minecraft:glass_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "337EA96D663B81B9"
+				item: { count: 1, id: "pamhc2foodcore:juiceritem" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 13.5d
+		}
+		{
+			dependencies: ["469B91AB07E71694"]
+			id: "477BD541B9D4D8B5"
+			rewards: [{
+				id: "4020F7D1A321DDEF"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F71C8F95870B28B"
+				item: { count: 1, id: "pamhc2foodcore:grinderitem" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 17.7d
+		}
+		{
+			dependencies: ["469B91AB07E71694"]
+			id: "15340506648F57DE"
+			rewards: [{
+				count: 2
+				id: "35C0020D67D96615"
+				item: {
+					count: 1
+					id: "minecraft:bowl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C9A0BD127E3D255"
+				item: { count: 1, id: "pamhc2foodcore:mixingbowlitem" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 15.6d
+		}
+		{
+			dependencies: ["63C61E4268C67D11"]
+			id: "3A36F216D70212CC"
+			rewards: [{
+				count: 2
+				id: "5169009E924B5C44"
+				item: {
+					count: 1
+					id: "minecraft:sugar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "39CCBBE30364D00F"
+				item: { count: 1, id: "pamhc2foodcore:applejuiceitem" }
+				type: "item"
+			}]
+			x: 8.3d
+			y: 13.5d
+		}
+		{
+			dependencies: ["15340506648F57DE"]
+			id: "55AE3E41063580FF"
+			rewards: [{
+				count: 2
+				id: "33797A2F7BAF4DCD"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FC09F7F954B9B5B"
+				item: { count: 1, id: "pamhc2foodcore:stewitem" }
+				type: "item"
+			}]
+			x: 8.3d
+			y: 15.6d
+		}
+		{
+			dependencies: ["55AE3E41063580FF"]
+			id: "7AC21475B13173F7"
+			rewards: [{
+				count: 2
+				id: "0C64431D6B081ADE"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "5639B25B901017D2"
+				item: { count: 1, id: "pamhc2trees:apple_sapling" }
+				type: "item"
+			}]
+			x: 10.4d
+			y: 15.6d
+		}
+		{
+			dependencies: ["7AC21475B13173F7"]
+			id: "0B2545D1F344F5DE"
+			rewards: [{
+				id: "4EE86D91689B3B9B"
+				item: {
+					count: 1
+					id: "minecraft:hay_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05DC39709A8BBFAC"
+				item: { count: 1, id: "pamhc2trees:walnut_sapling" }
+				type: "item"
+			}]
+			x: 10.4d
+			y: 17.7d
+		}
+		{
+			dependencies: ["0B2545D1F344F5DE"]
+			id: "0DAEFD97E16FE9D9"
+			rewards: [{
+				count: 4
+				id: "0AC1FE32E3B3533D"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "179582F32031E94D"
+				item: { count: 1, id: "pamhc2trees:roastedwalnutitem" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 17.7d
+		}
+		{
+			dependencies: ["7AC21475B13173F7"]
+			id: "37B496F5FDA3B951"
+			rewards: [{
+				count: 4
+				id: "6643CE88553C8489"
+				item: {
+					count: 1
+					id: "minecraft:wheat"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02A624188751F176"
+				item: { count: 1, id: "pamhc2foodextended:cornbreaditem" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 15.6d
+		}
+		{
+			dependencies: ["37B496F5FDA3B951"]
+			id: "468867093B11C957"
+			rewards: [{
+				id: "77E1F1C4967EC84C"
+				item: {
+					count: 1
+					id: "minecraft:bowl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "684596040F5A4E6D"
+				item: { count: 1, id: "pamhc2foodextended:cherrypieitem" }
+				type: "item"
+			}]
+			x: 14.6d
+			y: 15.6d
+		}
+		{
+			dependencies: ["55AE3E41063580FF"]
+			id: "1A79865B228938B6"
+			rewards: [{
+				id: "7E66380E9C37AA64"
+				item: {
+					count: 1
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "620CC6C4316D7916"
+				item: { count: 1, id: "pamhc2foodextended:tomatosoupitem" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1A79865B228938B6"]
+			id: "02FC44AD0C094263"
+			rewards: [{
+				count: 2
+				id: "546939328433F936"
+				item: {
+					count: 1
+					id: "minecraft:sugar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E3B42E089E85F85"
+				item: { count: 1, id: "pamhc2foodextended:chaiteaitem" }
+				type: "item"
+			}]
+			x: 14.6d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"468867093B11C957"
+				"02FC44AD0C094263"
+			]
+			id: "346E1DCB3985617C"
+			rewards: [{
+				id: "7ADAD0DA3E3A04CB"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "08EB7B363D713FD0"
+				item: { count: 1, id: "pamhc2foodextended:bananasmoothieitem" }
+				type: "item"
+			}]
+			x: 16.6d
+			y: 15.6d
+		}
+		{
+			dependencies: ["346E1DCB3985617C"]
+			id: "0851CA83C2A3B7CF"
+			rewards: [{
+				id: "6617C7D4A623332A"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35985C2A1B0FD639"
+				item: { count: 1, id: "pamhc2foodextended:garlicbreaditem" }
+				type: "item"
+			}]
+			x: 18.7d
+			y: 15.6d
+		}
+		{
+			dependencies: [
+				"0851CA83C2A3B7CF"
+				"0DAEFD97E16FE9D9"
+			]
+			id: "6E448EC62E7DAA26"
+			rewards: [{
+				count: 2
+				id: "705EBBEA2DF7C230"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A17DBF4AF6A61CA"
+				item: { count: 1, id: "pamhc2fantasy:slimejellyitem" }
+				type: "item"
+			}]
+			x: 20.8d
+			y: 15.6d
+		}
+		{
+			dependencies: ["6E448EC62E7DAA26"]
+			id: "6260EB469046BB36"
+			rewards: [{
+				id: "27790E8C2F5FC1A6"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "1E0CFD4C88A3325D"
+				item: { count: 1, id: "pamhc2fantasy:slimepieitem" }
+				type: "item"
+			}]
+			x: 22.9d
+			y: 15.6d
+		}
+		{
+			id: "6E4A3044356A2AC0"
+			rewards: [{
+				count: 8
+				id: "414A1EC4BB47F02A"
+				item: {
+					count: 1
+					id: "aquaculture:worm"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "52275BAE53F3A2FF"
+				item: { count: 1, id: "minecraft:fishing_rod" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["6E4A3044356A2AC0"]
+			id: "454263D4F34769DB"
+			rewards: [{
+				count: 2
+				id: "2BB71A6925B7A48D"
+				item: {
+					count: 1
+					id: "minecraft:bowl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B7C5A3E0781BB8C"
+				item: { count: 1, id: "aquaculture:wooden_fillet_knife" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 27.0d
+		}
+		{
+			dependencies: ["6E4A3044356A2AC0"]
+			id: "394FCA7F71AD2163"
+			rewards: [{
+				count: 2
+				id: "18457E1C384379D4"
+				item: {
+					count: 1
+					id: "minecraft:cooked_cod"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "1E892B9F8AA4D1FF"
+				item: { count: 1, id: "aquaculture:carp" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 25.0d
+		}
+		{
+			dependencies: [
+				"454263D4F34769DB"
+				"394FCA7F71AD2163"
+			]
+			id: "1A89E2FCBD322816"
+			rewards: [{
+				count: 2
+				id: "48A262568B53C74A"
+				item: {
+					count: 1
+					id: "aquaculture:fish_fillet_cooked"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7DA2A066BE08CF5B"
+				item: { count: 1, id: "aquaculture:fish_fillet_raw" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 25.0d
+		}
+		{
+			dependencies: ["394FCA7F71AD2163"]
+			id: "41E08F5BE48C0A5D"
+			rewards: [{
+				count: 2
+				id: "1A12884EE254BBB3"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6765F28BDBED952E"
+				item: { count: 1, id: "aquaculture:iron_fishing_rod" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 22.9d
+		}
+		{
+			dependencies: ["41E08F5BE48C0A5D"]
+			id: "1BAC2872B2C9DB87"
+			rewards: [{
+				id: "12EA83DCFB77460C"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "23F60A6C366A3714"
+				item: { count: 1, id: "aquaculture:tuna" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 22.9d
+		}
+		{
+			dependencies: ["1BAC2872B2C9DB87"]
+			id: "58D68D2959CFF42F"
+			rewards: [{
+				count: 2
+				id: "46AA8E65C11DEEFA"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7102F3F3C4CA1BBA"
+				item: { count: 1, id: "aquaculture:gold_fishing_rod" }
+				type: "item"
+			}]
+			x: 8.3d
+			y: 22.9d
+		}
+		{
+			dependencies: ["58D68D2959CFF42F"]
+			id: "521E84AF0D586E99"
+			rewards: [{
+				id: "7D4D27BFDB926C74"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F9F3888777FE972"
+				item: { count: 1, id: "aquaculture:diamond_fishing_rod" }
+				type: "item"
+			}]
+			x: 10.4d
+			y: 22.9d
+		}
+		{
+			dependencies: ["1A89E2FCBD322816"]
+			id: "7B0597E18889CCFA"
+			rewards: [{
+				count: 2
+				id: "1022BA5A4D910B51"
+				item: {
+					count: 1
+					id: "minecraft:leather"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "082DE9CF0F5B318F"
+				item: { count: 1, id: "aquaculture:tackle_box" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 27.0d
+		}
+		{
+			dependencies: [
+				"521E84AF0D586E99"
+				"1A89E2FCBD322816"
+			]
+			id: "50B3C67D889F5D80"
+			rewards: [{
+				count: 2
+				id: "54A13AB1818EC4F0"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "2294C068A137DE2C"
+				item: { count: 1, id: "aquaculture:neptunium_ingot" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["50B3C67D889F5D80"]
+			id: "16B76FFF07087576"
+			rewards: [{
+				count: 3
+				id: "23720C323A1BC539"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A2BBE239EAE890D"
+				item: { count: 1, id: "aquaculture:neptunium_fishing_rod" }
+				type: "item"
+			}]
+			x: 14.6d
+			y: 25.0d
+		}
+		{
+			dependencies: [
+				"16B76FFF07087576"
+				"7B0597E18889CCFA"
+			]
+			id: "2E74FE3B3C4B98A5"
+			rewards: [{
+				id: "41BEDE07FFA55F00"
+				item: {
+					count: 1
+					id: "minecraft:netherite_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6640698263137FB9"
+				item: { count: 1, id: "aquaculture:treasure_chest" }
+				type: "item"
+			}]
+			x: 16.6d
+			y: 25.0d
+		}
+		{
+			id: "63E0B6BCDDFCDF3F"
+			rewards: [{
+				count: 4
+				id: "57DF5D5202BB426B"
+				item: {
+					count: 1
+					id: "minecraft:paper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F395E80F7CA8BC9"
+				item: { count: 1, id: "sereneseasons:calendar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 32.2d
+		}
+		{
+			dependencies: ["63E0B6BCDDFCDF3F"]
+			id: "38AF7EF7CA78B31C"
+			rewards: [{
+				count: 4
+				id: "158503770DED0FF7"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4663070DCA332B36"
+				item: { count: 1, id: "sereneseasons:season_sensor" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 32.2d
+		}
+		{
+			id: "332BBEB139BA8ED1"
+			rewards: [{
+				count: 2
+				id: "6AECF3B4D5D703BD"
+				item: {
+					count: 1
+					id: "minecraft:hay_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "318E985A28A89547"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 34.3d
+		}
+		{
+			id: "2523C1D61D3C8FE1"
+			tasks: [{
+				id: "56AF2D8FD7D0C766"
+				type: "checkmark"
+			}]
+			x: 2.1d
+			y: 34.3d
+		}
+		{
+			dependencies: ["38AF7EF7CA78B31C"]
+			id: "63A0FD50FCDAE637"
+			tasks: [{
+				id: "1E6D8BBAB407CCFD"
+				type: "checkmark"
+			}]
+			x: 4.2d
+			y: 32.2d
+		}
+		{
+			id: "78932AEF527039B5"
+			rewards: [{
+				count: 8
+				id: "32D122EEC99BA68D"
+				item: {
+					count: 1
+					id: "minecraft:cocoa_beans"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "40703F77B8462B17"
+				item: { count: 1, id: "create_confectionery:crushed_cocoa" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 41.6d
+		}
+		{
+			dependencies: ["78932AEF527039B5"]
+			id: "22AB0D2BA88B9C79"
+			tasks: [{
+				count: 4L
+				id: "1AC9E5139058FE58"
+				item: { count: 1, id: "create_confectionery:cocoa_powder" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 39.5d
+		}
+		{
+			dependencies: ["78932AEF527039B5"]
+			id: "454AA0E1DAFE859F"
+			tasks: [{
+				count: 4L
+				id: "619A6A7AA340BECE"
+				item: { count: 1, id: "create_confectionery:cocoa_butter" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 43.7d
+		}
+		{
+			dependencies: ["22AB0D2BA88B9C79"]
+			id: "6C587DCFC92AA62E"
+			tasks: [{
+				count: 4L
+				id: "668A1E5F8C07A940"
+				item: { count: 1, id: "create_confectionery:black_chocolate_bucket" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 39.5d
+		}
+		{
+			dependencies: ["454AA0E1DAFE859F"]
+			id: "2196D6487652EB67"
+			tasks: [{
+				count: 4L
+				id: "62211B39DE183DA6"
+				item: { count: 1, id: "create_confectionery:white_chocolate_bucket" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 43.7d
+		}
+		{
+			dependencies: [
+				"22AB0D2BA88B9C79"
+				"454AA0E1DAFE859F"
+			]
+			id: "2A820B22BC95E16D"
+			tasks: [{
+				count: 4L
+				id: "78C67BC8D6D4C7D3"
+				item: { count: 1, id: "create_confectionery:ruby_chocolate_bucket" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 41.6d
+		}
+		{
+			dependencies: [
+				"6C587DCFC92AA62E"
+				"2196D6487652EB67"
+				"2A820B22BC95E16D"
+			]
+			id: "5F2D4D7B7B24F212"
+			rewards: [{
+				id: "31A183AAD9825CA5"
+				item: {
+					count: 1
+					id: "minecraft:bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "2D14E0AB3C0BB3AB"
+				item: { count: 1, id: "create_confectionery:chocolate_bricks" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 41.6d
+		}
+		{
+			dependencies: ["5F2D4D7B7B24F212"]
+			id: "6E7875F605DFFB22"
+			rewards: [{
+				count: 2
+				id: "01F673823C590A58"
+				item: {
+					count: 1
+					id: "create_confectionery:honey_candy"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "11B54DE32B287594"
+				item: { count: 1, id: "create_confectionery:chocolate_candy" }
+				type: "item"
+			}]
+			x: 8.3d
+			y: 39.5d
+		}
+		{
+			id: "6805FAF1A974B0C8"
+			rewards: [{
+				id: "4C617A824C2EE38E"
+				item: {
+					count: 1
+					id: "create_confectionery:marshmallow_on_a_stick"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6EDB606C9D11DCF3"
+				item: { count: 1, id: "create_confectionery:marshmallow" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 45.8d
+		}
+		{
+			dependencies: [
+				"5F2D4D7B7B24F212"
+				"6805FAF1A974B0C8"
+			]
+			id: "78307A4A330F364D"
+			rewards: [{
+				count: 4
+				id: "49BB746A28CF0762"
+				item: {
+					count: 1
+					id: "minecraft:stick"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "1FA28DB10531E90D"
+				item: { count: 1, id: "create_confectionery:chocolate_glazed_marshmallow" }
+				type: "item"
+			}]
+			x: 8.3d
+			y: 43.7d
+		}
+		{
+			dependencies: ["5F2D4D7B7B24F212"]
+			id: "0FA2089FE521199C"
+			rewards: [{
+				id: "41B3E71D1390873F"
+				item: {
+					count: 1
+					id: "minecraft:milk_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "43178BB0D40D3069"
+				item: { count: 1, id: "create_confectionery:hot_chocolate_bottle" }
+				type: "item"
+			}]
+			x: 10.4d
+			y: 41.6d
+		}
+		{
+			id: "0323A014089BAA4D"
+			rewards: [{
+				count: 4
+				id: "07F389E724C575CC"
+				item: {
+					count: 1
+					id: "minecraft:sugar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "769539507A52F090"
+				item: { count: 1, id: "create_confectionery:candy_cane" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 47.8d
+		}
+		{
+			dependencies: [
+				"6A22C50B8B802F75"
+				"6260EB469046BB36"
+				"2E74FE3B3C4B98A5"
+				"63A0FD50FCDAE637"
+				"0FA2089FE521199C"
+			]
+			id: "2AC59C3521A6A764"
+			rewards: [{
+				count: 8
+				id: "5D94F874788A20F1"
+				item: {
+					count: 1
+					id: "minecraft:golden_carrot"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "1E6F07B135F0E77E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 53.0d
+		}
+	]
+}

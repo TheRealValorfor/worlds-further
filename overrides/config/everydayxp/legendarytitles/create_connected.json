@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "mod_name": "Create: Connected",
+  "mod_id": "create_connected",
+  "achievements": {
+    "control_chip": {
+      "display_name": "Precise Fabrication",
+      "original_name": "Precise Fabrication",
+      "icon": "create_connected:control_chip",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "pulse_generator_infinite_loop": {
+      "display_name": "Infinite Loop",
+      "original_name": "Infinite Loop",
+      "icon": "create_connected:incomplete_control_chip",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "overpowered_brake_0": {
+      "display_name": "Overpowered",
+      "original_name": "Overpowered",
+      "icon": "create_connected:brake",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

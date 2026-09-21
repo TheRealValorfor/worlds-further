@@ -1,0 +1,349 @@
+{
+  "enabled": true,
+  "mod_name": "Ars Nouveau",
+  "mod_id": "ars_nouveau",
+  "achievements": {
+    "ritual_brazier": {
+      "display_name": "Brazen",
+      "original_name": "Brazen",
+      "icon": "ars_nouveau:ritual_brazier",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "amethyst_golem_charm": {
+      "display_name": "Purple Amethyst Eater",
+      "original_name": "Purple Amethyst Eater",
+      "icon": "ars_nouveau:amethyst_golem_charm",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "prismatic": {
+      "display_name": "Thinking with Prisms",
+      "original_name": "Thinking with Prisms",
+      "icon": "ars_nouveau:spell_prism",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "potion_jar": {
+      "display_name": "Potion Storage",
+      "original_name": "Potion Storage",
+      "icon": "ars_nouveau:potion_jar",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "apprentice_spell_book": {
+      "display_name": "Mage\u0027s Spell Book",
+      "original_name": "Mage\u0027s Spell Book",
+      "icon": "ars_nouveau:apprentice_spell_book",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "magebloom_crop": {
+      "display_name": "Magebloom",
+      "original_name": "Magebloom",
+      "icon": "ars_nouveau:magebloom_crop",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "wilden_explosion": {
+      "display_name": "Wait, it can fly?",
+      "original_name": "Wait, it can fly?",
+      "icon": "ars_nouveau:wilden_tribute",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "wixie_hat": {
+      "display_name": "Potion Transport",
+      "original_name": "Potion Transport",
+      "icon": "ars_nouveau:wixie_hat",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "alteration_table": {
+      "display_name": "Armor Alteration",
+      "original_name": "Armor Alteration",
+      "icon": "ars_nouveau:alteration_table",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "shrunk_starbuncle": {
+      "display_name": "Honey I Shrunk the Starbuncle",
+      "original_name": "Honey I Shrunk the Starbuncle",
+      "icon": "ars_nouveau:starbuncle_charm",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "catch_lightning": {
+      "display_name": "Lightning in a Bottle",
+      "original_name": "Lightning in a Bottle",
+      "icon": "minecraft:lightning_rod",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "starbuncle_shades": {
+      "display_name": "One Cool Starbuncle",
+      "original_name": "One Cool Starbuncle",
+      "icon": "ars_nouveau:starbuncle_shades",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "mob_jar": {
+      "display_name": "Tiny Home",
+      "original_name": "Tiny Home",
+      "icon": "ars_nouveau:mob_jar",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "wilden_tribute": {
+      "display_name": "Wilden Tribute",
+      "original_name": "Wilden Tribute",
+      "icon": "ars_nouveau:wilden_tribute",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "novice_spell_book": {
+      "display_name": "Unbreaking X",
+      "original_name": "Unbreaking X",
+      "icon": "ars_nouveau:novice_spell_book",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "drygmy_charm": {
+      "display_name": "Moose Dance",
+      "original_name": "Moose Dance",
+      "icon": "ars_nouveau:drygmy_charm",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "familiar": {
+      "display_name": "This Seems Familiar...",
+      "original_name": "This Seems Familiar...",
+      "icon": "ars_nouveau:ritual_binding",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "enchanting_apparatus": {
+      "display_name": "Magic Mod Mechanic",
+      "original_name": "Magic Mod Mechanic",
+      "icon": "ars_nouveau:enchanting_apparatus",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "ritual_gravity": {
+      "display_name": "You\u0027re Grounded",
+      "original_name": "You\u0027re Grounded",
+      "icon": "ars_nouveau:ritual_gravity",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "time_in_a_bottle": {
+      "display_name": "Time in a Bottle",
+      "original_name": "Time in a Bottle",
+      "icon": "minecraft:clock",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "archmage_spell_book": {
+      "display_name": "Archmage Spell Book",
+      "original_name": "Archmage Spell Book",
+      "icon": "ars_nouveau:archmage_spell_book",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "imbuement_chamber": {
+      "display_name": "Imbued",
+      "original_name": "Imbued",
+      "icon": "ars_nouveau:imbuement_chamber",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "wixie_charm": {
+      "display_name": "Free the Inner Child",
+      "original_name": "Free the Inner Child",
+      "icon": "ars_nouveau:wixie_charm",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "warp_scroll": {
+      "display_name": "Warped",
+      "original_name": "Warped",
+      "icon": "ars_nouveau:warp_scroll",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "basic_spell_turret": {
+      "display_name": "It\u0027s a Magic Mod, I Swear!",
+      "original_name": "It\u0027s a Magic Mod, I Swear!",
+      "icon": "ars_nouveau:basic_spell_turret",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "whirlisprig_charm": {
+      "display_name": "Whirli",
+      "original_name": "Whirli",
+      "icon": "ars_nouveau:whirlisprig_charm",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "summon_focus": {
+      "display_name": "Summoning Focus",
+      "original_name": "Summoning Focus",
+      "icon": "ars_nouveau:summon_focus",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "poof_mob": {
+      "display_name": "Where did it go?",
+      "original_name": "Where did it go?",
+      "icon": "minecraft:gold_nugget",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "potion_melder": {
+      "display_name": "Meld\u0027em, Mash\u0027em, Stick\u0027em in a Cauldron",
+      "original_name": "Meld\u0027em, Mash\u0027em, Stick\u0027em in a Cauldron",
+      "icon": "ars_nouveau:potion_melder",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "create_portal": {
+      "display_name": "Thinking with...wrong game",
+      "original_name": "Thinking with...wrong game",
+      "icon": "ars_nouveau:creative_source_jar",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "potion_flask": {
+      "display_name": "Stackable Potions",
+      "original_name": "Stackable Potions",
+      "icon": "ars_nouveau:potion_flask",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "scryers_oculus": {
+      "display_name": "Eye Spy",
+      "original_name": "Eye Spy",
+      "icon": "ars_nouveau:scryers_oculus",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "eat_bombegranate": {
+      "display_name": "To Die For",
+      "original_name": "To Die For",
+      "icon": "ars_nouveau:bombegranate_pod",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "spell_prism": {
+      "display_name": "Prismatic Redirection",
+      "original_name": "Prismatic Redirection",
+      "icon": "ars_nouveau:spell_prism",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "starby_charm": {
+      "display_name": "The Cutest Hopper",
+      "original_name": "The Cutest Hopper",
+      "icon": "ars_nouveau:starbuncle_charm",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "source_jar": {
+      "display_name": "Not a Fluid!",
+      "original_name": "Not a Fluid!",
+      "icon": "ars_nouveau:source_jar",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "potion_diffuser": {
+      "display_name": "Do you smell that?",
+      "original_name": "Do you smell that?",
+      "icon": "ars_nouveau:potion_diffuser",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "shapers_focus": {
+      "display_name": "Throw Another Rock!",
+      "original_name": "Throw Another Rock!",
+      "icon": "ars_nouveau:shapers_focus",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

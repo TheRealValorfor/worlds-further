@@ -1,0 +1,4 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"morerelics:crown_of_the_legend","components":"{\"relics:data\":{abilities:{abilities:{never_die:{extender:{cooldown:0,cooldownCap:0,ticking:0b},lock:{breaks:0},points:0,research:{links:{},researched:0b},stats:{potency:{initialValue:0.10656d}}},pig_king:{extender:{cooldown:0,cooldownCap:0,ticking:0b},lock:{breaks:5},points:0,research:{links:{},researched:0b},stats:{perch:{initialValue:0.29651d}}}}},leveling:{experience:0,level:0,luck:0,points:0}}}"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

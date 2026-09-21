@@ -1,0 +1,331 @@
+{
+  "enabled": true,
+  "mod_name": "Ice And Fire Community Edition",
+  "mod_id": "iceandfire",
+  "achievements": {
+    "iceandfire/pixie_wand": {
+      "display_name": "Where Is My Mind?",
+      "original_name": "Where Is My Mind?",
+      "icon": "iceandfire:pixie_wand",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/dragonsteel": {
+      "display_name": "Forged in Flame",
+      "original_name": "Forged in Flame",
+      "icon": "iceandfire:dragonsteel_fire_ingot",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/use_tide_trident": {
+      "display_name": "Poseidon, God of the Seas",
+      "original_name": "Poseidon, God of the Seas",
+      "icon": "iceandfire:tide_trident",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/dragon_meal": {
+      "display_name": "Dragon Growth Hormone",
+      "original_name": "Dragon Growth Hormone",
+      "icon": "iceandfire:dragon_meal",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/kill_if_dragon": {
+      "display_name": "Dragonslayer",
+      "original_name": "Dragonslayer",
+      "icon": "iceandfire:dragonbone",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/dragon_flute": {
+      "display_name": "The Song of the Dragons",
+      "original_name": "The Song of the Dragons",
+      "icon": "iceandfire:dragon_flute",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/root": {
+      "display_name": "Ice and Fire",
+      "original_name": "Ice and Fire",
+      "icon": "iceandfire:dragon_skull_fire",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/tame_cockatrice": {
+      "display_name": "Stay Out of my Peripheral!",
+      "original_name": "Stay Out of my Peripheral!",
+      "icon": "iceandfire:cockatrice_eye",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/kill_sea_serpent": {
+      "display_name": "Sea? Not a Problem",
+      "original_name": "Sea? Not a Problem",
+      "icon": "iceandfire:sea_serpent_fang",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/kill_stymphalian_bird": {
+      "display_name": "Herc was on a Roll!",
+      "original_name": "Herc was on a Roll!",
+      "icon": "iceandfire:stymphalian_bird_feather",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/bestiary": {
+      "display_name": "Book of Monsters",
+      "original_name": "Book of Monsters",
+      "icon": "iceandfire:bestiary",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/dragon_egg": {
+      "display_name": "Mother of Dragons",
+      "original_name": "Mother of Dragons",
+      "icon": "iceandfire:dragonegg_red",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/tame_hippogryph": {
+      "display_name": "Buck Beak",
+      "original_name": "Buck Beak",
+      "icon": "iceandfire:hippogryph_talon",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/dragon_staff": {
+      "display_name": "Dragon Commander",
+      "original_name": "Dragon Commander",
+      "icon": "iceandfire:dragon_stick",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/dragonbone_tool": {
+      "display_name": "Splintering II",
+      "original_name": "Splintering II",
+      "icon": "iceandfire:dragonbone_pickaxe",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/dragonbone_flaming_sword": {
+      "display_name": "A Flaming Sword",
+      "original_name": "A Flaming Sword",
+      "icon": "iceandfire:dragonbone_sword_fire",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/rotten_egg": {
+      "display_name": "Rotten to the Core",
+      "original_name": "Rotten to the Core",
+      "icon": "iceandfire:rotten_egg",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/kill_troll": {
+      "display_name": "They Have a Cave Troll!",
+      "original_name": "They Have a Cave Troll!",
+      "icon": "iceandfire:troll_tusk",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/kill_ghost": {
+      "display_name": "Who You Gonna Call?",
+      "original_name": "Who You Gonna Call?",
+      "icon": "iceandfire:ectoplasm",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/dragonsteel_weapon": {
+      "display_name": "Draconic Evolution",
+      "original_name": "Draconic Evolution",
+      "icon": "iceandfire:dragonsteel_ice_sword",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/dragon_forge_core": {
+      "display_name": "The Heart and the Flame",
+      "original_name": "The Heart and the Flame",
+      "icon": "iceandfire:dragonforge_fire_core",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/kill_deathworm": {
+      "display_name": "The Desert Swimmers",
+      "original_name": "The Desert Swimmers",
+      "icon": "iceandfire:deathworm_tounge",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/kill_hydra": {
+      "display_name": "The Twelve Labors of Hercules",
+      "original_name": "The Twelve Labors of Hercules",
+      "icon": "iceandfire:hydra_fang",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/lectern": {
+      "display_name": "Would you Like to Know More?",
+      "original_name": "Would you Like to Know More?",
+      "icon": "iceandfire:lectern",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/dragon_horn": {
+      "display_name": "An Ear-Shattering Roar",
+      "original_name": "An Ear-Shattering Roar",
+      "icon": "iceandfire:dragon_horn",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/jar_pixie": {
+      "display_name": "Surfer Rosa",
+      "original_name": "Surfer Rosa",
+      "icon": "iceandfire:pixie_jar_0",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/stymphalian_arrow": {
+      "display_name": "Flying Forwards",
+      "original_name": "Flying Forwards",
+      "icon": "iceandfire:stymphalian_arrow",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/dragon_forge_brick": {
+      "display_name": "Another Brick in the Wall",
+      "original_name": "Another Brick in the Wall",
+      "icon": "iceandfire:dragonforge_fire_brick",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/tame_amphithere": {
+      "display_name": "Jungle Fliers",
+      "original_name": "Jungle Fliers",
+      "icon": "iceandfire:amphithere_feather",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/dragonarmor": {
+      "display_name": "Suit Up",
+      "original_name": "Suit Up",
+      "icon": "iceandfire:dragonarmor_iron_body",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/kill_cyclops": {
+      "display_name": "My Name is Nobody",
+      "original_name": "My Name is Nobody",
+      "icon": "iceandfire:cyclops_eye",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/kill_siren": {
+      "display_name": "Tie me to the Mast",
+      "original_name": "Tie me to the Mast",
+      "icon": "iceandfire:siren_tear",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/tame_pixie": {
+      "display_name": "Here Comes Your Man",
+      "original_name": "Here Comes Your Man",
+      "icon": "iceandfire:pixie_dust",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/deathworm_egg": {
+      "display_name": "Paul Atreides",
+      "original_name": "Paul Atreides",
+      "icon": "iceandfire:deathworm_egg",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/tame_hippocampus": {
+      "display_name": "Free Willy",
+      "original_name": "Free Willy",
+      "icon": "iceandfire:hippocampus_fin",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "iceandfire/gorgon_head": {
+      "display_name": "Clash of the Titans",
+      "original_name": "Clash of the Titans",
+      "icon": "iceandfire:gorgon_head",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,457 @@
+{
+  "enabled": true,
+  "mod_name": "Create",
+  "mod_id": "create",
+  "achievements": {
+    "clockwork_bearing": {
+      "display_name": "Contraption o\u0027Clock",
+      "original_name": "Contraption o\u0027Clock",
+      "icon": "create:clockwork_bearing",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "train_crash_backwards": {
+      "display_name": "Blind Spot",
+      "original_name": "Blind Spot",
+      "icon": "create:incomplete_track",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "potato_cannon": {
+      "display_name": "Fwoomp!",
+      "original_name": "Fwoomp!",
+      "icon": "create:potato_cannon",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "chained_drain": {
+      "display_name": "On a Roll",
+      "original_name": "On a Roll",
+      "icon": "create:item_drain",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "hand_crank_000": {
+      "display_name": "Workout Session",
+      "original_name": "Workout Session",
+      "icon": "create:hand_crank",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "potato_cannon_collide": {
+      "display_name": "Veggie Fireworks",
+      "original_name": "Veggie Fireworks",
+      "icon": "minecraft:carrot",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "train_portal": {
+      "display_name": "Dimensional Commuter",
+      "original_name": "Dimensional Commuter",
+      "icon": "minecraft:amethyst_block",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "windmill_maxed": {
+      "display_name": "A strong Breeze",
+      "original_name": "A strong Breeze",
+      "icon": "create:white_sail",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "fist_bump": {
+      "display_name": "Pound It, Bro!",
+      "original_name": "Pound It, Bro!",
+      "icon": "create:deployer",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "frogport": {
+      "display_name": "Hungry hoppers",
+      "original_name": "Hungry hoppers",
+      "icon": "create:package_frogport",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "track_crafting_factory": {
+      "display_name": "Track Factory",
+      "original_name": "Track Factory",
+      "icon": "create:mechanical_press",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "ejector_maxed": {
+      "display_name": "Springboard Champion",
+      "original_name": "Springboard Champion",
+      "icon": "create:weighted_ejector",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "self_deploying": {
+      "display_name": "Self-Driving Cart",
+      "original_name": "Self-Driving Cart",
+      "icon": "minecraft:rail",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "steam_engine_maxed": {
+      "display_name": "Full Steam",
+      "original_name": "Full Steam",
+      "icon": "create:steam_engine",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "train_roadkill": {
+      "display_name": "Road Kill",
+      "original_name": "Road Kill",
+      "icon": "minecraft:diamond_sword",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "package_chute_throw": {
+      "display_name": "Nothing but net",
+      "original_name": "Nothing but net",
+      "icon": "create:cardboard_package_12x12",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "stressometer_maxed": {
+      "display_name": "Perfectly Stressed",
+      "original_name": "Perfectly Stressed",
+      "icon": "create:stressometer",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "crafter_lazy_000": {
+      "display_name": "Desperate Measures",
+      "original_name": "Desperate Measures",
+      "icon": "create:mechanical_crafter",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "arm_many_targets": {
+      "display_name": "Organize-o-Tron",
+      "original_name": "Organize-o-Tron",
+      "icon": "create:mechanical_arm",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "red_signal": {
+      "display_name": "Expert Driver",
+      "original_name": "Expert Driver",
+      "icon": "create:track_signal",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "long_travel": {
+      "display_name": "Field Trip",
+      "original_name": "Field Trip",
+      "icon": "create:green_seat",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "pipe_organ": {
+      "display_name": "The Pipe Organ",
+      "original_name": "The Pipe Organ",
+      "icon": "create:steam_whistle",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "factory_gauge": {
+      "display_name": "High Logistics",
+      "original_name": "High Logistics",
+      "icon": "create:factory_gauge",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "table_cloth_shop": {
+      "display_name": "Open for business",
+      "original_name": "Open for business",
+      "icon": "create:red_table_cloth",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "crushing_wheel": {
+      "display_name": "Wheels of Destruction",
+      "original_name": "Wheels of Destruction",
+      "icon": "create:crushing_wheel",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "extendo_grip_dual": {
+      "display_name": "To Full Extent",
+      "original_name": "To Full Extent",
+      "icon": "create:extendo_grip",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "cart_pickup": {
+      "display_name": "Strong Arms",
+      "original_name": "Strong Arms",
+      "icon": "create:chest_minecart_contraption",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "long_train": {
+      "display_name": "Ambitious Endeavours",
+      "original_name": "Ambitious Endeavours",
+      "icon": "minecraft:minecart",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "haunted_bell": {
+      "display_name": "Shadow Sense",
+      "original_name": "Shadow Sense",
+      "icon": "create:haunted_bell",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "mechanical_press": {
+      "display_name": "Bonk!",
+      "original_name": "Bonk!",
+      "icon": "create:mechanical_press",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "stock_ticker": {
+      "display_name": "Order Up!",
+      "original_name": "Order Up!",
+      "icon": "create:stock_ticker",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "lava_wheel_00000": {
+      "display_name": "Magma Wheel",
+      "original_name": "Magma Wheel",
+      "icon": "create:water_wheel",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "hose_pulley_lava": {
+      "display_name": "Tapping the Mantle",
+      "original_name": "Tapping the Mantle",
+      "icon": "create:hose_pulley",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "pulley_maxed": {
+      "display_name": "Rope to Nowhere",
+      "original_name": "Rope to Nowhere",
+      "icon": "create:rope_pulley",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "andesite_casing": {
+      "display_name": "The Andesite Age",
+      "original_name": "The Andesite Age",
+      "icon": "create:andesite_casing",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "anvil_plough": {
+      "display_name": "Blacksmith Artillery",
+      "original_name": "Blacksmith Artillery",
+      "icon": "minecraft:chipped_anvil",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "train": {
+      "display_name": "All Aboard!",
+      "original_name": "All Aboard!",
+      "icon": "create:track_station",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "brass_casing": {
+      "display_name": "The Brass Age",
+      "original_name": "The Brass Age",
+      "icon": "create:brass_casing",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "cross_streams": {
+      "display_name": "Don\u0027t Cross the Streams!",
+      "original_name": "Don\u0027t Cross the Streams!",
+      "icon": "minecraft:cobblestone",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "display_board_0": {
+      "display_name": "Dynamic Timetables",
+      "original_name": "Dynamic Timetables",
+      "icon": "create:display_board",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "crusher_maxed_0000": {
+      "display_name": "Crushing It",
+      "original_name": "Crushing It",
+      "icon": "create:crushing_wheel",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "belt_funnel_kiss": {
+      "display_name": "The Parrots and the Flaps",
+      "original_name": "The Parrots and the Flaps",
+      "icon": "create:brass_funnel",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "train_crash": {
+      "display_name": "Terrible Service",
+      "original_name": "Terrible Service",
+      "icon": "create:incomplete_track",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "mechanical_arm": {
+      "display_name": "Busy Hands",
+      "original_name": "Busy Hands",
+      "icon": "create:mechanical_arm",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "musical_arm": {
+      "display_name": "DJ Mechanico",
+      "original_name": "DJ Mechanico",
+      "icon": "minecraft:jukebox",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "diving_suit_lava": {
+      "display_name": "Swimming with the Striders",
+      "original_name": "Swimming with the Striders",
+      "icon": "create:netherite_diving_helmet",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "cuckoo_clock": {
+      "display_name": "Is it Time?",
+      "original_name": "Is it Time?",
+      "icon": "create:cuckoo_clock",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "foods": {
+      "display_name": "Balanced Diet",
+      "original_name": "Balanced Diet",
+      "icon": "create:chocolate_glazed_berries",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "precision_mechanism": {
+      "display_name": "Complex Curiosities",
+      "original_name": "Complex Curiosities",
+      "icon": "create:precision_mechanism",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "cardboard_armor_trim": {
+      "display_name": "Arts and Crafts",
+      "original_name": "Arts and Crafts",
+      "icon": "create:cardboard_chestplate",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "enabled": true,
+  "mod_name": "Farmer\u0027s Delight",
+  "mod_id": "farmersdelight",
+  "achievements": {
+    "main/get_rich_soil": {
+      "display_name": "Plant Food",
+      "original_name": "Plant Food",
+      "icon": "farmersdelight:rich_soil",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "main/plant_all_crops": {
+      "display_name": "Crop Rotation",
+      "original_name": "Crop Rotation",
+      "icon": "farmersdelight:cabbage",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "main/place_cooking_pot": {
+      "display_name": "Dinner\u0027s Served!",
+      "original_name": "Dinner\u0027s Served!",
+      "icon": "farmersdelight:cooking_pot",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "main/master_chef": {
+      "display_name": "Master Chef",
+      "original_name": "Master Chef",
+      "icon": "farmersdelight:honey_glazed_ham",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "main/obtain_netherite_knife": {
+      "display_name": "If You Can\u0027t Take the Heat...",
+      "original_name": "If You Can\u0027t Take the Heat...",
+      "icon": "farmersdelight:netherite_knife",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "main/get_fd_seed": {
+      "display_name": "Crops of the Wild",
+      "original_name": "Crops of the Wild",
+      "icon": "farmersdelight:wild_onions",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "main/place_campfire": {
+      "display_name": "Bonfire Lit",
+      "original_name": "Bonfire Lit",
+      "icon": "minecraft:campfire",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "main/craft_knife": {
+      "display_name": "Hunt and Gather",
+      "original_name": "Hunt and Gather",
+      "icon": "farmersdelight:flint_knife",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "main/hit_raider_with_rotten_tomato": {
+      "display_name": "Boo! Hiss!",
+      "original_name": "Boo! Hiss!",
+      "icon": "farmersdelight:rotten_tomato",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "main/place_feast": {
+      "display_name": "A Glorious Feast",
+      "original_name": "A Glorious Feast",
+      "icon": "farmersdelight:roast_chicken_block",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

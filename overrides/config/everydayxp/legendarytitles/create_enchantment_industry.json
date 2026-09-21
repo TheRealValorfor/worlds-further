@@ -1,0 +1,115 @@
+{
+  "enabled": true,
+  "mod_name": "Create: Enchantment Industry",
+  "mod_id": "create_enchantment_industry",
+  "achievements": {
+    "great_publisher": {
+      "display_name": "Great Publisher",
+      "original_name": "Great Publisher",
+      "icon": "create_enchantment_industry:printer",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "probability_spike": {
+      "display_name": "Probability Spike",
+      "original_name": "Probability Spike",
+      "icon": "minecraft:diamond",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "grind_to_polish": {
+      "display_name": "Grind to Polish",
+      "original_name": "Grind to Polish",
+      "icon": "create:sand_paper",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "blazing_centurion": {
+      "display_name": "Blazing Centurion",
+      "original_name": "Blazing Centurion",
+      "icon": "create_enchantment_industry:blaze_forger",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "experienced_recycler": {
+      "display_name": "Experienced Recycler",
+      "original_name": "Experienced Recycler",
+      "icon": "create_enchantment_industry:grindstone_drain",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "lightning_catalysis": {
+      "display_name": "Lightning Catalysis",
+      "original_name": "Lightning Catalysis",
+      "icon": "create_enchantment_industry:blaze_forger",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "thousand_runes": {
+      "display_name": "Thousand Runes",
+      "original_name": "Thousand Runes",
+      "icon": "create_enchantment_industry:blaze_enchanter",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "a_shower_experience": {
+      "display_name": "A Shower \"Experience\"",
+      "original_name": "A Shower \"Experience\"",
+      "icon": "create:experience_nugget",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "paradox_fusion": {
+      "display_name": "Paradox Fusion",
+      "original_name": "Paradox Fusion",
+      "icon": "minecraft:redstone",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "transcendent_overclock": {
+      "display_name": "Transcendent Overclock",
+      "original_name": "Transcendent Overclock",
+      "icon": "minecraft:emerald",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "osha_violation": {
+      "display_name": "OSHA Violation",
+      "original_name": "OSHA Violation",
+      "icon": "minecraft:barrier",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "omni_enchanter": {
+      "display_name": "Omni-Enchanter",
+      "original_name": "Omni-Enchanter",
+      "icon": "minecraft:nether_star",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

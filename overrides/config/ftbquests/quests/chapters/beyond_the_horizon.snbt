@@ -1,0 +1,273 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "beyond_the_horizon"
+	group: "0F70271E1C7A3EBB"
+	id: "6478993876ECF7EE"
+	images: [{
+		height: 1.0d
+		id: "1D7E07981F84E138"
+		image: ""
+		rotation: 0.0d
+		text_on_image: 1b
+		width: 15.6d
+		x: 6.2d
+		y: -2.1d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4CD1B113E34FDF3A"
+			rewards: [{
+				id: "273F3F827B4DC463"
+				item: {
+					count: 1
+					id: "minecraft:map"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E038084C0F019EE"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.1d
+		}
+		{
+			dependencies: ["4CD1B113E34FDF3A"]
+			id: "2F554A3DEEEF3F50"
+			rewards: [{
+				id: "370E1990F1C0A4D0"
+				item: {
+					count: 1
+					id: "minecraft:compass"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1647ED78A9F48B7E"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CD1B113E34FDF3A"]
+			id: "0952B98FA16E0FD8"
+			rewards: [{
+				count: 8
+				id: "21C0496A714BBF46"
+				item: {
+					count: 1
+					id: "minecraft:paper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5742DE820FD08FC0"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 6.2d
+		}
+		{
+			dependencies: ["2F554A3DEEEF3F50"]
+			id: "1530BB8D3A01BC93"
+			rewards: [{
+				count: 2
+				id: "17A785EB9A347544"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B2196CC12B118AF"
+				type: "checkmark"
+			}]
+			x: 4.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0952B98FA16E0FD8"]
+			id: "76FEEC4AE0F53B9D"
+			rewards: [{
+				id: "774A6DC907B26743"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BEA8C2C2B468F4B"
+				type: "checkmark"
+			}]
+			x: 4.2d
+			y: 6.2d
+		}
+		{
+			dependencies: [
+				"1530BB8D3A01BC93"
+				"76FEEC4AE0F53B9D"
+			]
+			id: "3D08022D79B1BB3A"
+			rewards: [{
+				count: 2
+				id: "64D7494D3F329C2C"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C903A26CEE635BE"
+				type: "checkmark"
+			}]
+			x: 6.2d
+			y: 3.1d
+		}
+		{
+			dependencies: ["3D08022D79B1BB3A"]
+			id: "59D78ECB7A77FC10"
+			rewards: [{
+				id: "36FF660092BB7B62"
+				item: {
+					count: 1
+					id: "minecraft:nautilus_shell"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4EEE4764830FFAE5"
+				type: "checkmark"
+			}]
+			x: 8.3d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D08022D79B1BB3A"]
+			id: "536CF9145578E7DA"
+			rewards: [{
+				id: "08A515F06668DEEB"
+				item: {
+					count: 1
+					id: "minecraft:name_tag"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41B08195BC7AF33F"
+				type: "checkmark"
+			}]
+			x: 8.3d
+			y: 6.2d
+		}
+		{
+			dependencies: [
+				"59D78ECB7A77FC10"
+				"536CF9145578E7DA"
+			]
+			id: "47743D73390E789F"
+			rewards: [{
+				count: 3
+				id: "760D894DB10261DD"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0ADE9D868E247EE0"
+				type: "checkmark"
+			}]
+			x: 10.4d
+			y: 3.1d
+		}
+		{
+			dependencies: ["47743D73390E789F"]
+			id: "07B87913A753F08A"
+			rewards: [{
+				id: "1BCCC5F4C34B5351"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "0603A2A4DCD0D4EE"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 3.1d
+		}
+		{
+			dependencies: ["4CD1B113E34FDF3A"]
+			id: "3BA87A82B98C2265"
+			rewards: [{
+				count: 16
+				id: "2EF8D2FED939D3C2"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D2880A0ECD5D93D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D08022D79B1BB3A"]
+			id: "4F97A7A1A27E6E45"
+			rewards: [{
+				count: 4
+				id: "72CEC899FC6AF7C2"
+				item: {
+					count: 1
+					id: "minecraft:obsidian"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "42840CBE65B694B8"
+				item: { count: 1, id: "minecraft:flint_and_steel" }
+				type: "item"
+			}]
+			x: 10.4d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D08022D79B1BB3A"]
+			id: "4F07657327DA507D"
+			rewards: [{
+				count: 2
+				id: "0740EAA6FB7C58CA"
+				item: {
+					count: 1
+					id: "minecraft:red_wool"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00DE0A4C928B64DE"
+				item: { count: 1, id: "comforts:sleeping_bag_red" }
+				type: "item"
+			}]
+			x: 10.4d
+			y: 6.2d
+		}
+	]
+}

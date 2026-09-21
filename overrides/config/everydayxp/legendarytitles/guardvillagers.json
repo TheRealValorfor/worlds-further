@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "mod_name": "Guard Villagers",
+  "mod_id": "guardvillagers",
+  "achievements": {
+    "adventure/recruit_guard": {
+      "display_name": "We Want You, as a New Recruit!",
+      "original_name": "We Want You, as a New Recruit!",
+      "icon": "minecraft:iron_sword",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

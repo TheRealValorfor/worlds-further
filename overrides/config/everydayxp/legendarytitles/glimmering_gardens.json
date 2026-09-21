@@ -1,0 +1,34 @@
+{
+  "enabled": true,
+  "mod_name": "Glimmering Gardens",
+  "mod_id": "glimmering_gardens",
+  "achievements": {
+    "two_pixels": {
+      "display_name": "Two by Two Pixels",
+      "original_name": "Two by Two Pixels",
+      "icon": "minecraft:glass_bottle",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "living_lamp": {
+      "display_name": "Living Lamp",
+      "original_name": "Living Lamp",
+      "icon": "glimmering_gardens:firefly_lantern",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "soo_shiny": {
+      "display_name": "SOOoooo SHINY ! ! !",
+      "original_name": "SOOoooo SHINY ! ! !",
+      "icon": "glimmering_gardens:firefly_bottle_full",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

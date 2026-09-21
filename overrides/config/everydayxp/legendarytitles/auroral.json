@@ -1,0 +1,133 @@
+{
+  "enabled": true,
+  "mod_name": "Auroral",
+  "mod_id": "auroral",
+  "achievements": {
+    "hearthwood_log": {
+      "display_name": "Hearth and Home",
+      "original_name": "Hearth and Home",
+      "icon": "auroral:hearthwood_log",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "shimmerweave_fabric": {
+      "display_name": "Woven Light",
+      "original_name": "Woven Light",
+      "icon": "auroral:shimmerweave_fabric",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "warden_slayer": {
+      "display_name": "Light in the Darkness",
+      "original_name": "Light in the Darkness",
+      "icon": "auroral:aurora_lantern",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "ride_nautilus": {
+      "display_name": "Sky Sailor",
+      "original_name": "Sky Sailor",
+      "icon": "auroral:auroral_nautilus_spawn_egg",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "glow_leek": {
+      "display_name": "Night Vision",
+      "original_name": "Night Vision",
+      "icon": "auroral:glow_leek",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "aurora_shard": {
+      "display_name": "Celestial Gift",
+      "original_name": "Celestial Gift",
+      "icon": "auroral:aurora_shard",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "shimmersteel_ingot": {
+      "display_name": "Celestial Metal",
+      "original_name": "Celestial Metal",
+      "icon": "auroral:shimmersteel_ingot",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "shimmer_spear": {
+      "display_name": "Northern Star",
+      "original_name": "Northern Star",
+      "icon": "auroral:shimmer_spear",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "auroral_snowlette": {
+      "display_name": "Frozen Companion",
+      "original_name": "Frozen Companion",
+      "icon": "auroral:auroral_snowlette_spawn_egg",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "cold_brewing_stand": {
+      "display_name": "Cold Alchemy",
+      "original_name": "Cold Alchemy",
+      "icon": "auroral:cold_brewing_stand",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "aurora_lantern": {
+      "display_name": "Guiding Light",
+      "original_name": "Guiding Light",
+      "icon": "auroral:aurora_lantern",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "glacial_basin": {
+      "display_name": "Frozen Forge",
+      "original_name": "Frozen Forge",
+      "icon": "auroral:glacial_basin",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "shimmersteel_tools": {
+      "display_name": "Ice Armory",
+      "original_name": "Ice Armory",
+      "icon": "auroral:shimmersteel_pickaxe",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "shimmerweave_armor": {
+      "display_name": "Aurora Clad",
+      "original_name": "Aurora Clad",
+      "icon": "auroral:shimmerweave_tunic",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

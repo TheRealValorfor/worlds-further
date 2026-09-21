@@ -1,0 +1,764 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "advanced_engineering"
+	group: "473D4EBE137A8FD9"
+	id: "6E247F709A36C8B9"
+	images: [
+		{
+			height: 1.0d
+			id: "69B1DC5D31F4CD3E"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 19.2d
+			x: 1.0d
+			y: -2.1d
+		}
+		{
+			height: 1.0d
+			id: "0DBA5812D042042C"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 19.2d
+			x: 6.2d
+			y: 9.4d
+		}
+		{
+			height: 1.0d
+			id: "58ED1E71C626E3EC"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 19.2d
+			x: 8.3d
+			y: 18.7d
+		}
+		{
+			height: 1.0d
+			id: "584C6406C53936AB"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 19.2d
+			x: 0.0d
+			y: 30.2d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2838265F8BC0A659"]
+			id: "1B7B8432CA967B5C"
+			rewards: [{
+				count: 4
+				id: "2E96383AC1264778"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F8D41249132B08D"
+				item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.1d
+		}
+		{
+			dependencies: ["1B7B8432CA967B5C"]
+			id: "77CFB974CA7B9AD6"
+			rewards: [{
+				count: 4
+				id: "1947D6C9A924ACB7"
+				item: {
+					count: 1
+					id: "minecraft:glass_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "14668C35289F029F"
+				item: { count: 1, id: "create_enchantment_industry:experience_bucket" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 2.1d
+		}
+		{
+			dependencies: ["2838265F8BC0A659"]
+			id: "1427E689288BDC95"
+			rewards: [{
+				count: 2
+				id: "14097731288E1C9F"
+				item: {
+					count: 1
+					id: "create_enchantment_industry:super_experience_nugget"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D98E514A7F0AD3D"
+				item: { count: 1, id: "create_enchantment_industry:grindstone_drain" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.2d
+		}
+		{
+			dependencies: ["2838265F8BC0A659"]
+			id: "3D8FA5996BD53844"
+			rewards: [{
+				count: 2
+				id: "54D54E266DCF164C"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CAD8086D522349A"
+				item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 6.2d
+		}
+		{
+			dependencies: ["2838265F8BC0A659"]
+			id: "6D97FFCED352AF8B"
+			rewards: [{
+				count: 3
+				id: "6CD2B4ECBC9007FB"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "556EA93E954DB407"
+				item: { count: 1, id: "create_enchantment_industry:super_experience_block" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2838265F8BC0A659"]
+			id: "11D27C0B7B1F0BEF"
+			rewards: [{
+				count: 8
+				id: "00857B744485F36E"
+				item: {
+					count: 1
+					id: "minecraft:kelp"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "69A5EA302B9D8AFC"
+				item: { count: 1, id: "create_aquatic_ambitions:calcium_rich_powder" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.4d
+		}
+		{
+			dependencies: ["2838265F8BC0A659"]
+			id: "4DC71B865E7B9DF7"
+			rewards: [{
+				id: "4A677A8C3E0AF799"
+				item: {
+					count: 1
+					id: "minecraft:bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "606F99A23EC173A1"
+				item: { count: 1, id: "create_aquatic_ambitions:suspicious_rock" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["2838265F8BC0A659"]
+			id: "0C893EDAC589CD7A"
+			rewards: [{
+				id: "6C2B93F7B1A5FBA9"
+				item: {
+					count: 1
+					id: "minecraft:nautilus_shell"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "4A17F0E199CD2FDE"
+				item: { count: 1, id: "create_aquatic_ambitions:prismarine_alloy_rod" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.6d
+		}
+		{
+			dependencies: ["11D27C0B7B1F0BEF"]
+			id: "530629BCD8BF62A2"
+			tasks: [{
+				count: 4L
+				id: "66A26F431FDF7D09"
+				item: { count: 1, id: "create_aquatic_ambitions:prismarine_alloy" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 11.4d
+		}
+		{
+			dependencies: ["4DC71B865E7B9DF7"]
+			id: "092634D325DE7350"
+			rewards: [{
+				id: "4E95D23C021B07B5"
+				item: {
+					count: 1
+					id: "upgrade_aquatic:pike_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44882195F26E2FA2"
+				item: { count: 1, id: "hybrid_aquatic:diving_helmet" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0C893EDAC589CD7A"]
+			id: "0E51A5018619BE5E"
+			tasks: [{
+				count: 2L
+				id: "5772EC2FAEE9E35D"
+				item: { count: 1, id: "create_aquatic_ambitions:spiky_shell" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 15.6d
+		}
+		{
+			dependencies: ["530629BCD8BF62A2"]
+			id: "7A0605FE15B04433"
+			rewards: [{
+				count: 4
+				id: "467EE74989501B4E"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C477BFECB70AB54"
+				item: { count: 1, id: "create_aquatic_ambitions:mechanical_conduit" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 11.4d
+		}
+		{
+			dependencies: ["092634D325DE7350"]
+			id: "5A19643B5FA8C54C"
+			rewards: [{
+				id: "68834182ADA583E2"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1827B9278D0DE3D7"
+				item: { count: 1, id: "hybrid_aquatic:nautilus_helmet" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0E51A5018619BE5E"]
+			id: "76DC08601E83EF19"
+			rewards: [{
+				count: 4
+				id: "4F05D221CD821CEB"
+				item: {
+					count: 1
+					id: "upgrade_aquatic:cooked_pike"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "29F66361FC76F915"
+				item: { count: 1, id: "hybrid_aquatic:seashell_spear" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 15.6d
+		}
+		{
+			dependencies: [
+				"7A0605FE15B04433"
+				"5A19643B5FA8C54C"
+			]
+			id: "685C0334F0E5B9FB"
+			rewards: [{
+				count: 4
+				id: "3E026B40F72131E3"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "672DC863DD66DD54"
+				item: { count: 1, id: "create_hypertube:hypertube" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 13.5d
+		}
+		{
+			dependencies: ["76DC08601E83EF19"]
+			id: "5E684AAA7CE4285C"
+			rewards: [{
+				id: "5CCD6565233CAD28"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "629932012F7A9980"
+				item: { count: 1, id: "hybrid_aquatic:turtle_chestplate" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 15.6d
+		}
+		{
+			dependencies: ["685C0334F0E5B9FB"]
+			id: "3653BEF4BB5AEADD"
+			tasks: [{
+				id: "53D2A2333C02A2B4"
+				item: { count: 1, id: "create_hypertube:hypertube_entrance" }
+				type: "item"
+			}]
+			x: 8.3d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5E684AAA7CE4285C"]
+			id: "40596A33688380E6"
+			rewards: [{
+				id: "01CD5255DF940D13"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "2221D5C5ADDECB17"
+				item: { count: 1, id: "upgrade_aquatic:scute_block" }
+				type: "item"
+			}]
+			x: 8.3d
+			y: 15.6d
+		}
+		{
+			dependencies: ["3653BEF4BB5AEADD"]
+			id: "5C1101E7624E6B18"
+			rewards: [{
+				count: 2
+				id: "79CA0EBABF8F5FB4"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6C949DFA082B2E94"
+				item: { count: 1, id: "create_hypertube:hypertube_junction" }
+				type: "item"
+			}]
+			x: 10.4d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5C1101E7624E6B18"]
+			id: "4F4E1B4DF7336E90"
+			rewards: [{
+				count: 2
+				id: "23C45A6A7030FA3E"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "196FAD2701BC5788"
+				item: { count: 1, id: "create_hypertube:tube_scanner_attachment" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1D16BB9819A47FD0"]
+			id: "1533CC1C6EEC17C5"
+			rewards: [{
+				count: 2
+				id: "03B28CA8104AA817"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "62AF793BFDCA6020"
+				item: { count: 1, id: "railways:track_oak" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 20.8d
+		}
+		{
+			dependencies: ["1D16BB9819A47FD0"]
+			id: "74FAB2BBC96CBE1F"
+			rewards: [{
+				count: 2
+				id: "2DB517C2BBD5B149"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "5728AC7BF9706BD1"
+				item: { count: 1, id: "railways:riveted_locometal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["1533CC1C6EEC17C5"]
+			id: "05724EB10D0707C6"
+			tasks: [{
+				count: 2L
+				id: "194EC06D57AFC48D"
+				item: { count: 1, id: "railways:track_switch_andesite" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 20.8d
+		}
+		{
+			dependencies: ["1533CC1C6EEC17C5"]
+			id: "08AE162D739422E1"
+			tasks: [{
+				count: 2L
+				id: "42BFEC78BABC964E"
+				item: { count: 1, id: "railways:buffer" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 22.9d
+		}
+		{
+			dependencies: ["74FAB2BBC96CBE1F"]
+			id: "6CE51007D77DEABF"
+			rewards: [{
+				count: 2
+				id: "73D4192D1F92931B"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "13ABDF0F365C464A"
+				item: { count: 1, id: "railways:locometal_pillar" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 25.0d
+		}
+		{
+			dependencies: ["05724EB10D0707C6"]
+			id: "55BEFDF6CDB52AA7"
+			rewards: [{
+				id: "08724025EE062FAC"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "06A277836EE5AD11"
+				item: { count: 1, id: "railways:track_switch_brass" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 20.8d
+		}
+		{
+			dependencies: ["6CE51007D77DEABF"]
+			id: "2812C00CF8E047A0"
+			rewards: [{
+				count: 8
+				id: "7916B16591D1B55A"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E902E702979323E"
+				item: { count: 1, id: "railways:locometal_boiler" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 25.0d
+		}
+		{
+			dependencies: [
+				"55BEFDF6CDB52AA7"
+				"08AE162D739422E1"
+			]
+			id: "1AE024E7D7CD5FA9"
+			rewards: [{
+				count: 4
+				id: "5212B8D6307059FA"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0C344A0F1D486FA3"
+				item: { count: 1, id: "railways:semaphore" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 20.8d
+		}
+		{
+			dependencies: ["2812C00CF8E047A0"]
+			id: "10C0293E59226CB2"
+			tasks: [{
+				id: "5301BBBA235061B5"
+				item: { count: 1, id: "railways:locometal_smokebox" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 25.0d
+		}
+		{
+			dependencies: ["2812C00CF8E047A0"]
+			id: "3210FD2958ADDCAF"
+			rewards: [{
+				count: 8
+				id: "56B37A8418944109"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "39C6674999BF1639"
+				item: { count: 1, id: "railways:fuel_tank" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 27.0d
+		}
+		{
+			dependencies: ["1AE024E7D7CD5FA9"]
+			id: "59F0363CA1E7D3B5"
+			rewards: [{
+				id: "405C31FF27156C48"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "42EAA6B10287D3B0"
+				item: { count: 1, id: "railways:conductor_whistle" }
+				type: "item"
+			}]
+			x: 8.3d
+			y: 20.8d
+		}
+		{
+			dependencies: [
+				"10C0293E59226CB2"
+				"3210FD2958ADDCAF"
+			]
+			id: "529BF6761A473418"
+			rewards: [{
+				count: 2
+				id: "62589729DC36A6B3"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B6516F9FF3E22E1"
+				item: { count: 1, id: "railways:smokestack_coalburner" }
+				type: "item"
+			}]
+			x: 8.3d
+			y: 25.0d
+		}
+		{
+			dependencies: ["529BF6761A473418"]
+			id: "557F9858A8829502"
+			rewards: [{
+				count: 4
+				id: "3C281F5D3DC319A3"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "084D76392367552F"
+				item: { count: 1, id: "railways:smokestack_streamlined" }
+				type: "item"
+			}]
+			x: 10.4d
+			y: 25.0d
+		}
+		{
+			dependencies: ["557F9858A8829502"]
+			id: "6D242282842D6395"
+			tasks: [{
+				count: 2L
+				id: "6373C3BDA21B9510"
+				item: { count: 1, id: "railways:knuckle_coupler" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 25.0d
+		}
+		{
+			dependencies: ["6D242282842D6395"]
+			id: "058C11005DEFB024"
+			rewards: [{
+				count: 4
+				id: "6438FF0C954D9FF3"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "27A135E9E9A88DBA"
+				item: { count: 1, id: "railways:split_knuckle_coupler" }
+				type: "item"
+			}]
+			x: 14.6d
+			y: 25.0d
+		}
+		{
+			dependencies: [
+				"058C11005DEFB024"
+				"59F0363CA1E7D3B5"
+			]
+			id: "6BD6B0ABB2F52F38"
+			rewards: [{
+				count: 2
+				id: "45724C3FDE9D12AE"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "309EECF2EECD4D01"
+					item: { count: 1, id: "railways:screwlink_coupler" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "695DE8CFCEBEEB25"
+					item: { count: 1, id: "railways:track_oak" }
+					type: "item"
+				}
+			]
+			x: 16.6d
+			y: 22.9d
+		}
+		{
+			dependencies: [
+				"77CFB974CA7B9AD6"
+				"40596A33688380E6"
+				"4F4E1B4DF7336E90"
+				"6BD6B0ABB2F52F38"
+			]
+			id: "419CA9CE7EE0CC96"
+			rewards: [{
+				id: "3D6858B794423601"
+				item: {
+					count: 1
+					id: "minecraft:diamond_block"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "319F29B026119589"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 32.2d
+		}
+	]
+}

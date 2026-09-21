@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "showMessages": true,
+  "showHud": false,
+  "minFps": 60,
+  "maxFps": 100,
+  "minRenderDistance": 4,
+  "maxRenderDistance": 12,
+  "decreaseStep": 3,
+  "increaseStep": 1,
+  "checkIntervalSeconds": 3.0,
+  "cooldownSeconds": 6.0
+}

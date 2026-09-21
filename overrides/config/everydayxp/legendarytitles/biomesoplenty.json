@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "mod_name": "Biomes O\u0027 Plenty",
+  "mod_id": "biomesoplenty",
+  "achievements": {
+    "biomesoplenty/all_biomes": {
+      "display_name": "Wanderer",
+      "original_name": "Wanderer",
+      "icon": "biomesoplenty:bop_icon",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

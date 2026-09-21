@@ -1,0 +1,3482 @@
+{
+  "enabled": true,
+  "mod_name": "Minecraft",
+  "mod_id": "minecraft",
+  "achievements": {
+    "nether/obtain_crying_obsidian": {
+      "display_name": "Who is Cutting Onions?",
+      "original_name": "Who is Cutting Onions?",
+      "enabled": true,
+      "icon": "minecraft:crying_obsidian",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/allay_deliver_item_to_player": {
+      "display_name": "You\u0027ve Got a Friend in Me",
+      "original_name": "You\u0027ve Got a Friend in Me",
+      "enabled": true,
+      "icon": "minecraft:cookie",
+      "rewards": {
+        "attributes": {
+          "attributecore:tamed_damage": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:tamed_speed": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/froglights": {
+      "display_name": "With Our Powers Combined!",
+      "original_name": "With Our Powers Combined!",
+      "enabled": true,
+      "icon": "minecraft:verdant_froglight",
+      "rewards": {
+        "attributes": {
+          "attributecore:tamed_damage": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:tamed_speed": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "story/obtain_armor": {
+      "display_name": "Suit Up",
+      "original_name": "Suit Up",
+      "enabled": true,
+      "icon": "minecraft:iron_chestplate",
+      "rewards": {
+        "attributes": {
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/trim_with_all_exclusive_armor_patterns": {
+      "display_name": "Smithing with Style",
+      "original_name": "Smithing with Style",
+      "enabled": true,
+      "icon": "minecraft:silence_armor_trim_smithing_template",
+      "rewards": {
+        "attributes": {
+          "minecraft:generic.max_health": {
+            "amount": 8.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor_toughness": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:reflect_damage": {
+            "amount": 0.1,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:max_health_percent": {
+            "amount": 0.08,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "end/kill_dragon": {
+      "display_name": "Free the End",
+      "original_name": "Free the End",
+      "enabled": true,
+      "icon": "minecraft:dragon_head",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.1,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:critical_strike_bonus_damage": {
+            "amount": 0.15,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.05,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:critical_strike_chance": {
+            "amount": 0.015,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/make_a_sign_glow": {
+      "display_name": "Glow and Behold!",
+      "original_name": "Glow and Behold!",
+      "enabled": true,
+      "icon": "minecraft:glow_ink_sac",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.02,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "nether/create_beacon": {
+      "display_name": "Bring Home the Beacon",
+      "original_name": "Bring Home the Beacon",
+      "enabled": true,
+      "icon": "minecraft:beacon",
+      "rewards": {
+        "attributes": {
+          "minecraft:generic.max_health": {
+            "amount": 6.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 3.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor_toughness": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:reflect_damage": {
+            "amount": 0.08,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "story/deflect_arrow": {
+      "display_name": "Not Today, Thank You",
+      "original_name": "Not Today, Thank You",
+      "enabled": true,
+      "icon": "minecraft:shield",
+      "rewards": {
+        "attributes": {
+          "attributecore:ranged_damage_percent": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:draw_speed": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/leash_all_frog_variants": {
+      "display_name": "When the Squad Hops into Town",
+      "original_name": "When the Squad Hops into Town",
+      "enabled": true,
+      "icon": "minecraft:lead",
+      "rewards": {
+        "attributes": {
+          "attributecore:tamed_damage": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:tamed_speed": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "story/iron_tools": {
+      "display_name": "Isn\u0027t It Iron Pick",
+      "original_name": "Isn\u0027t It Iron Pick",
+      "enabled": true,
+      "icon": "minecraft:iron_pickaxe",
+      "rewards": {
+        "attributes": {
+          "attributecore:experience_bonus": {
+            "amount": 0.08,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.luck": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "nether/brew_potion": {
+      "display_name": "Local Brewery",
+      "original_name": "Local Brewery",
+      "enabled": true,
+      "icon": "minecraft:potion",
+      "rewards": {
+        "attributes": {
+          "attributecore:incoming_healing": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "end/dragon_egg": {
+      "display_name": "The Next Generation",
+      "original_name": "The Next Generation",
+      "enabled": true,
+      "icon": "minecraft:dragon_egg",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.1,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:critical_strike_bonus_damage": {
+            "amount": 0.15,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.05,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:critical_strike_chance": {
+            "amount": 0.015,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/fishy_business": {
+      "display_name": "Fishy Business",
+      "original_name": "Fishy Business",
+      "enabled": true,
+      "icon": "minecraft:fishing_rod",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.02,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "nether/explore_nether": {
+      "display_name": "Hot Tourist Destinations",
+      "original_name": "Hot Tourist Destinations",
+      "enabled": true,
+      "icon": "minecraft:netherite_boots",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "nether/ride_strider": {
+      "display_name": "This Boat Has Legs",
+      "original_name": "This Boat Has Legs",
+      "enabled": true,
+      "icon": "minecraft:warped_fungus_on_a_stick",
+      "rewards": {
+        "attributes": {
+          "minecraft:generic.movement_speed": {
+            "amount": 0.04,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:extra_jumps": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "end/levitate": {
+      "display_name": "Great View From Up Here",
+      "original_name": "Great View From Up Here",
+      "enabled": true,
+      "icon": "minecraft:shulker_shell",
+      "rewards": {
+        "attributes": {
+          "minecraft:generic.movement_speed": {
+            "amount": 0.05,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:extra_jumps": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:evasion": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "nether/all_effects": {
+      "display_name": "How Did We Get Here?",
+      "original_name": "How Did We Get Here?",
+      "enabled": true,
+      "icon": "minecraft:bucket",
+      "rewards": {
+        "attributes": {
+          "attributecore:incoming_healing": {
+            "amount": 0.1,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 8.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 3.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:max_health_percent": {
+            "amount": 0.1,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.luck": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/bullseye": {
+      "display_name": "Bullseye",
+      "original_name": "Bullseye",
+      "enabled": true,
+      "icon": "minecraft:target",
+      "rewards": {
+        "attributes": {
+          "attributecore:ranged_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:draw_speed": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "story/mine_stone": {
+      "display_name": "Stone Age",
+      "original_name": "Stone Age",
+      "enabled": true,
+      "icon": "minecraft:wooden_pickaxe",
+      "rewards": {
+        "attributes": {
+          "attributecore:experience_bonus": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.luck": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/two_birds_one_arrow": {
+      "display_name": "Two Birds, One Arrow",
+      "original_name": "Two Birds, One Arrow",
+      "enabled": true,
+      "icon": "minecraft:crossbow",
+      "rewards": {
+        "attributes": {
+          "attributecore:ranged_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:draw_speed": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "story/enter_the_nether": {
+      "display_name": "We Need to Go Deeper",
+      "original_name": "We Need to Go Deeper",
+      "enabled": true,
+      "icon": "minecraft:flint_and_steel",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.02,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/whos_the_pillager_now": {
+      "display_name": "Who\u0027s the Pillager Now?",
+      "original_name": "Who\u0027s the Pillager Now?",
+      "enabled": true,
+      "icon": "minecraft:crossbow",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "nether/obtain_blaze_rod": {
+      "display_name": "Into Fire",
+      "original_name": "Into Fire",
+      "enabled": true,
+      "icon": "minecraft:blaze_rod",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/shoot_arrow": {
+      "display_name": "Take Aim",
+      "original_name": "Take Aim",
+      "enabled": true,
+      "icon": "minecraft:bow",
+      "rewards": {
+        "attributes": {
+          "attributecore:ranged_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:draw_speed": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/silk_touch_nest": {
+      "display_name": "Total Beelocation",
+      "original_name": "Total Beelocation",
+      "enabled": true,
+      "icon": "minecraft:bee_nest",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.02,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/arbalistic": {
+      "display_name": "Arbalistic",
+      "original_name": "Arbalistic",
+      "enabled": true,
+      "icon": "minecraft:crossbow",
+      "rewards": {
+        "attributes": {
+          "attributecore:ranged_damage_percent": {
+            "amount": 0.07,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:draw_speed": {
+            "amount": 0.07,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.movement_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "story/smelt_iron": {
+      "display_name": "Acquire Hardware",
+      "original_name": "Acquire Hardware",
+      "enabled": true,
+      "icon": "minecraft:iron_ingot",
+      "rewards": {
+        "attributes": {
+          "attributecore:experience_bonus": {
+            "amount": 0.15,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.luck": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "nether/charge_respawn_anchor": {
+      "display_name": "Not Quite \"Nine\" Lives",
+      "original_name": "Not Quite \"Nine\" Lives",
+      "enabled": true,
+      "icon": "minecraft:respawn_anchor",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "story/shiny_gear": {
+      "display_name": "Cover Me with Diamonds",
+      "original_name": "Cover Me with Diamonds",
+      "enabled": true,
+      "icon": "minecraft:diamond_chestplate",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.07,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.04,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/tadpole_in_a_bucket": {
+      "display_name": "Bukkit Bukkit",
+      "original_name": "Bukkit Bukkit",
+      "enabled": true,
+      "icon": "minecraft:tadpole_bucket",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.02,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/wax_off": {
+      "display_name": "Wax Off",
+      "original_name": "Wax Off",
+      "enabled": true,
+      "icon": "minecraft:stone_axe",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.02,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/summon_iron_golem": {
+      "display_name": "Hired Help",
+      "original_name": "Hired Help",
+      "enabled": true,
+      "icon": "minecraft:carved_pumpkin",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/sleep_in_bed": {
+      "display_name": "Sweet Dreams",
+      "original_name": "Sweet Dreams",
+      "enabled": true,
+      "icon": "minecraft:red_bed",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "end/dragon_breath": {
+      "display_name": "You Need a Mint",
+      "original_name": "You Need a Mint",
+      "enabled": true,
+      "icon": "minecraft:dragon_breath",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:critical_strike_bonus_damage": {
+            "amount": 0.08,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/kill_all_mobs": {
+      "display_name": "Monsters Hunted",
+      "original_name": "Monsters Hunted",
+      "enabled": true,
+      "icon": "minecraft:diamond_sword",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.1,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:critical_strike_bonus_damage": {
+            "amount": 0.15,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.05,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:critical_strike_chance": {
+            "amount": 0.015,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "story/enchant_item": {
+      "display_name": "Enchanter",
+      "original_name": "Enchanter",
+      "enabled": true,
+      "icon": "minecraft:enchanted_book",
+      "rewards": {
+        "attributes": {
+          "attributecore:experience_bonus": {
+            "amount": 0.27,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.luck": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/voluntary_exile": {
+      "display_name": "Voluntary Exile",
+      "original_name": "Voluntary Exile",
+      "enabled": true,
+      "icon": "minecraft:white_banner",
+      "rewards": {
+        "attributes": {
+          "attributecore:incoming_healing": {
+            "amount": 0.08,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 6.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:max_health_percent": {
+            "amount": 0.05,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/spyglass_at_parrot": {
+      "display_name": "Is It a Bird?",
+      "original_name": "Is It a Bird?",
+      "enabled": true,
+      "icon": "minecraft:spyglass",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/totem_of_undying": {
+      "display_name": "Postmortal",
+      "original_name": "Postmortal",
+      "enabled": true,
+      "icon": "minecraft:totem_of_undying",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.07,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.04,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/allay_deliver_cake_to_note_block": {
+      "display_name": "Birthday Song",
+      "original_name": "Birthday Song",
+      "enabled": true,
+      "icon": "minecraft:note_block",
+      "rewards": {
+        "attributes": {
+          "attributecore:tamed_damage": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:tamed_speed": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/spyglass_at_dragon": {
+      "display_name": "Is It a Plane?",
+      "original_name": "Is It a Plane?",
+      "enabled": true,
+      "icon": "minecraft:spyglass",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:critical_strike_bonus_damage": {
+            "amount": 0.08,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/trade_at_world_height": {
+      "display_name": "Star Trader",
+      "original_name": "Star Trader",
+      "enabled": true,
+      "icon": "minecraft:emerald",
+      "rewards": {
+        "attributes": {
+          "attributecore:experience_bonus": {
+            "amount": 0.40,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.luck": {
+            "amount": 3.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.movement_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/wax_on": {
+      "display_name": "Wax On",
+      "original_name": "Wax On",
+      "enabled": true,
+      "icon": "minecraft:honeycomb",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.02,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/play_jukebox_in_meadows": {
+      "display_name": "Sound of Music",
+      "original_name": "Sound of Music",
+      "enabled": true,
+      "icon": "minecraft:jukebox",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/hero_of_the_village": {
+      "display_name": "Hero of the Village",
+      "original_name": "Hero of the Village",
+      "enabled": true,
+      "icon": "minecraft:white_banner",
+      "rewards": {
+        "attributes": {
+          "attributecore:incoming_healing": {
+            "amount": 0.08,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 6.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:max_health_percent": {
+            "amount": 0.05,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "nether/obtain_ancient_debris": {
+      "display_name": "Hidden in the Depths",
+      "original_name": "Hidden in the Depths",
+      "enabled": true,
+      "icon": "minecraft:ancient_debris",
+      "rewards": {
+        "attributes": {
+          "minecraft:generic.max_health": {
+            "amount": 6.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 3.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor_toughness": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:reflect_damage": {
+            "amount": 0.08,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "nether/create_full_beacon": {
+      "display_name": "Beaconator",
+      "original_name": "Beaconator",
+      "enabled": true,
+      "icon": "minecraft:beacon",
+      "rewards": {
+        "attributes": {
+          "minecraft:generic.max_health": {
+            "amount": 8.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor_toughness": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:reflect_damage": {
+            "amount": 0.1,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:max_health_percent": {
+            "amount": 0.08,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/safely_harvest_honey": {
+      "display_name": "Bee Our Guest",
+      "original_name": "Bee Our Guest",
+      "enabled": true,
+      "icon": "minecraft:honey_bottle",
+      "rewards": {
+        "attributes": {
+          "attributecore:incoming_healing": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/trade": {
+      "display_name": "What a Deal!",
+      "original_name": "What a Deal!",
+      "enabled": true,
+      "icon": "minecraft:emerald",
+      "rewards": {
+        "attributes": {
+          "attributecore:experience_bonus": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.luck": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/spyglass_at_ghast": {
+      "display_name": "Is It a Balloon?",
+      "original_name": "Is It a Balloon?",
+      "enabled": true,
+      "icon": "minecraft:spyglass",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/trim_with_any_armor_pattern": {
+      "display_name": "Crafting a New Look",
+      "original_name": "Crafting a New Look",
+      "enabled": true,
+      "icon": "minecraft:dune_armor_trim_smithing_template",
+      "rewards": {
+        "attributes": {
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor_toughness": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "nether/uneasy_alliance": {
+      "display_name": "Uneasy Alliance",
+      "original_name": "Uneasy Alliance",
+      "enabled": true,
+      "icon": "minecraft:ghast_tear",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.09,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.05,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:critical_strike_bonus_damage": {
+            "amount": 0.1,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/kill_axolotl_target": {
+      "display_name": "The Healing Power of Friendship!",
+      "original_name": "The Healing Power of Friendship!",
+      "enabled": true,
+      "icon": "minecraft:tropical_fish_bucket",
+      "rewards": {
+        "attributes": {
+          "attributecore:incoming_healing": {
+            "amount": 0.08,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 6.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:max_health_percent": {
+            "amount": 0.05,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/throw_trident": {
+      "display_name": "A Throwaway Joke",
+      "original_name": "A Throwaway Joke",
+      "enabled": true,
+      "icon": "minecraft:trident",
+      "rewards": {
+        "attributes": {
+          "attributecore:ranged_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:draw_speed": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/honey_block_slide": {
+      "display_name": "Sticky Situation",
+      "original_name": "Sticky Situation",
+      "enabled": true,
+      "icon": "minecraft:honey_block",
+      "rewards": {
+        "attributes": {
+          "attributecore:incoming_healing": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/ol_betsy": {
+      "display_name": "Ol\u0027 Betsy",
+      "original_name": "Ol\u0027 Betsy",
+      "enabled": true,
+      "icon": "minecraft:crossbow",
+      "rewards": {
+        "attributes": {
+          "attributecore:ranged_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:draw_speed": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "nether/netherite_armor": {
+      "display_name": "Cover Me in Debris",
+      "original_name": "Cover Me in Debris",
+      "enabled": true,
+      "icon": "minecraft:netherite_chestplate",
+      "rewards": {
+        "attributes": {
+          "minecraft:generic.max_health": {
+            "amount": 8.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor_toughness": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:reflect_damage": {
+            "amount": 0.1,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:max_health_percent": {
+            "amount": 0.08,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/breed_an_animal": {
+      "display_name": "The Parrots and the Bats",
+      "original_name": "The Parrots and the Bats",
+      "enabled": true,
+      "icon": "minecraft:wheat",
+      "rewards": {
+        "attributes": {
+          "attributecore:tamed_damage": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:tamed_speed": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/complete_catalogue": {
+      "display_name": "A Complete Catalogue",
+      "original_name": "A Complete Catalogue",
+      "enabled": true,
+      "icon": "minecraft:cod",
+      "rewards": {
+        "attributes": {
+          "attributecore:tamed_damage": {
+            "amount": 0.09,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:tamed_speed": {
+            "amount": 0.09,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:tamed_resistance": {
+            "amount": 0.09,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:incoming_healing": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "nether/distract_piglin": {
+      "display_name": "Oh Shiny",
+      "original_name": "Oh Shiny",
+      "enabled": true,
+      "icon": "minecraft:gold_ingot",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/very_very_frightening": {
+      "display_name": "Very Very Frightening",
+      "original_name": "Very Very Frightening",
+      "enabled": true,
+      "icon": "minecraft:trident",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "story/lava_bucket": {
+      "display_name": "Hot Stuff",
+      "original_name": "Hot Stuff",
+      "enabled": true,
+      "icon": "minecraft:lava_bucket",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.02,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/ride_a_boat_with_a_goat": {
+      "display_name": "Whatever Floats Your Goat!",
+      "original_name": "Whatever Floats Your Goat!",
+      "enabled": true,
+      "icon": "minecraft:oak_boat",
+      "rewards": {
+        "attributes": {
+          "minecraft:generic.movement_speed": {
+            "amount": 0.02,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:extra_jumps": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/lightning_rod_with_villager_no_fire": {
+      "display_name": "Surge Protector",
+      "original_name": "Surge Protector",
+      "enabled": true,
+      "icon": "minecraft:lightning_rod",
+      "rewards": {
+        "attributes": {
+          "attributecore:incoming_healing": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "nether/all_potions": {
+      "display_name": "A Furious Cocktail",
+      "original_name": "A Furious Cocktail",
+      "enabled": true,
+      "icon": "minecraft:milk_bucket",
+      "rewards": {
+        "attributes": {
+          "attributecore:incoming_healing": {
+            "amount": 0.08,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 6.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:max_health_percent": {
+            "amount": 0.05,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/tame_an_animal": {
+      "display_name": "Best Friends Forever",
+      "original_name": "Best Friends Forever",
+      "enabled": true,
+      "icon": "minecraft:lead",
+      "rewards": {
+        "attributes": {
+          "attributecore:tamed_damage": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:tamed_speed": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/craft_decorated_pot_using_only_sherds": {
+      "display_name": "Careful Restoration",
+      "original_name": "Careful Restoration",
+      "enabled": true,
+      "icon": "minecraft:decorated_pot",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/kill_mob_near_sculk_catalyst": {
+      "display_name": "It Spreads",
+      "original_name": "It Spreads",
+      "enabled": true,
+      "icon": "minecraft:sculk_catalyst",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/fall_from_world_height": {
+      "display_name": "Caves \u0026 Cliffs",
+      "original_name": "Caves \u0026 Cliffs",
+      "enabled": true,
+      "icon": "minecraft:water_bucket",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.07,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.04,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/sniper_duel": {
+      "display_name": "Sniper Duel",
+      "original_name": "Sniper Duel",
+      "enabled": true,
+      "icon": "minecraft:arrow",
+      "rewards": {
+        "attributes": {
+          "attributecore:ranged_damage_percent": {
+            "amount": 0.07,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:draw_speed": {
+            "amount": 0.07,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.movement_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "nether/get_wither_skull": {
+      "display_name": "Spooky Scary Skeleton",
+      "original_name": "Spooky Scary Skeleton",
+      "enabled": true,
+      "icon": "minecraft:wither_skeleton_skull",
+      "rewards": {
+        "attributes": {
+          "attributecore:critical_strike_chance": {
+            "amount": 0.01,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:critical_strike_bonus_damage": {
+            "amount": 0.12,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/bred_all_animals": {
+      "display_name": "Two by Two",
+      "original_name": "Two by Two",
+      "enabled": true,
+      "icon": "minecraft:golden_carrot",
+      "rewards": {
+        "attributes": {
+          "attributecore:tamed_damage": {
+            "amount": 0.09,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:tamed_speed": {
+            "amount": 0.09,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:tamed_resistance": {
+            "amount": 0.09,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:incoming_healing": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "story/upgrade_tools": {
+      "display_name": "Getting an Upgrade",
+      "original_name": "Getting an Upgrade",
+      "enabled": true,
+      "icon": "minecraft:stone_pickaxe",
+      "rewards": {
+        "attributes": {
+          "attributecore:experience_bonus": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.luck": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/walk_on_powder_snow_with_leather_boots": {
+      "display_name": "Light as a Rabbit",
+      "original_name": "Light as a Rabbit",
+      "enabled": true,
+      "icon": "minecraft:leather_boots",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/tactical_fishing": {
+      "display_name": "Tactical Fishing",
+      "original_name": "Tactical Fishing",
+      "enabled": true,
+      "icon": "minecraft:pufferfish_bucket",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.02,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/salvage_sherd": {
+      "display_name": "Respecting the Remnants",
+      "original_name": "Respecting the Remnants",
+      "enabled": true,
+      "icon": "minecraft:brush",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "story/cure_zombie_villager": {
+      "display_name": "Zombie Doctor",
+      "original_name": "Zombie Doctor",
+      "enabled": true,
+      "icon": "minecraft:golden_apple",
+      "rewards": {
+        "attributes": {
+          "attributecore:incoming_healing": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/feed_snifflet": {
+      "display_name": "Little Sniffs",
+      "original_name": "Little Sniffs",
+      "enabled": true,
+      "icon": "minecraft:torchflower_seeds",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.02,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "end/find_end_city": {
+      "display_name": "The City at the End of the Game",
+      "original_name": "The City at the End of the Game",
+      "enabled": true,
+      "icon": "minecraft:purpur_block",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.07,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.04,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "story/form_obsidian": {
+      "display_name": "Ice Bucket Challenge",
+      "original_name": "Ice Bucket Challenge",
+      "enabled": true,
+      "icon": "minecraft:obsidian",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.02,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "end/enter_end_gateway": {
+      "display_name": "Remote Getaway",
+      "original_name": "Remote Getaway",
+      "enabled": true,
+      "icon": "minecraft:ender_pearl",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.07,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.04,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "nether/loot_bastion": {
+      "display_name": "War Pigs",
+      "original_name": "War Pigs",
+      "enabled": true,
+      "icon": "minecraft:chest",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.07,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.04,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "end/respawn_dragon": {
+      "display_name": "The End... Again...",
+      "original_name": "The End... Again...",
+      "enabled": true,
+      "icon": "minecraft:end_crystal",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.1,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:critical_strike_bonus_damage": {
+            "amount": 0.15,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.05,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:critical_strike_chance": {
+            "amount": 0.015,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "end/elytra": {
+      "display_name": "Sky\u0027s the Limit",
+      "original_name": "Sky\u0027s the Limit",
+      "enabled": true,
+      "icon": "minecraft:elytra",
+      "rewards": {
+        "attributes": {
+          "minecraft:generic.movement_speed": {
+            "amount": 0.05,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:extra_jumps": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:evasion": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/avoid_vibration": {
+      "display_name": "Sneak 100",
+      "original_name": "Sneak 100",
+      "enabled": true,
+      "icon": "minecraft:sculk_sensor",
+      "rewards": {
+        "attributes": {
+          "attributecore:stealth": {
+            "amount": 0.07,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:evasion": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.movement_speed": {
+            "amount": 0.04,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "nether/return_to_sender": {
+      "display_name": "Return to Sender",
+      "original_name": "Return to Sender",
+      "enabled": true,
+      "icon": "minecraft:fire_charge",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.03,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/obtain_sniffer_egg": {
+      "display_name": "Smells Interesting",
+      "original_name": "Smells Interesting",
+      "enabled": true,
+      "icon": "minecraft:sniffer_egg",
+      "rewards": {
+        "attributes": {
+          "attributecore:tamed_damage": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:tamed_speed": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "story/follow_ender_eye": {
+      "display_name": "Eye Spy",
+      "original_name": "Eye Spy",
+      "enabled": true,
+      "icon": "minecraft:ender_eye",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.02,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/obtain_netherite_hoe": {
+      "display_name": "Serious Dedication",
+      "original_name": "Serious Dedication",
+      "enabled": true,
+      "icon": "minecraft:netherite_hoe",
+      "rewards": {
+        "attributes": {
+          "minecraft:generic.max_health": {
+            "amount": 8.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor_toughness": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:reflect_damage": {
+            "amount": 0.1,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:max_health_percent": {
+            "amount": 0.08,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/kill_a_mob": {
+      "display_name": "Monster Hunter",
+      "original_name": "Monster Hunter",
+      "enabled": true,
+      "icon": "minecraft:iron_sword",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:critical_strike_bonus_damage": {
+            "amount": 0.08,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/plant_any_sniffer_seed": {
+      "display_name": "Planting the Past",
+      "original_name": "Planting the Past",
+      "enabled": true,
+      "icon": "minecraft:pitcher_pod",
+      "rewards": {
+        "attributes": {
+          "attributecore:tamed_damage": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:tamed_speed": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/adventuring_time": {
+      "display_name": "Adventuring Time",
+      "original_name": "Adventuring Time",
+      "enabled": true,
+      "icon": "minecraft:diamond_boots",
+      "rewards": {
+        "attributes": {
+          "minecraft:generic.movement_speed": {
+            "amount": 0.06,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:extra_jumps": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:evasion": {
+            "amount": 0.04,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:stealth": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/plant_seed": {
+      "display_name": "A Seedy Place",
+      "original_name": "A Seedy Place",
+      "enabled": true,
+      "icon": "minecraft:wheat",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.02,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "nether/find_bastion": {
+      "display_name": "Those Were the Days",
+      "original_name": "Those Were the Days",
+      "enabled": true,
+      "icon": "minecraft:polished_blackstone_bricks",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.07,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.04,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/axolotl_in_a_bucket": {
+      "display_name": "The Cutest Predator",
+      "original_name": "The Cutest Predator",
+      "enabled": true,
+      "icon": "minecraft:axolotl_bucket",
+      "rewards": {
+        "attributes": {
+          "attributecore:tamed_damage": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:tamed_speed": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "nether/ride_strider_in_overworld_lava": {
+      "display_name": "Feels Like Home",
+      "original_name": "Feels Like Home",
+      "enabled": true,
+      "icon": "minecraft:warped_fungus_on_a_stick",
+      "rewards": {
+        "attributes": {
+          "minecraft:generic.movement_speed": {
+            "amount": 0.04,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:extra_jumps": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "nether/summon_wither": {
+      "display_name": "Withering Heights",
+      "original_name": "Withering Heights",
+      "enabled": true,
+      "icon": "minecraft:nether_star",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.1,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:critical_strike_bonus_damage": {
+            "amount": 0.15,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.05,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "attributecore:critical_strike_chance": {
+            "amount": 0.015,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/balanced_diet": {
+      "display_name": "A Balanced Diet",
+      "original_name": "A Balanced Diet",
+      "enabled": true,
+      "icon": "minecraft:apple",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.02,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "nether/fast_travel": {
+      "display_name": "Subspace Bubble",
+      "original_name": "Subspace Bubble",
+      "enabled": true,
+      "icon": "minecraft:map",
+      "rewards": {
+        "attributes": {
+          "minecraft:generic.movement_speed": {
+            "amount": 0.04,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "attributecore:extra_jumps": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "adventure/read_power_of_chiseled_bookshelf": {
+      "display_name": "The Power of Books",
+      "original_name": "The Power of Books",
+      "enabled": true,
+      "icon": "minecraft:chiseled_bookshelf",
+      "rewards": {
+        "attributes": {
+          "attributecore:experience_bonus": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.luck": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "nether/use_lodestone": {
+      "display_name": "Country Lode, Take Me Home",
+      "original_name": "Country Lode, Take Me Home",
+      "enabled": true,
+      "icon": "minecraft:lodestone",
+      "rewards": {
+        "attributes": {
+          "attributecore:experience_bonus": {
+            "amount": 0.05,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.luck": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 2.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "story/mine_diamond": {
+      "display_name": "Diamonds!",
+      "original_name": "Diamonds!",
+      "enabled": true,
+      "icon": "minecraft:diamond",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.03,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.02,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          }
+        }
+      }
+    },
+    "nether/find_fortress": {
+      "display_name": "A Terrible Fortress",
+      "original_name": "A Terrible Fortress",
+      "enabled": true,
+      "icon": "minecraft:nether_bricks",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.07,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.04,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "story/enter_the_end": {
+      "display_name": "The End?",
+      "original_name": "The End?",
+      "enabled": true,
+      "icon": "minecraft:end_stone",
+      "rewards": {
+        "attributes": {
+          "attributecore:melee_damage_percent": {
+            "amount": 0.07,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.attack_speed": {
+            "amount": 0.04,
+            "operation": "MULTIPLY_BASE",
+            "display": {
+              "mode": "PERCENT"
+            }
+          },
+          "minecraft:generic.max_health": {
+            "amount": 4.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          },
+          "minecraft:generic.armor": {
+            "amount": 1.0,
+            "operation": "ADDITION",
+            "display": {
+              "mode": "FLAT"
+            }
+          }
+        }
+      }
+    },
+    "husbandry/whole_pack": {
+      "display_name": "The Whole Pack",
+      "original_name": "The Whole Pack",
+      "icon": "minecraft:bone",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "husbandry/remove_wolf_armor": {
+      "display_name": "Shear Brilliance",
+      "original_name": "Shear Brilliance",
+      "icon": "minecraft:shears",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/overoverkill": {
+      "display_name": "Over-Overkill",
+      "original_name": "Over-Overkill",
+      "icon": "minecraft:mace",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/under_lock_and_key": {
+      "display_name": "Under Lock and Key",
+      "original_name": "Under Lock and Key",
+      "icon": "minecraft:trial_key",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/revaulting": {
+      "display_name": "Revaulting",
+      "original_name": "Revaulting",
+      "icon": "minecraft:ominous_trial_key",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "husbandry/repair_wolf_armor": {
+      "display_name": "Good as New",
+      "original_name": "Good as New",
+      "icon": "minecraft:wolf_armor",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/brush_armadillo": {
+      "display_name": "Isn\u0027t It Scute?",
+      "original_name": "Isn\u0027t It Scute?",
+      "icon": "minecraft:armadillo_scute",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/crafters_crafting_crafters": {
+      "display_name": "Crafters Crafting Crafters",
+      "original_name": "Crafters Crafting Crafters",
+      "icon": "minecraft:crafter",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/minecraft_trials_edition": {
+      "display_name": "Minecraft: Trial(s) Edition",
+      "original_name": "Minecraft: Trial(s) Edition",
+      "icon": "minecraft:chiseled_tuff",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/blowback": {
+      "display_name": "Blowback",
+      "original_name": "Blowback",
+      "icon": "minecraft:wind_charge",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/lighten_up": {
+      "display_name": "Lighten Up",
+      "original_name": "Lighten Up",
+      "icon": "minecraft:copper_bulb",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "adventure/who_needs_rockets": {
+      "display_name": "Who Needs Rockets?",
+      "original_name": "Who Needs Rockets?",
+      "icon": "minecraft:wind_charge",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+[display]
+	#Show your own title rendered above your head (only you see it)
+	showOwnTitle = true
+	#Show titles rendered above other players
+	showOtherTitles = true
+	#Allow other players to see your title (if false, nobody else will see it)
+	showMyTitleToOthers = true
+	#Show only unlocked titles in the Legendary Titles screen
+	showOnlyUnlockedTitles = false
+	#Show equipped titles in the player tab list
+	showTitlesInTab = true
+	#Show equipped titles in chat messages
+	showTitlesInChat = true
+	#Enable the Legendary Titles tab in Legendary Tabs integration
+	enableLegendaryTab = true

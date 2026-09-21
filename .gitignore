@@ -1,0 +1,11 @@
+.DS_Store
+**/*.bak
+server/mods/
+server/libraries/
+server/logs/
+server/world/
+server/worlds/
+server/crash-reports/
+server/dynamic-data-pack-cache/
+*.log
+hs_err_*.log

@@ -1,0 +1,30 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = title_screen
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1789736682000
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+menu_background {
+  image_path = [source:local]/config/fancymenu/assets/worlds_further_title.png
+  slide = false
+  repeat_texture = false
+  parallax = true
+  parallax_intensity_x = 0.015
+  parallax_intensity_y = 0.015
+  invert_parallax = false
+  restart_animated_on_menu_load = false
+  instance_identifier = worlds_further_title_bg
+  background_type = image
+}

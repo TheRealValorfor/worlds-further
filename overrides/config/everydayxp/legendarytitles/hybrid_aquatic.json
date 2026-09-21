@@ -1,0 +1,295 @@
+{
+  "enabled": true,
+  "mod_name": "Hybrid Aquatic",
+  "mod_id": "hybrid_aquatic",
+  "achievements": {
+    "ominous_conch": {
+      "display_name": "If You Listen Closely..",
+      "original_name": "If You Listen Closely..",
+      "icon": "hybrid_aquatic:ominous_conch",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "argonaut": {
+      "display_name": "This Boat Has Fins",
+      "original_name": "This Boat Has Fins",
+      "icon": "hybrid_aquatic:argonaut",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "crab_claw": {
+      "display_name": "Clawesome",
+      "original_name": "Clawesome",
+      "icon": "hybrid_aquatic:dungeness_crab_claw",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "glowstick": {
+      "display_name": "Better Than Torches!",
+      "original_name": "Better Than Torches!",
+      "icon": "hybrid_aquatic:glowstick",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "creeper_hook": {
+      "display_name": "An Explosive Catch",
+      "original_name": "An Explosive Catch",
+      "icon": "hybrid_aquatic:creepermagnet_hook",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "diving_weight": {
+      "display_name": "The Fast Way Down",
+      "original_name": "The Fast Way Down",
+      "icon": "hybrid_aquatic:diving_weight",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "seashell_tools": {
+      "display_name": "Shell Yeah!",
+      "original_name": "Shell Yeah!",
+      "icon": "hybrid_aquatic:seashell_spear",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "sulfur": {
+      "display_name": "Not Glowstone Dust",
+      "original_name": "Not Glowstone Dust",
+      "icon": "hybrid_aquatic:sulfur",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "bigger_boat": {
+      "display_name": "We\u0027re Gonna Need A Bigger Boat",
+      "original_name": "We\u0027re Gonna Need A Bigger Boat",
+      "icon": "hybrid_aquatic:shark_tooth",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "pearl": {
+      "display_name": "Pearly Whites",
+      "original_name": "Pearly Whites",
+      "icon": "hybrid_aquatic:pearl",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "glowing_diving_suit": {
+      "display_name": "The Light In The Abyss",
+      "original_name": "The Light In The Abyss",
+      "icon": "hybrid_aquatic:glowing_diving_helmet",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "reinforced_diving_suit": {
+      "display_name": "Diving Deeper",
+      "original_name": "Diving Deeper",
+      "icon": "hybrid_aquatic:reinforced_diving_helmet",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "coral_tools": {
+      "display_name": "Who Needs Mending?",
+      "original_name": "Who Needs Mending?",
+      "icon": "hybrid_aquatic:coral_blade",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "trident": {
+      "display_name": "Poseidon Quivers Before Him!",
+      "original_name": "Poseidon Quivers Before Him!",
+      "icon": "minecraft:trident",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "diving_suit": {
+      "display_name": "Diving In",
+      "original_name": "Diving In",
+      "icon": "hybrid_aquatic:diving_helmet",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "shell_beast": {
+      "display_name": "Shell-Shocked",
+      "original_name": "Shell-Shocked",
+      "icon": "hybrid_aquatic:comically_large_nautilus_shell",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "turtle_scute": {
+      "display_name": "They Grow Up So Fast!",
+      "original_name": "They Grow Up So Fast!",
+      "icon": "minecraft:turtle_scute",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "turtle_set": {
+      "display_name": "Cowabunga!",
+      "original_name": "Cowabunga!",
+      "icon": "hybrid_aquatic:turtle_chestplate",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "black_pearl": {
+      "display_name": "The Black Pearl",
+      "original_name": "The Black Pearl",
+      "icon": "hybrid_aquatic:black_pearl",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "hook": {
+      "display_name": "Hooked!",
+      "original_name": "Hooked!",
+      "icon": "hybrid_aquatic:barbed_hook",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "get_clam": {
+      "display_name": "Happy As A Clam",
+      "original_name": "Happy As A Clam",
+      "icon": "hybrid_aquatic:clam",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "diving_upgrade": {
+      "display_name": "Beachcombing",
+      "original_name": "Beachcombing",
+      "icon": "hybrid_aquatic:diving_armor_upgrade_template",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "depth_charge": {
+      "display_name": "Mining Fatigue?",
+      "original_name": "Mining Fatigue?",
+      "icon": "hybrid_aquatic:depth_charge",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "nautilus_shell": {
+      "display_name": "Someone Used To Live Here",
+      "original_name": "Someone Used To Live Here",
+      "icon": "minecraft:nautilus_shell",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "root": {
+      "display_name": "Hybrid Aquatic",
+      "original_name": "Hybrid Aquatic",
+      "icon": "hybrid_aquatic:tuna",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "conduit": {
+      "display_name": "Better Than Gills",
+      "original_name": "Better Than Gills",
+      "icon": "minecraft:conduit",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "coral_chunk": {
+      "display_name": "That\u0027s Not A Sheep",
+      "original_name": "That\u0027s Not A Sheep",
+      "icon": "hybrid_aquatic:coral_chunk",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "plant_clam": {
+      "display_name": "Shell Corporation",
+      "original_name": "Shell Corporation",
+      "icon": "hybrid_aquatic:cooked_clam",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "kill_karkinos": {
+      "display_name": "A Herculean Task",
+      "original_name": "A Herculean Task",
+      "icon": "hybrid_aquatic:karkinos_claw",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "kill_sirenian": {
+      "display_name": "Sea Cow Tipper",
+      "original_name": "Sea Cow Tipper",
+      "icon": "hybrid_aquatic:sirenian_steak",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "ominous_hook": {
+      "display_name": "Hook, Line, and Pincher",
+      "original_name": "Hook, Line, and Pincher",
+      "icon": "hybrid_aquatic:ominous_hook",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "buoy": {
+      "display_name": "Oh Buoy!",
+      "original_name": "Oh Buoy!",
+      "icon": "hybrid_aquatic:buoy",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

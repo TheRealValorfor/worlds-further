@@ -1,0 +1,79 @@
+{
+  "enabled": true,
+  "mod_name": "Barnyard Buddies",
+  "mod_id": "barnyardbuddies",
+  "achievements": {
+    "mister_ed": {
+      "display_name": "Mister Ed",
+      "original_name": "Mister Ed",
+      "icon": "minecraft:carrot",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "comfy_blanket": {
+      "display_name": "Comfy Blanket",
+      "original_name": "Comfy Blanket",
+      "icon": "barnyardbuddies:fancy_quilt_rug",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "feather_foots": {
+      "display_name": "Feather Foot Fleet",
+      "original_name": "Feather Foot Fleet",
+      "icon": "barnyardbuddies:cochin_bantam_chicken_egg",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "shear_force": {
+      "display_name": "Shear Force",
+      "original_name": "Shear Force",
+      "icon": "barnyardbuddies:spotted_wool",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "eat_my_dust_dingo": {
+      "display_name": "Eat My Dust Dingo",
+      "original_name": "Eat My Dust Dingo",
+      "icon": "barnyardbuddies:horseshoe",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "welcome_to_barnyard_buddies": {
+      "display_name": "Welcome To Barnyard Buddies!!!",
+      "original_name": "Welcome To Barnyard Buddies!!!",
+      "icon": "barnyardbuddies:barnyard_buddies_icon",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "a_good_scratch": {
+      "display_name": "A Good Scratch",
+      "original_name": "A Good Scratch",
+      "icon": "barnyardbuddies:enrichment_brush",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "silky_soft": {
+      "display_name": "Silky Soft",
+      "original_name": "Silky Soft",
+      "icon": "barnyardbuddies:silkie_armor_helmet",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

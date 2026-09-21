@@ -1,0 +1,881 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "adventure_awaits"
+	group: "0F70271E1C7A3EBB"
+	id: "6AAF717710A65E3D"
+	images: [
+		{
+			height: 1.0d
+			id: "2E174859AA695A3D"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 15.6d
+			x: 3.1d
+			y: -2.1d
+		}
+		{
+			height: 1.0d
+			id: "011ABE548A76EF9D"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 15.6d
+			x: 4.2d
+			y: 5.2d
+		}
+		{
+			height: 1.0d
+			id: "11EFF2E097B016A7"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 15.6d
+			x: 2.1d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			id: "56B6BDCCF6D29697"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 15.6d
+			x: 3.1d
+			y: 21.8d
+		}
+		{
+			height: 1.0d
+			id: "4FD275030BF9F74D"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 15.6d
+			x: 5.2d
+			y: 29.1d
+		}
+		{
+			height: 1.0d
+			id: "3D737FC587E01E8A"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 15.6d
+			x: 2.1d
+			y: 38.5d
+		}
+		{
+			height: 1.0d
+			id: "77AA139C8CEA796B"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 15.6d
+			x: 2.1d
+			y: 43.7d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "60EB0E7792B4F816"
+			rewards: [{
+				count: 2
+				id: "57CC5E737BE173B1"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E29CBFDDB484005"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "47007D2D2B4CB8E5"
+			rewards: [{
+				count: 4
+				id: "36DCB97727E19FB4"
+				item: {
+					count: 1
+					id: "minecraft:leather"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E47366A23B58C81"
+				type: "checkmark"
+			}]
+			x: 2.1d
+			y: 0.0d
+		}
+		{
+			id: "01F0E71D96281D03"
+			rewards: [{
+				count: 2
+				id: "0821A7402AF69A53"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "38A271E104B6FA41"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.1d
+		}
+		{
+			dependencies: ["60EB0E7792B4F816"]
+			id: "721CA876937F0D17"
+			rewards: [{
+				id: "0AAC0351BB14542F"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D68634FB938A648"
+				type: "checkmark"
+			}]
+			x: 2.1d
+			y: 2.1d
+		}
+		{
+			id: "2CD3F52185B540D9"
+			tasks: [{
+				id: "64E7CBFF9A5AB772"
+				type: "checkmark"
+			}]
+			x: 4.2d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"47007D2D2B4CB8E5"
+				"01F0E71D96281D03"
+				"721CA876937F0D17"
+			]
+			id: "67479BCD3B9A548C"
+			rewards: [{
+				count: 3
+				id: "73963083A399E062"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			size: 1.8d
+			tasks: [{
+				id: "3C6302DDD65F9FEB"
+				type: "checkmark"
+			}]
+			x: 6.2d
+			y: 0.0d
+		}
+		{
+			id: "76A53A1CC1AD27C6"
+			rewards: [{
+				count: 2
+				id: "545F0E28AC19E025"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "423224FF3289D425"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.3d
+		}
+		{
+			dependencies: ["76A53A1CC1AD27C6"]
+			id: "3151312A26FC6322"
+			rewards: [{
+				count: 4
+				id: "3AFAA6C16ADCA869"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A77A728EFFAC494"
+				item: { count: 1, id: "waystones:warp_stone" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 7.3d
+		}
+		{
+			dependencies: ["3151312A26FC6322"]
+			id: "4320D50A666F26EC"
+			rewards: [{
+				count: 4
+				id: "32DAF6322AF44400"
+				item: {
+					count: 1
+					id: "minecraft:paper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "203BD691DFC1C96F"
+				item: { count: 1, id: "waystones:blank_scroll" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 7.3d
+		}
+		{
+			dependencies: ["4320D50A666F26EC"]
+			id: "1BC7649D3A5E10D1"
+			rewards: [{
+				count: 2
+				id: "171ED39DC984A3A3"
+				item: {
+					count: 1
+					id: "minecraft:paper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "75394B45BC92D597"
+				item: { count: 1, id: "waystones:warp_scroll" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 7.3d
+		}
+		{
+			dependencies: ["1BC7649D3A5E10D1"]
+			id: "56393B170458C645"
+			rewards: [{
+				id: "573EF383110AFAE7"
+				item: {
+					count: 1
+					id: "minecraft:compass"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0ECB784FCC8CBCEE"
+				item: { count: 1, id: "waystones:bound_scroll" }
+				type: "item"
+			}]
+			x: 8.3d
+			y: 7.3d
+		}
+		{
+			dependencies: ["4320D50A666F26EC"]
+			id: "29ED0AD5A9038CF0"
+			rewards: [{
+				count: 2
+				id: "07E8BB10AF211819"
+				item: {
+					count: 1
+					id: "minecraft:paper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60DA1B8297BBB6FC"
+				item: { count: 1, id: "waystones:return_scroll" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 9.4d
+		}
+		{
+			dependencies: ["76A53A1CC1AD27C6"]
+			id: "109CBFF3E79DC312"
+			rewards: [{
+				id: "2E828F2A75A55226"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "495852C372590197"
+				item: { count: 1, id: "waystones:white_portstone" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 9.4d
+		}
+		{
+			dependencies: ["109CBFF3E79DC312"]
+			id: "669E9F333EB29A2E"
+			rewards: [{
+				count: 2
+				id: "7DF60E635FDD8649"
+				item: {
+					count: 1
+					id: "minecraft:amethyst_shard"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1150589498668974"
+				item: { count: 1, id: "waystones:attuned_shard" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 9.4d
+		}
+		{
+			id: "241E1AC5AE1091B0"
+			rewards: [{
+				count: 4
+				id: "22356F71177B3F24"
+				item: {
+					count: 1
+					id: "minecraft:feather"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "48D3163BE3A78142"
+				item: { count: 1, id: "artifacts:bunny_hoppers" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.6d
+		}
+		{
+			dependencies: ["241E1AC5AE1091B0"]
+			id: "2281C70F48EB0BD7"
+			rewards: [{
+				count: 4
+				id: "1DDBE4313F195CBA"
+				item: {
+					count: 1
+					id: "minecraft:leather"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E6F28B72CF798D6"
+				item: { count: 1, id: "artifacts:running_shoes" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 14.6d
+		}
+		{
+			dependencies: ["2281C70F48EB0BD7"]
+			id: "386A31D1A0EE2B3A"
+			rewards: [{
+				id: "0BE91845C1E66478"
+				item: {
+					count: 1
+					id: "minecraft:water_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "373757422C256036"
+				item: { count: 1, id: "artifacts:aqua_dashers" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 14.6d
+		}
+		{
+			id: "435CB577C3A127B9"
+			rewards: [{
+				count: 4
+				id: "0610ADF3FA2FFB21"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "153159356D5EF6B7"
+				item: { count: 1, id: "artifacts:digging_claws" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.6d
+		}
+		{
+			dependencies: ["435CB577C3A127B9"]
+			id: "79E052414FAA0F01"
+			rewards: [{
+				count: 8
+				id: "237788F2302CF2CE"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "05B1D4D028A87E5B"
+				item: { count: 1, id: "artifacts:universal_attractor" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 16.6d
+		}
+		{
+			dependencies: ["79E052414FAA0F01"]
+			id: "7F4618BF4BD39229"
+			rewards: [{
+				count: 2
+				id: "5C7DE99E2233F5C1"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "51A2CE1336637A1B"
+				item: { count: 1, id: "artifacts:power_glove" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 16.6d
+		}
+		{
+			id: "17D548E236619270"
+			rewards: [{
+				id: "6556B2C0AD2500A4"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6CA7DA80C00CEF2A"
+				item: { count: 1, id: "artifacts:crystal_heart" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.7d
+		}
+		{
+			dependencies: ["17D548E236619270"]
+			id: "36BA3BCBCBC094F3"
+			rewards: [{
+				count: 4
+				id: "51AE382CE07BE9CE"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10446A4E301A3DA6"
+				item: { count: 1, id: "artifacts:obsidian_skull" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 18.7d
+		}
+		{
+			dependencies: ["36BA3BCBCBC094F3"]
+			id: "3BD002C96D1BB46D"
+			rewards: [{
+				count: 2
+				id: "57B4E29A40FC791D"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5529E93C4303DB58"
+				item: { count: 1, id: "artifacts:vampiric_glove" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 18.7d
+		}
+		{
+			id: "62E478AC0A816B32"
+			rewards: [{
+				count: 4
+				id: "2A05AF00C3112B03"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "095DA73204E2F319"
+				item: { count: 1, id: "minecraft:shield" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 23.9d
+		}
+		{
+			dependencies: ["62E478AC0A816B32"]
+			id: "6ABE430BBDBEE324"
+			rewards: [{
+				count: 8
+				id: "56B2EA8513987CFF"
+				item: {
+					count: 1
+					id: "minecraft:arrow"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FF30A0096E4E262"
+				item: { count: 1, id: "minecraft:crossbow" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 23.9d
+		}
+		{
+			id: "1D6B39B60A4401CD"
+			rewards: [{
+				count: 8
+				id: "2BC943DFC04ED25E"
+				item: {
+					count: 1
+					id: "minecraft:snowball"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "1E9922B1D2794835"
+					item: { count: 1, id: "minecraft:snow_block" }
+					type: "item"
+				}
+				{
+					id: "4F86FFBA2E4532FF"
+					item: { count: 1, id: "minecraft:carved_pumpkin" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["62E478AC0A816B32"]
+			id: "0581A3A5D5778DF1"
+			rewards: [{
+				id: "5CF2EA7583476BDE"
+				item: {
+					count: 1
+					id: "minecraft:iron_block"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "5E31B17E9F58D9D1"
+					item: { count: 1, id: "minecraft:iron_block" }
+					type: "item"
+				}
+				{
+					id: "2243F742EA2AD992"
+					item: { count: 1, id: "minecraft:carved_pumpkin" }
+					type: "item"
+				}
+			]
+			x: 2.1d
+			y: 26.0d
+		}
+		{
+			dependencies: ["0581A3A5D5778DF1"]
+			id: "1388924766753EC3"
+			rewards: [{
+				count: 4
+				id: "667382C4601A600D"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C30DE463F859EF1"
+				type: "checkmark"
+			}]
+			x: 4.2d
+			y: 26.0d
+		}
+		{
+			dependencies: [
+				"1388924766753EC3"
+				"6ABE430BBDBEE324"
+			]
+			id: "012CD2FD2AB2B751"
+			rewards: [{
+				id: "5BD14DB8AE0F7B91"
+				item: {
+					count: 1
+					id: "minecraft:totem_of_undying"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "friendsandfoes:illusioner"
+				id: "35F4D957D6E105E6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.2d
+			y: 23.9d
+		}
+		{
+			id: "77500B705F8739E8"
+			rewards: [{
+				count: 2
+				id: "4A5196F76FBD8084"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F5E6F72A01E045B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 33.3d
+		}
+		{
+			dependencies: ["77500B705F8739E8"]
+			id: "7FFA37B4BD4EF64A"
+			tasks: [{
+				id: "4EE67B14AD803EE3"
+				type: "checkmark"
+			}]
+			x: 2.1d
+			y: 31.2d
+		}
+		{
+			dependencies: ["77500B705F8739E8"]
+			id: "77107989A7A65095"
+			tasks: [{
+				id: "58BDFB00969636AC"
+				type: "checkmark"
+			}]
+			x: 2.1d
+			y: 35.4d
+		}
+		{
+			dependencies: ["7FFA37B4BD4EF64A"]
+			id: "26006FF7FA5D40ED"
+			rewards: [{
+				count: 2
+				id: "0CFDF86E8E9B60E5"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D09F38F7EA24A9F"
+				type: "checkmark"
+			}]
+			x: 4.2d
+			y: 31.2d
+		}
+		{
+			dependencies: ["26006FF7FA5D40ED"]
+			id: "6A0B9AF777CAACA8"
+			rewards: [{
+				id: "7CF27114A98AEC75"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0676AD0537527E77"
+				type: "checkmark"
+			}]
+			x: 6.2d
+			y: 31.2d
+		}
+		{
+			dependencies: ["6A0B9AF777CAACA8"]
+			id: "0B026D8E657D3647"
+			tasks: [{
+				id: "1DF0ACF512A1A199"
+				type: "checkmark"
+			}]
+			x: 8.3d
+			y: 31.2d
+		}
+		{
+			dependencies: ["0B026D8E657D3647"]
+			id: "3DA639AE71E03C87"
+			rewards: [{
+				count: 4
+				id: "6BA1311D91A76A61"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "4EFC0608257D1444"
+				type: "checkmark"
+			}]
+			x: 10.4d
+			y: 31.2d
+		}
+		{
+			id: "49A6DD5C164206AB"
+			rewards: [{
+				count: 2
+				id: "037C100E2D24066F"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "686DADBAB095ED0A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 40.6d
+		}
+		{
+			dependencies: ["49A6DD5C164206AB"]
+			id: "7B0B80702A405BEE"
+			rewards: [{
+				count: 4
+				id: "41E412B17D351320"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B6F680991116DBF"
+				type: "checkmark"
+			}]
+			x: 2.1d
+			y: 40.6d
+		}
+		{
+			dependencies: ["7B0B80702A405BEE"]
+			id: "4D40EF878BBC46BA"
+			rewards: [{
+				count: 4
+				id: "166CC4064E4F62FB"
+				item: {
+					count: 1
+					id: "minecraft:raw_gold"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44CE11BFFE7B3801"
+				type: "checkmark"
+			}]
+			x: 4.2d
+			y: 40.6d
+		}
+		{
+			id: "1174C90FB254AB0E"
+			tasks: [{
+				id: "3DD0B94D623EAF6B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 45.8d
+		}
+		{
+			id: "6EA3A15B80899F6F"
+			rewards: [{
+				count: 4
+				id: "5F3ED24B63D5BE91"
+				item: {
+					count: 1
+					id: "minecraft:white_wool"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35B17F54CFCE0495"
+				item: { count: 1, id: "comforts:sleeping_bag_white" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 2.1d
+		}
+		{
+			id: "5A35A88F41A5670E"
+			rewards: [{
+				count: 2
+				id: "72665625533FD974"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20BEF98962DF39AF"
+				type: "checkmark"
+			}]
+			x: 2.1d
+			y: 45.8d
+		}
+		{
+			id: "37644AB6680A9E76"
+			rewards: [{
+				id: "3C0CD91A59F81517"
+				item: {
+					count: 1
+					id: "minecraft:lead"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "460122B4A7D0675A"
+				item: { count: 1, id: "naturalist:capture_net" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 45.8d
+		}
+	]
+}

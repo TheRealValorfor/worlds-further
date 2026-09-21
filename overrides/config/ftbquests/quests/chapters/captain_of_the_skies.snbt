@@ -1,0 +1,279 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "captain_of_the_skies"
+	group: "04F7CA77BA72F6BE"
+	id: "59A0B23C08254F70"
+	images: [{
+		height: 1.0d
+		id: "57E5F0F65E62A2B3"
+		image: ""
+		rotation: 0.0d
+		text_on_image: 1b
+		width: 19.2d
+		x: 8.3d
+		y: -2.1d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0CFEE6E50F5045F2"]
+			id: "10227DEAF3E86FED"
+			rewards: [{
+				count: 8
+				id: "1522F72C67459950"
+				item: {
+					count: 1
+					id: "minecraft:paper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DF5B4ED27459496"
+				item: { count: 1, id: "simulated:navigation_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.1d
+		}
+		{
+			dependencies: ["10227DEAF3E86FED"]
+			id: "532021AD9C833B7D"
+			rewards: [{
+				count: 4
+				id: "6F9C17918E59C97A"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "199A78CC7EBD2DA0"
+				item: { count: 1, id: "simulated:docking_connector" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 2.1d
+		}
+		{
+			dependencies: ["532021AD9C833B7D"]
+			id: "05F99A41194E6670"
+			tasks: [{
+				id: "7A89854B19507034"
+				item: { count: 1, id: "create_aeronautics_automated_logistics:airship_station" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 2.1d
+		}
+		{
+			dependencies: ["05F99A41194E6670"]
+			id: "48BC2F61D5F30E86"
+			rewards: [{
+				count: 6
+				id: "3C0379A083CF2525"
+				item: {
+					count: 1
+					id: "minecraft:copper_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "00C26D78FE709AC9"
+				item: { count: 1, id: "create_aeronautics_automated_logistics:logistics_terminal" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48BC2F61D5F30E86"]
+			id: "18247BA88A421E64"
+			rewards: [{
+				count: 4
+				id: "4B7FE096B5B9C48A"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "094EA3FAD2887C95"
+				item: { count: 1, id: "create_aeronautics_automated_logistics:ship_transponder" }
+				type: "item"
+			}]
+			x: 8.3d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05F99A41194E6670"]
+			id: "0C08DB6B16857AD8"
+			tasks: [{
+				id: "58A4A45C998840D5"
+				item: { count: 1, id: "create_aeronautics_automated_logistics:train_station" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 4.2d
+		}
+		{
+			dependencies: [
+				"18247BA88A421E64"
+				"0C08DB6B16857AD8"
+			]
+			id: "6533470813FD8216"
+			rewards: [{
+				count: 4
+				id: "059745A6C6F15FC6"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5DC35879A293392E"
+				item: { count: 1, id: "create_aeronautics_ftb_chunks:contraption_claim_block" }
+				type: "item"
+			}]
+			x: 10.4d
+			y: 2.1d
+		}
+		{
+			dependencies: ["6533470813FD8216"]
+			id: "724C4BEF52CA7932"
+			rewards: [{
+				count: 2
+				id: "1D2D4152C60B816B"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				advancement: "simulated:can_we_get_much_higher"
+				criterion: ""
+				id: "6D155C27862BCC53"
+				type: "advancement"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6533470813FD8216"]
+			id: "59DAE02DBBD77B0F"
+			tasks: [{
+				id: "413A418C5BD96CA1"
+				item: { count: 1, id: "hostile_skies:captains_orders" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.2d
+		}
+		{
+			dependencies: ["724C4BEF52CA7932"]
+			id: "3F8AF9E865241EF7"
+			rewards: [{
+				id: "08894CAB60CF5246"
+				item: {
+					count: 1
+					id: "minecraft:emerald_block"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				advancement: "simulated:i_declare_thee"
+				criterion: ""
+				id: "41E8D9A8F82C5B18"
+				type: "advancement"
+			}]
+			x: 14.6d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3F8AF9E865241EF7"
+				"59DAE02DBBD77B0F"
+				"44932003DD519EF5"
+				"3C3A6E84EC040DED"
+			]
+			id: "6B4B69432896C0D0"
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "01058A23F6995A77"
+				type: "checkmark"
+			}]
+			x: 16.6d
+			y: 2.1d
+		}
+		{
+			dependencies: ["10227DEAF3E86FED"]
+			id: "3C3A6E84EC040DED"
+			rewards: [{
+				count: 8
+				id: "383286F2B4C9DBF9"
+				item: {
+					count: 1
+					id: "minecraft:glass"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B055C83D9762CC8"
+				item: { count: 1, id: "simulated:optical_sensor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05F99A41194E6670"]
+			id: "0992760A4AD186B4"
+			rewards: [{
+				count: 4
+				id: "75CFE685A2BB877F"
+				item: {
+					count: 1
+					id: "minecraft:white_wool"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "345FAC0ADF1484A0"
+				item: { count: 1, id: "create:white_seat" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 4.2d
+		}
+		{
+			dependencies: ["6533470813FD8216"]
+			id: "44932003DD519EF5"
+			rewards: [{
+				count: 6
+				id: "5384AAC52A8770E0"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ED916A1C7921F95"
+				item: { count: 1, id: "simulated:gyroscopic_mechanism" }
+				type: "item"
+			}]
+			x: 14.6d
+			y: 4.2d
+		}
+	]
+}

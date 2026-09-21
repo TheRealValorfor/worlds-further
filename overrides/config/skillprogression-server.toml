@@ -1,0 +1,239 @@
+[leveling]
+	#XP needed for level 1 -> 2 before growth is applied.
+	# Default: 100
+	# Range: 1 ~ 1000000
+	baseXp = 100
+	#Progressive XP curve multiplier. Needed XP = baseXp * level ^ growth.
+	# Default: 1.55
+	# Range: 1.0 ~ 5.0
+	xpGrowth = 1.55
+
+	[skills.woodcutting]
+		enabled = true
+		# Default: 10
+		# Range: 0 ~ 1000000
+		xpReward = 10
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.004
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.004
+
+	[skills.mining]
+		enabled = true
+		# Default: 10
+		# Range: 0 ~ 1000000
+		xpReward = 10
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.004
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.004
+
+	[skills.farming]
+		enabled = true
+		# Default: 10
+		# Range: 0 ~ 1000000
+		xpReward = 10
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.005
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.005
+
+	[skills.fishing]
+		enabled = true
+		# Default: 25
+		# Range: 0 ~ 1000000
+		xpReward = 25
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.005
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.005
+
+	[skills.hunting]
+		enabled = true
+		# Default: 35
+		# Range: 0 ~ 1000000
+		xpReward = 35
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.005
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.005
+
+	[skills.combat]
+		enabled = true
+		# Default: 6
+		# Range: 0 ~ 1000000
+		xpReward = 6
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.003
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.003
+
+	[skills.excavation]
+		enabled = true
+		# Default: 10
+		# Range: 0 ~ 1000000
+		xpReward = 10
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.004
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.004
+
+	[skills.foraging]
+		enabled = true
+		# Default: 10
+		# Range: 0 ~ 1000000
+		xpReward = 10
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.005
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.005
+
+	[skills.animal_husbandry]
+		enabled = true
+		# Default: 25
+		# Range: 0 ~ 1000000
+		xpReward = 25
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.005
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.005
+
+	[skills.taming]
+		enabled = true
+		# Default: 35
+		# Range: 0 ~ 1000000
+		xpReward = 35
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.005
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.005
+
+	[skills.cooking]
+		enabled = true
+		# Default: 25
+		# Range: 0 ~ 1000000
+		xpReward = 25
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.005
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.005
+
+	[skills.smithing]
+		enabled = true
+		# Default: 25
+		# Range: 0 ~ 1000000
+		xpReward = 25
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.005
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.005
+
+	[skills.alchemy]
+		enabled = true
+		# Default: 35
+		# Range: 0 ~ 1000000
+		xpReward = 35
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.005
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.005
+
+	[skills.exploration]
+		enabled = true
+		# Default: 20
+		# Range: 0 ~ 1000000
+		xpReward = 20
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.001
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.001
+
+	[skills.enchanting]
+		enabled = true
+		# Default: 35
+		# Range: 0 ~ 1000000
+		xpReward = 35
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.005
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.005
+
+	[skills.building]
+		enabled = true
+		# Default: 10
+		# Range: 0 ~ 1000000
+		xpReward = 10
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.001
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.001
+
+	[skills.agility]
+		enabled = true
+		# Default: 8
+		# Range: 0 ~ 1000000
+		xpReward = 8
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.005
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.005
+
+	[skills.archery]
+		enabled = true
+		# Default: 25
+		# Range: 0 ~ 1000000
+		xpReward = 25
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.005
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.005
+
+	[skills.beekeeping]
+		enabled = true
+		# Default: 25
+		# Range: 0 ~ 1000000
+		xpReward = 25
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.005
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.005
+
+	[skills.trading]
+		enabled = true
+		# Default: 25
+		# Range: 0 ~ 1000000
+		xpReward = 25
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.005
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.005
+
+	[skills.sailing]
+		enabled = true
+		# Default: 8
+		# Range: 0 ~ 1000000
+		xpReward = 8
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.005
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.005
+
+	[skills.survival]
+		enabled = true
+		# Default: 35
+		# Range: 0 ~ 1000000
+		xpReward = 35
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.001
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.001
+
+	[skills.gourmet]
+		enabled = true
+		# Default: 25
+		# Range: 0 ~ 1000000
+		xpReward = 25
+		#Per-level bonus scale. Effects interpret this as chance/speed/damage as appropriate.
+		# Default: 0.00152
+		# Range: 0.0 ~ 10.0
+		bonusPerLevel = 0.00152

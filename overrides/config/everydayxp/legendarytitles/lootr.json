@@ -1,0 +1,142 @@
+{
+  "enabled": true,
+  "mod_name": "Lootr",
+  "mod_id": "lootr",
+  "achievements": {
+    "1cart": {
+      "display_name": "Tunnel Treasures",
+      "original_name": "Tunnel Treasures",
+      "icon": "minecraft:chest_minecart",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "50loot": {
+      "display_name": "Half-Century",
+      "original_name": "Half-Century",
+      "icon": "minecraft:diamond_block",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "1barrel": {
+      "display_name": "Barrel Booty",
+      "original_name": "Barrel Booty",
+      "icon": "lootr:lootr_barrel",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "pot_opened": {
+      "display_name": "Woe to the Pot",
+      "original_name": "Woe to the Pot",
+      "icon": "lootr:decorated_pot",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "archaeologist": {
+      "display_name": "That Was 90% Gravity",
+      "original_name": "That Was 90% Gravity",
+      "icon": "minecraft:brush",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "100loot": {
+      "display_name": "Centennial",
+      "original_name": "Centennial",
+      "icon": "minecraft:netherite_block",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "all_gravel": {
+      "display_name": "Brush It Off",
+      "original_name": "Brush It Off",
+      "icon": "lootr:suspicious_gravel",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "emergency_escape_hatch": {
+      "display_name": "Emergency Escape Hatch!",
+      "original_name": "Emergency Escape Hatch!",
+      "icon": "minecraft:iron_trapdoor",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "1shulker": {
+      "display_name": "Bounty Box",
+      "original_name": "Bounty Box",
+      "icon": "lootr:lootr_shulker",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "social": {
+      "display_name": "Socialised Loot",
+      "original_name": "Socialised Loot",
+      "icon": "minecraft:enchanted_golden_apple",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "25loot": {
+      "display_name": "Close Quarters",
+      "original_name": "Close Quarters",
+      "icon": "minecraft:emerald_block",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "1chest": {
+      "display_name": "\u0027X\u0027 Marks the Spot",
+      "original_name": "\u0027X\u0027 Marks the Spot",
+      "icon": "lootr:lootr_chest",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "1frame": {
+      "display_name": "I was framed!",
+      "original_name": "I was framed!",
+      "icon": "minecraft:item_frame",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "trapped_chest": {
+      "display_name": "Surprise!",
+      "original_name": "Surprise!",
+      "icon": "minecraft:tnt",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "10loot": {
+      "display_name": "Delightful Decade",
+      "original_name": "Delightful Decade",
+      "icon": "minecraft:gold_block",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

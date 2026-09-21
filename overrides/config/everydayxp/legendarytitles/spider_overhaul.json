@@ -1,0 +1,43 @@
+{
+  "enabled": true,
+  "mod_name": "Spider Overhaul",
+  "mod_id": "spider_overhaul",
+  "achievements": {
+    "kill_mod_spider": {
+      "display_name": "Very Spider, much Overhaul",
+      "original_name": "Very Spider, much Overhaul",
+      "icon": "minecraft:spider_eye",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "use_spider_pollen": {
+      "display_name": "Watch me grow",
+      "original_name": "Watch me grow",
+      "icon": "spider_overhaul:bottle_of_spider_pollen",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "break_webbed": {
+      "display_name": "Mrmph-mhehph!!",
+      "original_name": "Mrmph-mhehph!!",
+      "icon": "minecraft:cobweb",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    },
+    "kill_all_spiders": {
+      "display_name": "Charlotte\u0027s dead",
+      "original_name": "Charlotte\u0027s dead",
+      "icon": "minecraft:iron_sword",
+      "enabled": true,
+      "rewards": {
+        "attributes": {}
+      }
+    }
+  }
+}

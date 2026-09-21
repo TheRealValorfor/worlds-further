@@ -1,0 +1,4 @@
+#Server config
+[ServerConfig]
+	#A list of mob ids to ignore from creating corpse in case it is causing a bug
+	ignoredEntityIds = ["minecraft:"]

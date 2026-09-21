@@ -1,0 +1,1145 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "bounty_board"
+	group: "78484AB453202A67"
+	id: "3016B797A324DBC4"
+	images: [
+		{
+			height: 1.0d
+			id: "103A2838A5946715"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 17.2d
+			x: 4.2d
+			y: -2.1d
+		}
+		{
+			height: 1.0d
+			id: "27239D19C8B73883"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 17.2d
+			x: 7.3d
+			y: 11.4d
+		}
+		{
+			height: 1.0d
+			id: "59283E8DB2FD4450"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 17.2d
+			x: 2.1d
+			y: 16.6d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0EEDD36A579D7DFC"
+			rewards: [{
+				count: 4
+				id: "48425DB3AF1EEFA6"
+				item: {
+					count: 1
+					id: "minecraft:gunpowder"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "6119B14BFA05740C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EEDD36A579D7DFC"]
+			id: "1119FA0C88831E5B"
+			rewards: [{
+				count: 4
+				id: "6069D84D9A9C2667"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "2D41F5FDBBF6B293"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.1d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1119FA0C88831E5B"]
+			id: "7C9A4B6AE7888EDD"
+			rewards: [
+				{
+					count: 2
+					id: "67A563AAA61038F7"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "33386FBF50B7514D"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:blast_protection": 2
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "3F3B70C8967104E5"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C9A4B6AE7888EDD"]
+			id: "36F5CB860144F969"
+			rewards: [
+				{
+					id: "153252439F22B3E0"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+				{
+					id: "2A703A2C7955B978"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:blast_protection": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "74C1E75D93409D7B"
+				type: "kill"
+				value: 100L
+			}]
+			x: 6.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36F5CB860144F969"]
+			id: "1D6A93934B06759F"
+			rewards: [
+				{
+					count: 2
+					id: "11326F9C244FF334"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "49DCEE6696FB9E57"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:blast_protection": 4
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "54BBF8A0F12E5E99"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 8.3d
+			y: 0.0d
+		}
+		{
+			id: "1ADB2340453DF3E1"
+			rewards: [{
+				count: 4
+				id: "7CCBED3D6CC8023D"
+				item: {
+					count: 1
+					id: "minecraft:rotten_flesh"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "6ACDA763EA8153E7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 2.1d
+		}
+		{
+			dependencies: ["1ADB2340453DF3E1"]
+			id: "2DE9108DA6CF3C62"
+			rewards: [{
+				count: 4
+				id: "3B3201970426565A"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "2DE593429F29965B"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.1d
+			y: 2.1d
+		}
+		{
+			dependencies: ["2DE9108DA6CF3C62"]
+			id: "4726EFBF134D3E6F"
+			rewards: [
+				{
+					count: 2
+					id: "55B300E03D50DEC1"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "5BDAD31C72FF4782"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:smite": 2
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "0053F7C68246B473"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.2d
+			y: 2.1d
+		}
+		{
+			dependencies: ["4726EFBF134D3E6F"]
+			id: "2B78599E234DB4B3"
+			rewards: [
+				{
+					id: "233D74622BECEB41"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+				{
+					id: "55A803A608A3EDF6"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:smite": 4
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "1A3F25A914CAC41C"
+				type: "kill"
+				value: 100L
+			}]
+			x: 6.2d
+			y: 2.1d
+		}
+		{
+			dependencies: ["2B78599E234DB4B3"]
+			id: "29D34516DDF15C7A"
+			rewards: [
+				{
+					count: 2
+					id: "065C395972E6D122"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "771BDF2EA5B87C09"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:smite": 5
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "13D854FB7A7A5231"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 8.3d
+			y: 2.1d
+		}
+		{
+			id: "4327CA00F11CED91"
+			rewards: [{
+				count: 4
+				id: "58DDABBB97705E4D"
+				item: {
+					count: 1
+					id: "minecraft:bone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "4B38063D001515D7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 4.2d
+		}
+		{
+			dependencies: ["4327CA00F11CED91"]
+			id: "7A24529FE101C582"
+			rewards: [{
+				count: 4
+				id: "7A0B3CFD450C998B"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "405DADD7D8424E6B"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.1d
+			y: 4.2d
+		}
+		{
+			dependencies: ["7A24529FE101C582"]
+			id: "72390F9034B93F74"
+			rewards: [
+				{
+					count: 2
+					id: "7AC1ACEB393DA0A7"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "126A48FD2F2DF52E"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:protection": 2
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "2D680EC9F36B8419"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.2d
+			y: 4.2d
+		}
+		{
+			dependencies: ["72390F9034B93F74"]
+			id: "7E1A0C0057AE5EA5"
+			rewards: [
+				{
+					id: "66F4D0E781894777"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+				{
+					id: "2E8FC1C7EC1CE14B"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:protection": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "57513CA5F2F11EE1"
+				type: "kill"
+				value: 100L
+			}]
+			x: 6.2d
+			y: 4.2d
+		}
+		{
+			dependencies: ["7E1A0C0057AE5EA5"]
+			id: "6AC388A105FEEEE9"
+			rewards: [
+				{
+					count: 2
+					id: "77C8A8468641924A"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "717A07E1ED915D9F"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:protection": 4
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "580FEAF7A8360FD9"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 8.3d
+			y: 4.2d
+		}
+		{
+			id: "77326AA5C041D2EE"
+			rewards: [{
+				count: 4
+				id: "2AA696FC9672B671"
+				item: {
+					count: 1
+					id: "minecraft:string"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "0EA44AF8AAEC0B69"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 6.2d
+		}
+		{
+			dependencies: ["77326AA5C041D2EE"]
+			id: "2CBAF31C773D5C8E"
+			rewards: [{
+				count: 4
+				id: "67696A39E4A496EA"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "3CDBBEEFA13CA3F0"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.1d
+			y: 6.2d
+		}
+		{
+			dependencies: ["2CBAF31C773D5C8E"]
+			id: "4B6F984780CDB219"
+			rewards: [
+				{
+					count: 2
+					id: "74154BCEFED46239"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "16D108086490D0BA"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:bane_of_arthropods": 2
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "21AC5EC9AA4F4FC0"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.2d
+			y: 6.2d
+		}
+		{
+			dependencies: ["4B6F984780CDB219"]
+			id: "46FD6B0FC5AB9F3A"
+			rewards: [
+				{
+					id: "2E0358B5BC2F24E1"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+				{
+					id: "303481AEA55A927B"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:bane_of_arthropods": 4
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "13CEA47277596582"
+				type: "kill"
+				value: 100L
+			}]
+			x: 6.2d
+			y: 6.2d
+		}
+		{
+			dependencies: ["46FD6B0FC5AB9F3A"]
+			id: "3B5F4E5F6E4D1A4C"
+			rewards: [
+				{
+					count: 2
+					id: "1D5DDDF50489EEC6"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "32A8069C8EF91F1F"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:bane_of_arthropods": 5
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "10C4FB05D96944FB"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 8.3d
+			y: 6.2d
+		}
+		{
+			id: "0014FC2D69455629"
+			rewards: [{
+				count: 2
+				id: "7D4889FEAE8ACF4B"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "771C1974923D554C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 8.3d
+		}
+		{
+			dependencies: ["0014FC2D69455629"]
+			id: "37CD0E36A1DD81DF"
+			rewards: [{
+				count: 4
+				id: "25D3E39F5EBD72AA"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "2BB04B7B328FAECC"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.1d
+			y: 8.3d
+		}
+		{
+			dependencies: ["37CD0E36A1DD81DF"]
+			id: "7A6B2025AB94C4E6"
+			rewards: [
+				{
+					count: 2
+					id: "18482ED1560AFB57"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "5AF92F910D09A447"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:looting": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "4357FAF4C7D7D284"
+				type: "kill"
+				value: 50L
+			}]
+			x: 4.2d
+			y: 8.3d
+		}
+		{
+			dependencies: ["7A6B2025AB94C4E6"]
+			id: "2462DFE3983FCE6C"
+			rewards: [
+				{
+					id: "416AA7E71E918EBB"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+				{
+					id: "1072427DBC859924"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:looting": 2
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "5D128119C8A79F02"
+				type: "kill"
+				value: 100L
+			}]
+			x: 6.2d
+			y: 8.3d
+		}
+		{
+			dependencies: ["2462DFE3983FCE6C"]
+			id: "54F8DDF02EDF1BBE"
+			rewards: [
+				{
+					count: 2
+					id: "5528C11CECCD58C2"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "34D132BF5034ECE6"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:looting": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "3B1988E99A5B4FB4"
+				type: "kill"
+				value: 1000L
+			}]
+			x: 8.3d
+			y: 8.3d
+		}
+		{
+			id: "68B11411B1EF6EEE"
+			rewards: [{
+				count: 4
+				id: "7FB005FA1C0FFB34"
+				item: {
+					count: 1
+					id: "minecraft:blue_ice"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "friendsandfoes:iceologer"
+				id: "6EC3193C23B1D24E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			id: "60BF31643EDBC254"
+			rewards: [{
+				count: 2
+				id: "62F5BABB2B4C694D"
+				item: {
+					count: 1
+					id: "minecraft:iron_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "friendsandfoes:mauler"
+				id: "4184FE8CDDA596FD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.1d
+			y: 13.5d
+		}
+		{
+			id: "7C8B66EB85B86EF7"
+			rewards: [{
+				id: "0BCC12A615C37E95"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:fire_protection": 2
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "friendsandfoes:wildfire"
+				id: "114843D3EE074C60"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.2d
+			y: 13.5d
+		}
+		{
+			id: "069DBC4792903DA6"
+			rewards: [{
+				count: 4
+				id: "12C70234B9D0E25F"
+				item: {
+					count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "friendsandfoes:illusioner"
+				id: "72521A56A1C86659"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.2d
+			y: 13.5d
+		}
+		{
+			id: "12BA5A8E31EBA1F0"
+			rewards: [{
+				count: 4
+				id: "4AC4620966751E69"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "aeronauticsdiscovery:pillager_aviator"
+				id: "58926866AE046437"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.3d
+			y: 13.5d
+		}
+		{
+			id: "3DF05FCC3E5D01F0"
+			rewards: [{
+				count: 4
+				id: "4DA614A9050A2179"
+				item: {
+					count: 1
+					id: "minecraft:blaze_powder"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "regions_unexplored:ashen"
+				id: "5506CE1E44D3EC18"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.4d
+			y: 13.5d
+		}
+		{
+			id: "455CB7A1B33E959C"
+			rewards: [{
+				id: "648B2E968D203564"
+				item: {
+					count: 1
+					id: "minecraft:diamond_block"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "38DA14703C7F213F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 20.8d
+		}
+		{
+			id: "67B85D5A294314F7"
+			rewards: [{
+				id: "458892F0440464D7"
+				item: {
+					count: 1
+					id: "minecraft:diamond_block"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "64AB6C15D17A2626"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 18.7d
+		}
+		{
+			id: "2DFC537271BA0F64"
+			rewards: [{
+				count: 3
+				id: "141A6024BE9EE329"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "iceandfire:fire_dragon"
+				id: "44FD1FCA273D4D5A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 22.9d
+		}
+		{
+			id: "12F6926F8EF14010"
+			rewards: [{
+				count: 3
+				id: "2CB27899B3233419"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "iceandfire:ice_dragon"
+				id: "6F951277D010EDA0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 25.0d
+		}
+		{
+			id: "1F372388F51C4AB9"
+			rewards: [{
+				count: 3
+				id: "40F4DBE25DAB83CF"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				entity: "iceandfire:lightning_dragon"
+				id: "648D9B4003634FC6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 27.0d
+		}
+		{
+			dependencies: [
+				"1D6A93934B06759F"
+				"29D34516DDF15C7A"
+				"6AC388A105FEEEE9"
+				"3B5F4E5F6E4D1A4C"
+				"54F8DDF02EDF1BBE"
+				"455CB7A1B33E959C"
+				"67B85D5A294314F7"
+				"2DFC537271BA0F64"
+				"12F6926F8EF14010"
+				"1F372388F51C4AB9"
+			]
+			id: "55988D2B2481BCD6"
+			rewards: [
+				{
+					id: "6AA9E78A4922992B"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2536A2638E11BB3B"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "73F3D61FB5E42599"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				id: "1425B7D608F8B257"
+				type: "checkmark"
+			}]
+			x: 4.2d
+			y: 22.9d
+		}
+		{
+			id: "081E79E5745D4207"
+			rewards: [{
+				id: "6507B02AF1681D44"
+				item: {
+					count: 1
+					id: "iceandfire:troll_tusk"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:troll"
+				id: "7D540B5AB48E22FC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: 13.5d
+		}
+		{
+			id: "6FC04C32B6F18019"
+			rewards: [{
+				id: "5F9E2FAEC99C91EF"
+				item: {
+					count: 1
+					id: "iceandfire:cockatrice_eye"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "iceandfire:cockatrice"
+				id: "41E2E4BF18670D3A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 14.6d
+			y: 13.5d
+		}
+	]
+}

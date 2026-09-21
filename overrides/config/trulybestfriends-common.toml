@@ -1,0 +1,135 @@
+#If true, disables automatic pet registration from tame events, entity joins, nearby scans, and full scans.
+#Pets must be registered with /tbf load or the manual registration item.
+performanceMode = false
+#In performance mode, interval in ticks for updating loaded pets by their already tracked UUIDs.
+# Default: 5
+# Range: 1 ~ 1200
+performanceModeSyncIntervalTicks = 5
+#Anti-gang-up: when a boss bar is visible to a player, every 20 ticks randomly recall
+#that player's owned pets within LOCAL_SYNC_CHUNK_RADIUS chunks until this many remain.
+#Pets in the player's current team, pets being ridden, and untracked pets are excluded.
+#-1 disables the check entirely. Values above (maxPets - current team size) are clamped
+#to that bound (0-512, default -1).
+# Default: -1
+# Range: -1 ~ 512
+bossFightPetLimit = -1
+#NBT paths used to find an owner UUID on living entities that do not implement OwnableEntity.
+#Use dots to traverse nested compounds, for example ForgeData.Owner. Paths are checked in order.
+#The final field may contain either a UUID tag or a UUID string. Path segments are case-sensitive.
+ownerNbtFields = ["Owner", "OwnerUUID", "ForgeCaps.mob_controller:mob_control.ControllerUUID"]
+#Interval in ticks for full fallback scan of all loaded owned entities and caching their latest pet data.
+#Set to 0 to disable the full scan.
+# Default: 103
+# Range: 0 ~ 1200
+syncIntervalTicks = 103
+#Interval in ticks for scanning nearby entities around players who completed the Truly Best Friends advancement
+# Default: 5
+# Range: 1 ~ 100
+localSyncIntervalTicks = 5
+#Interval in ticks for flushing cached pet data to disk. Player logout and server stop always flush immediately.
+# Default: 100
+# Range: 1 ~ 1200
+savePetDataCooldownTicks = 100
+#Maximum distance (blocks) for recalling a pet back into storage. Set to -1 for unlimited range
+# Default: 16.0
+# Range: -1.0 ~ 64.0
+recallRange = 16.0
+#Cooldown in milliseconds between recall/summon actions (min 250ms = 5 ticks to ensure entity cleanup completes)
+# Default: 3000
+# Range: 250 ~ 30000
+recallCooldownMs = 3000
+#Maximum number of pets a player can have tracked at once (1-512, default 64)
+# Default: 64
+# Range: 1 ~ 512
+maxPets = 64
+#If true, deleting a recalled or dead pet from tracking permanently removes its stored data
+#without releasing the entity into the world. Default false preserves the existing release behavior.
+deleteStoredPetsDirectly = false
+#Default range (blocks) for area recall when holding Shift. Adjustable with scroll wheel (1-16).
+# Default: 8
+# Range: 1 ~ 16
+areaRecallDefaultRange = 8
+#Max simultaneous pending summons per player for pets in unloaded chunks.
+#Also defines the number of numbered member slots in each of the eight formation teams.
+#Team slot numbers range from 1 to this value (1-8, default 6). Effective pending cap = this value + 2 buffer.
+# Default: 6
+# Range: 1 ~ 8
+maxPendingSummons = 6
+#Distance in GUI pixels between the summon-key bottle animation and the right screen edge.
+# Default: 8
+# Range: 0 ~ 4096
+summonBottleRightOffset = 8
+#Vertical GUI-pixel offset of the summon-key bottle animation from screen center.
+# Default: 0
+# Range: -4096 ~ 4096
+summonBottleVerticalOffset = 0
+#Item ID required to revive a dead pet (e.g. "minecraft:totem_of_undying").
+#Set this to an empty string (reviveItem = "") to require no item.
+#When empty, the item prompt is hidden and revival is available as soon as the cooldown expires.
+reviveItem = "minecraft:totem_of_undying"
+#Item used to manually register a pet by right-clicking the entity.
+#The registration uses the same checks and behavior as /tbf load.
+manualRegisterItem = "minecraft:feather"
+#If true, a successful manual pet registration consumes the configured number of items.
+#Items are not consumed when registration fails or when the player is in creative mode.
+consumeManualRegisterItem = false
+#Number of held manual registration items consumed after a successful registration.
+# Default: 1
+# Range: 1 ~ 64
+manualRegisterItemConsumeCount = 1
+#Number of revive items required to revive a dead pet.
+#Ignored when reviveItem is empty.
+# Default: 1
+# Range: 1 ~ 64
+reviveItemCount = 1
+#Cooldown in seconds after reviving a pet before another revive can be used.
+# Default: 120
+# Range: 0 ~ 86400
+reviveCooldownSeconds = 120
+#Food points consumed when starting or extending pet healing. Creative players pay no cost.
+# Default: 3
+# Range: 0 ~ 20
+healHungerCost = 3
+#Food points consumed by Shift-click advanced pet healing. Creative players pay no cost.
+# Default: 9
+# Range: 0 ~ 20
+advancedHealHungerCost = 9
+#Ticks between pet healing pulses.
+# Default: 50
+# Range: 1 ~ 1200
+healPulseIntervalTicks = 50
+#Ticks between advanced pet healing pulses.
+# Default: 25
+# Range: 1 ~ 1200
+advancedHealPulseIntervalTicks = 25
+#Healing duration added by one click.
+# Default: 300
+# Range: 1 ~ 72000
+healDurationPerClickTicks = 300
+#Maximum remaining healing duration. A click that would exceed this value is rejected.
+# Default: 1200
+# Range: 1 ~ 72000
+healMaxDurationTicks = 1200
+#Flat health restored by each pulse.
+# Default: 1.0
+# Range: 0.0 ~ 1000000.0
+healFlatAmount = 1.0
+#Fraction of the pet's current maximum health restored by each pulse (0.01 = 1%).
+# Default: 0.01
+# Range: 0.0 ~ 1.0
+healMaxHealthFraction = 0.01
+#If true, validates pet .nbt files on login and reports entity NBT serialization failures in chat. Debug only.
+enableLoginLoadDiagnostics = false
+#Entity types that should not be automatically registered as pets even if they are OwnableEntity.
+#Format: entity id such as "minecraft:wolf", or namespace wildcard such as "some_mod:*".
+#This only blocks future automatic registration and does not remove already tracked pets.
+autoRegisterBlacklist = ["irons_spellbooks:spectral_steed", "irons_spellbooks:summoned_vex", "irons_spellbooks:summoned_zombie", "irons_spellbooks:summoned_skeleton", "irons_spellbooks:summoned_polar_bear", "irons_spellbooks:summoned_sword", "irons_spellbooks:summoned_claymore", "irons_spellbooks:summoned_rapier", "irons_spellbooks:spectral_hammer", "irons_spellbooks:wisp", "touhou_little_maid:broom", "touhou_little_maid:chair"]
+#Entity types that keep their death drops and cannot be revived via this mod.
+#Format: entity id, e.g. "minecraft:villager". Pets of these types will still be tracked,
+#but on death they drop loot normally and the revive button is disabled for them.
+noReviveWhitelist = ["modulargolems:metal_golem", "modulargolems:humanoid_golem", "modulargolems:dog_golem"]
+#Entity types that, on death, behave like noReviveWhitelist entities AND additionally
+#have their stored NBT data and in-memory cache completely cleared.
+#Use this for disposable or summon-only entities that should leave no trace after death.
+#Format: entity id, e.g. "minecraft:horse".
+clearOnDeathWhitelist = ["touhou_little_maid:maid", "goety:vex_servant", "goety:wither_skeleton_servant", "goety:border_wraith_servant", "goety:haunted_armor_servant", "goety:blackguard_servant", "goety:vanguard_servant", "goety:doppelganger", "goety:guardian_servant", "goety:stone_ministrosity", "goety:redstone_ministrosity", "goety:ice_golem", "goety:blaze_servant", "goety:inferno", "goety:mini_ghast", "goety:ghast_servant", "goety:malghast", "goety:blastling_servant", "goety:snareling_servant", "goety:watchling_servant", "goety:haunted_skull", "goety:phantom_servant", "goety:reaper_servant", "goety:wraith_servant", "goety:muck_wraith_servant", "goety:zombie_servant", "goety:zombie_villager_servant", "goety:husk_servant", "goety:drowned_servant", "goety:frozen_zombie_servant", "goety:jungle_zombie_servant", "goety:frayed_servant", "goety:zpiglin_servant", "goety:zpiglin_brute_servant", "goety:zombie_vindicator", "goety:skeleton_servant", "goety:stray_servant", "goety:mossy_skeleton_servant", "goety:sunken_skeleton_servant", "goety:rattled_servant", "goety:skeleton_pillager", "goety:carrion_fly", "goety:carrion_maggot", "goety:black_wolf", "goety:skeleton_wolf", "goety:winter_wolf", "goety:stormhound", "goety:hellhound", "goety:twilight_goat", "goety:snapper", "goety:bear_servant", "goety:polar_bear_servant", "goety:hoglin_servant", "goety:gnasher", "goety:leapleaf", "goety:slime_servant", "goety:magma_cube_servant", "goety:crypt_slime_servant", "goety:tropical_slime_servant", "goety:whisperer", "goety:wavewhisperer"]
