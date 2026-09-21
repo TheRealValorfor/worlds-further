@@ -1,5 +1,7 @@
 # Worlds Further — CurseForge export checklist
 
+**CurseForge pack:** [worlds-further](https://www.curseforge.com/minecraft/modpacks/worlds-further)
+
 Minecraft **1.21.1** / NeoForge **21.1.250**. **Do not bump mod versions** for this export. **Do not** drop CurseForge-hosted jars into `overrides/mods/` — those must stay instance addons.
 
 This page is the **single source of truth** for what to tick in the CurseForge app. RAM / Additional Java Arguments **do not ship** in the export zip.

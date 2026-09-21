@@ -1,5 +1,7 @@
 # Worlds Further
 
+**CurseForge:** [worlds-further](https://www.curseforge.com/minecraft/modpacks/worlds-further)
+
 Minecraft **1.21.1** / NeoForge **21.1.250** modpack. Git tracks the CurseForge **client export** (`manifest.json` + `overrides/`) plus a slim **`server/`** tree for dedicated hosts.
 
 This is **not** a dump of every mod jar. CurseForge installs those from `manifest.json`. Do not add CurseForge-hosted jars to `overrides/mods/` once they are project addons.
@@ -32,13 +34,15 @@ profileImage/          Pack icon
 
 ## Related projects (TheRealValorfor)
 
-- [Create: Sourceworks](https://github.com/TheRealValorfor/create-sourceworks)
-- [Create: Dragonworks](https://github.com/TheRealValorfor/create-dragonworks)
-- [Ars Draconis](https://github.com/TheRealValorfor/ars-draconis)
-- [Create: Harvestworks](https://github.com/TheRealValorfor/create-harvestworks)
-- [Create: Relicworks](https://github.com/TheRealValorfor/create-relicworks)
-- [Soaring Trader Flyovers](https://github.com/TheRealValorfor/soaring-trader-flyovers)
-- [Skill Progression: Enhanced UI](https://github.com/TheRealValorfor/skill-progression-enhanced-ui)
+| GitHub | CurseForge |
+|---|---|
+| [create-sourceworks](https://github.com/TheRealValorfor/create-sourceworks) | [create-sourceworks](https://www.curseforge.com/minecraft/mc-mods/create-sourceworks) |
+| [create-dragonworks](https://github.com/TheRealValorfor/create-dragonworks) | [create-dragonworks](https://www.curseforge.com/minecraft/mc-mods/create-dragonworks) |
+| [ars-draconis](https://github.com/TheRealValorfor/ars-draconis) | [ars-draconis](https://www.curseforge.com/minecraft/mc-mods/ars-draconis) |
+| [create-harvestworks](https://github.com/TheRealValorfor/create-harvestworks) | [create-harvestworks](https://www.curseforge.com/minecraft/mc-mods/create-harvestworks) |
+| [create-relicworks](https://github.com/TheRealValorfor/create-relicworks) | [create-relicworks](https://www.curseforge.com/minecraft/mc-mods/create-relicworks) |
+| [soaring-trader-flyovers](https://github.com/TheRealValorfor/soaring-trader-flyovers) | [soaring-trader-flyovers](https://www.curseforge.com/minecraft/data-packs/soaring-trader-flyovers) |
+| [skill-progression-enhanced-ui](https://github.com/TheRealValorfor/skill-progression-enhanced-ui) | [skill-progression-enhanced-ui](https://www.curseforge.com/minecraft/mc-mods/skill-progression-enhanced-ui) |
 
 ## License
 
