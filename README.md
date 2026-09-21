@@ -46,20 +46,36 @@ profileImage/          Pack icon
 
 ## Apply git changes to a local CurseForge instance
 
-After `git pull`, copy pack configs/datapacks/shader settings onto the instance **without** replacing CurseForge addons:
+This repository is **public**. After `git pull`, anyone on **Windows, macOS, or Linux** can copy pack configs, datapacks, and shader settings onto their CurseForge instance **without** replacing addons.
+
+You need **Python 3** (stdlib only). Minecraft must be fully quit.
 
 ```bash
-# macOS / Linux — Minecraft fully quit
-chmod +x scripts/apply-to-instance.sh
-./scripts/apply-to-instance.sh                  # auto-finds Worlds further / Ejomilishy
-./scripts/apply-to-instance.sh --dry-run
-./scripts/apply-to-instance.sh --instance "/path/to/Instances/Worlds further"
-./scripts/apply-to-instance.sh --skip-options   # keep your keybinds
+# macOS / Linux / Git Bash
+python3 scripts/apply-to-instance.py
+# or
+./scripts/apply-to-instance.sh
 ```
 
-Windows (PowerShell): `.\scripts\apply-to-instance.ps1` (same flags: `-Instance`, `-DryRun`, `-SkipOptions`, `-SkipJars`).
+```powershell
+# Windows PowerShell
+py scripts\apply-to-instance.py
+# or
+.\scripts\apply-to-instance.ps1
+```
 
-Or set `WORLD_FURTHER_INSTANCE` to the instance folder. This does **not** install new mods from `manifest.json` — use the CurseForge app for addon updates.
+Useful flags (same on every OS):
+
+| Flag | Meaning |
+|---|---|
+| `--dry-run` | Print copies; write nothing |
+| `--instance PATH` | CurseForge instance folder (`mods/` + `config/`) |
+| `--skip-options` | Keep the player's `options.txt` / keybinds |
+| `--skip-jars` | Do not copy `overrides/mods/*.jar` |
+
+Auto-detect looks for a profile or folder named **Worlds further** / **Worlds Further** / **WorldsFurther** under the usual CurseForge `Instances` directories (`~/Documents/curseforge/minecraft/Instances`, `~/curseforge/minecraft/Instances`, `~/.curseforge/minecraft/Instances`, and `%USERPROFILE%\curseforge\minecraft\Instances` on Windows). If detection fails, pass `--instance` or set `WORLD_FURTHER_INSTANCE`.
+
+This does **not** install new mods from `manifest.json` — use the CurseForge app for addon updates.
 
 ## License
 
