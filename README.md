@@ -44,6 +44,23 @@ profileImage/          Pack icon
 | [soaring-trader-flyovers](https://github.com/TheRealValorfor/soaring-trader-flyovers) | [soaring-trader-flyovers](https://www.curseforge.com/minecraft/data-packs/soaring-trader-flyovers) |
 | [skill-progression-enhanced-ui](https://github.com/TheRealValorfor/skill-progression-enhanced-ui) | [skill-progression-enhanced-ui](https://www.curseforge.com/minecraft/mc-mods/skill-progression-enhanced-ui) |
 
+## Apply git changes to a local CurseForge instance
+
+After `git pull`, copy pack configs/datapacks/shader settings onto the instance **without** replacing CurseForge addons:
+
+```bash
+# macOS / Linux — Minecraft fully quit
+chmod +x scripts/apply-to-instance.sh
+./scripts/apply-to-instance.sh                  # auto-finds Worlds further / Ejomilishy
+./scripts/apply-to-instance.sh --dry-run
+./scripts/apply-to-instance.sh --instance "/path/to/Instances/Worlds further"
+./scripts/apply-to-instance.sh --skip-options   # keep your keybinds
+```
+
+Windows (PowerShell): `.\scripts\apply-to-instance.ps1` (same flags: `-Instance`, `-DryRun`, `-SkipOptions`, `-SkipJars`).
+
+Or set `WORLD_FURTHER_INSTANCE` to the instance folder. This does **not** install new mods from `manifest.json` — use the CurseForge app for addon updates.
+
 ## License
 
 Pack configs and original addons are MIT unless a nested file says otherwise. Third-party mods stay under their own licenses via CurseForge.
