@@ -173,6 +173,86 @@
 			y: 12.5d
 		}
 		{
+			dependencies: ["18EC1BCF4782B77B"]
+			id: "3E1C0B4A92F7D801"
+			rewards: [{
+				count: 4
+				id: "3E1C0B4A92F7D821"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E1C0B4A92F7D811"
+				item: { count: 1, id: "furtherworks:relic_heart" }
+				type: "item"
+			}]
+			x: 6.3d
+			y: 4.2d
+		}
+		{
+			dependencies: ["0F3F8931D68B405D"]
+			id: "3E1C0B4A92F7D802"
+			rewards: [{
+				count: 4
+				id: "3E1C0B4A92F7D822"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E1C0B4A92F7D812"
+				item: { count: 1, id: "furtherworks:source_heart" }
+				type: "item"
+			}]
+			x: 6.3d
+			y: 8.3d
+		}
+		{
+			dependencies: ["00A3DBE546F74B19"]
+			id: "3E1C0B4A92F7D803"
+			rewards: [{
+				count: 4
+				id: "3E1C0B4A92F7D823"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E1C0B4A92F7D813"
+				item: { count: 1, id: "furtherworks:sky_heart" }
+				type: "item"
+			}]
+			x: 6.3d
+			y: 12.5d
+		}
+		{
+			dependencies: ["472CC9F0ED23081F"]
+			id: "3E1C0B4A92F7D804"
+			rewards: [{
+				count: 4
+				id: "3E1C0B4A92F7D824"
+				item: {
+					count: 1
+					id: "minecraft:experience_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E1C0B4A92F7D814"
+				item: { count: 1, id: "furtherworks:homestead_heart" }
+				type: "item"
+			}]
+			x: 6.3d
+			y: 0.0d
+		}
+		{
 			dependencies: [
 				"1A019E26C0ECA5B7"
 				"0F3F8931D68B405D"
@@ -183,6 +263,10 @@
 				"3ED6D6C659F3BAB4"
 				"04508D97C0044D38"
 				"34E97BE85383A9A9"
+				"3E1C0B4A92F7D801"
+				"3E1C0B4A92F7D802"
+				"3E1C0B4A92F7D803"
+				"3E1C0B4A92F7D804"
 			]
 			id: "72C9A832BD83B4A7"
 			rewards: [{
@@ -197,9 +281,10 @@
 			size: 1.4d
 			tasks: [{
 				id: "25A3C3596A8F3066"
-				type: "checkmark"
+				item: { count: 1, id: "furtherworks:the_further" }
+				type: "item"
 			}]
-			x: 4.2d
+			x: 8.4d
 			y: 6.2d
 		}
 		{

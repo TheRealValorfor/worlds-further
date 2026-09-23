@@ -23,19 +23,20 @@ What is **not** in git: `server/mods/` (~400 MB of jars). Generate those with 
 ## Layout
 
 ```
-manifest.json          CurseForge addon list (350 files)
+manifest.json          CurseForge addon list (361 files)
 modlist.html           Human-readable addon list
 overrides/             What the CF app ticked: config, datapacks, shader .txt, README, CHANGELOG
 server/                Dedicated start scripts, JVM args, SPC conf, datapack zip
 profileImage/          Pack icon
 ```
 
-`overrides/mods/create-relicworks-*.jar` is only here until Relicworks is added as a CurseForge addon in the instance. After that, remove the jar from overrides.
+`overrides/mods/` should stay empty except archived **Noisium** (`noisium-neoforge-2.3.0+mc1.21-1.21.1.jar`). **Create: Relicworks** is a CurseForge addon.
 
 ## Related projects (TheRealValorfor)
 
 | GitHub | CurseForge |
 |---|---|
+| [furtherworks](https://github.com/TheRealValorfor/furtherworks) | GitHub release until a CurseForge project exists |
 | [create-sourceworks](https://github.com/TheRealValorfor/create-sourceworks) | [create-sourceworks](https://www.curseforge.com/minecraft/mc-mods/create-sourceworks) |
 | [create-dragonworks](https://github.com/TheRealValorfor/create-dragonworks) | [create-dragonworks](https://www.curseforge.com/minecraft/mc-mods/create-dragonworks) |
 | [ars-draconis](https://github.com/TheRealValorfor/ars-draconis) | [ars-draconis](https://www.curseforge.com/minecraft/mc-mods/ars-draconis) |

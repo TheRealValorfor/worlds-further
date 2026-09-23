@@ -2769,6 +2769,26 @@
 		"The hypertube network runs on this."
 	]
 	quest.3E17D68C5AE2BB2F.title: "Conduit Cage"
+	quest.3E1C0B4A92F7D801.quest_desc: [
+		"Every intact Relic, laid into one mechanical heart."
+		"The mill can have the broken copies. This set you keep."
+	]
+	quest.3E1C0B4A92F7D801.title: "Relic Heart"
+	quest.3E1C0B4A92F7D802.quest_desc: [
+		"Archmage's book, Wilden tribute, the belts and rings that only mean something after years at the Apparatus."
+		"Source, compressed until it beats."
+	]
+	quest.3E1C0B4A92F7D802.title: "Source Heart"
+	quest.3E1C0B4A92F7D803.quest_desc: [
+		"Pearlescent levitite, a finished engine, the disc you played over open sky."
+		"The ship was never the point. This is."
+	]
+	quest.3E1C0B4A92F7D803.title: "Sky Heart"
+	quest.3E1C0B4A92F7D804.quest_desc: [
+		"Feasts from both kitchens - Farmer's Delight and Pam's gourmet - on one board."
+		"A homestead that can feed a country, not just a table."
+	]
+	quest.3E1C0B4A92F7D804.title: "Homestead Heart"
 	quest.3E3E34FB305AB3FF.quest_desc: [
 		"Strange veins hum beneath the stone, waiting to be broken open."
 		"Essence farming begins right here."
@@ -5222,10 +5242,10 @@
 	quest.72BD3C5400533A68.quest_desc: ["After enough seasons of farming and building, it all starts to come naturally."]
 	quest.72BD3C5400533A68.title: "A Grower's Instinct"
 	quest.72C9A832BD83B4A7.quest_desc: [
-		"Look at everything behind you now - what you fought, what you learned, what you built, how far you wandered."
-		"None of it was required. You did it anyway, and that's the whole point."
+		"Four hearts, three dragonsteels, netherite, a blaze cake."
+		"The Further is the last thing this pack asks you to make. Spend it on a Creative Motor when the ship has earned infinite sky."
 	]
-	quest.72C9A832BD83B4A7.title: "A Life Well Built"
+	quest.72C9A832BD83B4A7.title: "The Further"
 	quest.72F381D4F75B38A6.quest_desc: [
 		"Take a walk. Get a feel for the biome, the neighbours, whatever's watching you back."
 		"Keep your eyes open - this world hides more than it shows."
