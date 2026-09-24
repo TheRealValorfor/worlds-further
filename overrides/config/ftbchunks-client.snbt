@@ -33,7 +33,7 @@
 			# When the large map is closed, auto-release least recently accessed regions down to this number (0 disables releasing)
 			# Default: 32
 			# Range: 0 ~ 2147483647
-			autorelease_on_map_close: 32
+			autorelease_on_map_close: 8
 			
 			# Constrain maximum map zoom-out based on number of explored regions and available memory
 			# Default: true
@@ -42,14 +42,14 @@
 			# Periodically release region data for non-recently-used regions to save memory (units of seconds, 0 disables releasing
 			# Default: 300
 			# Range: 0 ~ 2147483647
-			region_release_time: 300
+			region_release_time: 120
 		}
 	}
 	appearance: {
 		# Biome blend
 		# Default: "blend_5x5"
 		# Valid values: "none", "blend_3x3", "blend_5x5", "blend_7x7", "blend_9x9", "blend_11x11", "blend_13x13", "blend_15x15"
-		biome_blend: "blend_5x5"
+		biome_blend: "blend_3x3"
 		
 		# Chunk grid overlay in large map
 		# Default: false

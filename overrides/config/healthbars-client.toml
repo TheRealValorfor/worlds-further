@@ -29,7 +29,7 @@ any_rendering = true
 	offset_height = 9
 	#Allow rendering the visual mob display as part of the health bar overlay.
 	#Default Value: true
-	render_entity_display = true
+	render_entity_display = false
 	#Choose a position on the screen to show the interface at.
 	#Default Value: TOP_LEFT
 	#Allowed Values: TOP_LEFT, TOP_CENTER, TOP_RIGHT, CENTER_LEFT, CENTER, CENTER_RIGHT, BOTTOM_LEFT, BOTTOM_CENTER, BOTTOM_RIGHT
@@ -101,12 +101,12 @@ any_rendering = true
 	scale_with_distance = true
 	#Show health bars for the entity picked by the crosshair only.
 	#Default Value: false
-	picked_entity = false
+	picked_entity = true
 	#Distance to the mob at which health bars will still be visible. The distance is halved when the mob is crouching.
 	#Default Value: 96
 	# Default: 96
 	# Range: > 0
-	max_render_distance = 96
+	max_render_distance = 24
 	#Offset in pixels on the vertical axis from default position.
 	#Default Value: 0
 	# Default: 0
@@ -114,7 +114,7 @@ any_rendering = true
 	offset_height = 0
 	#Show health bars from mobs obstructed by walls the player cannot see through, similar to the nameplates of other players.
 	#Default Value: true
-	behind_walls = true
+	behind_walls = false
 	#Allow rendering the mob display name above the health bar. This will replace the vanilla name plate rendering.
 	#Default Value: true
 	render_title_component = true

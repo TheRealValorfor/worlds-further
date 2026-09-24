@@ -7,6 +7,5 @@
 	extra_children_debug = false
 	#Makes the dynamic assets cache use a tree structure for indexing, drastically speeds up query time but could cost some ram.
 	faster_cache_search = true
-	#Global datapack folder. A folder where you can store and load datapacks for all your worlds automatically. Set to empty string to disable
-	# Worlds Further: CurseForge Data Packs land in instance `datapacks/` (same as Add More Content).
-	global_datapacks_folder = "datapacks"
+	#Global datapack folder. Empty: FTB Obsidian owns instance `datapacks/` so CurseForge's loader check is satisfied and Soaring Traders is not applied twice.
+	global_datapacks_folder = ""

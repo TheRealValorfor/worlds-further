@@ -36,7 +36,7 @@ profileImage/          Pack icon
 
 | GitHub | CurseForge |
 |---|---|
-| [furtherworks](https://github.com/TheRealValorfor/furtherworks) | GitHub release until a CurseForge project exists |
+| [furtherworks](https://github.com/TheRealValorfor/furtherworks) | [furtherworks](https://www.curseforge.com/minecraft/mc-mods/furtherworks) (no files yet — not in `manifest.json`) |
 | [create-sourceworks](https://github.com/TheRealValorfor/create-sourceworks) | [create-sourceworks](https://www.curseforge.com/minecraft/mc-mods/create-sourceworks) |
 | [create-dragonworks](https://github.com/TheRealValorfor/create-dragonworks) | [create-dragonworks](https://www.curseforge.com/minecraft/mc-mods/create-dragonworks) |
 | [ars-draconis](https://github.com/TheRealValorfor/ars-draconis) | [ars-draconis](https://www.curseforge.com/minecraft/mc-mods/ars-draconis) |

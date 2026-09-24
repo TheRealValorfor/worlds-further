@@ -6,16 +6,16 @@
 	targetFps = 60
 	# Default: 64
 	# Range: 16 ~ 256
-	blockEntityRenderDistance = 64
+	blockEntityRenderDistance = 32
 	# Default: 128
 	# Range: 32 ~ 512
-	contraptionRenderDistance = 128
+	contraptionRenderDistance = 64
 	# Default: 1200
 	# Range: 50 ~ 20000
-	createParticlesPerSecond = 500
+	createParticlesPerSecond = 250
 	# Default: 48
 	# Range: 8 ~ 256
-	createParticleDistance = 48
+	createParticleDistance = 24
 	blockEntityCulling = true
 	contraptionCulling = true
 	particleLimiter = true
@@ -24,7 +24,7 @@
 	denseFactoryOptimization = true
 	# Default: 768
 	# Range: 128 ~ 10000
-	factoryVisualBudget = 768
+	factoryVisualBudget = 384
 	#Apply safe rendering optimizations to detected Create addons.
 	createAddonOptimizations = true
 	#Reuse identical render visibility decisions during the same frame.
@@ -39,16 +39,16 @@
 	enabled = true
 	# Default: 48
 	# Range: 16 ~ 256
-	blockEntityRenderDistance = 48
+	blockEntityRenderDistance = 32
 	# Default: 96
 	# Range: 32 ~ 512
-	contraptionRenderDistance = 96
+	contraptionRenderDistance = 64
 	# Default: 40
 	# Range: 16 ~ 256
-	shadowBlockEntityDistance = 40
+	shadowBlockEntityDistance = 24
 	# Default: 80
 	# Range: 32 ~ 512
-	shadowContraptionDistance = 80
+	shadowContraptionDistance = 48
 	# Default: 65
 	# Range: 10 ~ 100
-	particleBudgetPercent = 65
+	particleBudgetPercent = 45

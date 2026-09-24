@@ -8,7 +8,7 @@
 	#- ALWAYS: Will always generate the assets & will be stored in memory. No cache is used. Unintuitively, this is often the fastest method as any disk access will be slow. 
 	#Try and see what works best for you.
 	#Allowed Values: NEVER, RUN_ONCE, CACHED, CACHED_ZIPPED, ALWAYS
-	server_assets_generation_mode = "ALWAYS"
+	server_assets_generation_mode = "CACHED_ZIPPED"
 	#Puts all the added items into a new Every Compat tab instead of their own mod tabs. Be warned that if disabled it could cause some issue with some mods that have custom tabs.
 	creative_tab = true
 	#Allow the item_search or searchBar to be visible.

@@ -2,7 +2,7 @@
   "dragon": {
     "maxHealth": 500.0,
     "eggBornTime": 7200,
-    "maxPathingNodes": 5000,
+    "maxPathingNodes": 2000,
     "villagersFear": true,
     "animalsFear": true,
     "generate.skeletons": true,
@@ -25,7 +25,7 @@
     "sleep": true,
     "digWhenStuck": true,
     "breakBlockCooldown": 5,
-    "targetSearchLength": 128,
+    "targetSearchLength": 64,
     "wanderFromHomeDistance": 40,
     "hungerTickRate": 3000,
     "blockBreakingDropChance": 0.1,
@@ -88,7 +88,7 @@
     "targetSearchLength": 48,
     "featherDropChance": 0.04,
     "featherAttackDamage": 1.0,
-    "flockLength": 40,
+    "flockLength": 16,
     "flightHeight": 80,
     "attackAnimals": false
   },

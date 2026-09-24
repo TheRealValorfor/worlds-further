@@ -2,7 +2,7 @@ version:3955
 ao:true
 biomeBlendRadius:2
 enableVsync:true
-entityDistanceScaling:1.0
+entityDistanceScaling:0.8
 entityShadows:true
 forceUnicodeFont:false
 japaneseGlyphVariants:false
@@ -17,7 +17,7 @@ gamma:1.0
 graphicsMode:1
 guiScale:2
 maxFps:120
-mipmapLevels:4
+mipmapLevels:2
 narrator:0
 particles:1
 reducedDebugInfo:false
@@ -48,8 +48,8 @@ mouseSensitivity:0.5
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["file/3D Ores - MC 1.21.1 - 1.0.1.zip","file/§7Better§bOres§93D §f- 26.2§0.zip","file/ROP2.0-1.21.1.zip","file/CreateSophBackpacks.zip","file/boss-refreshed-v2-1.19-1.21.zip","file/Glowing Blocks 0.1.9.zip","file/glowix.zip","file/FreshAnimations_v1.10.4.zip","file/Freshly Modded 3.0.4.zip","file/Torrezx-Glowy.zip","file/cubic-sun-moon-v1.8.5.zip","file/Dramatic Skys Demo 1.5.3.36.5.zip"]
-incompatibleResourcePacks:["file/§7Better§bOres§93D §f- 26.2§0.zip","file/boss-refreshed-v2-1.19-1.21.zip","file/Glowing Blocks 0.1.9.zip","file/glowix.zip","file/FreshAnimations_v1.10.4.zip","file/Freshly Modded 3.0.4.zip","file/Torrezx-Glowy.zip","file/cubic-sun-moon-v1.8.5.zip","file/Dramatic Skys Demo 1.5.3.36.5.zip"]
+resourcePacks:["file/ROP2.0-1.21.1.zip","file/CreateSophBackpacks.zip","file/CreateSophiStorage.zip","file/Tom's Create Style 1.2 - 1.21.zip","file/Ars-Nouveau-Brass-ified-Create-Style---ANBICS.zip","file/boss-refreshed-v2-1.19-1.21.zip","file/Glowing Blocks 0.2.0.zip","file/glowix.zip","file/FreshAnimations_v1.10.4.zip","file/Freshly Modded 3.0.4.zip","file/Torrezx-Glowy.zip","file/cubic-sun-moon-v1.8.5.zip","file/Create v6 SolidSails Soft.zip","file/Aeronautics_HotAir_Shader_Fix.zip","file/Low Fire.zip"]
+incompatibleResourcePacks:["file/boss-refreshed-v2-1.19-1.21.zip","file/Glowing Blocks 0.2.0.zip","file/glowix.zip","file/FreshAnimations_v1.10.4.zip","file/Freshly Modded 3.0.4.zip","file/Torrezx-Glowy.zip","file/cubic-sun-moon-v1.8.5.zip","file/CreateSophiStorage.zip","file/Tom's Create Style 1.2 - 1.21.zip","file/Ars-Nouveau-Brass-ified-Create-Style---ANBICS.zip","file/Create v6 SolidSails Soft.zip","file/Aeronautics_HotAir_Shader_Fix.zip","file/Low Fire.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0

@@ -57,7 +57,7 @@
 #Misc
 [misc]
 	#Use simplified renderer for Warp Portals
-	no_end_portal_render = false
+	no_end_portal_render = true
 	#Disables the skyweave renderer. Disable if your sky is broken with shaders.
 	disable_skyweave = false
 	#Show spell tooltips with glyphs instead of plain text

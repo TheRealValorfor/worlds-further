@@ -55,7 +55,7 @@
 	# If more dimensions than this threshold are visited, the oldest cached dimension will be removed.
 	# 0 = rebuild on every change (slower but no extra ram usage), 2 = two extra dimensions apart from the current one can be cached. Increase if frequently visiting more modded dimensions or decrease if you have limited memory.
 	# Default = 2
-	extraDimensionShaderCacheSize = 2
+	extraDimensionShaderCacheSize = 0
 
 	# Option that enables or disables automatic merging of the fragmented block.properties files into the main block.properties file.
 	# The properties files inside "Euphoria Patches/shaders/properties/" will be merged into a single block.properties file at the specified interval if any of them have changed.

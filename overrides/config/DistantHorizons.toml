@@ -27,13 +27,13 @@ _version = 4
 				# Note: this is a best effort number. 
 				# The actual render distance may be above or below this number 
 				# depending on your other graphic settings.
-				lodChunkRenderDistanceRadius = 72
+				lodChunkRenderDistanceRadius = 48
 				#
 				# This indicates how far apart drops in LOD quality are. 
 				# 
 				# Higher settings will increase the distance between drops 
 				# but will increase memory and GPU usage.
-				horizontalQuality = "HIGH"
+				horizontalQuality = "MEDIUM"
 				#
 				# What is the maximum detail LODs can render at? 
 				# Higher settings will increase memory and GPU usage. 
@@ -46,7 +46,7 @@ _version = 4
 				# 
 				# Fastest: CHUNK
 				# Fanciest: BLOCK
-				maxHorizontalResolution = "BLOCK"
+				maxHorizontalResolution = "FOUR_BLOCKS"
 				#
 				# This indicates how well LODs will represent 
 				# overhangs, caves, floating islands, etc. 

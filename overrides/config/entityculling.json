@@ -15,7 +15,7 @@
     "drg_flares:drg_flares",
     "quark:soul_bead"
   ],
-  "tracingDistance": 128,
+  "tracingDistance": 64,
   "debugMode": false,
   "sleepDelay": 10,
   "hitboxLimit": 50,

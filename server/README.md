@@ -20,7 +20,7 @@ That writes `server-pack/` locally. For PebbleHost you can still upload `export/
 If you only need the trader fix on an existing host, upload:
 
 1. `config/aeronauticsdiscovery-common.toml` (from `overrides/config/` in this repo)
-2. `config/moonlight-common.toml` (`global_datapacks_folder = "datapacks"`)
+2. `config/moonlight-common.toml` (`global_datapacks_folder = ""`; FTB Obsidian loads instance `datapacks/`)
 3. `datapacks/SoaringTraderFlyovers-1.0.0.zip` (this folder or `overrides/datapacks/`)
 
 Then delete any leftover `moonlight-global-datapacks/` on the host.
