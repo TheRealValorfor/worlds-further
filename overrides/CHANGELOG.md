@@ -31,7 +31,7 @@ Safe CurseForge updates taken (1.21.1 NeoForge patches): Sodium 0.8.13 + Sodium 
 
 **Not taken:** Fragmentum 5, Loot Journal 6.2.2, FTB XMod Compat 21.1.12 (JEI/Fragmentum break). **Create Aeronautics Discovery 2.2.0** (soaring-trader datapack is built on 2.1.4).
 
-**Furtherworks** — pack trophy. Mechanical-craft four hearts then **The Further**; spend it on Creative Motor / Fluid Tank / Blaze Cake / Physics Staff. GitHub [v1.0.4](https://github.com/TheRealValorfor/furtherworks/releases/tag/v1.0.4) (pulsing gems, spinning Further core). CurseForge project [furtherworks](https://www.curseforge.com/minecraft/mc-mods/furtherworks) exists but has no downloadable file yet, so it stays out of `manifest.json` (local instance jar until the first CF file is live). Mastery ends on The Further.
+**Furtherworks 1.0.4** — pack trophy (CurseForge project **1709664**, file **8962774**). Mechanical-craft four hearts then **The Further**; spend it on Creative Motor / Fluid Tank / Blaze Cake / Physics Staff. Pulsing gems, spinning Further core. Mastery ends on The Further.
 
 Resource packs: **Create Style Sophisticated Storages** (Luna), **Tom's Create Style** (ogabasferr), **ANBICS** (Fr_z_n), **SolidSails Soft** (speedbuiz), **Aeronautics Hot Air Shader Fix** (Tr0nCrafts), **Low Fire** (Oculie). **Dramatic Skys** and **Better Ores 3D** removed. **Create: Relicworks** is a CurseForge addon (no `overrides/mods/` jar). **Soaring Trader Flyovers** is a CurseForge datapack addon as well as `datapacks/`.
 
