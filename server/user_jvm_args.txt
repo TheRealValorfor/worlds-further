@@ -11,7 +11,7 @@
 -XX:+ZGenerational
 -XX:+AlwaysPreTouch
 -XX:+PerfDisableSharedMem
--XX:MaxMetaspaceSize=512m
+-XX:MaxMetaspaceSize=1g
 -Dfile.encoding=UTF-8
 -Dstdout.encoding=UTF-8
 -Dstderr.encoding=UTF-8

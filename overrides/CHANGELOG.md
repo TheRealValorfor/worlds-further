@@ -2,7 +2,7 @@
 
 ## 0.1.2 (unreleased)
 
-Pack default is an **8 GB** Java heap (`recommendedRam` **8192**). Needs ~**16 GB** of machine RAM. 8 GB total PCs are not a target.
+Pack default is an **8 GB** Java heap (`recommendedRam` **8192**). Needs ~**16 GB** of machine RAM. 8 GB total PCs are not a target. JVM extras: ZGC plus **`-XX:MaxMetaspaceSize=1g`** (512m OOMs on first world create while classloading).
 
 Configs (not just Distant Horizons):
 

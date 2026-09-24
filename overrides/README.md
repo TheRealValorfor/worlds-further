@@ -108,7 +108,7 @@ Dramatic Skys, 3D Ores, and Better Ores 3D are **not** in the pack. Continuity i
 > Allocate **8 GB RAM** (instance settings → Memory). Then Additional Java Arguments:
 
 ```
--XX:+UnlockExperimentalVMOptions -XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+PerfDisableSharedMem -XX:MaxMetaspaceSize=512m -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8 -Dlog4j2.formatMsgNoLookups=true
+-XX:+UnlockExperimentalVMOptions -XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -XX:+PerfDisableSharedMem -XX:MaxMetaspaceSize=1g -Dfile.encoding=UTF-8 -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8 -Dlog4j2.formatMsgNoLookups=true
 ```
 
 That string is in `ADDITIONAL_JVM_ARGS.txt`. Do **not** also paste `-Xmx`; the memory slider already adds it. ZGC needs **Java 21** (CurseForge bundled runtime). Do **not** add Nitro’s `-javaagent:.../.nitro/...`.
