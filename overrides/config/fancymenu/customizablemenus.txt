@@ -1,7 +1,4 @@
 type = customizablemenus
 
-title_screen {
-}
-
 net.minecraft.client.gui.screens.TitleScreen {
 }

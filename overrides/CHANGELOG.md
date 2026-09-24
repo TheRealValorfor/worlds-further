@@ -4,6 +4,8 @@
 
 Pack default is an **8 GB** Java heap (`recommendedRam` **8192**). Needs ~**16 GB** of machine RAM. 8 GB total PCs are not a target. JVM extras: ZGC plus **`-XX:MaxMetaspaceSize=1g`** (512m OOMs on first world create while classloading).
 
+Dropped **Chunky** (DH LOD holes), **Glowix**, and **Glowing Ores and Blocks** (1.21.1 pack metadata). **SolidSails Soft** is enabled. **Create: Relicworks 1.0.1** mills/crushes Relics 0.10 item IDs (no separate `*_broken` items).
+
 Configs (not just Distant Horizons):
 
 - **DH** 48 chunks, FOUR_BLOCKS / MEDIUM (was 72 / BLOCK / HIGH)

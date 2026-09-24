@@ -97,7 +97,7 @@ Official zip: CurseForge shader addon **Complementary Shaders - Reimagined** r5.
 
 Last in the `resourcePacks` list wins. Create restyles sit on the base packs. SolidSails, Hot Air Fix, then **Low Fire** last.
 
-Bottom → top: ROP → CreateSophBackpacks → CreateSophiStorage → Tom's Create Style → ANBICS → Boss Refreshed → Glowing Blocks → Glowix → Fresh Animations → Freshly Modded → Torrezx-Glowy → Cubic Sun & Moon → SolidSails Soft → Aeronautics Hot Air Fix → Low Fire.
+Bottom → top: ROP → CreateSophBackpacks → CreateSophiStorage → Tom's Create Style → ANBICS → Boss Refreshed → Fresh Animations → Freshly Modded → Torrezx-Glowy → Cubic Sun & Moon → SolidSails Soft → Aeronautics Hot Air Fix → Low Fire.
 
 Dramatic Skys, 3D Ores, and Better Ores 3D are **not** in the pack. Continuity is **not** enabled. Do not turn it back on.
 
