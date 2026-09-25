@@ -16,9 +16,9 @@ This is **not** a dump of every mod jar. CurseForge installs those from `manifes
 
 ## Server: nested, not a separate repo
 
-Keep the dedicated server **inside this repository** (`server/`). Client and server share one version (currently **0.1.1**), the same configs, and the same Soaring Trader datapack. A second repo would drift.
+Keep the dedicated server **inside this repository** (`server/`). Client and server share one version (currently **0.1.2**), the same configs, and the same Soaring Trader datapack. A second repo would drift.
 
-What is **not** in git: `server/mods/` (~400 MB of jars). Generate those with ServerPackCreator from the instance, or ship `export/WorldsFurther-0.1.1-server.zip` as the CurseForge **Server Pack** file. See [`server/README.md`](server/README.md).
+What is **not** in git: `server/mods/` (~400 MB of jars). Generate those with ServerPackCreator from the instance, or ship `export/WorldsFurther-0.1.2-server.zip` as the CurseForge **Server Pack** file. See [`server/README.md`](server/README.md).
 
 ## Layout
 

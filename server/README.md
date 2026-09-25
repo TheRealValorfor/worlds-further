@@ -15,7 +15,7 @@ Start scripts, `server.properties`, `eula.txt`, ServerPackCreator config (`world
 ./scripts/export-server.sh
 ```
 
-That writes `server-pack/` locally. For PebbleHost you can still upload `export/WorldsFurther-0.1.1-server.zip` from the instance (CurseForge **Server Pack** file, same version as the client).
+That writes `server-pack/` locally. For PebbleHost you can still upload `export/WorldsFurther-0.1.2-server.zip` from the instance (CurseForge **Server Pack** file, same version as the client).
 
 If you only need the trader fix on an existing host, upload:
 

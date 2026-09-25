@@ -2,7 +2,7 @@
 
 Generated with **ServerPackCreator 8.1.2**. Minecraft **1.21.1** / NeoForge **21.1.250**. Client-only mods (Sodium, Iris, FancyMenu, Distant Horizons, …) are omitted.
 
-This tree matches pack **0.1.1** (recipe addons, Spark for `/spark` on dedicated, Soaring Trader flyover height/despawn). CurseForge datapacks sit in `datapacks/` next to `mods/` — Moonlight loads that folder for every world.
+This tree matches pack **0.1.2** (Furtherworks 1.0.4, Relicworks 1.0.1, no Chunky, 8 GB + ZGC + 1g metaspace). CurseForge datapacks sit in `datapacks/` next to `mods/` — Moonlight loads that folder for every world.
 
 ## EULA (all platforms)
 
