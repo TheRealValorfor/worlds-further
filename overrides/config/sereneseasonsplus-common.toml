@@ -36,7 +36,7 @@
 	#Allow Serene Seasons Plus to update Better Days daySpeed/nightSpeed at runtime using reflection. Disable this if you want Better Days to fully own time speed behavior.
 	enableBetterDaysDynamicTimeCompat = true
 	#When Better Days finishes a sleep cycle, set the wake-up time to betterDaysSleepWakeTime. This does not change Better Days dayStart/nightStart speed boundaries.
-	enableBetterDaysSleepWakeTimeFix = true
+	enableBetterDaysSleepWakeTimeFix = false
 	#Minecraft time of day to use after a Better Days sleep cycle. 1000 is 7:00 AM.
 	# Default: 1000
 	# Range: 0 ~ 23999

@@ -4,12 +4,12 @@
 
 Pack default is an **8 GB** Java heap (`recommendedRam` **8192**). Needs ~**16 GB** of machine RAM. 8 GB total PCs are not a target. JVM extras: ZGC plus **`-XX:MaxMetaspaceSize=1g`** (512m OOMs on first world create while classloading).
 
-Dropped **Chunky** (DH LOD holes), **Glowix**, and **Glowing Ores and Blocks** (1.21.1 pack metadata). **SolidSails Soft** is enabled. **Create: Relicworks 1.0.1** mills/crushes Relics 0.10 item IDs (no separate `*_broken` items).
+Dropped **Chunky** (DH LOD holes), **Glowix**, and **Glowing Ores and Blocks** (1.21.1 pack metadata). **SolidSails Soft** is enabled. **Create: Relicworks 1.0.1** mills/crushes Relics 0.10 item IDs (no separate `*_broken` items). Dropped **Easier Sleeping** (double night skip with Better Days). Serene Seasons Plus no longer slams wake time to 7:00 after a Better Days sleep.
 
 Configs (not just Distant Horizons):
 
 - **DH** 48 chunks, FOUR_BLOCKS / MEDIUM (was 72 / BLOCK / HIGH)
-- **Every Compat** assets **CACHED_ZIPPED** (was always held in RAM)
+- **Every Compat** assets **ALWAYS** in RAM (`CACHED_ZIPPED` wiped the zip on join and left pink/black woods)
 - **JEI** low-memory search
 - **Quantified API / Sable / Aeronautics** left on stock GPU settings (`enableGpuAcceleration`, `VULKAN_PREFERRED`, default thread pools)
 - **Ice and Fire** smaller dragon pathing / target range, smaller bird flocks, siren post-shader off
