@@ -42,7 +42,7 @@
 			rotation: 0.0d
 			text_on_image: 1b
 			width: 19.2d
-			x: 5.2d
+			x: 3.1d
 			y: 28.1d
 		}
 		{
@@ -602,130 +602,7 @@
 			y: 22.9d
 		}
 		{
-			id: "29DD6A58F2D39A53"
-			rewards: [{
-				count: 2
-				id: "31B7D36BD2856B05"
-				item: {
-					count: 1
-					id: "minecraft:chest"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "47A5557BE21BF2AC"
-				item: { count: 1, id: "toms_storage:inventory_connector" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 32.2d
-		}
-		{
-			dependencies: ["29DD6A58F2D39A53"]
-			id: "087EBB058621ECD2"
-			tasks: [{
-				id: "54EE4D6282EF3567"
-				item: { count: 1, id: "toms_storage:filing_cabinet" }
-				type: "item"
-			}]
-			x: 2.1d
-			y: 34.3d
-		}
-		{
-			dependencies: ["29DD6A58F2D39A53"]
-			id: "3FCF7AE9433167C9"
-			tasks: [{
-				id: "5017D7AAF2BC9BD1"
-				item: { count: 1, id: "toms_storage:inventory_cable" }
-				type: "item"
-			}]
-			x: 2.1d
-			y: 32.2d
-		}
-		{
-			dependencies: ["3FCF7AE9433167C9"]
-			id: "6818E01DDAE48DC7"
-			rewards: [{
-				count: 4
-				id: "17EB83D738913314"
-				item: {
-					count: 1
-					id: "minecraft:iron_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "218EBCBAF0134C5C"
-				item: { count: 1, id: "toms_storage:storage_terminal" }
-				type: "item"
-			}]
-			x: 4.2d
-			y: 32.2d
-		}
-		{
-			dependencies: ["6818E01DDAE48DC7"]
-			id: "2A179D78A08FDEE2"
-			tasks: [{
-				id: "201AE8EB873DB4E6"
-				item: { count: 1, id: "toms_storage:level_emitter" }
-				type: "item"
-			}]
-			x: 6.2d
-			y: 30.2d
-		}
-		{
-			dependencies: ["6818E01DDAE48DC7"]
-			id: "7F89DA8821CEB4A8"
-			tasks: [{
-				id: "535F996AD8FEE341"
-				item: { count: 1, id: "toms_storage:crafting_terminal" }
-				type: "item"
-			}]
-			x: 6.2d
-			y: 34.3d
-		}
-		{
-			dependencies: ["6818E01DDAE48DC7"]
-			id: "65C6A1940B1726C1"
-			rewards: [{
-				count: 2
-				id: "3740F33D65CF8668"
-				item: {
-					count: 1
-					id: "minecraft:gold_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "518157DE21DA8675"
-				item: { count: 1, id: "toms_storage:wireless_terminal" }
-				type: "item"
-			}]
-			x: 8.3d
-			y: 32.2d
-		}
-		{
-			dependencies: ["65C6A1940B1726C1"]
-			id: "636407B017B8AA37"
-			rewards: [{
-				count: 2
-				id: "772A663EB4F557AD"
-				item: {
-					count: 1
-					id: "minecraft:diamond"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "230E658B8F52F5E9"
-				item: { count: 1, id: "toms_storage:adv_wireless_terminal" }
-				type: "item"
-			}]
-			x: 10.4d
-			y: 32.2d
-		}
-		{
-			dependencies: ["6818E01DDAE48DC7"]
+			dependencies: ["5229F8AAC39AD691"]
 			id: "10ECE028BB684E49"
 			rewards: [{
 				count: 8
@@ -744,6 +621,78 @@
 			}]
 			x: 0.0d
 			y: 39.5d
+		}
+		{
+			id: "0458165EDB51419A"
+			rewards: [{
+				count: 2
+				id: "6B9523C702F47E15"
+				item: {
+					count: 1
+					id: "minecraft:chest"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FD46FE3D035D50B"
+				item: { count: 1, id: "create:packager" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 32.2d
+		}
+		{
+			dependencies: ["0458165EDB51419A"]
+			id: "521048AD3A93CBCF"
+			tasks: [{
+				id: "1676396A137C7207"
+				item: { count: 1, id: "create:stock_link" }
+				type: "item"
+			}]
+			x: 2.1d
+			y: 32.2d
+		}
+		{
+			dependencies: ["521048AD3A93CBCF"]
+			id: "5229F8AAC39AD691"
+			rewards: [{
+				count: 4
+				id: "65090321C2E4DD60"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "665EFE20C066188B"
+				item: { count: 1, id: "create:stock_ticker" }
+				type: "item"
+			}]
+			x: 4.2d
+			y: 32.2d
+		}
+		{
+			dependencies: ["5229F8AAC39AD691"]
+			id: "110EBA656EC261FC"
+			tasks: [{
+				id: "0CAAB2AA91FC5035"
+				item: { count: 1, id: "create:factory_gauge" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 30.2d
+		}
+		{
+			dependencies: ["5229F8AAC39AD691"]
+			id: "55B8BE8127CFBBC0"
+			tasks: [{
+				id: "2BE1783F87BABAE6"
+				item: { count: 1, id: "create:redstone_requester" }
+				type: "item"
+			}]
+			x: 6.2d
+			y: 34.3d
 		}
 	]
 }

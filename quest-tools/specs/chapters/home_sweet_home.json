@@ -1,0 +1,1304 @@
+{
+  "key": "home_sweet_home",
+  "group": "homestead",
+  "order_index": 1,
+  "title": "Home Sweet Home",
+  "icon": "minecraft:chest",
+  "subtitle": "Furnish it, light it, and make it feel like yours",
+  "quests": [
+    {
+      "key": "first_chair",
+      "title": "Take a Seat",
+      "icon": "handcrafted:oak_chair",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Every home needs somewhere to sit down."
+      ],
+      "tasks": [
+        {
+          "item": "handcrafted:oak_chair",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:oak_planks",
+          "count": 8
+        }
+      ],
+      "dependencies": [],
+      "source": "handcrafted",
+      "section": "handcrafted"
+    },
+    {
+      "key": "dining_table",
+      "title": "Dining Table",
+      "icon": "handcrafted:oak_table",
+      "x": 1.6,
+      "y": 0.0,
+      "description": [
+        "Pair that chair with a proper table for meals and gatherings."
+      ],
+      "tasks": [
+        {
+          "item": "handcrafted:oak_table",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bread",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "first_chair"
+      ],
+      "source": "handcrafted",
+      "section": "handcrafted"
+    },
+    {
+      "key": "kitchen_appliances",
+      "title": "Kitchen Appliances",
+      "icon": "handcrafted:oven",
+      "x": 3.2,
+      "y": 0.0,
+      "description": [
+        "An oven and hood turn a corner of the house into a real kitchen."
+      ],
+      "tasks": [
+        {
+          "item": "handcrafted:oven",
+          "count": 1
+        },
+        {
+          "item": "handcrafted:kitchen_hood",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "dining_table"
+      ],
+      "source": "handcrafted",
+      "section": "handcrafted"
+    },
+    {
+      "key": "dinner_set",
+      "title": "Set the Table",
+      "icon": "handcrafted:white_crockery_combo",
+      "x": 4.8,
+      "y": 0.0,
+      "description": [
+        "A finished kitchen deserves a table set to match."
+      ],
+      "tasks": [
+        {
+          "item": "handcrafted:white_crockery_combo",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "kitchen_appliances"
+      ],
+      "source": "handcrafted",
+      "size": 1.4,
+      "shape": "hexagon",
+      "section": "handcrafted"
+    },
+    {
+      "key": "living_room_couch",
+      "title": "Living Room Couch",
+      "icon": "handcrafted:oak_couch",
+      "x": 0.0,
+      "y": 1.6,
+      "description": [
+        "A couch is the start of any cozy living room."
+      ],
+      "tasks": [
+        {
+          "item": "handcrafted:oak_couch",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:white_wool",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "handcrafted",
+      "section": "handcrafted"
+    },
+    {
+      "key": "cozy_textiles",
+      "title": "Cozy Textiles",
+      "icon": "handcrafted:white_cushion",
+      "x": 1.6,
+      "y": 1.6,
+      "description": [
+        "Cushions and sheets soften the room.",
+        "Small touches, but they're what make a house feel like home."
+      ],
+      "tasks": [
+        {
+          "item": "handcrafted:white_cushion",
+          "count": 2
+        },
+        {
+          "item": "handcrafted:white_sheet",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "living_room_couch"
+      ],
+      "source": "handcrafted",
+      "section": "handcrafted"
+    },
+    {
+      "key": "bookshelf",
+      "title": "Bookshelf",
+      "icon": "handcrafted:oak_shelf",
+      "x": 0.0,
+      "y": 3.2,
+      "description": [
+        "A simple shelf for books, pots, and the odd knick-knack."
+      ],
+      "tasks": [
+        {
+          "item": "handcrafted:oak_shelf",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:paper",
+          "count": 8
+        }
+      ],
+      "dependencies": [],
+      "source": "handcrafted",
+      "section": "handcrafted"
+    },
+    {
+      "key": "storage_furniture",
+      "title": "Storage Furniture",
+      "icon": "handcrafted:oak_cupboard",
+      "x": 1.6,
+      "y": 3.2,
+      "description": [
+        "A cupboard and drawer keep the clutter out of sight."
+      ],
+      "tasks": [
+        {
+          "item": "handcrafted:oak_cupboard",
+          "count": 1
+        },
+        {
+          "item": "handcrafted:oak_drawer",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:chest",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "bookshelf"
+      ],
+      "source": "handcrafted",
+      "section": "handcrafted"
+    },
+    {
+      "key": "bedroom_nightstand",
+      "title": "Bedside Nightstand",
+      "icon": "handcrafted:oak_nightstand",
+      "x": 3.2,
+      "y": 3.2,
+      "description": [
+        "Somewhere to set a candle or a book before bed."
+      ],
+      "tasks": [
+        {
+          "item": "handcrafted:oak_nightstand",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "storage_furniture"
+      ],
+      "source": "handcrafted",
+      "section": "handcrafted"
+    },
+    {
+      "key": "fancy_bed",
+      "title": "A Proper Bed",
+      "icon": "handcrafted:oak_fancy_bed",
+      "x": 4.8,
+      "y": 3.2,
+      "description": [
+        "Finish the bedroom off with a bed that's a cut above plain."
+      ],
+      "tasks": [
+        {
+          "item": "handcrafted:oak_fancy_bed",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:feather",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "bedroom_nightstand"
+      ],
+      "source": "handcrafted",
+      "section": "handcrafted"
+    },
+    {
+      "key": "wall_art",
+      "title": "Wall Art",
+      "icon": "handcrafted:fancy_painting",
+      "x": 0.0,
+      "y": 4.8,
+      "description": [
+        "Bare walls have no story to tell.",
+        "A fancy painting gives them a little character."
+      ],
+      "tasks": [
+        {
+          "item": "handcrafted:fancy_painting",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:torch",
+          "count": 8
+        }
+      ],
+      "dependencies": [],
+      "source": "handcrafted",
+      "section": "handcrafted"
+    },
+    {
+      "key": "hunters_trophy",
+      "title": "Hunter's Trophy",
+      "icon": "handcrafted:wolf_trophy",
+      "x": 1.6,
+      "y": 4.8,
+      "description": [
+        "A trophy on the wall, a story from your travels."
+      ],
+      "tasks": [
+        {
+          "item": "handcrafted:wolf_trophy",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "wall_art"
+      ],
+      "source": "handcrafted",
+      "section": "handcrafted"
+    },
+    {
+      "key": "stone_lamp",
+      "title": "Stone Lamp",
+      "icon": "supplementaries:stone_lamp",
+      "x": 0.0,
+      "y": 8.8,
+      "description": [
+        "A plain lamp that only glows when you flick a switch for it.",
+        "Perfect for a hidden light you control from elsewhere."
+      ],
+      "tasks": [
+        {
+          "item": "supplementaries:stone_lamp",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:torch",
+          "count": 8
+        }
+      ],
+      "dependencies": [],
+      "source": "supplementaries",
+      "section": "supplementaries"
+    },
+    {
+      "key": "blackstone_lamp",
+      "title": "Blackstone Lamp",
+      "icon": "supplementaries:blackstone_lamp",
+      "x": 1.6,
+      "y": 8.8,
+      "description": [
+        "A darker take on the lamp, right at home in a nether-themed room."
+      ],
+      "tasks": [
+        {
+          "item": "supplementaries:blackstone_lamp",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:redstone",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "stone_lamp"
+      ],
+      "source": "supplementaries",
+      "section": "supplementaries"
+    },
+    {
+      "key": "deepslate_lamp",
+      "title": "Deepslate Lamp",
+      "icon": "supplementaries:deepslate_lamp",
+      "x": 3.2,
+      "y": 8.8,
+      "description": [
+        "The deepslate version rounds out the whole lamp family nicely."
+      ],
+      "tasks": [
+        {
+          "item": "supplementaries:deepslate_lamp",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:glowstone_dust",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "blackstone_lamp"
+      ],
+      "source": "supplementaries",
+      "section": "supplementaries"
+    },
+    {
+      "key": "sconce",
+      "title": "Sconce",
+      "icon": "supplementaries:sconce",
+      "x": 0.0,
+      "y": 10.4,
+      "description": [
+        "A wall-mounted light that warms up any hallway."
+      ],
+      "tasks": [
+        {
+          "item": "supplementaries:sconce",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:torch",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "supplementaries",
+      "section": "supplementaries"
+    },
+    {
+      "key": "gold_lantern",
+      "title": "Candle Holder",
+      "icon": "supplementaries:candle_holder",
+      "x": 1.6,
+      "y": 10.4,
+      "description": [
+        "A tabletop holder for a candle of any color you fancy."
+      ],
+      "tasks": [
+        {
+          "item": "supplementaries:candle_holder",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_nugget",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "sconce"
+      ],
+      "source": "supplementaries",
+      "section": "supplementaries"
+    },
+    {
+      "key": "crank",
+      "title": "Crank",
+      "icon": "supplementaries:crank",
+      "x": 0.0,
+      "y": 12.0,
+      "description": [
+        "A hand-turned crank for a redstone signal, no wiring required."
+      ],
+      "tasks": [
+        {
+          "item": "supplementaries:crank",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:stick",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "supplementaries",
+      "section": "supplementaries"
+    },
+    {
+      "key": "relayer",
+      "title": "Relayer",
+      "icon": "supplementaries:relayer",
+      "x": 1.6,
+      "y": 12.0,
+      "description": [
+        "Passes a signal along to a linked block, with or without wires."
+      ],
+      "tasks": [
+        {
+          "item": "supplementaries:relayer",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:redstone",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "crank"
+      ],
+      "source": "supplementaries",
+      "section": "supplementaries"
+    },
+    {
+      "key": "speaker_block",
+      "title": "Speaker Block",
+      "icon": "supplementaries:speaker_block",
+      "x": 3.2,
+      "y": 12.0,
+      "description": [
+        "Plays a sound of your choosing when the signal comes through.",
+        "Pair it with the relayer for a doorbell or a dinner call."
+      ],
+      "tasks": [
+        {
+          "item": "supplementaries:speaker_block",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "relayer"
+      ],
+      "source": "supplementaries",
+      "section": "supplementaries"
+    },
+    {
+      "key": "blackboard",
+      "title": "Blackboard",
+      "icon": "supplementaries:blackboard",
+      "x": 0.0,
+      "y": 13.6,
+      "description": [
+        "Chalk up notes and doodles right on the wall."
+      ],
+      "tasks": [
+        {
+          "item": "supplementaries:blackboard",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:paper",
+          "count": 8
+        }
+      ],
+      "dependencies": [],
+      "source": "supplementaries",
+      "section": "supplementaries"
+    },
+    {
+      "key": "notice_board",
+      "title": "Notice Board",
+      "icon": "supplementaries:notice_board",
+      "x": 0.0,
+      "y": 15.2,
+      "description": [
+        "Pin up a book or two for the whole household to read."
+      ],
+      "tasks": [
+        {
+          "item": "supplementaries:notice_board",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:paper",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "supplementaries",
+      "section": "supplementaries"
+    },
+    {
+      "key": "way_sign",
+      "title": "Way Sign",
+      "icon": "supplementaries:way_sign_oak",
+      "x": 1.6,
+      "y": 15.2,
+      "description": [
+        "A friendly signpost pointing visitors toward the notice board, and beyond."
+      ],
+      "tasks": [
+        {
+          "item": "supplementaries:way_sign_oak",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:compass",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "notice_board"
+      ],
+      "source": "supplementaries",
+      "section": "supplementaries"
+    },
+    {
+      "key": "safe",
+      "title": "Safe",
+      "icon": "supplementaries:safe",
+      "x": 0.0,
+      "y": 16.8,
+      "description": [
+        "A lockable spot to tuck away whatever you treasure most."
+      ],
+      "tasks": [
+        {
+          "item": "supplementaries:safe",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "supplementaries",
+      "section": "supplementaries"
+    },
+    {
+      "key": "key",
+      "title": "Key",
+      "icon": "supplementaries:key",
+      "x": 1.6,
+      "y": 16.8,
+      "description": [
+        "The key that opens the safe, and anything else you've locked up."
+      ],
+      "tasks": [
+        {
+          "item": "supplementaries:key",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_nugget",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "safe"
+      ],
+      "source": "supplementaries",
+      "section": "supplementaries"
+    },
+    {
+      "key": "hat_stand",
+      "title": "Hat Stand",
+      "icon": "supplementaries:hat_stand",
+      "x": 0.0,
+      "y": 18.4,
+      "description": [
+        "A little stand to show off your favorite hat by the door."
+      ],
+      "tasks": [
+        {
+          "item": "supplementaries:hat_stand",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:leather",
+          "count": 2
+        }
+      ],
+      "dependencies": [],
+      "source": "supplementaries",
+      "section": "supplementaries"
+    },
+    {
+      "key": "trowel",
+      "title": "Trowel",
+      "icon": "quark:trowel",
+      "x": 0.0,
+      "y": 22.4,
+      "description": [
+        "Spreads dirt, sand, and gravel without the back-and-forth.",
+        "A small thing, but you'll reach for it constantly."
+      ],
+      "tasks": [
+        {
+          "item": "quark:trowel",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:dirt",
+          "count": 8
+        }
+      ],
+      "dependencies": [],
+      "source": "quark",
+      "section": "quark"
+    },
+    {
+      "key": "pickarang",
+      "title": "Pickarang",
+      "icon": "quark:pickarang",
+      "x": 1.6,
+      "y": 22.4,
+      "description": [
+        "Flick it out to mine a block and it comes right back to you.",
+        "Handy for that one ore you can never quite reach."
+      ],
+      "tasks": [
+        {
+          "item": "quark:pickarang",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_nugget",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "trowel"
+      ],
+      "source": "quark",
+      "section": "quark"
+    },
+    {
+      "key": "hammer",
+      "title": "Hammer",
+      "icon": "quark:hammer",
+      "x": 3.2,
+      "y": 22.4,
+      "description": [
+        "One swing clears a 3x3 patch, so tunnels go a lot faster."
+      ],
+      "tasks": [
+        {
+          "item": "quark:hammer",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "pickarang"
+      ],
+      "source": "quark",
+      "section": "quark"
+    },
+    {
+      "key": "flamerang",
+      "title": "Flamarang",
+      "icon": "quark:flamerang",
+      "x": 4.8,
+      "y": 22.4,
+      "description": [
+        "The Pickarang's fiery cousin, for when mining turns to fighting."
+      ],
+      "tasks": [
+        {
+          "item": "quark:flamerang",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:blaze_powder",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "hammer"
+      ],
+      "source": "quark",
+      "section": "quark"
+    },
+    {
+      "key": "oak_chest",
+      "title": "Variant Chest",
+      "icon": "quark:oak_chest",
+      "x": 0.0,
+      "y": 24.0,
+      "description": [
+        "A wood-matched chest for whichever room it lands in.",
+        "Start the collection with a simple Oak Chest."
+      ],
+      "tasks": [
+        {
+          "item": "quark:oak_chest",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:chest",
+          "count": 1
+        }
+      ],
+      "dependencies": [],
+      "source": "quark",
+      "section": "quark"
+    },
+    {
+      "key": "backpack",
+      "title": "Backpack",
+      "icon": "quark:backpack",
+      "x": 1.6,
+      "y": 24.0,
+      "description": [
+        "Wearable storage means never running short of space on a trip out."
+      ],
+      "tasks": [
+        {
+          "item": "quark:backpack",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "oak_chest"
+      ],
+      "source": "quark",
+      "section": "quark"
+    },
+    {
+      "key": "crate",
+      "title": "Storage Crate",
+      "icon": "quark:crate",
+      "x": 3.2,
+      "y": 24.0,
+      "description": [
+        "A stackable crate for keeping bulk goods neatly out of the way."
+      ],
+      "tasks": [
+        {
+          "item": "quark:crate",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:barrel",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "backpack"
+      ],
+      "source": "quark",
+      "section": "quark"
+    },
+    {
+      "key": "seed_pouch",
+      "title": "Seed Pouch",
+      "icon": "quark:seed_pouch",
+      "x": 4.8,
+      "y": 24.0,
+      "description": [
+        "Gathers up loose seeds as you tend the fields, so you don't have to."
+      ],
+      "tasks": [
+        {
+          "item": "quark:seed_pouch",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:wheat_seeds",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "crate"
+      ],
+      "source": "quark",
+      "section": "quark"
+    },
+    {
+      "key": "framed_glass",
+      "title": "Framed Glass",
+      "icon": "quark:framed_glass",
+      "x": 0.0,
+      "y": 25.6,
+      "description": [
+        "A softer take on glass, framed in wood and dyed to match any room."
+      ],
+      "tasks": [
+        {
+          "item": "quark:framed_glass",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:glass",
+          "count": 8
+        }
+      ],
+      "dependencies": [],
+      "source": "quark",
+      "section": "quark"
+    },
+    {
+      "key": "iron_ladder",
+      "title": "Iron Ladder",
+      "icon": "quark:iron_ladder",
+      "x": 1.6,
+      "y": 25.6,
+      "description": [
+        "A sturdier ladder for climbs that need a bit more backbone."
+      ],
+      "tasks": [
+        {
+          "item": "quark:iron_ladder",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:ladder",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "framed_glass"
+      ],
+      "source": "quark",
+      "section": "quark"
+    },
+    {
+      "key": "limestone_bricks",
+      "title": "Limestone Bricks",
+      "icon": "quark:limestone_bricks",
+      "x": 3.2,
+      "y": 25.6,
+      "description": [
+        "A pale stone quarried from underground, good for a lighter build."
+      ],
+      "tasks": [
+        {
+          "item": "quark:limestone_bricks",
+          "count": 8
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:stone_bricks",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "iron_ladder"
+      ],
+      "source": "quark",
+      "section": "quark"
+    },
+    {
+      "key": "jasper_bricks",
+      "title": "Jasper Bricks",
+      "icon": "quark:jasper_bricks",
+      "x": 4.8,
+      "y": 25.6,
+      "description": [
+        "Cut from Jasper, found near lava, for a splash of color in your walls."
+      ],
+      "tasks": [
+        {
+          "item": "quark:jasper_bricks",
+          "count": 8
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:amethyst_shard",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "limestone_bricks"
+      ],
+      "source": "quark",
+      "section": "quark"
+    },
+    {
+      "key": "weather_sensor",
+      "title": "Magnet",
+      "icon": "quark:magnet",
+      "x": 0.0,
+      "y": 27.2,
+      "description": [
+        "Pulls dropped items straight into your hands, so nothing's left behind."
+      ],
+      "tasks": [
+        {
+          "item": "quark:magnet",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:redstone",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "quark",
+      "section": "quark"
+    },
+    {
+      "key": "ender_watcher",
+      "title": "Ender Watcher",
+      "icon": "quark:ender_watcher",
+      "x": 1.6,
+      "y": 27.2,
+      "description": [
+        "Keeps an eye out for anything living that wanders past."
+      ],
+      "tasks": [
+        {
+          "item": "quark:ender_watcher",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:ender_pearl",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "weather_sensor"
+      ],
+      "source": "quark",
+      "section": "quark"
+    },
+    {
+      "key": "matrix_enchanter",
+      "title": "Matrix Enchanting Table",
+      "icon": "quark:matrix_enchanter",
+      "x": 3.2,
+      "y": 27.2,
+      "description": [
+        "Choose your enchantments exactly, instead of leaving it to chance."
+      ],
+      "tasks": [
+        {
+          "item": "quark:matrix_enchanter",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 5
+        }
+      ],
+      "dependencies": [
+        "ender_watcher"
+      ],
+      "source": "quark",
+      "section": "quark"
+    },
+    {
+      "key": "tiny_potato",
+      "title": "Tiny Potato",
+      "icon": "quark:tiny_potato",
+      "x": 0.0,
+      "y": 28.8,
+      "description": [
+        "Serves no purpose at all, and somehow that's exactly the charm."
+      ],
+      "tasks": [
+        {
+          "item": "quark:tiny_potato",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:potato",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "quark",
+      "section": "quark"
+    },
+    {
+      "key": "tool_hook",
+      "title": "Tool Hook",
+      "icon": "amendments:tool_hook",
+      "x": 0.0,
+      "y": 32.8,
+      "description": [
+        "Mount tools and weapons right on the wall instead of burying them in a chest."
+      ],
+      "tasks": [
+        {
+          "item": "amendments:tool_hook",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_nugget",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "amendments",
+      "section": "amendments"
+    },
+    {
+      "key": "wall_lantern",
+      "title": "Wall Lantern",
+      "icon": "amendments:wall_lantern",
+      "x": 1.6,
+      "y": 32.8,
+      "description": [
+        "A lantern that mounts flush to a wall, no floor space lost."
+      ],
+      "tasks": [
+        {
+          "item": "amendments:wall_lantern",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:torch",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "amendments",
+      "section": "amendments"
+    },
+    {
+      "key": "dye_cauldron",
+      "title": "Dye Cauldron",
+      "icon": "amendments:dye_cauldron",
+      "x": 3.2,
+      "y": 32.8,
+      "description": [
+        "Fill a cauldron with dye and every undyed piece you dip comes out in color."
+      ],
+      "tasks": [
+        {
+          "item": "amendments:dye_cauldron",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:water_bucket",
+          "count": 1
+        }
+      ],
+      "dependencies": [],
+      "source": "amendments",
+      "section": "amendments"
+    },
+    {
+      "key": "home_furnished",
+      "title": "Home, Furnished",
+      "icon": "minecraft:flower_pot",
+      "x": 0.0,
+      "y": 36.8,
+      "description": [
+        "A kitchen that works, lighting that answers to you, a shelf for every knick-knack, and a coat of paint.",
+        "It stopped being a shelter a while ago. Now it is actually, unmistakably, home."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald_block",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "dinner_set",
+        "speaker_block",
+        "matrix_enchanter",
+        "storage_furniture",
+        "dye_cauldron"
+      ],
+      "source": "home_sweet_home_bridge",
+      "shape": "hexagon",
+      "size": 1.4,
+      "section": "chapter_completion"
+    },
+    {
+      "key": "traveller_hammock",
+      "title": "A Hammock for Warm Nights",
+      "icon": "comforts:hammock_white",
+      "x": 4.8,
+      "y": 32.8,
+      "description": [
+        "When the season is wrong for a bed, hang a hammock and sleep under the eaves.",
+        "Comforts lets you skip the night without a full bedroom wherever you camp."
+      ],
+      "tasks": [
+        {
+          "item": "comforts:hammock_white",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "comforts:rope_and_nail",
+          "count": 2
+        }
+      ],
+      "dependencies": [],
+      "source": "amendments",
+      "section": "amendments"
+    }
+  ],
+  "images": [
+    {
+      "x": 2.4,
+      "y": -1.6,
+      "width": 12,
+      "height": 0.8,
+      "text": [
+        "Furnish Your Home"
+      ]
+    },
+    {
+      "x": 1.6,
+      "y": 7.2,
+      "width": 12,
+      "height": 0.8,
+      "text": [
+        "Make Your Home Practical"
+      ]
+    },
+    {
+      "x": 2.4,
+      "y": 20.8,
+      "width": 12,
+      "height": 0.8,
+      "text": [
+        "Build with More Detail"
+      ]
+    },
+    {
+      "x": 2.4,
+      "y": 31.2,
+      "width": 12,
+      "height": 0.8,
+      "text": [
+        "Add the Finishing Touches"
+      ]
+    },
+    {
+      "x": 0.0,
+      "y": 35.2,
+      "width": 12,
+      "height": 0.8,
+      "text": [
+        "Bring It All Together"
+      ]
+    }
+  ]
+}

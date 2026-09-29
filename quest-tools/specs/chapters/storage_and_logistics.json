@@ -1,0 +1,1012 @@
+{
+  "key": "storage_and_logistics",
+  "group": "engineering",
+  "order_index": 1,
+  "title": "Storage and Logistics",
+  "icon": "storagedrawers:controller",
+  "subtitle": "From a single drawer to a warehouse that sorts itself",
+  "quests": [
+    {
+      "key": "detached_drawer",
+      "title": "Your First Drawer",
+      "icon": "storagedrawers:detached_drawer",
+      "x": 0.0,
+      "y": 1.6,
+      "description": [
+        "Holds a mountain of one item in a single block.",
+        "Where every drawer room starts."
+      ],
+      "tasks": [
+        {
+          "item": "storagedrawers:detached_drawer",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:oak_planks",
+          "count": 16
+        }
+      ],
+      "dependencies": [],
+      "source": "storage_drawers",
+      "section": "storage_drawers"
+    },
+    {
+      "key": "framing_table",
+      "title": "Framing Table",
+      "icon": "storagedrawers:framing_table",
+      "x": 1.6,
+      "y": 1.6,
+      "description": [
+        "Dresses drawers up with trim and matching materials.",
+        "For when function needs to look good too."
+      ],
+      "tasks": [
+        {
+          "item": "storagedrawers:framing_table",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "detached_drawer"
+      ],
+      "source": "storage_drawers",
+      "section": "storage_drawers"
+    },
+    {
+      "key": "magnet_upgrade",
+      "title": "Magnet Upgrade",
+      "icon": "storagedrawers:magnet_upgrade",
+      "x": 1.6,
+      "y": 0.0,
+      "description": [
+        "Sucks matching drops off the floor straight into the drawer."
+      ],
+      "tasks": [
+        {
+          "item": "storagedrawers:magnet_upgrade",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "detached_drawer"
+      ],
+      "source": "storage_drawers",
+      "size": 1.8,
+      "section": "storage_drawers"
+    },
+    {
+      "key": "storage_upgrade_tier1",
+      "title": "Storage Upgrade (I)",
+      "icon": "storagedrawers:obsidian_storage_upgrade",
+      "x": 1.6,
+      "y": 3.2,
+      "description": [
+        "Multiplies what a drawer can hold - the first step up from base capacity."
+      ],
+      "tasks": [
+        {
+          "item": "storagedrawers:obsidian_storage_upgrade",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:redstone",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "detached_drawer"
+      ],
+      "source": "storage_drawers",
+      "section": "storage_drawers"
+    },
+    {
+      "key": "storage_upgrade_tier2",
+      "title": "Storage Upgrade (II)",
+      "icon": "storagedrawers:copper_storage_upgrade",
+      "x": 3.2,
+      "y": 3.2,
+      "description": [
+        "Another jump in capacity, stacked on top of the first."
+      ],
+      "tasks": [
+        {
+          "item": "storagedrawers:copper_storage_upgrade",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "storage_upgrade_tier1"
+      ],
+      "source": "storage_drawers",
+      "section": "storage_drawers"
+    },
+    {
+      "key": "void_upgrade",
+      "title": "Void Upgrade",
+      "icon": "storagedrawers:void_upgrade",
+      "x": 3.2,
+      "y": 4.8,
+      "description": [
+        "Deletes the overflow once a drawer's full.",
+        "A lifesaver on cobblestone generators and anything else that never stops producing."
+      ],
+      "tasks": [
+        {
+          "item": "storagedrawers:void_upgrade",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:redstone",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "storage_upgrade_tier1"
+      ],
+      "source": "storage_drawers",
+      "section": "storage_drawers"
+    },
+    {
+      "key": "controller",
+      "title": "Drawer Controller",
+      "icon": "storagedrawers:controller",
+      "x": 4.8,
+      "y": 1.6,
+      "description": [
+        "Wires a whole bank of drawers into one network.",
+        "The backbone of any storage room worth the name."
+      ],
+      "tasks": [
+        {
+          "item": "storagedrawers:controller",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_block",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "framing_table",
+        "storage_upgrade_tier2"
+      ],
+      "source": "storage_drawers",
+      "section": "storage_drawers"
+    },
+    {
+      "key": "personal_key",
+      "title": "Personal Key",
+      "icon": "storagedrawers:personal_key",
+      "x": 6.4,
+      "y": 0.0,
+      "description": [
+        "Locks the network down to you and you alone."
+      ],
+      "tasks": [
+        {
+          "item": "storagedrawers:personal_key",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "controller"
+      ],
+      "source": "storage_drawers",
+      "section": "storage_drawers"
+    },
+    {
+      "key": "compacting_drawers",
+      "title": "Compacting Drawers",
+      "icon": "storagedrawers:compacting_drawers_2",
+      "x": 6.4,
+      "y": 1.6,
+      "description": [
+        "Auto-compacts stored items into their block form.",
+        "Cobblestone and sand stop eating up so much room."
+      ],
+      "tasks": [
+        {
+          "item": "storagedrawers:compacting_drawers_2",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "controller"
+      ],
+      "source": "storage_drawers",
+      "section": "storage_drawers"
+    },
+    {
+      "key": "framed_controller",
+      "title": "Framed Drawer Controller",
+      "icon": "storagedrawers:framed_controller",
+      "x": 6.4,
+      "y": 3.2,
+      "description": [
+        "A dressed-up controller for the room you actually want to look at."
+      ],
+      "tasks": [
+        {
+          "item": "storagedrawers:framed_controller",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "controller"
+      ],
+      "source": "storage_drawers",
+      "section": "storage_drawers"
+    },
+    {
+      "key": "oak_1",
+      "title": "Oak Drawer (1x1)",
+      "icon": "functionalstorage:oak_1",
+      "x": 0.0,
+      "y": 10.4,
+      "description": [
+        "One slot, one item, no fuss.",
+        "Your first step into Functional Storage."
+      ],
+      "tasks": [
+        {
+          "item": "functionalstorage:oak_1",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:oak_planks",
+          "count": 16
+        }
+      ],
+      "dependencies": [],
+      "source": "functional_storage",
+      "section": "functional_storage"
+    },
+    {
+      "key": "oak_2",
+      "title": "Oak Drawer (1x2)",
+      "icon": "functionalstorage:oak_2",
+      "x": 1.6,
+      "y": 10.4,
+      "description": [
+        "Two slots for a matched pair of items."
+      ],
+      "tasks": [
+        {
+          "item": "functionalstorage:oak_2",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "functional_storage",
+      "section": "functional_storage"
+    },
+    {
+      "key": "oak_4",
+      "title": "Oak Drawer (2x2)",
+      "icon": "functionalstorage:oak_4",
+      "x": 3.2,
+      "y": 10.4,
+      "description": [
+        "Four slots - the drawer you'll end up placing the most."
+      ],
+      "tasks": [
+        {
+          "item": "functionalstorage:oak_4",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:chest",
+          "count": 1
+        }
+      ],
+      "dependencies": [],
+      "source": "functional_storage",
+      "section": "functional_storage"
+    },
+    {
+      "key": "puller_upgrade",
+      "title": "Puller Upgrade",
+      "icon": "functionalstorage:puller_upgrade",
+      "x": 4.8,
+      "y": 8.8,
+      "description": [
+        "A hopper and some redstone, bolted onto any drawer.",
+        "Pulls matching items in from adjacent inventories automatically."
+      ],
+      "tasks": [
+        {
+          "item": "functionalstorage:puller_upgrade",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "oak_1"
+      ],
+      "source": "functional_storage",
+      "section": "functional_storage"
+    },
+    {
+      "key": "pusher_upgrade",
+      "title": "Pusher Upgrade",
+      "icon": "functionalstorage:pusher_upgrade",
+      "x": 4.8,
+      "y": 12.0,
+      "description": [
+        "The reverse of the Puller - pushes contents out to whatever is next in line."
+      ],
+      "tasks": [
+        {
+          "item": "functionalstorage:pusher_upgrade",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "oak_1"
+      ],
+      "source": "functional_storage",
+      "section": "functional_storage"
+    },
+    {
+      "key": "copper_upgrade",
+      "title": "Copper Upgrade",
+      "icon": "functionalstorage:copper_upgrade",
+      "x": 4.8,
+      "y": 10.4,
+      "description": [
+        "Bumps up capacity - first tier of the storage upgrade line."
+      ],
+      "tasks": [
+        {
+          "item": "functionalstorage:copper_upgrade",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "oak_1"
+      ],
+      "source": "functional_storage",
+      "section": "functional_storage"
+    },
+    {
+      "key": "gold_upgrade",
+      "title": "Gold Upgrade",
+      "icon": "functionalstorage:gold_upgrade",
+      "x": 6.4,
+      "y": 10.4,
+      "description": [
+        "Another capacity jump on top of copper."
+      ],
+      "tasks": [
+        {
+          "item": "functionalstorage:gold_upgrade",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "copper_upgrade"
+      ],
+      "source": "functional_storage",
+      "section": "functional_storage"
+    },
+    {
+      "key": "diamond_upgrade",
+      "title": "Diamond Upgrade",
+      "icon": "functionalstorage:diamond_upgrade",
+      "x": 8.0,
+      "y": 10.4,
+      "description": [
+        "Top-tier capacity, for when you're storing by the thousands."
+      ],
+      "tasks": [
+        {
+          "item": "functionalstorage:diamond_upgrade",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "gold_upgrade"
+      ],
+      "source": "functional_storage",
+      "section": "functional_storage"
+    },
+    {
+      "key": "netherite_upgrade",
+      "title": "Netherite Upgrade",
+      "icon": "functionalstorage:netherite_upgrade",
+      "x": 9.6,
+      "y": 10.4,
+      "description": [
+        "A Netherite Ingot and a Netherite Upgrade Smithing Template, applied to a Diamond Upgrade at a smithing table.",
+        "The true final tier - nothing stores more, nothing survives more."
+      ],
+      "tasks": [
+        {
+          "item": "functionalstorage:netherite_upgrade",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:netherite_scrap",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "diamond_upgrade"
+      ],
+      "source": "functional_storage",
+      "shape": "diamond",
+      "size": 1.2,
+      "section": "functional_storage"
+    },
+    {
+      "key": "storage_controller",
+      "title": "Storage Controller",
+      "icon": "functionalstorage:storage_controller",
+      "x": 12.8,
+      "y": 10.4,
+      "description": [
+        "Just a drawer, a comparator, and some quartz and stone.",
+        "Links every drawer in range into one searchable network."
+      ],
+      "tasks": [
+        {
+          "item": "functionalstorage:storage_controller",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_block",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "oak_1"
+      ],
+      "source": "functional_storage",
+      "section": "functional_storage"
+    },
+    {
+      "key": "compacting_drawer",
+      "title": "Compacting Drawer",
+      "icon": "functionalstorage:compacting_drawer",
+      "x": 11.2,
+      "y": 10.4,
+      "description": [
+        "A drawer, a piston, some iron and stone.",
+        "Automatically compacts its contents into their block form."
+      ],
+      "tasks": [
+        {
+          "item": "functionalstorage:compacting_drawer",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "oak_1"
+      ],
+      "source": "functional_storage",
+      "shape": "hexagon",
+      "size": 1.4,
+      "section": "functional_storage"
+    },
+    {
+      "key": "backpack",
+      "title": "Basic Backpack",
+      "icon": "sophisticatedbackpacks:backpack",
+      "x": 0.0,
+      "y": 17.6,
+      "description": [
+        "A wearable container with slots to spare for upgrades.",
+        "Where the whole backpack line begins."
+      ],
+      "tasks": [
+        {
+          "item": "sophisticatedbackpacks:backpack",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "sophisticated_storage",
+      "section": "sophisticated_storage"
+    },
+    {
+      "key": "xp_bucket",
+      "title": "Bucket of Experience",
+      "icon": "sophisticatedcore:xp_bucket",
+      "x": 1.6,
+      "y": 16.0,
+      "description": [
+        "Bottled experience, ready to feed into upgrades that run on XP."
+      ],
+      "tasks": [
+        {
+          "item": "sophisticatedcore:xp_bucket",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "backpack"
+      ],
+      "source": "sophisticated_storage",
+      "section": "sophisticated_storage"
+    },
+    {
+      "key": "upgrade_base",
+      "title": "Upgrade Base",
+      "icon": "sophisticatedbackpacks:upgrade_base",
+      "x": 1.6,
+      "y": 17.6,
+      "description": [
+        "The blank slate every backpack upgrade is built from."
+      ],
+      "tasks": [
+        {
+          "item": "sophisticatedbackpacks:upgrade_base",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:book",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "backpack"
+      ],
+      "source": "sophisticated_storage",
+      "section": "sophisticated_storage"
+    },
+    {
+      "key": "stack_upgrade_tier_1",
+      "title": "Stack Upgrade Tier 1",
+      "icon": "sophisticatedbackpacks:stack_upgrade_tier_1",
+      "x": 3.2,
+      "y": 17.6,
+      "description": [
+        "Bumps up the stack size on everything stored inside."
+      ],
+      "tasks": [
+        {
+          "item": "sophisticatedbackpacks:stack_upgrade_tier_1",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "upgrade_base"
+      ],
+      "source": "sophisticated_storage",
+      "section": "sophisticated_storage"
+    },
+    {
+      "key": "pickup_upgrade",
+      "title": "Pickup Upgrade",
+      "icon": "sophisticatedbackpacks:pickup_upgrade",
+      "x": 3.2,
+      "y": 19.2,
+      "description": [
+        "Sweeps nearby drops straight into the backpack as you walk."
+      ],
+      "tasks": [
+        {
+          "item": "sophisticatedbackpacks:pickup_upgrade",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "upgrade_base"
+      ],
+      "source": "sophisticated_storage",
+      "section": "sophisticated_storage"
+    },
+    {
+      "key": "iron_backpack",
+      "title": "Iron Backpack",
+      "icon": "sophisticatedbackpacks:iron_backpack",
+      "x": 4.8,
+      "y": 17.6,
+      "description": [
+        "More room, more upgrade slots - a solid step up from the basic pack."
+      ],
+      "tasks": [
+        {
+          "item": "sophisticatedbackpacks:iron_backpack",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "stack_upgrade_tier_1"
+      ],
+      "source": "sophisticated_storage",
+      "section": "sophisticated_storage"
+    },
+    {
+      "key": "gold_backpack",
+      "title": "Gold Backpack",
+      "icon": "sophisticatedbackpacks:gold_backpack",
+      "x": 6.4,
+      "y": 17.6,
+      "description": [
+        "Roomier still."
+      ],
+      "tasks": [
+        {
+          "item": "sophisticatedbackpacks:gold_backpack",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "iron_backpack"
+      ],
+      "source": "sophisticated_storage",
+      "section": "sophisticated_storage"
+    },
+    {
+      "key": "diamond_backpack",
+      "title": "Diamond Backpack",
+      "icon": "sophisticatedbackpacks:diamond_backpack",
+      "x": 8.0,
+      "y": 17.6,
+      "description": [
+        "Serious capacity for serious adventuring."
+      ],
+      "tasks": [
+        {
+          "item": "sophisticatedbackpacks:diamond_backpack",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "gold_backpack"
+      ],
+      "source": "sophisticated_storage",
+      "section": "sophisticated_storage"
+    },
+    {
+      "key": "netherite_backpack",
+      "title": "Netherite Backpack",
+      "icon": "sophisticatedbackpacks:netherite_backpack",
+      "x": 9.6,
+      "y": 17.6,
+      "description": [
+        "The biggest, toughest pack in the line."
+      ],
+      "tasks": [
+        {
+          "item": "sophisticatedbackpacks:netherite_backpack",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "diamond_backpack"
+      ],
+      "source": "sophisticated_storage",
+      "section": "sophisticated_storage"
+    },
+    {
+      "key": "ender_linker",
+      "title": "Ender Linker",
+      "icon": "sophisticatedcore:ender_linker",
+      "x": 11.2,
+      "y": 17.6,
+      "description": [
+        "Links storage across dimensions, even from inside a backpack.",
+        "The capstone piece of the whole line."
+      ],
+      "tasks": [
+        {
+          "item": "sophisticatedcore:ender_linker",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:ender_pearl",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "netherite_backpack"
+      ],
+      "source": "sophisticated_storage",
+      "section": "sophisticated_storage"
+    },
+    {
+      "key": "contraption_terminal",
+      "title": "Packing on the Move",
+      "icon": "create:packager",
+      "x": 0.0,
+      "y": 30.4,
+      "description": [
+        "A packager does not care if the vault is bolted to bedrock or bolted to an airship.",
+        "Stock links on a contraption talk to the same network as the dock - that is how cargo should move."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "stock_ticker"
+      ],
+      "source": "storage_logistics_bridge",
+      "shape": "hexagon",
+      "size": 1.4,
+      "section": "chapter_completion"
+    },
+    {
+      "key": "packager",
+      "title": "The Packager",
+      "icon": "create:packager",
+      "x": 0.0,
+      "y": 24.8,
+      "description": [
+        "Create's answer to a storage network: boxes go in, boxes come out.",
+        "Park one on a vault, a chest wall, or a drawer controller and the factory can finally see your stock."
+      ],
+      "tasks": [
+        {
+          "item": "create:packager",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:chest",
+          "count": 2
+        }
+      ],
+      "dependencies": [],
+      "source": "create_logistics",
+      "section": "create_logistics"
+    },
+    {
+      "key": "stock_link",
+      "title": "Stock Link",
+      "icon": "create:stock_link",
+      "x": 1.6,
+      "y": 24.8,
+      "description": [
+        "Ties packagers onto one frequency so the ticker can see every chest at once."
+      ],
+      "tasks": [
+        {
+          "item": "create:stock_link",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "packager"
+      ],
+      "source": "create_logistics",
+      "section": "create_logistics"
+    },
+    {
+      "key": "stock_ticker",
+      "title": "Stock Ticker",
+      "icon": "create:stock_ticker",
+      "x": 3.2,
+      "y": 24.8,
+      "description": [
+        "One desk, the whole warehouse.",
+        "Request a package and the packagers do the walking."
+      ],
+      "tasks": [
+        {
+          "item": "create:stock_ticker",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "stock_link"
+      ],
+      "source": "create_logistics",
+      "section": "create_logistics"
+    },
+    {
+      "key": "factory_gauge",
+      "title": "Factory Gauge",
+      "icon": "create:factory_gauge",
+      "x": 4.8,
+      "y": 23.2,
+      "description": [
+        "Keep a line stocked automatically: when the count drops, the network packs a restock."
+      ],
+      "tasks": [
+        {
+          "item": "create:factory_gauge",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "stock_ticker"
+      ],
+      "source": "create_logistics",
+      "section": "create_logistics"
+    },
+    {
+      "key": "redstone_requester",
+      "title": "Redstone Requester",
+      "icon": "create:redstone_requester",
+      "x": 4.8,
+      "y": 26.4,
+      "description": [
+        "Pulse redstone, get a package.",
+        "The factory equivalent of a crafting terminal - machines ask, storage answers."
+      ],
+      "tasks": [
+        {
+          "item": "create:redstone_requester",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "stock_ticker"
+      ],
+      "source": "create_logistics",
+      "section": "create_logistics"
+    }
+  ],
+  "images": [
+    {
+      "x": 3.2,
+      "y": -1.6,
+      "width": 14.8,
+      "height": 0.8,
+      "text": [
+        "Organise Your Bulk Materials"
+      ]
+    },
+    {
+      "x": 6.4,
+      "y": 7.2,
+      "width": 14.8,
+      "height": 0.8,
+      "text": [
+        "Upgrade Your Storage Network"
+      ]
+    },
+    {
+      "x": 5.6,
+      "y": 14.4,
+      "width": 14.8,
+      "height": 0.8,
+      "text": [
+        "Build Smarter Containers"
+      ]
+    },
+    {
+      "x": 2.4,
+      "y": 21.6,
+      "width": 14.8,
+      "height": 0.8,
+      "text": [
+        "Pack and Request"
+      ]
+    },
+    {
+      "x": 0.0,
+      "y": 28.8,
+      "width": 14.8,
+      "height": 0.8,
+      "text": [
+        "Bring It All Together"
+      ]
+    }
+  ]
+}

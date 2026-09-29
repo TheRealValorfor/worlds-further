@@ -1,0 +1,1368 @@
+{
+  "key": "explore_nether",
+  "group": "exploration",
+  "order_index": 3,
+  "title": "The Nether Atlas",
+  "icon": "minecraft:netherrack",
+  "subtitle": "Every biome and structure in the deep heat",
+  "quests": [
+    {
+      "key": "enter_dimension",
+      "title": "Step into the Nether",
+      "icon": "minecraft:obsidian",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Walk through the portal, or just be here. The atlas starts when you arrive."
+      ],
+      "tasks": [
+        {
+          "type": "dimension",
+          "dimension": "minecraft:the_nether"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:map",
+          "count": 1
+        }
+      ],
+      "dependencies": [],
+      "source": "explore_nether",
+      "shape": "hexagon",
+      "size": 1.4,
+      "section": "arrival"
+    },
+    {
+      "key": "biome_minecraft_basalt_deltas",
+      "title": "Basalt Deltas",
+      "icon": "minecraft:crimson_fungus",
+      "x": 0.0,
+      "y": 4.0,
+      "description": [
+        "Vanilla. Stand in this biome until the task ticks.",
+        "minecraft:basalt_deltas"
+      ],
+      "tasks": [
+        {
+          "type": "biome",
+          "biome": "minecraft:basalt_deltas"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "biomes"
+    },
+    {
+      "key": "biome_minecraft_crimson_forest",
+      "title": "Crimson Forest",
+      "icon": "minecraft:crimson_fungus",
+      "x": 1.6,
+      "y": 4.0,
+      "description": [
+        "Vanilla. Stand in this biome until the task ticks.",
+        "minecraft:crimson_forest"
+      ],
+      "tasks": [
+        {
+          "type": "biome",
+          "biome": "minecraft:crimson_forest"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "biomes"
+    },
+    {
+      "key": "biome_minecraft_nether_wastes",
+      "title": "Nether Wastes",
+      "icon": "minecraft:crimson_fungus",
+      "x": 3.2,
+      "y": 4.0,
+      "description": [
+        "Vanilla. Stand in this biome until the task ticks.",
+        "minecraft:nether_wastes"
+      ],
+      "tasks": [
+        {
+          "type": "biome",
+          "biome": "minecraft:nether_wastes"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "biomes"
+    },
+    {
+      "key": "biome_minecraft_soul_sand_valley",
+      "title": "Soul Sand Valley",
+      "icon": "minecraft:crimson_fungus",
+      "x": 4.8,
+      "y": 4.0,
+      "description": [
+        "Vanilla. Stand in this biome until the task ticks.",
+        "minecraft:soul_sand_valley"
+      ],
+      "tasks": [
+        {
+          "type": "biome",
+          "biome": "minecraft:soul_sand_valley"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "biomes"
+    },
+    {
+      "key": "biome_minecraft_warped_forest",
+      "title": "Warped Forest",
+      "icon": "minecraft:crimson_fungus",
+      "x": 6.4,
+      "y": 4.0,
+      "description": [
+        "Vanilla. Stand in this biome until the task ticks.",
+        "minecraft:warped_forest"
+      ],
+      "tasks": [
+        {
+          "type": "biome",
+          "biome": "minecraft:warped_forest"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "biomes"
+    },
+    {
+      "key": "structure_betterfortresses_fortress",
+      "title": "Fortress",
+      "icon": "minecraft:nether_brick",
+      "x": 0.0,
+      "y": 8.0,
+      "description": [
+        "YUNG's Nether Fortresses. Walk inside the structure until the task ticks.",
+        "betterfortresses:fortress"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "betterfortresses:fortress"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_minecraft_bastion_remnant",
+      "title": "Bastion Remnant",
+      "icon": "minecraft:nether_brick",
+      "x": 1.6,
+      "y": 8.0,
+      "description": [
+        "Vanilla. Walk inside the structure until the task ticks.",
+        "minecraft:bastion_remnant"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "minecraft:bastion_remnant"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_minecraft_fortress",
+      "title": "Fortress",
+      "icon": "minecraft:nether_brick",
+      "x": 3.2,
+      "y": 8.0,
+      "description": [
+        "Vanilla. Walk inside the structure until the task ticks.",
+        "minecraft:fortress"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "minecraft:fortress"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_minecraft_nether_fossil",
+      "title": "Nether Fossil",
+      "icon": "minecraft:nether_brick",
+      "x": 4.8,
+      "y": 8.0,
+      "description": [
+        "Vanilla. Walk inside the structure until the task ticks.",
+        "minecraft:nether_fossil"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "minecraft:nether_fossil"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_minecraft_ruined_portal_nether",
+      "title": "Ruined Portal Nether",
+      "icon": "minecraft:nether_brick",
+      "x": 6.4,
+      "y": 8.0,
+      "description": [
+        "Vanilla. Walk inside the structure until the task ticks.",
+        "minecraft:ruined_portal_nether"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "minecraft:ruined_portal_nether"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_bridge_1",
+      "title": "Bridge 1",
+      "icon": "minecraft:nether_brick",
+      "x": 8.0,
+      "y": 8.0,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:bridge_1"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:bridge_1"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_bridge_2",
+      "title": "Bridge 2",
+      "icon": "minecraft:nether_brick",
+      "x": 9.6,
+      "y": 8.0,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:bridge_2"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:bridge_2"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_bridge_3",
+      "title": "Bridge 3",
+      "icon": "minecraft:nether_brick",
+      "x": 11.2,
+      "y": 8.0,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:bridge_3"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:bridge_3"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_bridge_4",
+      "title": "Bridge 4",
+      "icon": "minecraft:nether_brick",
+      "x": 12.8,
+      "y": 8.0,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:bridge_4"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:bridge_4"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_bridge_5",
+      "title": "Bridge 5",
+      "icon": "minecraft:nether_brick",
+      "x": 14.4,
+      "y": 8.0,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:bridge_5"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:bridge_5"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_bridge_6",
+      "title": "Bridge 6",
+      "icon": "minecraft:nether_brick",
+      "x": 0.0,
+      "y": 9.6,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:bridge_6"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:bridge_6"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_circle_blackstone",
+      "title": "Circle Blackstone",
+      "icon": "minecraft:nether_brick",
+      "x": 1.6,
+      "y": 9.6,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:circle_blackstone"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:circle_blackstone"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_circle_nether_brick",
+      "title": "Circle Nether Brick",
+      "icon": "minecraft:nether_brick",
+      "x": 3.2,
+      "y": 9.6,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:circle_nether_brick"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:circle_nether_brick"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_copper_tower",
+      "title": "Copper Tower",
+      "icon": "minecraft:nether_brick",
+      "x": 4.8,
+      "y": 9.6,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:copper_tower"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:copper_tower"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_crimson_forge",
+      "title": "Crimson Forge",
+      "icon": "minecraft:nether_brick",
+      "x": 6.4,
+      "y": 9.6,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:crimson_forge"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:crimson_forge"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_crimson_lava_well",
+      "title": "Crimson Lava Well",
+      "icon": "minecraft:nether_brick",
+      "x": 8.0,
+      "y": 9.6,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:crimson_lava_well"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:crimson_lava_well"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_dragon_arena",
+      "title": "Dragon Arena",
+      "icon": "minecraft:nether_brick",
+      "x": 9.6,
+      "y": 9.6,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:dragon_arena"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:dragon_arena"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_giant_skull",
+      "title": "Giant Skull",
+      "icon": "minecraft:nether_brick",
+      "x": 11.2,
+      "y": 9.6,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:giant_skull"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:giant_skull"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_grave_yard",
+      "title": "Grave Yard",
+      "icon": "minecraft:nether_brick",
+      "x": 12.8,
+      "y": 9.6,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:grave_yard"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:grave_yard"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_large_arena",
+      "title": "Large Arena",
+      "icon": "minecraft:nether_brick",
+      "x": 14.4,
+      "y": 9.6,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:large_arena"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:large_arena"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_large_blackstone_pillars",
+      "title": "Large Blackstone Pillars",
+      "icon": "minecraft:nether_brick",
+      "x": 0.0,
+      "y": 11.2,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:large_blackstone_pillars"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:large_blackstone_pillars"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_large_blackstone_walls",
+      "title": "Large Blackstone Walls",
+      "icon": "minecraft:nether_brick",
+      "x": 1.6,
+      "y": 11.2,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:large_blackstone_walls"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:large_blackstone_walls"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_large_house_1",
+      "title": "Large House 1",
+      "icon": "minecraft:nether_brick",
+      "x": 3.2,
+      "y": 11.2,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:large_house_1"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:large_house_1"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_large_nether_brick",
+      "title": "Large Nether Brick",
+      "icon": "minecraft:nether_brick",
+      "x": 4.8,
+      "y": 11.2,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:large_nether_brick"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:large_nether_brick"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_lava_pool",
+      "title": "Lava Pool",
+      "icon": "minecraft:nether_brick",
+      "x": 6.4,
+      "y": 11.2,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:lava_pool"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:lava_pool"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_leafy_rubble",
+      "title": "Leafy Rubble",
+      "icon": "minecraft:nether_brick",
+      "x": 8.0,
+      "y": 11.2,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:leafy_rubble"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:leafy_rubble"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_medium_blackstone",
+      "title": "Medium Blackstone",
+      "icon": "minecraft:nether_brick",
+      "x": 9.6,
+      "y": 11.2,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:medium_blackstone"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:medium_blackstone"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_medium_crimson_fungus",
+      "title": "Medium Crimson Fungus",
+      "icon": "minecraft:nether_brick",
+      "x": 11.2,
+      "y": 11.2,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:medium_crimson_fungus"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:medium_crimson_fungus"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_medium_crimson_fungus_2",
+      "title": "Medium Crimson Fungus 2",
+      "icon": "minecraft:nether_brick",
+      "x": 12.8,
+      "y": 11.2,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:medium_crimson_fungus_2"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:medium_crimson_fungus_2"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_medium_crimson_well",
+      "title": "Medium Crimson Well",
+      "icon": "minecraft:nether_brick",
+      "x": 14.4,
+      "y": 11.2,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:medium_crimson_well"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:medium_crimson_well"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_medium_house",
+      "title": "Medium House",
+      "icon": "minecraft:nether_brick",
+      "x": 0.0,
+      "y": 12.8,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:medium_house"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:medium_house"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_medium_house_2",
+      "title": "Medium House 2",
+      "icon": "minecraft:nether_brick",
+      "x": 1.6,
+      "y": 12.8,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:medium_house_2"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:medium_house_2"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_medium_warped_fungus",
+      "title": "Medium Warped Fungus",
+      "icon": "minecraft:nether_brick",
+      "x": 3.2,
+      "y": 12.8,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:medium_warped_fungus"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:medium_warped_fungus"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_medium_warped_fungus_2",
+      "title": "Medium Warped Fungus 2",
+      "icon": "minecraft:nether_brick",
+      "x": 4.8,
+      "y": 12.8,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:medium_warped_fungus_2"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:medium_warped_fungus_2"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_medium_warped_well",
+      "title": "Medium Warped Well",
+      "icon": "minecraft:nether_brick",
+      "x": 6.4,
+      "y": 12.8,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:medium_warped_well"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:medium_warped_well"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_mega_fortress",
+      "title": "Mega Fortress",
+      "icon": "minecraft:nether_brick",
+      "x": 8.0,
+      "y": 12.8,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:mega_fortress"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:mega_fortress"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_nether_tower",
+      "title": "Nether Tower",
+      "icon": "minecraft:nether_brick",
+      "x": 9.6,
+      "y": 12.8,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:nether_tower"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:nether_tower"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_nether_wart_farm",
+      "title": "Nether Wart Farm",
+      "icon": "minecraft:nether_brick",
+      "x": 11.2,
+      "y": 12.8,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:nether_wart_farm"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:nether_wart_farm"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_ruined_portal",
+      "title": "Ruined Portal",
+      "icon": "minecraft:nether_brick",
+      "x": 12.8,
+      "y": 12.8,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:ruined_portal"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:ruined_portal"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_sandy_skull",
+      "title": "Sandy Skull",
+      "icon": "minecraft:nether_brick",
+      "x": 14.4,
+      "y": 12.8,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:sandy_skull"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:sandy_skull"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_shrine",
+      "title": "Shrine",
+      "icon": "minecraft:nether_brick",
+      "x": 0.0,
+      "y": 14.4,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:shrine"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:shrine"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_small_arena",
+      "title": "Small Arena",
+      "icon": "minecraft:nether_brick",
+      "x": 1.6,
+      "y": 14.4,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:small_arena"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:small_arena"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_small_nether_brick",
+      "title": "Small Nether Brick",
+      "icon": "minecraft:nether_brick",
+      "x": 3.2,
+      "y": 14.4,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:small_nether_brick"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:small_nether_brick"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_smoking_shrine",
+      "title": "Smoking Shrine",
+      "icon": "minecraft:nether_brick",
+      "x": 4.8,
+      "y": 14.4,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:smoking_shrine"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:smoking_shrine"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_soul_fire",
+      "title": "Soul Fire",
+      "icon": "minecraft:nether_brick",
+      "x": 6.4,
+      "y": 14.4,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:soul_fire"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:soul_fire"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_sword",
+      "title": "Sword",
+      "icon": "minecraft:nether_brick",
+      "x": 8.0,
+      "y": 14.4,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:sword"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:sword"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_train",
+      "title": "Train",
+      "icon": "minecraft:nether_brick",
+      "x": 9.6,
+      "y": 14.4,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:train"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:train"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_very_small_blackstone",
+      "title": "Very Small Blackstone",
+      "icon": "minecraft:nether_brick",
+      "x": 11.2,
+      "y": 14.4,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:very_small_blackstone"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:very_small_blackstone"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_very_small_blackstone_2",
+      "title": "Very Small Blackstone 2",
+      "icon": "minecraft:nether_brick",
+      "x": 12.8,
+      "y": 14.4,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:very_small_blackstone_2"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:very_small_blackstone_2"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_very_small_blackstone_3",
+      "title": "Very Small Blackstone 3",
+      "icon": "minecraft:nether_brick",
+      "x": 14.4,
+      "y": 14.4,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:very_small_blackstone_3"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:very_small_blackstone_3"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_very_small_blackstone_4",
+      "title": "Very Small Blackstone 4",
+      "icon": "minecraft:nether_brick",
+      "x": 0.0,
+      "y": 16.0,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:very_small_blackstone_4"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:very_small_blackstone_4"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_very_small_nether_brick",
+      "title": "Very Small Nether Brick",
+      "icon": "minecraft:nether_brick",
+      "x": 1.6,
+      "y": 16.0,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:very_small_nether_brick"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:very_small_nether_brick"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_very_small_nether_brick_2",
+      "title": "Very Small Nether Brick 2",
+      "icon": "minecraft:nether_brick",
+      "x": 3.2,
+      "y": 16.0,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:very_small_nether_brick_2"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:very_small_nether_brick_2"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_very_small_nether_brick_3",
+      "title": "Very Small Nether Brick 3",
+      "icon": "minecraft:nether_brick",
+      "x": 4.8,
+      "y": 16.0,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:very_small_nether_brick_3"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:very_small_nether_brick_3"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_warped_dome",
+      "title": "Warped Dome",
+      "icon": "minecraft:nether_brick",
+      "x": 6.4,
+      "y": 16.0,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:warped_dome"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:warped_dome"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_warped_house",
+      "title": "Warped House",
+      "icon": "minecraft:nether_brick",
+      "x": 8.0,
+      "y": 16.0,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:warped_house"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:warped_house"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mns_warped_pool",
+      "title": "Warped Pool",
+      "icon": "minecraft:nether_brick",
+      "x": 9.6,
+      "y": 16.0,
+      "description": [
+        "Moog's Nether. Walk inside the structure until the task ticks.",
+        "mns:warped_pool"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mns:warped_pool"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_nether",
+      "section": "structures"
+    }
+  ],
+  "images": [
+    {
+      "x": 0.0,
+      "y": -1.6,
+      "width": 16.4,
+      "height": 0.8,
+      "text": [
+        "Arrive"
+      ]
+    },
+    {
+      "x": 3.2,
+      "y": 2.4,
+      "width": 16.4,
+      "height": 0.8,
+      "text": [
+        "Walk Every Biome"
+      ]
+    },
+    {
+      "x": 7.2,
+      "y": 6.4,
+      "width": 16.4,
+      "height": 0.8,
+      "text": [
+        "Find Every Structure"
+      ]
+    }
+  ]
+}

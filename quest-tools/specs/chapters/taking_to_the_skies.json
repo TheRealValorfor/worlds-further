@@ -1,0 +1,692 @@
+{
+  "key": "taking_to_the_skies",
+  "group": "aviation",
+  "order_index": 0,
+  "title": "Taking to the Skies",
+  "icon": "aeronautics:wooden_propeller",
+  "subtitle": "Learn to fly before you learn to live up here",
+  "quests": [
+    {
+      "key": "curious_wand",
+      "title": "A Curious Wand",
+      "icon": "aeronauticsdiscovery:pin_wand",
+      "x": 0.0,
+      "y": 3.2,
+      "description": [
+        "A strange wand hums with weightless energy in your hand.",
+        "Mark your first parts - the sky is closer than you think."
+      ],
+      "tasks": [
+        {
+          "item": "aeronauticsdiscovery:pin_wand"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:feather",
+          "count": 8
+        }
+      ],
+      "source": "aeronautics_fundamentals",
+      "dependencies": [],
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "sky_travelers",
+      "title": "Sky Travelers",
+      "icon": "aeronauticsdiscovery:soaring_trader_spawn_egg",
+      "x": 1.6,
+      "y": 8.0,
+      "description": [
+        "Look up. Soaring Traders and Pillager Aviators already ride the clouds on contraptions of their own.",
+        "Spot one and prove the sky is busier than you thought."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "dependencies": [
+        "curious_wand"
+      ],
+      "source": "aeronautics_fundamentals",
+      "size": 1.8,
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "wooden_wings",
+      "title": "Wooden Wings",
+      "icon": "aeronautics:wooden_propeller",
+      "x": 1.6,
+      "y": 0.0,
+      "description": [
+        "Every airship starts with one spinning blade.",
+        "Craft a wooden propeller - crude, but it's real thrust in your hands."
+      ],
+      "tasks": [
+        {
+          "item": "aeronautics:wooden_propeller"
+        }
+      ],
+      "dependencies": [
+        "curious_wand"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "mounted_for_flight",
+      "title": "Mounted for Flight",
+      "icon": "aeronautics:propeller_bearing",
+      "x": 3.2,
+      "y": 0.0,
+      "description": [
+        "A propeller in your hand is just a toy.",
+        "Mount it on a bearing and give a contraption something to drive."
+      ],
+      "tasks": [
+        {
+          "item": "aeronautics:propeller_bearing"
+        }
+      ],
+      "dependencies": [
+        "wooden_wings"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "head_in_the_clouds",
+      "title": "Head in the Clouds",
+      "icon": "minecraft:elytra",
+      "x": 4.8,
+      "y": 0.0,
+      "description": [
+        "The ground drops away and, for the first time, you're actually flying.",
+        "Every aviator remembers this moment."
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "advancement": "aeronautics:head_in_the_clouds"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:elytra",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "mounted_for_flight"
+      ],
+      "source": "aeronautics_fundamentals",
+      "size": 1.2,
+      "shape": "diamond",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "propeller_upgrades",
+      "title": "Propeller Upgrades",
+      "icon": "aeronautics:andesite_propeller",
+      "x": 6.4,
+      "y": 0.0,
+      "description": [
+        "Wood splinters and warps - time to upgrade.",
+        "Craft sturdier andesite blades, then a smart propeller that adjusts its own pitch for real efficient thrust."
+      ],
+      "tasks": [
+        {
+          "item": "aeronautics:andesite_propeller"
+        },
+        {
+          "item": "aeronautics:smart_propeller"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "head_in_the_clouds"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "gyroscopic_mount",
+      "title": "Gyroscopic Mount",
+      "icon": "aeronautics:gyroscopic_propeller_bearing",
+      "x": 8.0,
+      "y": 0.0,
+      "description": [
+        "A propeller that tilts with your ship opens up thrust vectors nothing else can reach.",
+        "Craft the gyroscopic bearing - the pinnacle of propulsion hardware."
+      ],
+      "tasks": [
+        {
+          "item": "aeronautics:gyroscopic_propeller_bearing"
+        }
+      ],
+      "dependencies": [
+        "propeller_upgrades"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "in_thrust_we_trust",
+      "title": "In Thrust We Trust",
+      "icon": "aeronautics:smart_propeller",
+      "x": 9.6,
+      "y": 0.0,
+      "description": [
+        "Every stage of propulsion, conquered.",
+        "This is what true thrust mastery feels like."
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "advancement": "aeronautics:in_thrust_we_trust"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "gyroscopic_mount"
+      ],
+      "source": "aeronautics_fundamentals",
+      "size": 1.2,
+      "shape": "diamond",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "catching_the_wind",
+      "title": "Catching the Wind",
+      "icon": "aeronautics:white_envelope",
+      "x": 1.6,
+      "y": 4.8,
+      "description": [
+        "Thrust alone won't keep you up forever - you need lift.",
+        "Sew an envelope and encase a shaft within it: together, the heart of a proper balloon."
+      ],
+      "tasks": [
+        {
+          "item": "aeronautics:white_envelope"
+        },
+        {
+          "item": "aeronautics:white_envelope_encased_shaft"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:string",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "curious_wand"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "strange_floating_mineral",
+      "title": "A Strange Floating Mineral",
+      "icon": "aeronautics:levitite",
+      "x": 3.2,
+      "y": 7.2,
+      "description": [
+        "Deep underground, a mineral seems to weigh less than it should.",
+        "Mine some levitite and find out why."
+      ],
+      "tasks": [
+        {
+          "item": "aeronautics:levitite"
+        }
+      ],
+      "dependencies": [
+        "curious_wand"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "refining_levitite",
+      "title": "Refining Levitite",
+      "icon": "aeronautics:levitite_blend_bucket",
+      "x": 4.8,
+      "y": 7.2,
+      "description": [
+        "Raw levitite is too unstable to use as-is.",
+        "Blend it down into the base ingredient for a whole class of anti-gravity gear."
+      ],
+      "tasks": [
+        {
+          "item": "aeronautics:levitite_blend_bucket"
+        }
+      ],
+      "dependencies": [
+        "strange_floating_mineral"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "aviators_goggles",
+      "title": "Aviator's Goggles",
+      "icon": "aeronautics:aviators_goggles",
+      "x": 11.2,
+      "y": 3.2,
+      "description": [
+        "Envelope, propeller, and levitite - three disciplines, now one.",
+        "Craft aviator's goggles and wear the mark of someone who belongs up here."
+      ],
+      "tasks": [
+        {
+          "item": "aeronautics:aviators_goggles"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "catching_the_wind",
+        "refining_levitite",
+        "in_thrust_we_trust"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "steering_wheel",
+      "title": "Steering Wheel",
+      "icon": "simulated:steering_wheel",
+      "x": 12.8,
+      "y": 3.2,
+      "description": [
+        "Flying in a straight line is easy - turning is another matter.",
+        "Craft a steering wheel and take real control."
+      ],
+      "tasks": [
+        {
+          "item": "simulated:steering_wheel"
+        }
+      ],
+      "dependencies": [
+        "aviators_goggles"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "throttle_control",
+      "title": "Throttle Control",
+      "icon": "simulated:throttle_lever",
+      "x": 14.4,
+      "y": 3.2,
+      "description": [
+        "A wheel to turn is only half the job.",
+        "Wire in a throttle lever and command your speed too."
+      ],
+      "tasks": [
+        {
+          "item": "simulated:throttle_lever"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "steering_wheel"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "unpowered_steering",
+      "title": "Unpowered Steering",
+      "icon": "simulated:steering_wheel",
+      "x": 16.0,
+      "y": 3.2,
+      "description": [
+        "No engine, no problem.",
+        "Steer a ship at the mercy of the wind, using nothing but your own hands."
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "advancement": "simulated:unpowered_steering"
+        }
+      ],
+      "dependencies": [
+        "throttle_control"
+      ],
+      "source": "aeronautics_fundamentals",
+      "size": 1.2,
+      "shape": "diamond",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "rope_winch_rigging",
+      "title": "Rope Winch and Rigging",
+      "icon": "simulated:rope_winch",
+      "x": 17.6,
+      "y": 1.6,
+      "description": [
+        "Sometimes the fastest way on or off your ship isn't a ladder.",
+        "Rig up a rope winch, a connector, and a coupling."
+      ],
+      "tasks": [
+        {
+          "item": "simulated:rope_winch"
+        },
+        {
+          "item": "simulated:rope_connector"
+        },
+        {
+          "item": "simulated:rope_coupling"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:slime_ball",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "unpowered_steering"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "plunger_launcher",
+      "title": "Plunger Launcher",
+      "icon": "simulated:plunger_launcher",
+      "x": 17.6,
+      "y": 4.8,
+      "description": [
+        "Ropes aren't the only way to cross a gap in a hurry.",
+        "Craft a plunger launcher for a spring-loaded burst of momentum."
+      ],
+      "tasks": [
+        {
+          "item": "simulated:plunger_launcher"
+        }
+      ],
+      "dependencies": [
+        "unpowered_steering"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "learning_the_ropes",
+      "title": "Learning the Ropes",
+      "icon": "simulated:rope_connector",
+      "x": 19.2,
+      "y": 3.2,
+      "description": [
+        "Winches, couplings, plungers - you move around a ship now without ever needing an engine.",
+        "Traversal mastered."
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "advancement": "simulated:learning_the_ropes"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:lead",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "rope_winch_rigging",
+        "plunger_launcher"
+      ],
+      "source": "aeronautics_fundamentals",
+      "size": 1.2,
+      "shape": "diamond",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "building_an_engine",
+      "title": "Building an Engine",
+      "icon": "simulated:engine_assembly",
+      "x": 20.8,
+      "y": 3.2,
+      "description": [
+        "No more spinning propellers by hand - it's time for real self-contained power.",
+        "Build a portable engine and work it up into a finished engine assembly."
+      ],
+      "tasks": [
+        {
+          "item": "simulated:blue_portable_engine"
+        },
+        {
+          "item": "simulated:incomplete_engine_assembly"
+        },
+        {
+          "item": "simulated:engine_assembly"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:redstone",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "learning_the_ropes"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "steamless_engine",
+      "title": "Steamless Engine",
+      "icon": "simulated:engine_assembly",
+      "x": 22.4,
+      "y": 3.2,
+      "description": [
+        "Not a drop of steam in sight, and your engine runs anyway.",
+        "A real milestone in self-contained power."
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "advancement": "simulated:steamless_engine"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "building_an_engine"
+      ],
+      "source": "aeronautics_fundamentals",
+      "size": 1.4,
+      "shape": "hexagon",
+      "section": "aeronautics_fundamentals"
+    },
+    {
+      "key": "adjustable_burner",
+      "title": "Hot Air Burner",
+      "icon": "aeronautics:adjustable_burner",
+      "x": 0.0,
+      "y": 12.0,
+      "description": [
+        "A dial instead of a fixed flame - control your climb instead of just hoping for one."
+      ],
+      "tasks": [
+        {
+          "item": "aeronautics:adjustable_burner",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:blaze_powder",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "wooden_wings"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "airship_upgrades"
+    },
+    {
+      "key": "steam_vent",
+      "title": "Steam Vent",
+      "icon": "aeronautics:steam_vent",
+      "x": 1.6,
+      "y": 12.0,
+      "description": [
+        "Bleeds excess pressure off before it becomes a problem.",
+        "Every serious envelope has one."
+      ],
+      "tasks": [
+        {
+          "item": "aeronautics:steam_vent",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "adjustable_burner"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "airship_upgrades"
+    },
+    {
+      "key": "envelope_colors",
+      "title": "Colors of the Sky",
+      "icon": "aeronautics:blue_envelope",
+      "x": 3.2,
+      "y": 12.0,
+      "description": [
+        "Function first, but nobody said your envelope has to be plain.",
+        "Dye a few and make it yours."
+      ],
+      "tasks": [
+        {
+          "item": "aeronautics:blue_envelope",
+          "count": 1
+        },
+        {
+          "item": "aeronautics:red_envelope",
+          "count": 1
+        },
+        {
+          "item": "aeronautics:green_envelope",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "aeronautics:end_stone_powder",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "wooden_wings"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "airship_upgrades"
+    },
+    {
+      "key": "mounted_potato_cannon",
+      "title": "Mounted Potato Cannon",
+      "icon": "aeronautics:mounted_potato_cannon",
+      "x": 4.8,
+      "y": 12.0,
+      "description": [
+        "Every good airship deserves a way to say hello from a distance."
+      ],
+      "tasks": [
+        {
+          "item": "aeronautics:mounted_potato_cannon",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "mounted_for_flight"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "airship_upgrades"
+    },
+    {
+      "key": "music_disc_cloud_skipper",
+      "title": "A Tune for the Clouds",
+      "icon": "aeronautics:music_disc_cloud_skipper",
+      "x": 6.4,
+      "y": 12.0,
+      "description": [
+        "Somewhere out there, someone wrote a song about flying.",
+        "Track down a copy for yourself."
+      ],
+      "tasks": [
+        {
+          "item": "aeronautics:music_disc_cloud_skipper",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:jukebox",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "wooden_wings"
+      ],
+      "source": "aeronautics_fundamentals",
+      "section": "airship_upgrades"
+    }
+  ],
+  "images": [
+    {
+      "x": 11.2,
+      "y": -1.6,
+      "width": 24.4,
+      "height": 0.8,
+      "text": [
+        "Build and Fly Your First Airship"
+      ]
+    },
+    {
+      "x": 3.2,
+      "y": 10.4,
+      "width": 24.4,
+      "height": 0.8,
+      "text": [
+        "Refine Your Airship"
+      ]
+    }
+  ]
+}

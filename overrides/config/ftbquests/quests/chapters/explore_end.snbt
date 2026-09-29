@@ -1,0 +1,373 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "explore_end"
+	group: "0F70271E1C7A3EBB"
+	id: "518C646349CCCC24"
+	images: [
+		{
+			height: 1.0d
+			id: "29136FB57AF299F5"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 21.3d
+			x: 0.0d
+			y: -2.1d
+		}
+		{
+			height: 1.0d
+			id: "4710B2697DB24507"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 21.3d
+			x: 4.2d
+			y: 3.1d
+		}
+		{
+			height: 1.0d
+			id: "731177DAAF807203"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 21.3d
+			x: 9.4d
+			y: 8.3d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5539923792F148FB"
+			rewards: [{
+				id: "63EA4EE85EAECF9E"
+				item: {
+					count: 1
+					id: "minecraft:map"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "2060E1C4E65832E4"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "290D477D23E0B25E"
+			tasks: [{
+				biome: "minecraft:end_barrens"
+				id: "7E5C288030BF7F58"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 5.2d
+		}
+		{
+			id: "3ED54DF597B81531"
+			tasks: [{
+				biome: "minecraft:end_highlands"
+				id: "4A92683279055C1B"
+				type: "biome"
+			}]
+			x: 2.1d
+			y: 5.2d
+		}
+		{
+			id: "0498717FE0868527"
+			tasks: [{
+				biome: "minecraft:end_midlands"
+				id: "1795C44805AB1C13"
+				type: "biome"
+			}]
+			x: 4.2d
+			y: 5.2d
+		}
+		{
+			id: "69C8F6A8FEA05070"
+			tasks: [{
+				biome: "minecraft:small_end_islands"
+				id: "466F17F583029624"
+				type: "biome"
+			}]
+			x: 6.2d
+			y: 5.2d
+		}
+		{
+			id: "0936504067F6E760"
+			tasks: [{
+				biome: "minecraft:the_end"
+				id: "084C71D18AA0ABAD"
+				type: "biome"
+			}]
+			x: 8.3d
+			y: 5.2d
+		}
+		{
+			id: "1702597F3A26E042"
+			tasks: [{
+				id: "733231D36E69318E"
+				structure: "mes:astral_hideaway"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 10.4d
+		}
+		{
+			id: "56989B7B279CB8F1"
+			tasks: [{
+				id: "0CC3847DBA362BCA"
+				structure: "mes:astral_meteorite"
+				type: "structure"
+			}]
+			x: 2.1d
+			y: 10.4d
+		}
+		{
+			id: "2D93080601CE2981"
+			tasks: [{
+				id: "344E1C958E8F1D94"
+				structure: "mes:ender_spire"
+				type: "structure"
+			}]
+			x: 4.2d
+			y: 10.4d
+		}
+		{
+			id: "1D97D95AEE6D836D"
+			tasks: [{
+				id: "06CD863F5EF4DB71"
+				structure: "mes:enderbloom_grove"
+				type: "structure"
+			}]
+			x: 6.2d
+			y: 10.4d
+		}
+		{
+			id: "261FA4DE80BB4950"
+			tasks: [{
+				id: "36FAC404676A18F9"
+				structure: "mes:enderkeep_courtyard"
+				type: "structure"
+			}]
+			x: 8.3d
+			y: 10.4d
+		}
+		{
+			id: "4A376D354D39279B"
+			tasks: [{
+				id: "2AC0283A3B7304DA"
+				structure: "mes:enderpin_spikes"
+				type: "structure"
+			}]
+			x: 10.4d
+			y: 10.4d
+		}
+		{
+			id: "7AA13607562A35C8"
+			tasks: [{
+				id: "7A82E1AEBEA591E4"
+				structure: "mes:enderskog"
+				type: "structure"
+			}]
+			x: 12.5d
+			y: 10.4d
+		}
+		{
+			id: "13CAAC8D9644BA09"
+			tasks: [{
+				id: "4D2387AD48112CB6"
+				structure: "mes:enderwatch_tower"
+				type: "structure"
+			}]
+			x: 14.6d
+			y: 10.4d
+		}
+		{
+			id: "36FFF02263736B3E"
+			tasks: [{
+				id: "41049673C392240B"
+				structure: "mes:endscraps"
+				type: "structure"
+			}]
+			x: 16.6d
+			y: 10.4d
+		}
+		{
+			id: "2FAF79D464812C82"
+			tasks: [{
+				id: "2ADAC024BBF6FDB9"
+				structure: "mes:manuscript_shrine"
+				type: "structure"
+			}]
+			x: 18.7d
+			y: 10.4d
+		}
+		{
+			id: "4A78157244E2C074"
+			tasks: [{
+				id: "6D3D21CF777B13BC"
+				structure: "mes:mega_ship"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			id: "36C0B78509AB13B6"
+			tasks: [{
+				id: "10D9BCBC6BE95F17"
+				structure: "mes:mega_ship_basic"
+				type: "structure"
+			}]
+			x: 2.1d
+			y: 12.5d
+		}
+		{
+			id: "141CB5EC405EC554"
+			tasks: [{
+				id: "6EEB46C7AE243975"
+				structure: "mes:mega_ship_crashed"
+				type: "structure"
+			}]
+			x: 4.2d
+			y: 12.5d
+		}
+		{
+			id: "6F7579F7F754172A"
+			tasks: [{
+				id: "6C8714F91441C06A"
+				structure: "mes:mega_ship_crashed_2"
+				type: "structure"
+			}]
+			x: 6.2d
+			y: 12.5d
+		}
+		{
+			id: "666C74A63F5FE5E2"
+			tasks: [{
+				id: "3ED3588AB9FE2513"
+				structure: "mes:mega_ship_crashed_deepslate"
+				type: "structure"
+			}]
+			x: 8.3d
+			y: 12.5d
+		}
+		{
+			id: "37ED7D9CCAD54067"
+			tasks: [{
+				id: "448A445460B60308"
+				structure: "mes:mega_ship_deepslate"
+				type: "structure"
+			}]
+			x: 10.4d
+			y: 12.5d
+		}
+		{
+			id: "05B2D9CAA291AF74"
+			tasks: [{
+				id: "39E31B7008DA401C"
+				structure: "mes:mega_ship_deepslate_2"
+				type: "structure"
+			}]
+			x: 12.5d
+			y: 12.5d
+		}
+		{
+			id: "10B33367565B4D3C"
+			tasks: [{
+				id: "005EB403920F9237"
+				structure: "mes:mega_ship_deepslate_3"
+				type: "structure"
+			}]
+			x: 14.6d
+			y: 12.5d
+		}
+		{
+			id: "2218188EC3EE7597"
+			tasks: [{
+				id: "5D49AF1B1C22EDB6"
+				structure: "mes:monolith"
+				type: "structure"
+			}]
+			x: 16.6d
+			y: 12.5d
+		}
+		{
+			id: "57A2C47718F7C1AE"
+			tasks: [{
+				id: "688D4AB71F44FFCC"
+				structure: "mes:mystical_archway"
+				type: "structure"
+			}]
+			x: 18.7d
+			y: 12.5d
+		}
+		{
+			id: "6BF321DE66635863"
+			tasks: [{
+				id: "5F2455FACC9A9ACD"
+				structure: "mes:mythic_garden"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 14.6d
+		}
+		{
+			id: "58D1E6416AFEDCF7"
+			tasks: [{
+				id: "2A1A0A650C2FA81B"
+				structure: "mes:phantom_citadel"
+				type: "structure"
+			}]
+			x: 2.1d
+			y: 14.6d
+		}
+		{
+			id: "2D00DF40769695CD"
+			tasks: [{
+				id: "6964A89074417759"
+				structure: "mes:placid_prairie"
+				type: "structure"
+			}]
+			x: 4.2d
+			y: 14.6d
+		}
+		{
+			id: "21B8B3CB6E6E0DC7"
+			tasks: [{
+				id: "21DCB3D05B5AE1DB"
+				structure: "mes:ruined_pillar"
+				type: "structure"
+			}]
+			x: 6.2d
+			y: 14.6d
+		}
+		{
+			id: "277FBD4841433385"
+			tasks: [{
+				id: "4EEB88F365BE2139"
+				structure: "mes:starlight_voyager"
+				type: "structure"
+			}]
+			x: 8.3d
+			y: 14.6d
+		}
+		{
+			id: "24BBAEF0CBE6D40B"
+			tasks: [{
+				id: "647B493D7B813B54"
+				structure: "minecraft:end_city"
+				type: "structure"
+			}]
+			x: 10.4d
+			y: 14.6d
+		}
+	]
+}

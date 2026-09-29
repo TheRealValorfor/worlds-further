@@ -1,0 +1,1370 @@
+{
+  "key": "arcane_arts",
+  "group": "magic",
+  "order_index": 0,
+  "title": "The Arcane Arts",
+  "icon": "ars_nouveau:source_gem",
+  "subtitle": "Simple experiments become real spellcraft",
+  "quests": [
+    {
+      "key": "something_stirs",
+      "title": "Something Stirs",
+      "icon": "ars_nouveau:source_gem",
+      "x": 0.0,
+      "y": 8.8,
+      "description": [
+        "Magic in this world doesn't announce itself. It hums in strange stones, sleeps in ancient relics, and answers when you bind it into a book.",
+        "Two paths in, both leading somewhere real. Spellcraft or augmentation - nothing here locks the other away."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "arcane_arts_gateway",
+      "section": "arcane_abilities"
+    },
+    {
+      "key": "source_gem",
+      "title": "Gems of Source",
+      "icon": "ars_nouveau:source_gem",
+      "x": 0.0,
+      "y": 1.6,
+      "description": [
+        "Source Gems hum quietly near deposits of Sourcestone, holding the energy every spell will draw from.",
+        "Gather a handful to begin."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:source_gem",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:book",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "something_stirs"
+      ],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "sourcestone",
+      "title": "Sourcestone",
+      "icon": "ars_nouveau:sourcestone",
+      "x": 0.0,
+      "y": 4.8,
+      "description": [
+        "Soft, magic-soaked stone, gathered wherever Source Gems are found."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:sourcestone",
+          "count": 16
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:stone",
+          "count": 16
+        }
+      ],
+      "dependencies": [],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "source_jar",
+      "title": "Storing Source",
+      "icon": "ars_nouveau:source_jar",
+      "x": 1.6,
+      "y": 1.6,
+      "description": [
+        "Bottle Source in a jar, and you're no longer tethered to the deposit that made it."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:source_jar",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:glass_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "source_gem"
+      ],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "wand",
+      "title": "Your First Wand",
+      "icon": "ars_nouveau:wand",
+      "x": 1.6,
+      "y": 3.2,
+      "description": [
+        "Bind your first wand. Every spell from here begins in your own two hands."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:wand",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:amethyst_shard",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "source_gem"
+      ],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "arcane_pedestal",
+      "title": "Arcane Pedestal",
+      "icon": "ars_nouveau:arcane_pedestal",
+      "x": 1.6,
+      "y": 4.8,
+      "description": [
+        "Carve Sourcestone into a Pedestal - the seed of your future Enchanting Apparatus."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:arcane_pedestal",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:redstone",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "sourcestone"
+      ],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "novice_spell_book",
+      "title": "Novice Spell Book",
+      "icon": "ars_nouveau:novice_spell_book",
+      "x": 3.2,
+      "y": 1.6,
+      "description": [
+        "A wand and a little stored Source are enough to bind your first spell book.",
+        "Simple glyphs, simple experiments."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:novice_spell_book",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:book",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "wand",
+        "source_jar"
+      ],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "enchanting_apparatus",
+      "title": "Enchanting Apparatus",
+      "icon": "ars_nouveau:enchanting_apparatus",
+      "x": 3.2,
+      "y": 4.8,
+      "description": [
+        "Ring your pedestal with the Enchanting Apparatus, and glyphs, runes and enchanted gear all become possible."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:enchanting_apparatus",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "arcane_pedestal"
+      ],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "rune",
+      "title": "Runes of Knowledge",
+      "icon": "ars_nouveau:rune",
+      "x": 4.8,
+      "y": 3.2,
+      "description": [
+        "Runes coaxed from the Apparatus unlock glyphs your Novice book could never hold."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:rune",
+          "count": 6
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "novice_spell_book",
+        "enchanting_apparatus"
+      ],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "apprentice_spell_book",
+      "title": "Mage's Spell Book",
+      "icon": "ars_nouveau:apprentice_spell_book",
+      "x": 6.4,
+      "y": 1.6,
+      "description": [
+        "Longer, cleverer spells need a sturdier book. The Mage's Spell Book obliges."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:apprentice_spell_book",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "rune"
+      ],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "imbuement_chamber",
+      "title": "Imbuement Chamber",
+      "icon": "ars_nouveau:imbuement_chamber",
+      "x": 6.4,
+      "y": 4.8,
+      "description": [
+        "The Imbuement Chamber lets essence seep into gear, leaving it quietly magical."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:imbuement_chamber",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "rune"
+      ],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "arcanist_robes",
+      "title": "Arcanist's Robes",
+      "icon": "ars_nouveau:arcanist_robes",
+      "x": 8.0,
+      "y": 1.6,
+      "description": [
+        "Magebloom woven into robes light enough that spellcasting never feels encumbered."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:arcanist_robes",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "apprentice_spell_book"
+      ],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "enchanters_gear",
+      "title": "Enchanted Armaments",
+      "icon": "ars_nouveau:enchanters_sword",
+      "x": 8.0,
+      "y": 4.8,
+      "description": [
+        "Imbue a blade until it carries a little magic of its own."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:enchanters_sword",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "imbuement_chamber"
+      ],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "archmage_spell_book",
+      "title": "Archmage Spell Book",
+      "icon": "ars_nouveau:archmage_spell_book",
+      "x": 9.6,
+      "y": 3.2,
+      "description": [
+        "The Archmage Spell Book holds spells long enough to stop feeling like experiments and start feeling like spellcraft."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:archmage_spell_book",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond_block",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "arcanist_robes",
+        "enchanters_gear"
+      ],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "familiar_starbuncle",
+      "title": "Befriend a Starbuncle",
+      "icon": "ars_nouveau:starbuncle_charm",
+      "x": 11.2,
+      "y": 1.6,
+      "description": [
+        "Charm a Starbuncle into friendship, and it'll spend its days gathering on your behalf."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:starbuncle_charm",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:golden_apple",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "archmage_spell_book"
+      ],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "spell_turret",
+      "title": "Automated Casting",
+      "icon": "ars_nouveau:basic_spell_turret",
+      "x": 11.2,
+      "y": 4.8,
+      "description": [
+        "A Spell Turret casts on its own - magic quietly learning to automate itself."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:basic_spell_turret",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:redstone",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "archmage_spell_book"
+      ],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "ritual_brazier",
+      "title": "Rituals and Braziers",
+      "icon": "ars_nouveau:ritual_brazier",
+      "x": 12.8,
+      "y": 3.2,
+      "description": [
+        "Light the Brazier, perform the Warping ritual, and watch space bend politely around your base."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:ritual_brazier",
+          "count": 1
+        },
+        {
+          "item": "ars_nouveau:ritual_warping",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:nether_star",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "familiar_starbuncle",
+        "spell_turret"
+      ],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "warp_scroll",
+      "title": "Stabilized Travel",
+      "icon": "ars_nouveau:stable_warp_scroll",
+      "x": 14.4,
+      "y": 3.2,
+      "description": [
+        "A Stabilized Warp Scroll offers a steadier way to cross the space you've just learned to bend."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:stable_warp_scroll",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:ender_pearl",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "ritual_brazier"
+      ],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "starbuncle_wheel",
+      "title": "The Starbuncle Wheel",
+      "icon": "ars_creo:starbuncle_wheel",
+      "x": 16.0,
+      "y": 3.2,
+      "description": [
+        "Ars Creo turns spellcraft into rotation. Let your Starbuncle spin power straight into your Create network."
+      ],
+      "tasks": [
+        {
+          "item": "ars_creo:starbuncle_wheel",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_block",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "familiar_starbuncle",
+        "warp_scroll"
+      ],
+      "source": "ars_nouveau",
+      "size": 1.8,
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "factory_magebloom",
+      "title": "Fiber by the Wheel",
+      "icon": "ars_nouveau:magebloom_fiber",
+      "x": 17.6,
+      "y": 1.6,
+      "description": [
+        "Create: Sourceworks lets crushing wheels turn Magebloom into a pile of fiber \u2014 far more than a crafting table.",
+        "Millstone works too if you have not built the wheels yet."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:magebloom_fiber",
+          "count": 32
+        }
+      ],
+      "rewards": [
+        {
+          "item": "ars_nouveau:magebloom_crop",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "starbuncle_wheel"
+      ],
+      "source": "create_sourceworks",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "factory_source_gems",
+      "title": "Gems Without the Chamber",
+      "icon": "ars_nouveau:source_gem",
+      "x": 17.6,
+      "y": 3.2,
+      "description": [
+        "A heated Mixer can fold amethyst or lapis with Sourceberries into Source Gems.",
+        "It does not replace Imbuement for speed, but it is a farm you can pipe."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:source_gem",
+          "count": 16
+        }
+      ],
+      "rewards": [
+        {
+          "item": "ars_nouveau:sourceberry_sack",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "starbuncle_wheel"
+      ],
+      "source": "create_sourceworks",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "factory_parchment",
+      "title": "Parchment Press",
+      "icon": "ars_nouveau:blank_parchment",
+      "x": 17.6,
+      "y": 4.8,
+      "description": [
+        "A Mechanical Crafter stamps four Blank Parchment at once from fiber and paper.",
+        "Glyphs still belong on the Scribe's table \u2014 this just keeps the paper coming."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:blank_parchment",
+          "count": 8
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:paper",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "factory_magebloom"
+      ],
+      "source": "create_sourceworks",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "creo_turret_contraption",
+      "title": "Turret on the Move",
+      "icon": "ars_nouveau:basic_spell_turret",
+      "x": 19.2,
+      "y": 3.2,
+      "description": [
+        "Ars Creo already lets Spell Turrets and Source Jars ride Create contraptions.",
+        "Park a turret on a bearing, give it a jar of Source, and fire while the machine moves. Check this off when you have tried it."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "ars_nouveau:source_jar",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "starbuncle_wheel"
+      ],
+      "source": "create_sourceworks",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "creo_display_link",
+      "title": "How Full Is the Jar?",
+      "icon": "create:display_link",
+      "x": 19.2,
+      "y": 4.8,
+      "description": [
+        "Ars Creo hooks a Display Link to a Source Jar or turret so a Display Board can show Source and the loaded spell.",
+        "Check this off when the board is reading a jar."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "create:display_board",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "creo_turret_contraption"
+      ],
+      "source": "create_sourceworks",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "something_doesnt_add_up",
+      "title": "Something Doesn't Add Up",
+      "icon": "arcane_abilities:fate_beacon",
+      "x": 3.2,
+      "y": 10.4,
+      "description": [
+        "The relics you've encountered don't appear to be isolated curiosities.",
+        "Some share signs of a distinctly arcane origin. Somewhere in the world there may be an explanation."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "something_stirs"
+      ],
+      "source": "arcane_abilities",
+      "section": "arcane_abilities"
+    },
+    {
+      "key": "a_flicker_of_light",
+      "title": "A Flicker of Light",
+      "icon": "arcane_abilities:fate_beacon",
+      "x": 4.8,
+      "y": 10.4,
+      "description": [
+        "A pendant that seems to know things before you do.",
+        "Its origin is unmistakably arcane."
+      ],
+      "tasks": [
+        {
+          "item": "arcane_abilities:fate_beacon",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:glowstone_dust",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "something_doesnt_add_up"
+      ],
+      "source": "arcane_abilities",
+      "section": "arcane_abilities"
+    },
+    {
+      "key": "starlight_and_frost",
+      "title": "Starlight and Frost",
+      "icon": "arcane_abilities:icy_crystal",
+      "x": 6.4,
+      "y": 8.8,
+      "description": [
+        "Two more, found worlds apart, yet cut from the same unmistakable craft.",
+        "A ring of frost, and an amulet of distant stars."
+      ],
+      "tasks": [
+        {
+          "item": "arcane_abilities:icy_crystal",
+          "count": 1
+        },
+        {
+          "item": "arcane_abilities:stellar_sphere",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:amethyst_shard",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "a_flicker_of_light"
+      ],
+      "source": "arcane_abilities",
+      "section": "arcane_abilities"
+    },
+    {
+      "key": "light_as_air",
+      "title": "Light as Air",
+      "icon": "arcane_abilities:weightless_boot",
+      "x": 8.0,
+      "y": 10.4,
+      "description": [
+        "A boot that seems to forget it's supposed to be heavy.",
+        "Whoever crafted these understood more than simple enchanting."
+      ],
+      "tasks": [
+        {
+          "item": "arcane_abilities:weightless_boot",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:feather",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "starlight_and_frost"
+      ],
+      "source": "arcane_abilities",
+      "section": "arcane_abilities"
+    },
+    {
+      "key": "a_spark_of_knowledge",
+      "title": "A Spark of Knowledge",
+      "icon": "arcane_abilities:skill_xp_rune",
+      "x": 9.6,
+      "y": 10.4,
+      "description": [
+        "Not experience earned through practice - power poured directly in.",
+        "This is not the same kind of growth Skill Progression tracks. This is augmentation."
+      ],
+      "tasks": [
+        {
+          "item": "arcane_abilities:skill_xp_rune",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "light_as_air"
+      ],
+      "source": "arcane_abilities",
+      "section": "arcane_abilities"
+    },
+    {
+      "key": "the_skills_grimoire",
+      "title": "The Skills Grimoire",
+      "icon": "arcane_abilities:skills_grimoire",
+      "x": 11.2,
+      "y": 10.4,
+      "description": [
+        "Bind an amethyst shard, a writable book, and spruce wood together.",
+        "What results is no ordinary book - it's a record of arcane augmentation, waiting to be filled."
+      ],
+      "tasks": [
+        {
+          "item": "arcane_abilities:skills_grimoire",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:enchanted_book",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "a_spark_of_knowledge"
+      ],
+      "source": "arcane_abilities",
+      "section": "arcane_abilities"
+    },
+    {
+      "key": "arcane_mastery",
+      "title": "Arcane Mastery",
+      "icon": "arcane_abilities:stellar_sphere",
+      "x": 12.8,
+      "y": 10.4,
+      "description": [
+        "This isn't practice. It's augmentation - power drawn from somewhere else entirely.",
+        "You've uncovered a second kind of growth, running alongside your own."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:nether_star",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "the_skills_grimoire"
+      ],
+      "source": "arcane_abilities",
+      "shape": "hexagon",
+      "size": 1.4,
+      "section": "arcane_abilities"
+    },
+    {
+      "key": "first_spell_cast",
+      "title": "Cast Something",
+      "icon": "ars_nouveau:novice_spell_book",
+      "x": 4.0,
+      "y": 0.0,
+      "description": [
+        "A spell book full of glyphs means nothing until you actually cast one.",
+        "Break a block, light a fire, push something across the room - it barely matters what. The first cast is the one that makes it real."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:glowstone_dust",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "novice_spell_book"
+      ],
+      "source": "ars_nouveau",
+      "section": "ars_nouveau"
+    },
+    {
+      "key": "familiar_whirlisprig",
+      "title": "Befriend a Whirlisprig",
+      "icon": "ars_nouveau:whirlisprig_charm",
+      "x": 0.0,
+      "y": 14.4,
+      "description": [
+        "Woodland spirits, shy at first.",
+        "A Whirlisprig charm coaxes one into staying close and speeding your growth."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:whirlisprig_charm",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bone_meal",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "familiar_starbuncle"
+      ],
+      "source": "ars_nouveau",
+      "section": "familiars"
+    },
+    {
+      "key": "familiar_wixie",
+      "title": "Befriend a Wixie",
+      "icon": "ars_nouveau:wixie_charm",
+      "x": 1.6,
+      "y": 14.4,
+      "description": [
+        "A Wixie brews potions on your behalf, given a cauldron of its own to work."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:wixie_charm",
+          "count": 1
+        },
+        {
+          "item": "ars_nouveau:wixie_cauldron",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:brewing_stand",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "familiar_starbuncle"
+      ],
+      "source": "ars_nouveau",
+      "section": "familiars"
+    },
+    {
+      "key": "familiar_drygmy",
+      "title": "Befriend a Drygmy",
+      "icon": "ars_nouveau:drygmy_charm",
+      "x": 3.2,
+      "y": 14.4,
+      "description": [
+        "A tiny, endlessly patient farmhand.",
+        "Set it loose on a field and let it harvest while you do something else entirely."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:drygmy_charm",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:wheat_seeds",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "familiar_starbuncle"
+      ],
+      "source": "ars_nouveau",
+      "section": "familiars"
+    },
+    {
+      "key": "familiar_bookwyrm",
+      "title": "Befriend a Bookwyrm",
+      "icon": "ars_nouveau:bookwyrm_charm",
+      "x": 4.8,
+      "y": 14.4,
+      "description": [
+        "Perches on a lectern and reads spells back to itself, refining them as it goes."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:bookwyrm_charm",
+          "count": 1
+        },
+        {
+          "item": "ars_nouveau:bookwyrm_lectern",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bookshelf",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "familiar_starbuncle"
+      ],
+      "source": "ars_nouveau",
+      "section": "familiars"
+    },
+    {
+      "key": "familiar_amethyst_golem",
+      "title": "Befriend an Amethyst Golem",
+      "icon": "ars_nouveau:amethyst_golem_charm",
+      "x": 6.4,
+      "y": 14.4,
+      "description": [
+        "Slow, sturdy, and happy to fight on your behalf while you focus on the spellwork."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:amethyst_golem_charm",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:amethyst_shard",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "familiar_starbuncle"
+      ],
+      "source": "ars_nouveau",
+      "section": "familiars"
+    },
+    {
+      "key": "a_full_menagerie",
+      "title": "A Full Menagerie",
+      "icon": "ars_nouveau:familiar_starbuncle",
+      "x": 3.2,
+      "y": 16.0,
+      "description": [
+        "Six familiars now, each pulling its own weight.",
+        "Not bad for a wizard who started out talking to a glowing rock."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:golden_carrot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "familiar_whirlisprig",
+        "familiar_wixie",
+        "familiar_drygmy",
+        "familiar_bookwyrm",
+        "familiar_amethyst_golem"
+      ],
+      "source": "ars_nouveau",
+      "shape": "hexagon",
+      "size": 1.4,
+      "section": "familiars"
+    },
+    {
+      "key": "ritual_flight",
+      "title": "The Flight Ritual",
+      "icon": "ars_nouveau:ritual_flight",
+      "x": 0.0,
+      "y": 20.0,
+      "description": [
+        "Light the brazier with this one, and gravity stops being quite so insistent."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:ritual_flight",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:feather",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "ritual_brazier"
+      ],
+      "source": "ars_nouveau",
+      "section": "rituals"
+    },
+    {
+      "key": "ritual_scrying",
+      "title": "The Scrying Ritual",
+      "icon": "ars_nouveau:ritual_scrying",
+      "x": 1.6,
+      "y": 20.0,
+      "description": [
+        "See through a linked eye, anywhere the ritual has been cast before."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:ritual_scrying",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:spyglass",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "ritual_brazier"
+      ],
+      "source": "ars_nouveau",
+      "section": "rituals"
+    },
+    {
+      "key": "ritual_sunrise_moonfall",
+      "title": "Sunrise and Moonfall",
+      "icon": "ars_nouveau:ritual_sunrise",
+      "x": 3.2,
+      "y": 20.0,
+      "description": [
+        "Two rituals, one purpose: bend the clock itself when the moment calls for it."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:ritual_sunrise",
+          "count": 1
+        },
+        {
+          "item": "ars_nouveau:ritual_moonfall",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:clock",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "ritual_brazier"
+      ],
+      "source": "ars_nouveau",
+      "section": "rituals"
+    },
+    {
+      "key": "ritual_fertility_harvest",
+      "title": "Fertility and Harvest",
+      "icon": "ars_nouveau:ritual_harvest",
+      "x": 4.8,
+      "y": 20.0,
+      "description": [
+        "Rituals built for the farm, not the fight.",
+        "Fields grow faster, and reap themselves besides."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:ritual_fertility",
+          "count": 1
+        },
+        {
+          "item": "ars_nouveau:ritual_harvest",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bone_meal",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "ritual_brazier"
+      ],
+      "source": "ars_nouveau",
+      "section": "rituals"
+    },
+    {
+      "key": "ritual_wilden_summon",
+      "title": "A Dangerous Summoning",
+      "icon": "ars_nouveau:ritual_wilden_summon",
+      "x": 6.4,
+      "y": 20.0,
+      "description": [
+        "Not every ritual is peaceful.",
+        "This one calls a Wilden guardian - answer for it, or run."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:ritual_wilden_summon",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "ritual_brazier"
+      ],
+      "source": "ars_nouveau",
+      "section": "rituals"
+    },
+    {
+      "key": "source_rings",
+      "title": "Rings of Convenience",
+      "icon": "ars_nouveau:ring_of_potential",
+      "x": 0.0,
+      "y": 24.0,
+      "description": [
+        "Small enchanted rings that shave cost and risk off every cast."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:ring_of_potential",
+          "count": 1
+        },
+        {
+          "item": "ars_nouveau:ring_of_lesser_discount",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "novice_spell_book"
+      ],
+      "source": "ars_nouveau",
+      "section": "wards"
+    },
+    {
+      "key": "greater_discount_ring",
+      "title": "Ring of Greater Discount",
+      "icon": "ars_nouveau:ring_of_greater_discount",
+      "x": 1.6,
+      "y": 24.0,
+      "description": [
+        "The lesser ring taught you the trick. This one takes it much further."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:ring_of_greater_discount",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_block",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "source_rings"
+      ],
+      "source": "ars_nouveau",
+      "section": "wards"
+    },
+    {
+      "key": "warding_stone_quest",
+      "title": "Warding Stone",
+      "icon": "ars_nouveau:warding_stone",
+      "x": 3.2,
+      "y": 24.0,
+      "description": [
+        "Plant one down and hostile magic simply stops working nearby.",
+        "A quiet, permanent kind of safety."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:warding_stone",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:obsidian",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "novice_spell_book"
+      ],
+      "source": "ars_nouveau",
+      "section": "wards"
+    },
+    {
+      "key": "shadow_lantern_relic",
+      "title": "A Light That Isn't",
+      "icon": "arcane_abilities:shadow_lantern",
+      "x": 8.0,
+      "y": 8.8,
+      "description": [
+        "It looks like a lantern. It burns like one, too - except the light it casts is somehow darker than the dark around it.",
+        "Another piece of the same arcane craft."
+      ],
+      "tasks": [
+        {
+          "item": "arcane_abilities:shadow_lantern",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:coal",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "starlight_and_frost"
+      ],
+      "source": "arcane_abilities",
+      "section": "arcane_abilities"
+    }
+  ],
+  "images": [
+    {
+      "x": 9.6,
+      "y": -1.6,
+      "width": 21.2,
+      "height": 0.8,
+      "text": [
+        "Learn to Cast and Harness Source"
+      ]
+    },
+    {
+      "x": 6.4,
+      "y": 7.2,
+      "width": 21.2,
+      "height": 0.8,
+      "text": [
+        "Develop Your Magical Abilities"
+      ]
+    },
+    {
+      "x": 3.2,
+      "y": 12.8,
+      "width": 21.2,
+      "height": 0.8,
+      "text": [
+        "Recruit Magical Helpers"
+      ]
+    },
+    {
+      "x": 3.2,
+      "y": 18.4,
+      "width": 21.2,
+      "height": 0.8,
+      "text": [
+        "Perform Powerful Rituals"
+      ]
+    },
+    {
+      "x": 1.6,
+      "y": 22.4,
+      "width": 21.2,
+      "height": 0.8,
+      "text": [
+        "Protect Yourself with Magic"
+      ]
+    }
+  ]
+}

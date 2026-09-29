@@ -1,0 +1,1229 @@
+{
+  "key": "bounty_board",
+  "group": "challenges",
+  "order_index": 0,
+  "title": "Bounty Board",
+  "icon": "minecraft:crossbow",
+  "subtitle": "Someone's always paying for a thinner mob population",
+  "quests": [
+    {
+      "key": "creeper_1",
+      "title": "Creeper Bounty: Novice",
+      "icon": "minecraft:creeper_spawn_egg",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Every hunter starts somewhere.",
+        "Put down a single Creeper."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:creeper",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gunpowder",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "section": "common"
+    },
+    {
+      "key": "creeper_10",
+      "title": "Creeper Bounty: Apprentice",
+      "icon": "minecraft:creeper_spawn_egg",
+      "x": 1.6,
+      "y": 0.0,
+      "description": [
+        "Ten fewer things that go boom near your builds."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:creeper",
+          "value": 10
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "creeper_1"
+      ],
+      "section": "common"
+    },
+    {
+      "key": "creeper_50",
+      "title": "Creeper Bounty: Veteran",
+      "icon": "minecraft:creeper_spawn_egg",
+      "x": 3.2,
+      "y": 0.0,
+      "description": [
+        "Your builds are starting to feel a lot safer.",
+        "A basic Blast Protection charm for your trouble."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:creeper",
+          "value": 50
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 2
+        },
+        {
+          "item": "minecraft:enchanted_book",
+          "enchant": {
+            "id": "minecraft:blast_protection",
+            "level": 2
+          }
+        }
+      ],
+      "dependencies": [
+        "creeper_10"
+      ],
+      "section": "common"
+    },
+    {
+      "key": "creeper_100",
+      "title": "Creeper Bounty: Expert",
+      "icon": "minecraft:creeper_spawn_egg",
+      "x": 4.8,
+      "y": 0.0,
+      "description": [
+        "A hundred craters you didn't leave behind.",
+        "The blast resistance to prove it."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:creeper",
+          "value": 100
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond_block",
+          "count": 1
+        },
+        {
+          "item": "minecraft:enchanted_book",
+          "enchant": {
+            "id": "minecraft:blast_protection",
+            "level": 3
+          }
+        }
+      ],
+      "dependencies": [
+        "creeper_50"
+      ],
+      "section": "common"
+    },
+    {
+      "key": "creeper_1000",
+      "title": "Creeper Bounty: Legend",
+      "icon": "minecraft:creeper_spawn_egg",
+      "x": 6.4,
+      "y": 0.0,
+      "description": [
+        "A thousand Creepers. Nobody's builds have been safer.",
+        "Maximum Blast Protection, and something dug up from deep in the Nether."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:creeper",
+          "value": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:netherite_scrap",
+          "count": 2
+        },
+        {
+          "item": "minecraft:enchanted_book",
+          "enchant": {
+            "id": "minecraft:blast_protection",
+            "level": 4
+          }
+        }
+      ],
+      "dependencies": [
+        "creeper_100"
+      ],
+      "shape": "diamond",
+      "size": 1.2,
+      "section": "common"
+    },
+    {
+      "key": "zombie_1",
+      "title": "Zombie Bounty: Novice",
+      "icon": "minecraft:zombie_spawn_egg",
+      "x": 0.0,
+      "y": 1.6,
+      "description": [
+        "The night is full of them.",
+        "Put one down."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:zombie",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:rotten_flesh",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "section": "common"
+    },
+    {
+      "key": "zombie_10",
+      "title": "Zombie Bounty: Apprentice",
+      "icon": "minecraft:zombie_spawn_egg",
+      "x": 1.6,
+      "y": 1.6,
+      "description": [
+        "Ten down. The horde barely notices, but you will."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:zombie",
+          "value": 10
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "zombie_1"
+      ],
+      "section": "common"
+    },
+    {
+      "key": "zombie_50",
+      "title": "Zombie Bounty: Veteran",
+      "icon": "minecraft:zombie_spawn_egg",
+      "x": 3.2,
+      "y": 1.6,
+      "description": [
+        "Fifty and counting. You've got a rhythm for this now.",
+        "A Smite charm, for the undead that still give you trouble."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:zombie",
+          "value": 50
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 2
+        },
+        {
+          "item": "minecraft:enchanted_book",
+          "enchant": {
+            "id": "minecraft:smite",
+            "level": 2
+          }
+        }
+      ],
+      "dependencies": [
+        "zombie_10"
+      ],
+      "section": "common"
+    },
+    {
+      "key": "zombie_100",
+      "title": "Zombie Bounty: Expert",
+      "icon": "minecraft:zombie_spawn_egg",
+      "x": 4.8,
+      "y": 1.6,
+      "description": [
+        "A hundred. Villages sleep easier because of you."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:zombie",
+          "value": 100
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond_block",
+          "count": 1
+        },
+        {
+          "item": "minecraft:enchanted_book",
+          "enchant": {
+            "id": "minecraft:smite",
+            "level": 4
+          }
+        }
+      ],
+      "dependencies": [
+        "zombie_50"
+      ],
+      "section": "common"
+    },
+    {
+      "key": "zombie_1000",
+      "title": "Zombie Bounty: Legend",
+      "icon": "minecraft:zombie_spawn_egg",
+      "x": 6.4,
+      "y": 1.6,
+      "description": [
+        "A thousand fallen. You've earned the quiet nights.",
+        "Maximum Smite, and a scrap of the Nether's toughest metal."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:zombie",
+          "value": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:netherite_scrap",
+          "count": 2
+        },
+        {
+          "item": "minecraft:enchanted_book",
+          "enchant": {
+            "id": "minecraft:smite",
+            "level": 5
+          }
+        }
+      ],
+      "dependencies": [
+        "zombie_100"
+      ],
+      "shape": "diamond",
+      "size": 1.2,
+      "section": "common"
+    },
+    {
+      "key": "skeleton_1",
+      "title": "Skeleton Bounty: Novice",
+      "icon": "minecraft:skeleton_spawn_egg",
+      "x": 0.0,
+      "y": 3.2,
+      "description": [
+        "Rattling bones, aimed arrows.",
+        "Silence one."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:skeleton",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bone",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "section": "common"
+    },
+    {
+      "key": "skeleton_10",
+      "title": "Skeleton Bounty: Apprentice",
+      "icon": "minecraft:skeleton_spawn_egg",
+      "x": 1.6,
+      "y": 3.2,
+      "description": [
+        "Ten quivers emptied for nothing."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:skeleton",
+          "value": 10
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "skeleton_1"
+      ],
+      "section": "common"
+    },
+    {
+      "key": "skeleton_50",
+      "title": "Skeleton Bounty: Veteran",
+      "icon": "minecraft:skeleton_spawn_egg",
+      "x": 3.2,
+      "y": 3.2,
+      "description": [
+        "Fifty down. Caves are a little less rattly now.",
+        "A Protection charm, for the arrows you didn't dodge."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:skeleton",
+          "value": 50
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 2
+        },
+        {
+          "item": "minecraft:enchanted_book",
+          "enchant": {
+            "id": "minecraft:protection",
+            "level": 2
+          }
+        }
+      ],
+      "dependencies": [
+        "skeleton_10"
+      ],
+      "section": "common"
+    },
+    {
+      "key": "skeleton_100",
+      "title": "Skeleton Bounty: Expert",
+      "icon": "minecraft:skeleton_spawn_egg",
+      "x": 4.8,
+      "y": 3.2,
+      "description": [
+        "A hundred archers who never got a shot off worth remembering."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:skeleton",
+          "value": 100
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond_block",
+          "count": 1
+        },
+        {
+          "item": "minecraft:enchanted_book",
+          "enchant": {
+            "id": "minecraft:protection",
+            "level": 3
+          }
+        }
+      ],
+      "dependencies": [
+        "skeleton_50"
+      ],
+      "section": "common"
+    },
+    {
+      "key": "skeleton_1000",
+      "title": "Skeleton Bounty: Legend",
+      "icon": "minecraft:skeleton_spawn_egg",
+      "x": 6.4,
+      "y": 3.2,
+      "description": [
+        "A thousand. There may not be a quieter cave system left.",
+        "Maximum Protection, and a shard of pure netherite."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:skeleton",
+          "value": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:netherite_scrap",
+          "count": 2
+        },
+        {
+          "item": "minecraft:enchanted_book",
+          "enchant": {
+            "id": "minecraft:protection",
+            "level": 4
+          }
+        }
+      ],
+      "dependencies": [
+        "skeleton_100"
+      ],
+      "shape": "diamond",
+      "size": 1.2,
+      "section": "common"
+    },
+    {
+      "key": "spider_1",
+      "title": "Spider Bounty: Novice",
+      "icon": "minecraft:spider_spawn_egg",
+      "x": 0.0,
+      "y": 4.8,
+      "description": [
+        "Eight legs, bad attitude.",
+        "Deal with one."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:spider",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:string",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "section": "common"
+    },
+    {
+      "key": "spider_10",
+      "title": "Spider Bounty: Apprentice",
+      "icon": "minecraft:spider_spawn_egg",
+      "x": 1.6,
+      "y": 4.8,
+      "description": [
+        "Ten fewer webs to walk into."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:spider",
+          "value": 10
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "spider_1"
+      ],
+      "section": "common"
+    },
+    {
+      "key": "spider_50",
+      "title": "Spider Bounty: Veteran",
+      "icon": "minecraft:spider_spawn_egg",
+      "x": 3.2,
+      "y": 4.8,
+      "description": [
+        "Fifty. Even the caves feel less crawly.",
+        "A Bane of Arthropods charm, well overdue."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:spider",
+          "value": 50
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 2
+        },
+        {
+          "item": "minecraft:enchanted_book",
+          "enchant": {
+            "id": "minecraft:bane_of_arthropods",
+            "level": 2
+          }
+        }
+      ],
+      "dependencies": [
+        "spider_10"
+      ],
+      "section": "common"
+    },
+    {
+      "key": "spider_100",
+      "title": "Spider Bounty: Expert",
+      "icon": "minecraft:spider_spawn_egg",
+      "x": 4.8,
+      "y": 4.8,
+      "description": [
+        "A hundred down. You don't flinch at cobwebs anymore."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:spider",
+          "value": 100
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond_block",
+          "count": 1
+        },
+        {
+          "item": "minecraft:enchanted_book",
+          "enchant": {
+            "id": "minecraft:bane_of_arthropods",
+            "level": 4
+          }
+        }
+      ],
+      "dependencies": [
+        "spider_50"
+      ],
+      "section": "common"
+    },
+    {
+      "key": "spider_1000",
+      "title": "Spider Bounty: Legend",
+      "icon": "minecraft:spider_spawn_egg",
+      "x": 6.4,
+      "y": 4.8,
+      "description": [
+        "A thousand spiders. That's not a fear anymore - that's a hobby.",
+        "Maximum Bane of Arthropods, and a piece of the Nether's finest."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:spider",
+          "value": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:netherite_scrap",
+          "count": 2
+        },
+        {
+          "item": "minecraft:enchanted_book",
+          "enchant": {
+            "id": "minecraft:bane_of_arthropods",
+            "level": 5
+          }
+        }
+      ],
+      "dependencies": [
+        "spider_100"
+      ],
+      "shape": "diamond",
+      "size": 1.2,
+      "section": "common"
+    },
+    {
+      "key": "enderman_1",
+      "title": "Enderman Bounty: Novice",
+      "icon": "minecraft:ender_pearl",
+      "x": 0.0,
+      "y": 6.4,
+      "description": [
+        "Don't stare too long.",
+        "Take one down."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:enderman",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:ender_pearl",
+          "count": 2
+        }
+      ],
+      "dependencies": [],
+      "section": "common"
+    },
+    {
+      "key": "enderman_10",
+      "title": "Enderman Bounty: Apprentice",
+      "icon": "minecraft:ender_pearl",
+      "x": 1.6,
+      "y": 6.4,
+      "description": [
+        "Ten teleports too slow."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:enderman",
+          "value": 10
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "enderman_1"
+      ],
+      "section": "common"
+    },
+    {
+      "key": "enderman_50",
+      "title": "Enderman Bounty: Veteran",
+      "icon": "minecraft:ender_pearl",
+      "x": 3.2,
+      "y": 6.4,
+      "description": [
+        "Fifty. You've got a real knack for not making eye contact.",
+        "A Looting charm - they were carrying pearls anyway."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:enderman",
+          "value": 50
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 2
+        },
+        {
+          "item": "minecraft:enchanted_book",
+          "enchant": {
+            "id": "minecraft:looting",
+            "level": 1
+          }
+        }
+      ],
+      "dependencies": [
+        "enderman_10"
+      ],
+      "section": "common"
+    },
+    {
+      "key": "enderman_100",
+      "title": "Enderman Bounty: Expert",
+      "icon": "minecraft:ender_pearl",
+      "x": 4.8,
+      "y": 6.4,
+      "description": [
+        "A hundred. The End itself is starting to feel routine."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:enderman",
+          "value": 100
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond_block",
+          "count": 1
+        },
+        {
+          "item": "minecraft:enchanted_book",
+          "enchant": {
+            "id": "minecraft:looting",
+            "level": 2
+          }
+        }
+      ],
+      "dependencies": [
+        "enderman_50"
+      ],
+      "section": "common"
+    },
+    {
+      "key": "enderman_1000",
+      "title": "Enderman Bounty: Legend",
+      "icon": "minecraft:ender_pearl",
+      "x": 6.4,
+      "y": 6.4,
+      "description": [
+        "A thousand. At this point they might be more scared of you.",
+        "Maximum Looting, and a scrap pulled from the Nether's depths."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:enderman",
+          "value": 1000
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:netherite_scrap",
+          "count": 2
+        },
+        {
+          "item": "minecraft:enchanted_book",
+          "enchant": {
+            "id": "minecraft:looting",
+            "level": 3
+          }
+        }
+      ],
+      "dependencies": [
+        "enderman_100"
+      ],
+      "shape": "diamond",
+      "size": 1.2,
+      "section": "common"
+    },
+    {
+      "key": "encounter_iceologer",
+      "title": "Rare Encounter: Iceologer",
+      "icon": "friendsandfoes:iceologer_spawn_egg",
+      "x": 0.0,
+      "y": 10.4,
+      "description": [
+        "An illager who traded a crossbow for ice magic.",
+        "Rare, and rarely friendly."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "friendsandfoes:iceologer",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:blue_ice",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "section": "rare"
+    },
+    {
+      "key": "encounter_mauler",
+      "title": "Rare Encounter: Mauler",
+      "icon": "friendsandfoes:mauler_spawn_egg",
+      "x": 1.6,
+      "y": 10.4,
+      "description": [
+        "Big, armored, and built to hit hard.",
+        "Bring backup."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "friendsandfoes:mauler",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_block",
+          "count": 2
+        }
+      ],
+      "dependencies": [],
+      "section": "rare"
+    },
+    {
+      "key": "encounter_wildfire",
+      "title": "Rare Encounter: Wildfire",
+      "icon": "friendsandfoes:wildfire_spawn_egg",
+      "x": 3.2,
+      "y": 10.4,
+      "description": [
+        "A floating nether menace, all fire and fury.",
+        "Watch for the flames."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "friendsandfoes:wildfire",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:enchanted_book",
+          "enchant": {
+            "id": "minecraft:fire_protection",
+            "level": 2
+          }
+        }
+      ],
+      "dependencies": [],
+      "section": "rare"
+    },
+    {
+      "key": "encounter_illusioner",
+      "title": "Rare Encounter: Illusioner",
+      "icon": "friendsandfoes:illusioner_spawn_egg",
+      "x": 4.8,
+      "y": 10.4,
+      "description": [
+        "Conjures decoys and vanishes mid-fight.",
+        "Trust nothing you see."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "friendsandfoes:illusioner",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "section": "rare"
+    },
+    {
+      "key": "encounter_pillager_aviator",
+      "title": "Rare Encounter: Pillager Aviator",
+      "icon": "aeronauticsdiscovery:pillager_aviator_spawn_egg",
+      "x": 6.4,
+      "y": 10.4,
+      "description": [
+        "Sky raiders looking to make your airship their next target.",
+        "Fitting, if you've taken to the skies yourself."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "aeronauticsdiscovery:pillager_aviator",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "section": "rare"
+    },
+    {
+      "key": "encounter_ashen",
+      "title": "Rare Encounter: Ashen",
+      "icon": "minecraft:blaze_powder",
+      "x": 8.0,
+      "y": 10.4,
+      "description": [
+        "Something that crawled out of the ash and didn't stop moving.",
+        "Found in the scorched places of this world."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "regions_unexplored:ashen",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:blaze_powder",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "section": "rare"
+    },
+    {
+      "key": "boss_wither",
+      "title": "Slay the Wither",
+      "icon": "minecraft:nether_star",
+      "x": 0.0,
+      "y": 16.0,
+      "description": [
+        "A construct of bone and spite, built to end you.",
+        "End it first."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:wither",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond_block",
+          "count": 1
+        }
+      ],
+      "dependencies": [],
+      "size": 1.2,
+      "shape": "diamond",
+      "section": "bosses"
+    },
+    {
+      "key": "boss_ender_dragon",
+      "title": "Slay the Ender Dragon",
+      "icon": "minecraft:dragon_head",
+      "x": 0.0,
+      "y": 14.4,
+      "description": [
+        "The last guardian of the End, and one of the oldest fights in the game.",
+        "Bring it down."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "minecraft:ender_dragon",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond_block",
+          "count": 1
+        }
+      ],
+      "dependencies": [],
+      "size": 1.2,
+      "shape": "diamond",
+      "section": "bosses"
+    },
+    {
+      "key": "boss_fire_dragon",
+      "title": "Slay a Fire Dragon",
+      "icon": "iceandfire:dragonsteel_fire_ingot",
+      "x": 0.0,
+      "y": 17.6,
+      "description": [
+        "Ice and Fire's most infamous discovery.",
+        "Not a fight to walk into unprepared."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "iceandfire:fire_dragon",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 3
+        }
+      ],
+      "dependencies": [],
+      "size": 1.2,
+      "shape": "diamond",
+      "section": "bosses"
+    },
+    {
+      "key": "boss_ice_dragon",
+      "title": "Slay an Ice Dragon",
+      "icon": "iceandfire:dragonsteel_ice_ingot",
+      "x": 0.0,
+      "y": 19.2,
+      "description": [
+        "Cold, patient, and every bit as lethal as its fiery cousin."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "iceandfire:ice_dragon",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 3
+        }
+      ],
+      "dependencies": [],
+      "size": 1.2,
+      "shape": "diamond",
+      "section": "bosses"
+    },
+    {
+      "key": "boss_lightning_dragon",
+      "title": "Slay a Lightning Dragon",
+      "icon": "iceandfire:dragonsteel_lightning_ingot",
+      "x": 0.0,
+      "y": 20.8,
+      "description": [
+        "It moves like a storm and hits like one too."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "iceandfire:lightning_dragon",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 3
+        }
+      ],
+      "dependencies": [],
+      "size": 1.2,
+      "shape": "diamond",
+      "section": "bosses"
+    },
+    {
+      "key": "master_bounty_hunter",
+      "title": "Master Bounty Hunter",
+      "icon": "minecraft:totem_of_undying",
+      "x": 3.2,
+      "y": 17.6,
+      "description": [
+        "Every tier cleared, every dragon down, every rare threat accounted for.",
+        "The board is finally, completely clear."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:totem_of_undying",
+          "count": 1
+        },
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 2
+        },
+        {
+          "item": "minecraft:nether_star",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "creeper_1000",
+        "zombie_1000",
+        "skeleton_1000",
+        "spider_1000",
+        "enderman_1000",
+        "boss_wither",
+        "boss_ender_dragon",
+        "boss_fire_dragon",
+        "boss_ice_dragon",
+        "boss_lightning_dragon"
+      ],
+      "shape": "hexagon",
+      "size": 1.4,
+      "section": "bosses"
+    },
+    {
+      "key": "encounter_troll",
+      "title": "Rare Encounter: Troll",
+      "icon": "iceandfire:spawn_egg_troll",
+      "x": 9.6,
+      "y": 10.4,
+      "description": [
+        "Caves and mountains hide something that hits like a falling tree.",
+        "Bring a troll down before it brings the ceiling down on you."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "iceandfire:troll",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "iceandfire:troll_tusk",
+          "count": 1
+        }
+      ],
+      "dependencies": [],
+      "section": "rare"
+    },
+    {
+      "key": "encounter_cockatrice",
+      "title": "Rare Encounter: Cockatrice",
+      "icon": "iceandfire:spawn_egg_cockatrice",
+      "x": 11.2,
+      "y": 10.4,
+      "description": [
+        "Do not meet its eyes if you can help it.",
+        "A cockatrice is proof that the rumours in Dragon Country start smaller than dragons."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "iceandfire:cockatrice",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "iceandfire:cockatrice_eye",
+          "count": 1
+        }
+      ],
+      "dependencies": [],
+      "section": "rare"
+    }
+  ],
+  "images": [
+    {
+      "x": 3.2,
+      "y": -1.6,
+      "width": 13.2,
+      "height": 0.8,
+      "text": [
+        "Hunt Common Threats"
+      ]
+    },
+    {
+      "x": 5.6,
+      "y": 8.8,
+      "width": 13.2,
+      "height": 0.8,
+      "text": [
+        "Track Rare Encounters"
+      ]
+    },
+    {
+      "x": 1.6,
+      "y": 12.8,
+      "width": 13.2,
+      "height": 0.8,
+      "text": [
+        "Challenge Powerful Bosses"
+      ]
+    }
+  ]
+}

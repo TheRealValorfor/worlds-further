@@ -1,0 +1,1205 @@
+{
+  "key": "adventure_awaits",
+  "group": "exploration",
+  "order_index": 0,
+  "title": "Adventure Awaits",
+  "icon": "waystones:waystone",
+  "subtitle": "Waystones, relics, ruins, and reasons to leave home",
+  "quests": [
+    {
+      "key": "learn_combo",
+      "title": "Chain Your Strikes",
+      "icon": "minecraft:iron_sword",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Timing beats mashing every time.",
+        "Chain your strikes together and land a combo on something that deserves it."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [],
+      "source": "adventurer_rpg",
+      "section": "adventurer_rpg"
+    },
+    {
+      "key": "learn_roll",
+      "title": "Dodge and Roll",
+      "icon": "minecraft:leather_boots",
+      "x": 1.6,
+      "y": 0.0,
+      "description": [
+        "Standing still is how you get hit.",
+        "Learn the combat roll, time it right, and watch the attack sail past."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "adventurer_rpg",
+      "section": "adventurer_rpg"
+    },
+    {
+      "key": "first_trinket",
+      "title": "Your First Trinket",
+      "icon": "artifacts:power_glove",
+      "x": 0.0,
+      "y": 1.6,
+      "description": [
+        "Small charms, real power - Artifacts and relics slot into your Curios inventory (open it with G).",
+        "Find any trinket and equip it. The Power Glove is only one of many."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [],
+      "source": "adventurer_rpg",
+      "section": "adventurer_rpg"
+    },
+    {
+      "key": "capable_fighter",
+      "title": "A Capable Fighter",
+      "icon": "minecraft:diamond_sword",
+      "x": 1.6,
+      "y": 1.6,
+      "description": [
+        "Every fight you walk away from teaches your combat skill something.",
+        "Keep swinging until holding your own feels natural."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:golden_apple",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "learn_combo"
+      ],
+      "source": "adventurer_rpg",
+      "section": "adventurer_rpg"
+    },
+    {
+      "key": "strange_items",
+      "title": "Whispers of the Old World",
+      "icon": "minecraft:amethyst_shard",
+      "x": 3.2,
+      "y": 0.0,
+      "description": [
+        "Every so often you'll find something that feels like more than it should.",
+        "If an old, unassuming item catches your eye, hang onto it."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "dependencies": [],
+      "source": "adventurer_rpg",
+      "section": "adventurer_rpg"
+    },
+    {
+      "key": "found_your_footing",
+      "title": "Found Your Footing",
+      "icon": "minecraft:shield",
+      "x": 4.8,
+      "y": 0.0,
+      "description": [
+        "Combos, rolls, trinkets, a skill set that's actually yours now.",
+        "You're not stumbling into fights anymore - you're choosing them."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "learn_roll",
+        "first_trinket",
+        "capable_fighter"
+      ],
+      "source": "adventurer_rpg",
+      "size": 1.8,
+      "section": "adventurer_rpg"
+    },
+    {
+      "key": "waystone",
+      "title": "Place a Waystone",
+      "icon": "waystones:waystone",
+      "x": 0.0,
+      "y": 5.6,
+      "description": [
+        "Plant a Waystone and the map shrinks a little.",
+        "Right-click it any time to open the travel menu."
+      ],
+      "tasks": [
+        {
+          "item": "waystones:waystone",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 2
+        }
+      ],
+      "dependencies": [],
+      "source": "waystones",
+      "section": "waystones"
+    },
+    {
+      "key": "warp_stone",
+      "title": "Warp Stone",
+      "icon": "waystones:warp_stone",
+      "x": 1.6,
+      "y": 5.6,
+      "description": [
+        "A Warp Stone puts every Waystone you've found one click away."
+      ],
+      "tasks": [
+        {
+          "item": "waystones:warp_stone",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:ender_pearl",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "waystone"
+      ],
+      "source": "waystones",
+      "section": "waystones"
+    },
+    {
+      "key": "blank_scroll",
+      "title": "Blank Scroll",
+      "icon": "waystones:blank_scroll",
+      "x": 3.2,
+      "y": 5.6,
+      "description": [
+        "A Blank Scroll is where every travel scroll starts."
+      ],
+      "tasks": [
+        {
+          "item": "waystones:blank_scroll",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:paper",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "warp_stone"
+      ],
+      "source": "waystones",
+      "section": "waystones"
+    },
+    {
+      "key": "warp_scroll",
+      "title": "Warp Scroll",
+      "icon": "waystones:warp_scroll",
+      "x": 4.8,
+      "y": 5.6,
+      "description": [
+        "Bind a Warp Scroll to a Waystone for one quick trip from anywhere."
+      ],
+      "tasks": [
+        {
+          "item": "waystones:warp_scroll",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:paper",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "blank_scroll"
+      ],
+      "source": "waystones",
+      "section": "waystones"
+    },
+    {
+      "key": "warp_scroll_bound",
+      "title": "Bound Scroll",
+      "icon": "waystones:bound_scroll",
+      "x": 6.4,
+      "y": 5.6,
+      "description": [
+        "The upgrade: a scroll bound for good, always ready for that one trip."
+      ],
+      "tasks": [
+        {
+          "item": "waystones:bound_scroll",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:compass",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "warp_scroll"
+      ],
+      "source": "waystones",
+      "section": "waystones"
+    },
+    {
+      "key": "return_scroll",
+      "title": "Return Scroll",
+      "icon": "waystones:return_scroll",
+      "x": 4.8,
+      "y": 7.2,
+      "description": [
+        "Craft a Return Scroll and snap straight back to wherever you came from."
+      ],
+      "tasks": [
+        {
+          "item": "waystones:return_scroll",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:paper",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "blank_scroll"
+      ],
+      "source": "waystones",
+      "section": "waystones"
+    },
+    {
+      "key": "white_portstone",
+      "title": "Portstone",
+      "icon": "waystones:white_portstone",
+      "x": 1.6,
+      "y": 7.2,
+      "description": [
+        "A Portstone travels light - all the convenience, none of the bulk."
+      ],
+      "tasks": [
+        {
+          "item": "waystones:white_portstone",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "waystone"
+      ],
+      "source": "waystones",
+      "section": "waystones"
+    },
+    {
+      "key": "attuned_shard",
+      "title": "Attuned Shard",
+      "icon": "waystones:attuned_shard",
+      "x": 3.2,
+      "y": 7.2,
+      "description": [
+        "Attune a Shard and your Portstone network gets faster, tighter, more reliable."
+      ],
+      "tasks": [
+        {
+          "item": "waystones:attuned_shard",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:amethyst_shard",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "white_portstone"
+      ],
+      "source": "waystones",
+      "section": "waystones"
+    },
+    {
+      "key": "bunny_hoppers",
+      "title": "Bunny Hoppers",
+      "icon": "artifacts:bunny_hoppers",
+      "x": 0.0,
+      "y": 11.2,
+      "description": [
+        "Strap these on and suddenly the ground doesn't hold you down.",
+        "Your first step into artifact mobility."
+      ],
+      "tasks": [
+        {
+          "item": "artifacts:bunny_hoppers",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:feather",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "artifacts",
+      "section": "artifacts"
+    },
+    {
+      "key": "running_shoes",
+      "title": "Running Shoes",
+      "icon": "artifacts:running_shoes",
+      "x": 1.6,
+      "y": 11.2,
+      "description": [
+        "Every sprint gets a little faster with these on."
+      ],
+      "tasks": [
+        {
+          "item": "artifacts:running_shoes",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "bunny_hoppers"
+      ],
+      "source": "artifacts",
+      "section": "artifacts"
+    },
+    {
+      "key": "aqua_dashers",
+      "title": "Aqua-Dashers",
+      "icon": "artifacts:aqua_dashers",
+      "x": 3.2,
+      "y": 11.2,
+      "description": [
+        "Run straight across water like it's solid ground.",
+        "The peak of artifact-powered mobility."
+      ],
+      "tasks": [
+        {
+          "item": "artifacts:aqua_dashers",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:water_bucket",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "running_shoes"
+      ],
+      "source": "artifacts",
+      "section": "artifacts"
+    },
+    {
+      "key": "digging_claws",
+      "title": "Digging Claws",
+      "icon": "artifacts:digging_claws",
+      "x": 0.0,
+      "y": 12.8,
+      "description": [
+        "Bare-handed mining just got a lot less bare."
+      ],
+      "tasks": [
+        {
+          "item": "artifacts:digging_claws",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "artifacts",
+      "section": "artifacts"
+    },
+    {
+      "key": "universal_attractor",
+      "title": "Universal Attractor",
+      "icon": "artifacts:universal_attractor",
+      "x": 1.6,
+      "y": 12.8,
+      "description": [
+        "Loot drops, and it comes straight to you.",
+        "A must-have for anyone who mines seriously."
+      ],
+      "tasks": [
+        {
+          "item": "artifacts:universal_attractor",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:redstone",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "digging_claws"
+      ],
+      "source": "artifacts",
+      "section": "artifacts"
+    },
+    {
+      "key": "power_glove",
+      "title": "Power Glove",
+      "icon": "artifacts:power_glove",
+      "x": 3.2,
+      "y": 12.8,
+      "description": [
+        "Suddenly your reach is a lot longer than your arm."
+      ],
+      "tasks": [
+        {
+          "item": "artifacts:power_glove",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:ender_pearl",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "universal_attractor"
+      ],
+      "source": "artifacts",
+      "section": "artifacts"
+    },
+    {
+      "key": "crystal_heart",
+      "title": "Crystal Heart",
+      "icon": "artifacts:crystal_heart",
+      "x": 0.0,
+      "y": 14.4,
+      "description": [
+        "Wear it once, keep the extra health forever.",
+        "The foundation stone of any artifact combat build."
+      ],
+      "tasks": [
+        {
+          "item": "artifacts:crystal_heart",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:golden_apple",
+          "count": 1
+        }
+      ],
+      "dependencies": [],
+      "source": "artifacts",
+      "section": "artifacts"
+    },
+    {
+      "key": "obsidian_skull",
+      "title": "Obsidian Skull",
+      "icon": "artifacts:obsidian_skull",
+      "x": 1.6,
+      "y": 14.4,
+      "description": [
+        "Fire and lava stop being a threat while this is on."
+      ],
+      "tasks": [
+        {
+          "item": "artifacts:obsidian_skull",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "crystal_heart"
+      ],
+      "source": "artifacts",
+      "section": "artifacts"
+    },
+    {
+      "key": "vampiric_glove",
+      "title": "Vampiric Glove",
+      "icon": "artifacts:vampiric_glove",
+      "x": 3.2,
+      "y": 14.4,
+      "description": [
+        "Every hit you land heals you back.",
+        "The ultimate combat artifact - simple as that."
+      ],
+      "tasks": [
+        {
+          "item": "artifacts:vampiric_glove",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "obsidian_skull"
+      ],
+      "source": "artifacts",
+      "section": "artifacts"
+    },
+    {
+      "key": "shield",
+      "title": "Arm Yourself",
+      "icon": "minecraft:shield",
+      "x": 0.0,
+      "y": 18.4,
+      "description": [
+        "Every good defense starts with a shield.",
+        "Craft one before the raiders come knocking."
+      ],
+      "tasks": [
+        {
+          "item": "minecraft:shield",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "guard_villagers",
+      "section": "guard_villagers"
+    },
+    {
+      "key": "crossbow",
+      "title": "Ranged Defense",
+      "icon": "minecraft:crossbow",
+      "x": 1.6,
+      "y": 18.4,
+      "description": [
+        "A crossbow means the raiders never even reach you."
+      ],
+      "tasks": [
+        {
+          "item": "minecraft:crossbow",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:arrow",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "shield"
+      ],
+      "source": "guard_villagers",
+      "section": "guard_villagers"
+    },
+    {
+      "key": "snow_golem_spawn_egg",
+      "title": "Snow Golem",
+      "icon": "minecraft:carved_pumpkin",
+      "x": 0.0,
+      "y": 20.0,
+      "description": [
+        "Stack two snow blocks, top them with a carved pumpkin.",
+        "A Snow Golem that'll pelt hostiles from a distance, free of charge."
+      ],
+      "tasks": [
+        {
+          "item": "minecraft:snow_block",
+          "count": 2
+        },
+        {
+          "item": "minecraft:carved_pumpkin",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:snowball",
+          "count": 8
+        }
+      ],
+      "dependencies": [],
+      "source": "guard_villagers",
+      "section": "guard_villagers"
+    },
+    {
+      "key": "iron_golem_spawn_egg",
+      "title": "Iron Golem",
+      "icon": "minecraft:iron_block",
+      "x": 1.6,
+      "y": 20.0,
+      "description": [
+        "Four iron blocks in a T, a carved pumpkin on top.",
+        "Summon an Iron Golem built to take a beating for your village."
+      ],
+      "tasks": [
+        {
+          "item": "minecraft:iron_block",
+          "count": 4
+        },
+        {
+          "item": "minecraft:carved_pumpkin",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_block",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "shield"
+      ],
+      "source": "guard_villagers",
+      "section": "guard_villagers"
+    },
+    {
+      "key": "guard_spawn_egg",
+      "title": "Hire a Guard",
+      "icon": "minecraft:iron_sword",
+      "x": 3.2,
+      "y": 20.0,
+      "description": [
+        "Arm a villager with a sword and they may take up the guard's life.",
+        "You do not need a spawn egg - convert someone who already lives in your village."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "iron_golem_spawn_egg"
+      ],
+      "source": "guard_villagers",
+      "section": "guard_villagers"
+    },
+    {
+      "key": "illusioner_spawn_egg",
+      "title": "Defeat the Illusioner",
+      "icon": "minecraft:bow",
+      "x": 4.8,
+      "y": 18.4,
+      "description": [
+        "Guards posted, weapons ready - now face down an Illusioner.",
+        "Friends and Foes puts them in the world. The spawn egg is not the goal; surviving the fight is."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "friendsandfoes:illusioner",
+          "value": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:totem_of_undying",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "guard_spawn_egg",
+        "crossbow"
+      ],
+      "source": "guard_villagers",
+      "section": "guard_villagers"
+    },
+    {
+      "key": "something_ancient",
+      "title": "Something Ancient",
+      "icon": "relics:magic_mirror",
+      "x": 0.0,
+      "y": 25.6,
+      "description": [
+        "This isn't ordinary treasure. Relics drop from exploration, not a single named item.",
+        "Whatever you've discovered appears to respond to its owner. Carry it with you, and see what it can become."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 2
+        }
+      ],
+      "dependencies": [],
+      "source": "relics",
+      "section": "relics"
+    },
+    {
+      "key": "carry_it_with_you",
+      "title": "Experiment",
+      "icon": "relics:enders_hand",
+      "x": 1.6,
+      "y": 24.0,
+      "description": [
+        "Relics reveal themselves through use, not explanation.",
+        "Keep it on you. Try it in places you wouldn't expect."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "something_ancient"
+      ],
+      "source": "relics",
+      "section": "relics"
+    },
+    {
+      "key": "worn_properly",
+      "title": "Worn, Not Carried",
+      "icon": "relics:reflection_necklace",
+      "x": 1.6,
+      "y": 27.2,
+      "description": [
+        "Some relics want to be worn, not just held.",
+        "Find their proper place - a ring, a belt, a charm slot - and settle it in."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "something_ancient"
+      ],
+      "source": "relics",
+      "section": "relics"
+    },
+    {
+      "key": "a_pattern_emerges",
+      "title": "A Pattern Emerges",
+      "icon": "relics:spore_sack",
+      "x": 3.2,
+      "y": 24.0,
+      "description": [
+        "You've found more than one now.",
+        "They don't feel related. Or do they?"
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "carry_it_with_you"
+      ],
+      "source": "relics",
+      "section": "relics"
+    },
+    {
+      "key": "beyond_the_ordinary",
+      "title": "Beyond the Ordinary",
+      "icon": "morerelics:crown_of_the_legend",
+      "x": 4.8,
+      "y": 24.0,
+      "description": [
+        "Not every strange trinket shares the same origin.",
+        "Some feel newer. Sharper. Like they were waiting to be found by someone in particular. Keep hunting until one of those finds you."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "a_pattern_emerges"
+      ],
+      "source": "relics",
+      "section": "relics"
+    },
+    {
+      "key": "something_stranger_still",
+      "title": "Something Stranger Still",
+      "icon": "morerelics:whims_of_fate",
+      "x": 6.4,
+      "y": 24.0,
+      "description": [
+        "Some of what you've found doesn't just feel powerful.",
+        "It feels arcane. Deliberate. Like it was made, not found. Somewhere, there may be an explanation."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "beyond_the_ordinary"
+      ],
+      "source": "relics",
+      "section": "relics"
+    },
+    {
+      "key": "a_student_of_relics",
+      "title": "A Student of Relics",
+      "icon": "relics:holy_locket",
+      "x": 8.0,
+      "y": 24.0,
+      "description": [
+        "You no longer flinch when you find one.",
+        "You've started to understand what these things are - and how to make them yours."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "something_stranger_still"
+      ],
+      "source": "relics",
+      "shape": "hexagon",
+      "size": 1.4,
+      "section": "relics"
+    },
+    {
+      "key": "goblin_trader_sighting",
+      "title": "A Jingle in the Distance",
+      "icon": "goblintraders:goblin_trader_spawn_egg",
+      "x": 0.0,
+      "y": 31.2,
+      "description": [
+        "You hear the clatter of a loaded pack before you ever see who's carrying it.",
+        "Track down a Goblin Trader out in the world."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 2
+        }
+      ],
+      "dependencies": [],
+      "source": "goblin_traders",
+      "section": "goblin_traders"
+    },
+    {
+      "key": "goblin_trade",
+      "title": "Strike a Deal",
+      "icon": "minecraft:emerald",
+      "x": 1.6,
+      "y": 31.2,
+      "description": [
+        "Goblins never give anything away for free, but they'll always make a deal.",
+        "Trade with a Goblin Trader and see what they're carrying."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "goblin_trader_sighting"
+      ],
+      "source": "goblin_traders",
+      "section": "goblin_traders"
+    },
+    {
+      "key": "vein_goblin_trader",
+      "title": "The Vein Goblin",
+      "icon": "goblintraders:vein_goblin_trader_spawn_egg",
+      "x": 3.2,
+      "y": 31.2,
+      "description": [
+        "Rarer, stranger, and said to trade in things pulled straight from the rock.",
+        "Find and trade with a Vein Goblin Trader."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:raw_gold",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "goblin_trade"
+      ],
+      "source": "goblin_traders",
+      "section": "goblin_traders"
+    },
+    {
+      "key": "loot_journal_notice",
+      "title": "Every Pickup, Noted",
+      "icon": "minecraft:writable_book",
+      "x": 0.0,
+      "y": 35.2,
+      "description": [
+        "Every item, every bit of experience you pick up now announces itself quietly at the edge of the screen.",
+        "No more wondering what that pile of drops just added to your inventory."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "loot_journal",
+      "section": "loot_journal"
+    },
+    {
+      "key": "sleep_on_the_road",
+      "title": "Sleep on the Road",
+      "icon": "comforts:sleeping_bag_white",
+      "x": 3.2,
+      "y": 1.6,
+      "description": [
+        "A bed back home is fine until night catches you three biomes away.",
+        "Craft a sleeping bag so you can skip the night without resetting spawn."
+      ],
+      "tasks": [
+        {
+          "item": "comforts:sleeping_bag_white",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:white_wool",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "adventurer_rpg",
+      "section": "adventurer_rpg"
+    },
+    {
+      "key": "unique_loot",
+      "title": "Loot That Stays Yours",
+      "icon": "lootr:trophy",
+      "x": 1.6,
+      "y": 35.2,
+      "description": [
+        "Chests in ruins are not a race. Each player gets their own loot from the same box.",
+        "Open a structure chest and take what is yours - nobody else loses theirs."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [],
+      "source": "loot_journal",
+      "section": "loot_journal"
+    },
+    {
+      "key": "field_guide_wildlife",
+      "title": "Bring One Back Alive",
+      "icon": "naturalist:capture_net",
+      "x": 3.2,
+      "y": 35.2,
+      "description": [
+        "The wildlife here is not all hostile, and not all familiar.",
+        "Craft a capture net and take a closer look at something that isn't trying to eat you."
+      ],
+      "tasks": [
+        {
+          "item": "naturalist:capture_net",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:lead",
+          "count": 1
+        }
+      ],
+      "dependencies": [],
+      "source": "loot_journal",
+      "section": "loot_journal"
+    }
+  ],
+  "images": [
+    {
+      "x": 2.4,
+      "y": -1.6,
+      "width": 12,
+      "height": 0.8,
+      "text": [
+        "Prepare for Adventure"
+      ]
+    },
+    {
+      "x": 3.2,
+      "y": 4.0,
+      "width": 12,
+      "height": 0.8,
+      "text": [
+        "Build a Fast Travel Network"
+      ]
+    },
+    {
+      "x": 1.6,
+      "y": 9.6,
+      "width": 12,
+      "height": 0.8,
+      "text": [
+        "Discover Useful Artifacts"
+      ]
+    },
+    {
+      "x": 2.4,
+      "y": 16.8,
+      "width": 12,
+      "height": 0.8,
+      "text": [
+        "Protect Your Village"
+      ]
+    },
+    {
+      "x": 4.0,
+      "y": 22.4,
+      "width": 12,
+      "height": 0.8,
+      "text": [
+        "Collect and Develop Relics"
+      ]
+    },
+    {
+      "x": 1.6,
+      "y": 29.6,
+      "width": 12,
+      "height": 0.8,
+      "text": [
+        "Trade with Unusual Merchants"
+      ]
+    },
+    {
+      "x": 1.6,
+      "y": 33.6,
+      "width": 12,
+      "height": 0.8,
+      "text": [
+        "Record Your Discoveries"
+      ]
+    }
+  ]
+}

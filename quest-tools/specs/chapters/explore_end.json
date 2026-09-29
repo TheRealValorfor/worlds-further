@@ -1,0 +1,717 @@
+{
+  "key": "explore_end",
+  "group": "exploration",
+  "order_index": 4,
+  "title": "The End Atlas",
+  "icon": "minecraft:end_stone",
+  "subtitle": "Every biome and structure past the portal",
+  "quests": [
+    {
+      "key": "enter_dimension",
+      "title": "Arrive in the End",
+      "icon": "minecraft:ender_eye",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Walk through the portal, or just be here. The atlas starts when you arrive."
+      ],
+      "tasks": [
+        {
+          "type": "dimension",
+          "dimension": "minecraft:the_end"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:map",
+          "count": 1
+        }
+      ],
+      "dependencies": [],
+      "source": "explore_end",
+      "shape": "hexagon",
+      "size": 1.4,
+      "section": "arrival"
+    },
+    {
+      "key": "biome_minecraft_end_barrens",
+      "title": "End Barrens",
+      "icon": "minecraft:chorus_fruit",
+      "x": 0.0,
+      "y": 4.0,
+      "description": [
+        "Vanilla. Stand in this biome until the task ticks.",
+        "minecraft:end_barrens"
+      ],
+      "tasks": [
+        {
+          "type": "biome",
+          "biome": "minecraft:end_barrens"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "biomes"
+    },
+    {
+      "key": "biome_minecraft_end_highlands",
+      "title": "End Highlands",
+      "icon": "minecraft:chorus_fruit",
+      "x": 1.6,
+      "y": 4.0,
+      "description": [
+        "Vanilla. Stand in this biome until the task ticks.",
+        "minecraft:end_highlands"
+      ],
+      "tasks": [
+        {
+          "type": "biome",
+          "biome": "minecraft:end_highlands"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "biomes"
+    },
+    {
+      "key": "biome_minecraft_end_midlands",
+      "title": "End Midlands",
+      "icon": "minecraft:chorus_fruit",
+      "x": 3.2,
+      "y": 4.0,
+      "description": [
+        "Vanilla. Stand in this biome until the task ticks.",
+        "minecraft:end_midlands"
+      ],
+      "tasks": [
+        {
+          "type": "biome",
+          "biome": "minecraft:end_midlands"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "biomes"
+    },
+    {
+      "key": "biome_minecraft_small_end_islands",
+      "title": "Small End Islands",
+      "icon": "minecraft:chorus_fruit",
+      "x": 4.8,
+      "y": 4.0,
+      "description": [
+        "Vanilla. Stand in this biome until the task ticks.",
+        "minecraft:small_end_islands"
+      ],
+      "tasks": [
+        {
+          "type": "biome",
+          "biome": "minecraft:small_end_islands"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "biomes"
+    },
+    {
+      "key": "biome_minecraft_the_end",
+      "title": "The End",
+      "icon": "minecraft:chorus_fruit",
+      "x": 6.4,
+      "y": 4.0,
+      "description": [
+        "Vanilla. Stand in this biome until the task ticks.",
+        "minecraft:the_end"
+      ],
+      "tasks": [
+        {
+          "type": "biome",
+          "biome": "minecraft:the_end"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "biomes"
+    },
+    {
+      "key": "structure_mes_astral_hideaway",
+      "title": "Astral Hideaway",
+      "icon": "minecraft:purpur_block",
+      "x": 0.0,
+      "y": 8.0,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:astral_hideaway"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:astral_hideaway"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_astral_meteorite",
+      "title": "Astral Meteorite",
+      "icon": "minecraft:purpur_block",
+      "x": 1.6,
+      "y": 8.0,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:astral_meteorite"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:astral_meteorite"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_ender_spire",
+      "title": "Ender Spire",
+      "icon": "minecraft:purpur_block",
+      "x": 3.2,
+      "y": 8.0,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:ender_spire"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:ender_spire"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_enderbloom_grove",
+      "title": "Enderbloom Grove",
+      "icon": "minecraft:purpur_block",
+      "x": 4.8,
+      "y": 8.0,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:enderbloom_grove"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:enderbloom_grove"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_enderkeep_courtyard",
+      "title": "Enderkeep Courtyard",
+      "icon": "minecraft:purpur_block",
+      "x": 6.4,
+      "y": 8.0,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:enderkeep_courtyard"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:enderkeep_courtyard"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_enderpin_spikes",
+      "title": "Enderpin Spikes",
+      "icon": "minecraft:purpur_block",
+      "x": 8.0,
+      "y": 8.0,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:enderpin_spikes"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:enderpin_spikes"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_enderskog",
+      "title": "Enderskog",
+      "icon": "minecraft:purpur_block",
+      "x": 9.6,
+      "y": 8.0,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:enderskog"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:enderskog"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_enderwatch_tower",
+      "title": "Enderwatch Tower",
+      "icon": "minecraft:purpur_block",
+      "x": 11.2,
+      "y": 8.0,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:enderwatch_tower"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:enderwatch_tower"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_endscraps",
+      "title": "Endscraps",
+      "icon": "minecraft:purpur_block",
+      "x": 12.8,
+      "y": 8.0,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:endscraps"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:endscraps"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_manuscript_shrine",
+      "title": "Manuscript Shrine",
+      "icon": "minecraft:purpur_block",
+      "x": 14.4,
+      "y": 8.0,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:manuscript_shrine"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:manuscript_shrine"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_mega_ship",
+      "title": "Mega Ship",
+      "icon": "minecraft:purpur_block",
+      "x": 0.0,
+      "y": 9.6,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:mega_ship"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:mega_ship"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_mega_ship_basic",
+      "title": "Mega Ship Basic",
+      "icon": "minecraft:purpur_block",
+      "x": 1.6,
+      "y": 9.6,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:mega_ship_basic"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:mega_ship_basic"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_mega_ship_crashed",
+      "title": "Mega Ship Crashed",
+      "icon": "minecraft:purpur_block",
+      "x": 3.2,
+      "y": 9.6,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:mega_ship_crashed"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:mega_ship_crashed"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_mega_ship_crashed_2",
+      "title": "Mega Ship Crashed 2",
+      "icon": "minecraft:purpur_block",
+      "x": 4.8,
+      "y": 9.6,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:mega_ship_crashed_2"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:mega_ship_crashed_2"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_mega_ship_crashed_deepslate",
+      "title": "Mega Ship Crashed Deepslate",
+      "icon": "minecraft:purpur_block",
+      "x": 6.4,
+      "y": 9.6,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:mega_ship_crashed_deepslate"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:mega_ship_crashed_deepslate"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_mega_ship_deepslate",
+      "title": "Mega Ship Deepslate",
+      "icon": "minecraft:purpur_block",
+      "x": 8.0,
+      "y": 9.6,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:mega_ship_deepslate"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:mega_ship_deepslate"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_mega_ship_deepslate_2",
+      "title": "Mega Ship Deepslate 2",
+      "icon": "minecraft:purpur_block",
+      "x": 9.6,
+      "y": 9.6,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:mega_ship_deepslate_2"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:mega_ship_deepslate_2"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_mega_ship_deepslate_3",
+      "title": "Mega Ship Deepslate 3",
+      "icon": "minecraft:purpur_block",
+      "x": 11.2,
+      "y": 9.6,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:mega_ship_deepslate_3"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:mega_ship_deepslate_3"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_monolith",
+      "title": "Monolith",
+      "icon": "minecraft:purpur_block",
+      "x": 12.8,
+      "y": 9.6,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:monolith"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:monolith"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_mystical_archway",
+      "title": "Mystical Archway",
+      "icon": "minecraft:purpur_block",
+      "x": 14.4,
+      "y": 9.6,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:mystical_archway"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:mystical_archway"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_mythic_garden",
+      "title": "Mythic Garden",
+      "icon": "minecraft:purpur_block",
+      "x": 0.0,
+      "y": 11.2,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:mythic_garden"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:mythic_garden"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_phantom_citadel",
+      "title": "Phantom Citadel",
+      "icon": "minecraft:purpur_block",
+      "x": 1.6,
+      "y": 11.2,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:phantom_citadel"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:phantom_citadel"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_placid_prairie",
+      "title": "Placid Prairie",
+      "icon": "minecraft:purpur_block",
+      "x": 3.2,
+      "y": 11.2,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:placid_prairie"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:placid_prairie"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_ruined_pillar",
+      "title": "Ruined Pillar",
+      "icon": "minecraft:purpur_block",
+      "x": 4.8,
+      "y": 11.2,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:ruined_pillar"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:ruined_pillar"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_mes_starlight_voyager",
+      "title": "Starlight Voyager",
+      "icon": "minecraft:purpur_block",
+      "x": 6.4,
+      "y": 11.2,
+      "description": [
+        "Moog's End. Walk inside the structure until the task ticks.",
+        "mes:starlight_voyager"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "mes:starlight_voyager"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    },
+    {
+      "key": "structure_minecraft_end_city",
+      "title": "End City",
+      "icon": "minecraft:purpur_block",
+      "x": 8.0,
+      "y": 11.2,
+      "description": [
+        "Vanilla. Walk inside the structure until the task ticks.",
+        "minecraft:end_city"
+      ],
+      "tasks": [
+        {
+          "type": "structure",
+          "structure": "minecraft:end_city"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "explore_end",
+      "section": "structures"
+    }
+  ],
+  "images": [
+    {
+      "x": 0.0,
+      "y": -1.6,
+      "width": 16.4,
+      "height": 0.8,
+      "text": [
+        "Arrive"
+      ]
+    },
+    {
+      "x": 3.2,
+      "y": 2.4,
+      "width": 16.4,
+      "height": 0.8,
+      "text": [
+        "Walk Every Biome"
+      ]
+    },
+    {
+      "x": 7.2,
+      "y": 6.4,
+      "width": 16.4,
+      "height": 0.8,
+      "text": [
+        "Find Every Structure"
+      ]
+    }
+  ]
+}

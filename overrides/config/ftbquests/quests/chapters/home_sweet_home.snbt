@@ -52,18 +52,8 @@
 			rotation: 0.0d
 			text_on_image: 1b
 			width: 15.6d
-			x: 3.1d
-			y: 45.8d
-		}
-		{
-			height: 1.0d
-			id: "2BE3F944F7B60F60"
-			image: ""
-			rotation: 0.0d
-			text_on_image: 1b
-			width: 15.6d
 			x: 0.0d
-			y: 51.0d
+			y: 45.8d
 		}
 	]
 	order_index: 1
@@ -900,78 +890,6 @@
 			y: 37.4d
 		}
 		{
-			id: "15B76B33640F3EEE"
-			rewards: [{
-				count: 8
-				id: "266D3192795BA3F4"
-				item: {
-					count: 1
-					id: "minecraft:oak_planks"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "5B498A15986EB41E"
-				item: { count: 1, id: "chipped:oak_barrel" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 42.6d
-		}
-		{
-			dependencies: ["15B76B33640F3EEE"]
-			id: "49408B6513A1C441"
-			tasks: [{
-				id: "671040F0DB7CF49D"
-				item: { count: 1, id: "chipped:oak_crate" }
-				type: "item"
-			}]
-			x: 2.1d
-			y: 42.6d
-		}
-		{
-			dependencies: ["49408B6513A1C441"]
-			id: "151F213E9A29ACA4"
-			rewards: [{
-				count: 2
-				id: "4D22F21DC270B6BA"
-				item: {
-					count: 1
-					id: "minecraft:book"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "6C561FF64DEE2330"
-				item: { count: 1, id: "chipped:oak_bookshelf" }
-				type: "item"
-			}]
-			x: 4.2d
-			y: 42.6d
-		}
-		{
-			dependencies: ["151F213E9A29ACA4"]
-			id: "2CC4EA9940E9C37A"
-			rewards: [{
-				count: 4
-				id: "62D2399106589B08"
-				item: {
-					count: 1
-					id: "minecraft:glass_bottle"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.4d
-			tasks: [{
-				id: "52AEF8D90CD176BE"
-				item: { count: 1, id: "chipped:alchemy_bench" }
-				type: "item"
-			}]
-			x: 6.2d
-			y: 42.6d
-		}
-		{
 			id: "18F85B46CDBD8477"
 			rewards: [{
 				count: 4
@@ -988,7 +906,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 47.8d
+			y: 42.6d
 		}
 		{
 			id: "733B4FDEF601AD55"
@@ -1007,7 +925,7 @@
 				type: "item"
 			}]
 			x: 2.1d
-			y: 47.8d
+			y: 42.6d
 		}
 		{
 			id: "22CF447052C365BB"
@@ -1025,14 +943,14 @@
 				type: "item"
 			}]
 			x: 4.2d
-			y: 47.8d
+			y: 42.6d
 		}
 		{
 			dependencies: [
 				"1F0BB9657DEF1B76"
 				"117B8AFB8B0F7E1A"
 				"7A42F05FEC42FDFB"
-				"2CC4EA9940E9C37A"
+				"0EBD8DCC4BC30281"
 				"22CF447052C365BB"
 			]
 			id: "38D3908A487980D5"
@@ -1051,7 +969,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 53.0d
+			y: 47.8d
 		}
 		{
 			id: "05DEFE37822DD884"
@@ -1070,7 +988,7 @@
 				type: "item"
 			}]
 			x: 6.2d
-			y: 47.8d
+			y: 42.6d
 		}
 	]
 }

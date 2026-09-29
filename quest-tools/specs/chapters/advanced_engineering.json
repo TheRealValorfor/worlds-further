@@ -1,0 +1,1043 @@
+{
+  "key": "advanced_engineering",
+  "group": "engineering",
+  "order_index": 2,
+  "title": "Advanced Engineering",
+  "icon": "railways:track_oak",
+  "subtitle": "Where Create stops being simple",
+  "quests": [
+    {
+      "key": "experience_hatch",
+      "title": "Experience Hatch",
+      "icon": "create_enchantment_industry:experience_hatch",
+      "x": 0.0,
+      "y": 1.6,
+      "description": [
+        "Built from a Fluid Hatch and a block of bottled experience.",
+        "Feeds liquid XP straight into your enchanting setup."
+      ],
+      "tasks": [
+        {
+          "item": "create_enchantment_industry:experience_hatch",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "engineers_workshop:zinc_and_brass"
+      ],
+      "source": "create_enchantment_industry",
+      "section": "create_enchantment_industry"
+    },
+    {
+      "key": "experience_bucket",
+      "title": "Bucket o' Enchanting",
+      "icon": "create_enchantment_industry:experience_bucket",
+      "x": 1.6,
+      "y": 1.6,
+      "description": [
+        "Bottle the XP so pipes and pumps can move it wherever",
+        "it's needed next."
+      ],
+      "tasks": [
+        {
+          "item": "create_enchantment_industry:experience_bucket",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:glass_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "experience_hatch"
+      ],
+      "source": "create_enchantment_industry",
+      "section": "create_enchantment_industry"
+    },
+    {
+      "key": "grindstone_drain",
+      "title": "Grindstone Drain",
+      "icon": "create_enchantment_industry:grindstone_drain",
+      "x": 0.0,
+      "y": 4.8,
+      "description": [
+        "Bolt one onto a Grindstone and reclaim the XP you'd",
+        "otherwise waste disenchanting gear."
+      ],
+      "tasks": [
+        {
+          "item": "create_enchantment_industry:grindstone_drain",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "create_enchantment_industry:super_experience_nugget",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "engineers_workshop:zinc_and_brass"
+      ],
+      "source": "create_enchantment_industry",
+      "section": "create_enchantment_industry"
+    },
+    {
+      "key": "mechanical_grindstone",
+      "title": "Mechanical Grindstone",
+      "icon": "create_enchantment_industry:mechanical_grindstone",
+      "x": 1.6,
+      "y": 4.8,
+      "description": [
+        "Andesite alloy plating around a rotating shaft.",
+        "A simple frame for grinding down enchanted gear."
+      ],
+      "tasks": [
+        {
+          "item": "create_enchantment_industry:mechanical_grindstone",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "engineers_workshop:zinc_and_brass"
+      ],
+      "source": "create_enchantment_industry",
+      "section": "create_enchantment_industry"
+    },
+    {
+      "key": "super_experience_block",
+      "title": "Block of Super Experience",
+      "icon": "create_enchantment_industry:super_experience_block",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Nine Super Experience Nuggets, compacted down.",
+        "A dense, storable stockpile of XP for whenever the grindstone runs dry."
+      ],
+      "tasks": [
+        {
+          "item": "create_enchantment_industry:super_experience_block",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "engineers_workshop:zinc_and_brass"
+      ],
+      "source": "create_enchantment_industry",
+      "section": "create_enchantment_industry"
+    },
+    {
+      "key": "calcium_rich_powder",
+      "title": "Calcium Rich Powder",
+      "icon": "create_aquatic_ambitions:calcium_rich_powder",
+      "x": 0.0,
+      "y": 8.8,
+      "description": [
+        "Scrape it up off the seabed - it's the starting point for every prismarine alloy you'll cast."
+      ],
+      "tasks": [
+        {
+          "item": "create_aquatic_ambitions:calcium_rich_powder",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:kelp",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "engineers_workshop:zinc_and_brass"
+      ],
+      "source": "create_aquatic_engineering",
+      "section": "create_aquatic_engineering"
+    },
+    {
+      "key": "suspicious_rock",
+      "title": "Suspicious Rock",
+      "icon": "create_aquatic_ambitions:suspicious_rock",
+      "x": 0.0,
+      "y": 10.4,
+      "description": [
+        "Odd-shaped and easy to miss on the seafloor.",
+        "Crack it open and it's usually worth the detour."
+      ],
+      "tasks": [
+        {
+          "item": "create_aquatic_ambitions:suspicious_rock",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bucket",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "engineers_workshop:zinc_and_brass"
+      ],
+      "source": "create_aquatic_engineering",
+      "section": "create_aquatic_engineering"
+    },
+    {
+      "key": "nautilus_shard",
+      "title": "Prismarine Alloy Rod",
+      "icon": "create_aquatic_ambitions:prismarine_alloy_rod",
+      "x": 0.0,
+      "y": 12.0,
+      "description": [
+        "Cast from prismarine alloy - the first component you'll reach for in most aquatic builds."
+      ],
+      "tasks": [
+        {
+          "item": "create_aquatic_ambitions:prismarine_alloy_rod",
+          "count": 3
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:nautilus_shell",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "engineers_workshop:zinc_and_brass"
+      ],
+      "source": "create_aquatic_engineering",
+      "section": "create_aquatic_engineering"
+    },
+    {
+      "key": "prismarine_alloy",
+      "title": "Prismarine Alloy",
+      "icon": "create_aquatic_ambitions:prismarine_alloy",
+      "x": 1.6,
+      "y": 8.8,
+      "description": [
+        "Calcium powder and prismarine crystals, fused together.",
+        "Everything underwater gets built on this."
+      ],
+      "tasks": [
+        {
+          "item": "create_aquatic_ambitions:prismarine_alloy",
+          "count": 4
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "calcium_rich_powder"
+      ],
+      "source": "create_aquatic_engineering",
+      "section": "create_aquatic_engineering"
+    },
+    {
+      "key": "diving_helmet",
+      "title": "Diving Helmet",
+      "icon": "hybrid_aquatic:diving_helmet",
+      "x": 1.6,
+      "y": 10.4,
+      "description": [
+        "Seals out the water so you can actually get work done down there."
+      ],
+      "tasks": [
+        {
+          "item": "hybrid_aquatic:diving_helmet",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "upgrade_aquatic:pike_bucket",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "suspicious_rock"
+      ],
+      "source": "create_aquatic_engineering",
+      "section": "create_aquatic_engineering"
+    },
+    {
+      "key": "spiky_shell",
+      "title": "Spiky Shell",
+      "icon": "create_aquatic_ambitions:spiky_shell",
+      "x": 1.6,
+      "y": 12.0,
+      "description": [
+        "Stripped off an aggressive reef dweller.",
+        "Tougher than it looks, and worth the fight."
+      ],
+      "tasks": [
+        {
+          "item": "create_aquatic_ambitions:spiky_shell",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "nautilus_shard"
+      ],
+      "source": "create_aquatic_engineering",
+      "section": "create_aquatic_engineering"
+    },
+    {
+      "key": "mechanical_conduit",
+      "title": "Conduit Cage",
+      "icon": "create_aquatic_ambitions:mechanical_conduit",
+      "x": 3.2,
+      "y": 8.8,
+      "description": [
+        "Channels mechanical power straight down into the depths.",
+        "The hypertube network runs on this."
+      ],
+      "tasks": [
+        {
+          "item": "create_aquatic_ambitions:mechanical_conduit",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "prismarine_alloy"
+      ],
+      "source": "create_aquatic_engineering",
+      "section": "create_aquatic_engineering"
+    },
+    {
+      "key": "nautilus_helmet",
+      "title": "Nautilus Helmet",
+      "icon": "hybrid_aquatic:nautilus_helmet",
+      "x": 3.2,
+      "y": 10.4,
+      "description": [
+        "Reinforced with nautilus shell - dive deeper, stay under longer."
+      ],
+      "tasks": [
+        {
+          "item": "hybrid_aquatic:nautilus_helmet",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "diving_helmet"
+      ],
+      "source": "create_aquatic_engineering",
+      "section": "create_aquatic_engineering"
+    },
+    {
+      "key": "seashell_spear",
+      "title": "Seashell Spear",
+      "icon": "hybrid_aquatic:seashell_spear",
+      "x": 3.2,
+      "y": 12.0,
+      "description": [
+        "Shell and bone, sharpened to a point.",
+        "Keeps the local wildlife off your back while you work."
+      ],
+      "tasks": [
+        {
+          "item": "hybrid_aquatic:seashell_spear",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "upgrade_aquatic:cooked_pike",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "spiky_shell"
+      ],
+      "source": "create_aquatic_engineering",
+      "section": "create_aquatic_engineering"
+    },
+    {
+      "key": "hypertube",
+      "title": "Lay Hypertube",
+      "icon": "create_hypertube:hypertube",
+      "x": 4.8,
+      "y": 10.4,
+      "description": [
+        "Power source sorted, gear on - lay the first stretch and get moving at speed underwater."
+      ],
+      "tasks": [
+        {
+          "item": "create_hypertube:hypertube",
+          "count": 8
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "mechanical_conduit",
+        "nautilus_helmet"
+      ],
+      "source": "create_aquatic_engineering",
+      "section": "create_aquatic_engineering"
+    },
+    {
+      "key": "turtle_chestplate",
+      "title": "Turtle Chestplate",
+      "icon": "hybrid_aquatic:turtle_chestplate",
+      "x": 4.8,
+      "y": 12.0,
+      "description": [
+        "Shell plating for extra protection out on aquatic jobs."
+      ],
+      "tasks": [
+        {
+          "item": "hybrid_aquatic:turtle_chestplate",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "seashell_spear"
+      ],
+      "source": "create_aquatic_engineering",
+      "section": "create_aquatic_engineering"
+    },
+    {
+      "key": "hypertube_entrance",
+      "title": "Hypertube Entrance",
+      "icon": "create_hypertube:hypertube_entrance",
+      "x": 6.4,
+      "y": 10.4,
+      "description": [
+        "Marks where the tube system opens up.",
+        "Every line needs a way in."
+      ],
+      "tasks": [
+        {
+          "item": "create_hypertube:hypertube_entrance",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "hypertube"
+      ],
+      "source": "create_aquatic_engineering",
+      "section": "create_aquatic_engineering"
+    },
+    {
+      "key": "scute_block",
+      "title": "Turtle Scute Block",
+      "icon": "upgrade_aquatic:scute_block",
+      "x": 6.4,
+      "y": 12.0,
+      "description": [
+        "A decorative block made from compressed turtle scutes.",
+        "A stylish way to show off your turtle-taming skills - nothing to do with the hypertube."
+      ],
+      "tasks": [
+        {
+          "item": "upgrade_aquatic:scute_block",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "turtle_chestplate"
+      ],
+      "source": "create_aquatic_engineering",
+      "section": "create_aquatic_engineering"
+    },
+    {
+      "key": "hypertube_junction",
+      "title": "Hypertube Splitter",
+      "icon": "create_hypertube:hypertube_junction",
+      "x": 8.0,
+      "y": 10.4,
+      "description": [
+        "Splits the tube so your network can branch wherever you need it to go."
+      ],
+      "tasks": [
+        {
+          "item": "create_hypertube:hypertube_junction",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "hypertube_entrance"
+      ],
+      "source": "create_aquatic_engineering",
+      "section": "create_aquatic_engineering"
+    },
+    {
+      "key": "tube_scanner_attachment",
+      "title": "Tube Scanner Attachment",
+      "icon": "create_hypertube:tube_scanner_attachment",
+      "x": 9.6,
+      "y": 10.4,
+      "description": [
+        "Keeps an eye on tube traffic as it moves through the network.",
+        "About as far as aquatic engineering goes."
+      ],
+      "tasks": [
+        {
+          "item": "create_hypertube:tube_scanner_attachment",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "hypertube_junction"
+      ],
+      "source": "create_aquatic_engineering",
+      "section": "create_aquatic_engineering"
+    },
+    {
+      "key": "track_oak",
+      "title": "Lay Some Track",
+      "icon": "railways:track_oak",
+      "x": 0.0,
+      "y": 16.0,
+      "description": [
+        "Oak track, plain and sturdy - every railway starts with a length of this underfoot."
+      ],
+      "tasks": [
+        {
+          "item": "railways:track_oak",
+          "count": 16
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "engineers_workshop:trains_ahead"
+      ],
+      "source": "railways",
+      "section": "railways"
+    },
+    {
+      "key": "riveted_locometal",
+      "title": "Riveted Locometal",
+      "icon": "railways:riveted_locometal",
+      "x": 0.0,
+      "y": 19.2,
+      "description": [
+        "Sheet metal, riveted tight.",
+        "The stuff locomotives are built from."
+      ],
+      "tasks": [
+        {
+          "item": "railways:riveted_locometal",
+          "count": 8
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "engineers_workshop:trains_ahead"
+      ],
+      "source": "railways",
+      "section": "railways"
+    },
+    {
+      "key": "track_switch_andesite",
+      "title": "Andesite Track Switch",
+      "icon": "railways:track_switch_andesite",
+      "x": 1.6,
+      "y": 16.0,
+      "description": [
+        "Lets a train pick a direction - no junction works without one."
+      ],
+      "tasks": [
+        {
+          "item": "railways:track_switch_andesite",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "track_oak"
+      ],
+      "source": "railways",
+      "section": "railways"
+    },
+    {
+      "key": "buffer",
+      "title": "Track Buffer",
+      "icon": "railways:buffer",
+      "x": 1.6,
+      "y": 17.6,
+      "description": [
+        "Stops a train dead at the end of the line, no drama."
+      ],
+      "tasks": [
+        {
+          "item": "railways:buffer",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "track_oak"
+      ],
+      "source": "railways",
+      "section": "railways"
+    },
+    {
+      "key": "locometal_pillar",
+      "title": "Locometal Pillar",
+      "icon": "railways:locometal_pillar",
+      "x": 1.6,
+      "y": 19.2,
+      "description": [
+        "Cast from riveted locometal - frames out the body of a locomotive."
+      ],
+      "tasks": [
+        {
+          "item": "railways:locometal_pillar",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "riveted_locometal"
+      ],
+      "source": "railways",
+      "section": "railways"
+    },
+    {
+      "key": "track_switch_brass",
+      "title": "Brass Track Switch",
+      "icon": "railways:track_switch_brass",
+      "x": 3.2,
+      "y": 16.0,
+      "description": [
+        "A sturdier switch for junctions that see real traffic."
+      ],
+      "tasks": [
+        {
+          "item": "railways:track_switch_brass",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "track_switch_andesite"
+      ],
+      "source": "railways",
+      "section": "railways"
+    },
+    {
+      "key": "locometal_boiler",
+      "title": "Locometal Boiler",
+      "icon": "railways:locometal_boiler",
+      "x": 3.2,
+      "y": 19.2,
+      "description": [
+        "Pressurized and ready to work - the heart of any steam engine."
+      ],
+      "tasks": [
+        {
+          "item": "railways:locometal_boiler",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:coal",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "locometal_pillar"
+      ],
+      "source": "railways",
+      "section": "railways"
+    },
+    {
+      "key": "semaphore",
+      "title": "Raise a Semaphore",
+      "icon": "railways:semaphore",
+      "x": 4.8,
+      "y": 16.0,
+      "description": [
+        "Raise one at every junction.",
+        "Keeps two trains from ever meeting somewhere they shouldn't."
+      ],
+      "tasks": [
+        {
+          "item": "railways:semaphore",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:redstone",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "track_switch_brass",
+        "buffer"
+      ],
+      "source": "railways",
+      "section": "railways"
+    },
+    {
+      "key": "locometal_smokebox",
+      "title": "Locometal Smokebox",
+      "icon": "railways:locometal_smokebox",
+      "x": 4.8,
+      "y": 19.2,
+      "description": [
+        "Bolts onto the front of the frame, channeling exhaust clear of the boiler."
+      ],
+      "tasks": [
+        {
+          "item": "railways:locometal_smokebox",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "locometal_boiler"
+      ],
+      "source": "railways",
+      "section": "railways"
+    },
+    {
+      "key": "fuel_tank",
+      "title": "Fuel Tank",
+      "icon": "railways:fuel_tank",
+      "x": 4.8,
+      "y": 20.8,
+      "description": [
+        "Keeps the fire fed - no fuel, no steam."
+      ],
+      "tasks": [
+        {
+          "item": "railways:fuel_tank",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:coal",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "locometal_boiler"
+      ],
+      "source": "railways",
+      "section": "railways"
+    },
+    {
+      "key": "conductor_whistle",
+      "title": "Conductor's Whistle",
+      "icon": "railways:conductor_whistle",
+      "x": 6.4,
+      "y": 16.0,
+      "description": [
+        "One blast and the platform knows it's time to go."
+      ],
+      "tasks": [
+        {
+          "item": "railways:conductor_whistle",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "semaphore"
+      ],
+      "source": "railways",
+      "section": "railways"
+    },
+    {
+      "key": "smokestack_coalburner",
+      "title": "Coalburner Smokestack",
+      "icon": "railways:smokestack_coalburner",
+      "x": 6.4,
+      "y": 19.2,
+      "description": [
+        "Vents smoke from a coal-fired boiler - simple, reliable, gets the job done."
+      ],
+      "tasks": [
+        {
+          "item": "railways:smokestack_coalburner",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "locometal_smokebox",
+        "fuel_tank"
+      ],
+      "source": "railways",
+      "section": "railways"
+    },
+    {
+      "key": "large_create_styled_0_4_0",
+      "title": "Streamlined Smokestack",
+      "icon": "railways:smokestack_streamlined",
+      "x": 8.0,
+      "y": 19.2,
+      "description": [
+        "Finishes off the frame with a sleeker profile.",
+        "Run it through the Train Assembly tool and your first true locomotive is ready to roll."
+      ],
+      "tasks": [
+        {
+          "item": "railways:smokestack_streamlined",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "smokestack_coalburner"
+      ],
+      "source": "railways",
+      "section": "railways"
+    },
+    {
+      "key": "knuckle_coupler",
+      "title": "Knuckle Coupler",
+      "icon": "railways:knuckle_coupler",
+      "x": 9.6,
+      "y": 19.2,
+      "description": [
+        "Links cars together - bolt one on and start pulling carriages."
+      ],
+      "tasks": [
+        {
+          "item": "railways:knuckle_coupler",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "large_create_styled_0_4_0"
+      ],
+      "source": "railways",
+      "section": "railways"
+    },
+    {
+      "key": "doubleaxle_bogey",
+      "title": "Split Knuckle Coupler",
+      "icon": "railways:split_knuckle_coupler",
+      "x": 11.2,
+      "y": 19.2,
+      "description": [
+        "A sturdier coupler for heavier carriages.",
+        "Keeps the ride smooth when the load adds up."
+      ],
+      "tasks": [
+        {
+          "item": "railways:split_knuckle_coupler",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "knuckle_coupler"
+      ],
+      "source": "railways",
+      "section": "railways"
+    },
+    {
+      "key": "first_train_line",
+      "title": "Build Your First Train Line",
+      "icon": "railways:screwlink_coupler",
+      "x": 12.8,
+      "y": 17.6,
+      "description": [
+        "Track's down, signals are up, the locomotive's built.",
+        "Couple it all together and send your first train out."
+      ],
+      "tasks": [
+        {
+          "item": "railways:screwlink_coupler",
+          "count": 1
+        },
+        {
+          "item": "railways:track_oak",
+          "count": 16
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "doubleaxle_bogey",
+        "conductor_whistle"
+      ],
+      "source": "railways",
+      "section": "railways"
+    },
+    {
+      "key": "the_advanced_engineer",
+      "title": "The Advanced Engineer",
+      "icon": "railways:track_oak",
+      "x": 0.0,
+      "y": 24.8,
+      "description": [
+        "Enchanting machinery, a functioning hypertube network, armored divers, and your own rail line.",
+        "This is what Create looks like once the basics stop being enough."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond_block",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "experience_bucket",
+        "scute_block",
+        "tube_scanner_attachment",
+        "first_train_line"
+      ],
+      "source": "advanced_engineering_bridge",
+      "shape": "hexagon",
+      "size": 1.4,
+      "section": "chapter_completion"
+    }
+  ],
+  "images": [
+    {
+      "x": 0.8,
+      "y": -1.6,
+      "width": 14.8,
+      "height": 0.8,
+      "text": [
+        "Automate Experience and Enchanting"
+      ]
+    },
+    {
+      "x": 4.8,
+      "y": 7.2,
+      "width": 14.8,
+      "height": 0.8,
+      "text": [
+        "Engineer on the Water"
+      ]
+    },
+    {
+      "x": 6.4,
+      "y": 14.4,
+      "width": 14.8,
+      "height": 0.8,
+      "text": [
+        "Build a Railway Network"
+      ]
+    },
+    {
+      "x": 0.0,
+      "y": 23.2,
+      "width": 14.8,
+      "height": 0.8,
+      "text": [
+        "Bring It All Together"
+      ]
+    }
+  ]
+}

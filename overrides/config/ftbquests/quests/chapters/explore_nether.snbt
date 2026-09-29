@@ -1,0 +1,683 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "explore_nether"
+	group: "0F70271E1C7A3EBB"
+	id: "1C91E69D418439B9"
+	images: [
+		{
+			height: 1.0d
+			id: "6E19E039C44C7F4C"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 21.3d
+			x: 0.0d
+			y: -2.1d
+		}
+		{
+			height: 1.0d
+			id: "4CCE7994B4A1AC41"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 21.3d
+			x: 4.2d
+			y: 3.1d
+		}
+		{
+			height: 1.0d
+			id: "32AD646F27B6E3C7"
+			image: ""
+			rotation: 0.0d
+			text_on_image: 1b
+			width: 21.3d
+			x: 9.4d
+			y: 8.3d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3F0E7F568EB2BD58"
+			rewards: [{
+				id: "2C7DC1CDB632FED1"
+				item: {
+					count: 1
+					id: "minecraft:map"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.4d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "709740B59E20BB0A"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7332D343A4114B2C"
+			tasks: [{
+				biome: "minecraft:basalt_deltas"
+				id: "3A5F19B9B5DE4CC9"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 5.2d
+		}
+		{
+			id: "0F58C3492694BD0C"
+			tasks: [{
+				biome: "minecraft:crimson_forest"
+				id: "23BF4B66AEDB9C16"
+				type: "biome"
+			}]
+			x: 2.1d
+			y: 5.2d
+		}
+		{
+			id: "492584995B8A52E3"
+			tasks: [{
+				biome: "minecraft:nether_wastes"
+				id: "203C8FCE4AB7B389"
+				type: "biome"
+			}]
+			x: 4.2d
+			y: 5.2d
+		}
+		{
+			id: "7CB402C5BF4BE682"
+			tasks: [{
+				biome: "minecraft:soul_sand_valley"
+				id: "0C8E4D1DF5E741BC"
+				type: "biome"
+			}]
+			x: 6.2d
+			y: 5.2d
+		}
+		{
+			id: "7DF0642D895077A7"
+			tasks: [{
+				biome: "minecraft:warped_forest"
+				id: "62C7E0B69A67F05D"
+				type: "biome"
+			}]
+			x: 8.3d
+			y: 5.2d
+		}
+		{
+			id: "3ABAB29821BB2EDD"
+			tasks: [{
+				id: "30DFEBEB5599D0C1"
+				structure: "betterfortresses:fortress"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 10.4d
+		}
+		{
+			id: "4A3332320C623A9F"
+			tasks: [{
+				id: "37369C60F3298585"
+				structure: "minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			x: 2.1d
+			y: 10.4d
+		}
+		{
+			id: "798929E1900F32A1"
+			tasks: [{
+				id: "6C037C9EB2C270C8"
+				structure: "minecraft:fortress"
+				type: "structure"
+			}]
+			x: 4.2d
+			y: 10.4d
+		}
+		{
+			id: "26C90A3AED86C6FE"
+			tasks: [{
+				id: "6144B1C3ADB04E87"
+				structure: "minecraft:nether_fossil"
+				type: "structure"
+			}]
+			x: 6.2d
+			y: 10.4d
+		}
+		{
+			id: "1242CCD9E9B21792"
+			tasks: [{
+				id: "2A83F6C175CD8CB7"
+				structure: "minecraft:ruined_portal_nether"
+				type: "structure"
+			}]
+			x: 8.3d
+			y: 10.4d
+		}
+		{
+			id: "2195C790D4EDC827"
+			tasks: [{
+				id: "7CD1D4658B8D099A"
+				structure: "mns:bridge_1"
+				type: "structure"
+			}]
+			x: 10.4d
+			y: 10.4d
+		}
+		{
+			id: "7EE1D62471292795"
+			tasks: [{
+				id: "44AEE0334237FA91"
+				structure: "mns:bridge_2"
+				type: "structure"
+			}]
+			x: 12.5d
+			y: 10.4d
+		}
+		{
+			id: "5A96232BC20DCE7E"
+			tasks: [{
+				id: "4F00E87B0ABB6668"
+				structure: "mns:bridge_3"
+				type: "structure"
+			}]
+			x: 14.6d
+			y: 10.4d
+		}
+		{
+			id: "193B93C233687569"
+			tasks: [{
+				id: "5FF9B9B8ACE5925A"
+				structure: "mns:bridge_4"
+				type: "structure"
+			}]
+			x: 16.6d
+			y: 10.4d
+		}
+		{
+			id: "0538D634D9609063"
+			tasks: [{
+				id: "18A9E6556A2284B2"
+				structure: "mns:bridge_5"
+				type: "structure"
+			}]
+			x: 18.7d
+			y: 10.4d
+		}
+		{
+			id: "6769FEE71C782208"
+			tasks: [{
+				id: "52A8E186A34A84B4"
+				structure: "mns:bridge_6"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			id: "0076678BB3CA0F9E"
+			tasks: [{
+				id: "15411EB66488614B"
+				structure: "mns:circle_blackstone"
+				type: "structure"
+			}]
+			x: 2.1d
+			y: 12.5d
+		}
+		{
+			id: "25C36F7A8D13A104"
+			tasks: [{
+				id: "02C6A5621EFC6F40"
+				structure: "mns:circle_nether_brick"
+				type: "structure"
+			}]
+			x: 4.2d
+			y: 12.5d
+		}
+		{
+			id: "17C138EC4C374189"
+			tasks: [{
+				id: "20854AEF8765D253"
+				structure: "mns:copper_tower"
+				type: "structure"
+			}]
+			x: 6.2d
+			y: 12.5d
+		}
+		{
+			id: "4A389CA7E32846E5"
+			tasks: [{
+				id: "1191069311C5CEDF"
+				structure: "mns:crimson_forge"
+				type: "structure"
+			}]
+			x: 8.3d
+			y: 12.5d
+		}
+		{
+			id: "2700031C0BAB6A42"
+			tasks: [{
+				id: "13B9B9C52E25ADEE"
+				structure: "mns:crimson_lava_well"
+				type: "structure"
+			}]
+			x: 10.4d
+			y: 12.5d
+		}
+		{
+			id: "42C8EB52C6780152"
+			tasks: [{
+				id: "1014AF0F54DF857B"
+				structure: "mns:dragon_arena"
+				type: "structure"
+			}]
+			x: 12.5d
+			y: 12.5d
+		}
+		{
+			id: "662ED2145DB26F3D"
+			tasks: [{
+				id: "2A1396503BBA61E6"
+				structure: "mns:giant_skull"
+				type: "structure"
+			}]
+			x: 14.6d
+			y: 12.5d
+		}
+		{
+			id: "422C32F0AE462626"
+			tasks: [{
+				id: "1408AD51D5EA1B78"
+				structure: "mns:grave_yard"
+				type: "structure"
+			}]
+			x: 16.6d
+			y: 12.5d
+		}
+		{
+			id: "676402D712DBBAF7"
+			tasks: [{
+				id: "3AA22F13698ADD61"
+				structure: "mns:large_arena"
+				type: "structure"
+			}]
+			x: 18.7d
+			y: 12.5d
+		}
+		{
+			id: "741AD446594139A4"
+			tasks: [{
+				id: "23E9461FF2FA1DE0"
+				structure: "mns:large_blackstone_pillars"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 14.6d
+		}
+		{
+			id: "12E7D66E19CEEC5F"
+			tasks: [{
+				id: "6D5BBBEA85024867"
+				structure: "mns:large_blackstone_walls"
+				type: "structure"
+			}]
+			x: 2.1d
+			y: 14.6d
+		}
+		{
+			id: "42DB1A86B224065C"
+			tasks: [{
+				id: "3FFA628641527586"
+				structure: "mns:large_house_1"
+				type: "structure"
+			}]
+			x: 4.2d
+			y: 14.6d
+		}
+		{
+			id: "2C7CC0860B3E4A5A"
+			tasks: [{
+				id: "4864288893A1213C"
+				structure: "mns:large_nether_brick"
+				type: "structure"
+			}]
+			x: 6.2d
+			y: 14.6d
+		}
+		{
+			id: "721CAB6A79FBF99B"
+			tasks: [{
+				id: "222D89EF4B184C14"
+				structure: "mns:lava_pool"
+				type: "structure"
+			}]
+			x: 8.3d
+			y: 14.6d
+		}
+		{
+			id: "27B0C9A06EEE4051"
+			tasks: [{
+				id: "23EBD412A59040F5"
+				structure: "mns:leafy_rubble"
+				type: "structure"
+			}]
+			x: 10.4d
+			y: 14.6d
+		}
+		{
+			id: "752CBC717F9AB10D"
+			tasks: [{
+				id: "77E661C8DAAB2B4D"
+				structure: "mns:medium_blackstone"
+				type: "structure"
+			}]
+			x: 12.5d
+			y: 14.6d
+		}
+		{
+			id: "2627A367CF320AF1"
+			tasks: [{
+				id: "2987634B42578CF2"
+				structure: "mns:medium_crimson_fungus"
+				type: "structure"
+			}]
+			x: 14.6d
+			y: 14.6d
+		}
+		{
+			id: "1754EB6CF51D7DC3"
+			tasks: [{
+				id: "249ADA2115BF73FF"
+				structure: "mns:medium_crimson_fungus_2"
+				type: "structure"
+			}]
+			x: 16.6d
+			y: 14.6d
+		}
+		{
+			id: "42F6E9A41F2AD694"
+			tasks: [{
+				id: "214A7E1BCDACFE70"
+				structure: "mns:medium_crimson_well"
+				type: "structure"
+			}]
+			x: 18.7d
+			y: 14.6d
+		}
+		{
+			id: "473C455178146CD5"
+			tasks: [{
+				id: "32482295E6F9E4C8"
+				structure: "mns:medium_house"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 16.6d
+		}
+		{
+			id: "79C7FF7B390845F7"
+			tasks: [{
+				id: "20D692DC0DB6CD16"
+				structure: "mns:medium_house_2"
+				type: "structure"
+			}]
+			x: 2.1d
+			y: 16.6d
+		}
+		{
+			id: "3EC11BDFBBF98F93"
+			tasks: [{
+				id: "51FA7785C4E55818"
+				structure: "mns:medium_warped_fungus"
+				type: "structure"
+			}]
+			x: 4.2d
+			y: 16.6d
+		}
+		{
+			id: "412FCE21C5B42E8E"
+			tasks: [{
+				id: "0E9A8471E67308BF"
+				structure: "mns:medium_warped_fungus_2"
+				type: "structure"
+			}]
+			x: 6.2d
+			y: 16.6d
+		}
+		{
+			id: "0D126468503DBBCE"
+			tasks: [{
+				id: "18F41006A7F3FC27"
+				structure: "mns:medium_warped_well"
+				type: "structure"
+			}]
+			x: 8.3d
+			y: 16.6d
+		}
+		{
+			id: "5AA4B9338161E1DD"
+			tasks: [{
+				id: "3E49E77CF8816FF7"
+				structure: "mns:mega_fortress"
+				type: "structure"
+			}]
+			x: 10.4d
+			y: 16.6d
+		}
+		{
+			id: "34896B7546F44E62"
+			tasks: [{
+				id: "3FE73141A55BF4D1"
+				structure: "mns:nether_tower"
+				type: "structure"
+			}]
+			x: 12.5d
+			y: 16.6d
+		}
+		{
+			id: "583DE36E0758B92B"
+			tasks: [{
+				id: "048120BE306B8902"
+				structure: "mns:nether_wart_farm"
+				type: "structure"
+			}]
+			x: 14.6d
+			y: 16.6d
+		}
+		{
+			id: "2AFEE92CC4232831"
+			tasks: [{
+				id: "1594639FD7FC667A"
+				structure: "mns:ruined_portal"
+				type: "structure"
+			}]
+			x: 16.6d
+			y: 16.6d
+		}
+		{
+			id: "7B630C02843F1791"
+			tasks: [{
+				id: "0F5AC35439E860D4"
+				structure: "mns:sandy_skull"
+				type: "structure"
+			}]
+			x: 18.7d
+			y: 16.6d
+		}
+		{
+			id: "378FB12900DB393C"
+			tasks: [{
+				id: "13AAFDAD5EE64CA5"
+				structure: "mns:shrine"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 18.7d
+		}
+		{
+			id: "3BB55F43D4DA1B19"
+			tasks: [{
+				id: "3180145BD11AE26D"
+				structure: "mns:small_arena"
+				type: "structure"
+			}]
+			x: 2.1d
+			y: 18.7d
+		}
+		{
+			id: "468B71A01ED4C2FD"
+			tasks: [{
+				id: "4A369F546E46AC9B"
+				structure: "mns:small_nether_brick"
+				type: "structure"
+			}]
+			x: 4.2d
+			y: 18.7d
+		}
+		{
+			id: "2942E73807059F02"
+			tasks: [{
+				id: "21573415E6E0EE3B"
+				structure: "mns:smoking_shrine"
+				type: "structure"
+			}]
+			x: 6.2d
+			y: 18.7d
+		}
+		{
+			id: "684C90317BE951D2"
+			tasks: [{
+				id: "12766FDB16B0A086"
+				structure: "mns:soul_fire"
+				type: "structure"
+			}]
+			x: 8.3d
+			y: 18.7d
+		}
+		{
+			id: "05E8E9BF558FD6F6"
+			tasks: [{
+				id: "45AA6E31B7EDD8BD"
+				structure: "mns:sword"
+				type: "structure"
+			}]
+			x: 10.4d
+			y: 18.7d
+		}
+		{
+			id: "00EB522878B095B9"
+			tasks: [{
+				id: "78FD7546A5E09CBE"
+				structure: "mns:train"
+				type: "structure"
+			}]
+			x: 12.5d
+			y: 18.7d
+		}
+		{
+			id: "3D63AED68ED0C635"
+			tasks: [{
+				id: "02CFC157E7B69BFD"
+				structure: "mns:very_small_blackstone"
+				type: "structure"
+			}]
+			x: 14.6d
+			y: 18.7d
+		}
+		{
+			id: "4828D417A2B02700"
+			tasks: [{
+				id: "1CD738467CD13DD1"
+				structure: "mns:very_small_blackstone_2"
+				type: "structure"
+			}]
+			x: 16.6d
+			y: 18.7d
+		}
+		{
+			id: "74C73C8323AA51DD"
+			tasks: [{
+				id: "3B00DD60CF5E02BE"
+				structure: "mns:very_small_blackstone_3"
+				type: "structure"
+			}]
+			x: 18.7d
+			y: 18.7d
+		}
+		{
+			id: "7C81A4491020D555"
+			tasks: [{
+				id: "7DC9097E7D9152C6"
+				structure: "mns:very_small_blackstone_4"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 20.8d
+		}
+		{
+			id: "30E6FEF840A344E6"
+			tasks: [{
+				id: "4581AB4F6E71EA32"
+				structure: "mns:very_small_nether_brick"
+				type: "structure"
+			}]
+			x: 2.1d
+			y: 20.8d
+		}
+		{
+			id: "4B1198E1D51B2D1D"
+			tasks: [{
+				id: "527C59872C60BE1B"
+				structure: "mns:very_small_nether_brick_2"
+				type: "structure"
+			}]
+			x: 4.2d
+			y: 20.8d
+		}
+		{
+			id: "5B3079D4FC2CFAB0"
+			tasks: [{
+				id: "72EFC39C26307BFE"
+				structure: "mns:very_small_nether_brick_3"
+				type: "structure"
+			}]
+			x: 6.2d
+			y: 20.8d
+		}
+		{
+			id: "023C32921C2384DA"
+			tasks: [{
+				id: "6C696DAF0924137A"
+				structure: "mns:warped_dome"
+				type: "structure"
+			}]
+			x: 8.3d
+			y: 20.8d
+		}
+		{
+			id: "15E88D05C254508C"
+			tasks: [{
+				id: "3800AB9DD8CF8BF8"
+				structure: "mns:warped_house"
+				type: "structure"
+			}]
+			x: 10.4d
+			y: 20.8d
+		}
+		{
+			id: "0AD6495EB0020FF0"
+			tasks: [{
+				id: "2A92F28CCE4B444D"
+				structure: "mns:warped_pool"
+				type: "structure"
+			}]
+			x: 12.5d
+			y: 20.8d
+		}
+	]
+}

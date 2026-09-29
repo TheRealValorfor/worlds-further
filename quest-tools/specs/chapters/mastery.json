@@ -1,0 +1,308 @@
+{
+  "key": "mastery",
+  "group": "challenges",
+  "order_index": 2,
+  "title": "Mastery",
+  "icon": "minecraft:nether_star",
+  "subtitle": "What you've become, spread across everything you've touched",
+  "quests": [
+    {
+      "key": "dragonslayers_due",
+      "title": "Dragonslayer's Due",
+      "icon": "iceandfire:dragonsteel_fire_chestplate",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Forged from something that used to own the sky, before you had a say in it.",
+        "Wearing this means you already answered the hardest question this world had for you."
+      ],
+      "tasks": [
+        {
+          "item": "iceandfire:dragonsteel_fire_chestplate",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:nether_star",
+          "count": 1
+        }
+      ],
+      "source": "mastery",
+      "dependencies": [
+        "here_be_dragons:dragonarmor_dragon_steel_fire"
+      ],
+      "section": "mastery"
+    },
+    {
+      "key": "grimoires_weight",
+      "title": "The Grimoire's Weight",
+      "icon": "arcane_abilities:skills_grimoire",
+      "x": 0.0,
+      "y": 3.2,
+      "description": [
+        "A book that only matters once its pages are full of things you actually lived through.",
+        "Yours has real weight to it now."
+      ],
+      "tasks": [
+        {
+          "item": "arcane_abilities:skills_grimoire",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:enchanted_book",
+          "count": 1
+        }
+      ],
+      "source": "mastery",
+      "dependencies": [
+        "arcane_arts:the_skills_grimoire"
+      ],
+      "section": "mastery"
+    },
+    {
+      "key": "engine_of_ambition",
+      "title": "Engine of Ambition",
+      "icon": "simulated:engine_assembly",
+      "x": 0.0,
+      "y": 6.4,
+      "description": [
+        "Something you barely understood at first, now humming along because you willed it to.",
+        "It runs because you made it run."
+      ],
+      "tasks": [
+        {
+          "item": "simulated:engine_assembly",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond_block",
+          "count": 1
+        }
+      ],
+      "source": "mastery",
+      "dependencies": [
+        "taking_to_the_skies:building_an_engine"
+      ],
+      "section": "mastery"
+    },
+    {
+      "key": "claimed_skies",
+      "title": "Claimed Skies",
+      "icon": "create_aeronautics_ftb_chunks:contraption_claim_block",
+      "x": 0.0,
+      "y": 9.6,
+      "description": [
+        "A contraption that actually leaves the ground, and airspace you can finally call yours.",
+        "The sky was never really closed off. It just took you a while to get up there."
+      ],
+      "tasks": [
+        {
+          "item": "create_aeronautics_ftb_chunks:contraption_claim_block",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:elytra",
+          "count": 1
+        }
+      ],
+      "source": "mastery",
+      "dependencies": [
+        "captain_of_the_skies:master_of_the_skies"
+      ],
+      "section": "mastery"
+    },
+    {
+      "key": "green_thumbs_legacy",
+      "title": "A Green Thumb's Legacy",
+      "icon": "minecraft:wheat",
+      "x": 1.6,
+      "y": 0.0,
+      "description": [
+        "Somewhere between the first seed and the hundredth harvest, the farm became something else entirely.",
+        "Kitchen, orchard, and season all pulling in the same direction."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:glistering_melon_slice",
+          "count": 4
+        }
+      ],
+      "source": "mastery",
+      "dependencies": [
+        "from_farm_to_feast:the_whole_spread"
+      ],
+      "section": "mastery"
+    },
+    {
+      "key": "the_automator",
+      "title": "The Automator",
+      "icon": "minecraft:piston",
+      "x": 1.6,
+      "y": 3.2,
+      "description": [
+        "At some point the machines just kept running, and you stopped checking on them.",
+        "That quiet trust is how you know automation actually won."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:redstone_block",
+          "count": 2
+        }
+      ],
+      "source": "mastery",
+      "dependencies": [
+        "engineers_workshop:sequenced_gearshift"
+      ],
+      "section": "mastery"
+    },
+    {
+      "key": "jack_of_all_trades",
+      "title": "Jack of All Trades",
+      "icon": "minecraft:book",
+      "x": 1.6,
+      "y": 6.4,
+      "description": [
+        "Combat, magic, engineering, farming, wandering - you got genuinely good at more than one.",
+        "Not a specialist. Something a little rarer than that."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 6
+        }
+      ],
+      "source": "mastery",
+      "dependencies": [
+        "storage_and_logistics:contraption_terminal",
+        "from_farm_to_feast:settled_skills",
+        "home_sweet_home:dye_cauldron"
+      ],
+      "section": "mastery"
+    },
+    {
+      "key": "beyond_the_horizon",
+      "title": "Beyond the Horizon",
+      "icon": "minecraft:elytra",
+      "x": 1.6,
+      "y": 9.6,
+      "description": [
+        "You've seen more of this world than most people who ever load it up will.",
+        "The map stopped being frightening a long time ago."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:ender_eye",
+          "count": 1
+        }
+      ],
+      "source": "mastery",
+      "dependencies": [
+        "beyond_the_horizon:seasoned_explorer"
+      ],
+      "section": "mastery"
+    },
+    {
+      "key": "a_life_well_built",
+      "title": "A Life Well Built",
+      "icon": "minecraft:totem_of_undying",
+      "x": 3.2,
+      "y": 4.8,
+      "description": [
+        "Look at everything behind you now - what you fought, what you learned, what you built, how far you wandered.",
+        "None of it was required. You did it anyway, and that's the whole point."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:totem_of_undying",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "dragonslayers_due",
+        "grimoires_weight",
+        "engine_of_ambition",
+        "claimed_skies",
+        "green_thumbs_legacy",
+        "the_automator",
+        "jack_of_all_trades",
+        "beyond_the_horizon",
+        "call_the_sky_back"
+      ],
+      "source": "mastery",
+      "size": 1.4,
+      "shape": "hexagon",
+      "section": "mastery"
+    },
+    {
+      "key": "call_the_sky_back",
+      "title": "Call the Sky Back",
+      "icon": "iceandfire:dragon_horn",
+      "x": 3.2,
+      "y": 0.0,
+      "description": [
+        "Steel on your chest is one kind of ending. A horn that still answers is another.",
+        "Craft a dragon horn. The country remembers who learned its language."
+      ],
+      "tasks": [
+        {
+          "item": "iceandfire:dragon_horn",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:echo_shard",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "dragonslayers_due"
+      ],
+      "source": "mastery",
+      "section": "mastery"
+    }
+  ],
+  "images": [
+    {
+      "x": 1.6,
+      "y": -1.6,
+      "width": 12,
+      "height": 0.8,
+      "text": [
+        "Complete Your Journey"
+      ]
+    }
+  ]
+}

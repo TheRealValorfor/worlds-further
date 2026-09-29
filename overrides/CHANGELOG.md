@@ -29,7 +29,11 @@ New performance addons: **Structure Layout Optimizer** 1.0.12, **Noisium** 2.3.0
 
 Safe CurseForge updates taken (1.21.1 NeoForge patches): Sodium 0.8.13 + Sodium Extra 0.9.4, Entity Culling 1.11.1, Central Kitchen 2.6.1, Dragons Plus 1.11.9, Create Advanced Optimization 1.5, Polytone 4.5.0, Redomesticate 1.11.0, MOS 1.1.1, MMV 2.2.0, MSS 2.2.0, Naturalist 2.0.4, Lootr 1.11.38.126, Collective 8.40, Moonlight 3.6.7, Ice and Fire CE 2.1.3, Slice & Dice 4.3.4.
 
-**Not taken:** Fragmentum 5, Loot Journal 6.2.2, FTB XMod Compat 21.1.12 (JEI/Fragmentum break). **Create Aeronautics Discovery 2.2.0** (soaring-trader datapack is built on 2.1.4).
+**Updates taken since:** Fragmentum **5.0.0** + Loot Journal **6.2.2**, Create Aeronautics Discovery **2.2.0**, Relicworks **1.0.1** as a CurseForge file, Puzzles Lib **21.1.62**, and the rest of the CurseForge 1.21.1 patch list (Sophisticated, Ars 5.13.2, DH 3.3.3, Serene Seasons Plus 5.2.1, Moonlight 3.7.0, etc.). Soaring Trader Flyovers stays **1.0.0** (flyover JSON unchanged).
+
+**Not taken:** FTB XMod Compat **21.1.12** (needs JEI 19.53; pack stays JEI 19.51.0.418 / XMod 21.1.11).
+
+Dropped **Mystical Agriculture** / Agradditions / Cucumber, **Tom’s Simple Storage** and satellites, **Chipped** / Athena, and **PatchLib** (Create elevator collider mixins). Added **Spice of Life: Classic**. Exploration quest chapters cover Overworld / Nether / End biomes, structures, and dimensions.
 
 **Furtherworks 1.0.4** — pack trophy (CurseForge project **1709664**, file **8962774**). Mechanical-craft four hearts then **The Further**; spend it on Creative Motor / Fluid Tank / Blaze Cake / Physics Staff. Pulsing gems, spinning Further core. Mastery ends on The Further.
 

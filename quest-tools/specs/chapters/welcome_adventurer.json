@@ -1,0 +1,555 @@
+{
+  "key": "welcome_adventurer",
+  "group": "homestead",
+  "order_index": 0,
+  "title": "Welcome, Adventurer!",
+  "icon": "skillprogression:skill_book",
+  "subtitle": "Everything you need before the real journey begins",
+  "quests": [
+    {
+      "key": "skill_book",
+      "title": "Your Journal of Progress",
+      "icon": "skillprogression:skill_book",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "A blank journal, waiting to fill up with everything you become out here.",
+        "Just a book and a stick. It'll matter more than you think."
+      ],
+      "tasks": [
+        {
+          "item": "skillprogression:skill_book",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:paper",
+          "count": 8
+        }
+      ],
+      "dependencies": [],
+      "source": "getting_started",
+      "section": "getting_started"
+    },
+    {
+      "key": "check_skills",
+      "title": "Check Your Skills",
+      "icon": "minecraft:writable_book",
+      "x": 1.6,
+      "y": 0.0,
+      "description": [
+        "Press K to open the skills screen, or type /skills.",
+        "No grinding required - just live, and they'll rise with you."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "dependencies": [
+        "skill_book"
+      ],
+      "source": "getting_started",
+      "section": "getting_started"
+    },
+    {
+      "key": "first_meal",
+      "title": "Fill Your Belly",
+      "icon": "minecraft:cooked_beef",
+      "x": 0.0,
+      "y": 1.6,
+      "description": [
+        "A full stomach keeps you sprinting, jumping, healing - all of it.",
+        "Cook something simple and eat."
+      ],
+      "tasks": [
+        {
+          "item": "minecraft:cooked_beef",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bread",
+          "count": 2
+        }
+      ],
+      "dependencies": [],
+      "source": "getting_started",
+      "section": "getting_started"
+    },
+    {
+      "key": "first_chest",
+      "title": "Somewhere to Put Things",
+      "icon": "minecraft:chest",
+      "x": 1.6,
+      "y": 1.6,
+      "description": [
+        "You're about to collect a lot of stuff.",
+        "Craft a chest before your pockets give out."
+      ],
+      "tasks": [
+        {
+          "item": "minecraft:chest",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:oak_planks",
+          "count": 8
+        }
+      ],
+      "dependencies": [],
+      "source": "getting_started",
+      "section": "getting_started"
+    },
+    {
+      "key": "look_around",
+      "title": "Step Outside",
+      "icon": "minecraft:grass_block",
+      "x": 3.2,
+      "y": 1.6,
+      "description": [
+        "Take a walk. Get a feel for the biome, the neighbours, whatever's watching you back.",
+        "Keep your eyes open - this world hides more than it shows."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "dependencies": [],
+      "source": "getting_started",
+      "section": "getting_started"
+    },
+    {
+      "key": "learn_your_tools",
+      "title": "Learn Your Tools",
+      "icon": "minecraft:spyglass",
+      "x": 3.2,
+      "y": 0.0,
+      "description": [
+        "Two habits will save you hours out here.",
+        "In JEI, press R over an item for its recipe and U for its uses. Hover a block in the world for Jade."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "dependencies": [],
+      "source": "getting_started",
+      "section": "getting_started"
+    },
+    {
+      "key": "pack_keybinds",
+      "title": "The Buttons That Matter",
+      "icon": "minecraft:book",
+      "x": 4.8,
+      "y": 0.0,
+      "description": [
+        "N opens this book. M opens the map. G opens Curios. C opens the Ars spellbook. R is combat roll. Shift+E opens your backpack.",
+        "Need a key you cannot find? Options, Controls, then use the search bar. Grave accent opens the mod config list."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "dependencies": [
+        "learn_your_tools"
+      ],
+      "source": "getting_started",
+      "section": "getting_started"
+    },
+    {
+      "key": "wooden_tools",
+      "title": "First Tools",
+      "icon": "minecraft:wooden_pickaxe",
+      "x": 0.0,
+      "y": 3.2,
+      "description": [
+        "Every journey starts with a chopped log and a rough set of tools.",
+        "Nothing fancy - just enough to get moving."
+      ],
+      "tasks": [
+        {
+          "item": "minecraft:wooden_pickaxe",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:stick",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "getting_started",
+      "section": "getting_started"
+    },
+    {
+      "key": "stone_tools",
+      "title": "Onto Stone",
+      "icon": "minecraft:stone_pickaxe",
+      "x": 1.6,
+      "y": 3.2,
+      "description": [
+        "Wood only gets you so far before you hit something harder.",
+        "Mine a little cobblestone and upgrade."
+      ],
+      "tasks": [
+        {
+          "item": "minecraft:stone_pickaxe",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:coal",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "wooden_tools"
+      ],
+      "source": "getting_started",
+      "section": "getting_started"
+    },
+    {
+      "key": "iron_tools",
+      "title": "The Age of Iron",
+      "icon": "minecraft:iron_pickaxe",
+      "x": 3.2,
+      "y": 3.2,
+      "description": [
+        "A furnace, some ore, and suddenly the world opens up.",
+        "Iron tools mean real mining - and real armor isn't far behind."
+      ],
+      "tasks": [
+        {
+          "item": "minecraft:iron_pickaxe",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "stone_tools"
+      ],
+      "source": "getting_started",
+      "section": "getting_started"
+    },
+    {
+      "key": "diamond_tools",
+      "title": "Striking Diamond",
+      "icon": "minecraft:diamond_pickaxe",
+      "x": 4.8,
+      "y": 3.2,
+      "description": [
+        "Deep, blue, and worth every torch it took to find.",
+        "Diamond tools are the last stop before the world gets truly strange."
+      ],
+      "tasks": [
+        {
+          "item": "minecraft:diamond_pickaxe",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "iron_tools"
+      ],
+      "source": "getting_started",
+      "section": "getting_started"
+    },
+    {
+      "key": "ready_for_more",
+      "title": "Ready for What's Next",
+      "icon": "minecraft:compass",
+      "x": 6.4,
+      "y": 1.6,
+      "description": [
+        "Journal in hand, belly full, loot stashed, iron tools ready.",
+        "Diamond can wait. That's everything you need to start. The rest is out there waiting."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "dependencies": [
+        "check_skills",
+        "first_meal",
+        "first_chest",
+        "iron_tools",
+        "pack_keybinds"
+      ],
+      "source": "getting_started",
+      "shape": "hexagon",
+      "size": 1.4,
+      "section": "getting_started"
+    },
+    {
+      "key": "taste_of_engineering",
+      "title": "A Taste of Engineering",
+      "icon": "create:andesite_alloy",
+      "x": 0.0,
+      "y": 7.2,
+      "description": [
+        "Alloy your first bit of andesite and you've taken your first step into Create.",
+        "There's a whole engineer's life waiting past this one alloy."
+      ],
+      "tasks": [
+        {
+          "item": "create:andesite_alloy",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "ready_for_more"
+      ],
+      "source": "first_steps",
+      "section": "first_steps"
+    },
+    {
+      "key": "taste_of_magic",
+      "title": "A Taste of Magic",
+      "icon": "ars_nouveau:source_gem",
+      "x": 1.6,
+      "y": 7.2,
+      "description": [
+        "A Source Gem hums faintly in your hand.",
+        "It's the first spark of something much bigger."
+      ],
+      "tasks": [
+        {
+          "item": "ars_nouveau:source_gem",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:amethyst_shard",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "ready_for_more"
+      ],
+      "source": "first_steps",
+      "section": "first_steps"
+    },
+    {
+      "key": "taste_of_farming",
+      "title": "A Taste of Farming",
+      "icon": "farmersdelight:cutting_board",
+      "x": 3.2,
+      "y": 7.2,
+      "description": [
+        "Build a cutting board and dinner stops being an afterthought.",
+        "A whole kitchen's worth of possibilities starts right here."
+      ],
+      "tasks": [
+        {
+          "item": "farmersdelight:cutting_board",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:wheat",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "ready_for_more"
+      ],
+      "source": "first_steps",
+      "section": "first_steps"
+    },
+    {
+      "key": "taste_of_the_skies",
+      "title": "A Taste of the Skies",
+      "icon": "aeronautics:wooden_propeller",
+      "x": 4.8,
+      "y": 7.2,
+      "description": [
+        "A simple wooden propeller doesn't look like much.",
+        "But it's the same part that ends up carrying entire flying bases."
+      ],
+      "tasks": [
+        {
+          "item": "aeronautics:wooden_propeller",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:feather",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "ready_for_more"
+      ],
+      "source": "first_steps",
+      "section": "first_steps"
+    },
+    {
+      "key": "taste_of_adventure",
+      "title": "A Taste of Adventure",
+      "icon": "minecraft:shield",
+      "x": 6.4,
+      "y": 7.2,
+      "description": [
+        "Raise a shield, and you're already thinking like an adventurer.",
+        "Combat out here rewards more than just swinging harder."
+      ],
+      "tasks": [
+        {
+          "item": "minecraft:shield",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "ready_for_more"
+      ],
+      "source": "first_steps",
+      "section": "first_steps"
+    },
+    {
+      "key": "taste_of_exploration",
+      "title": "A Taste of Exploration",
+      "icon": "naturescompass:naturescompass",
+      "x": 8.0,
+      "y": 7.2,
+      "description": [
+        "A compass that points toward entire biomes, not just north.",
+        "This world is bigger than you think - go see some of it."
+      ],
+      "tasks": [
+        {
+          "item": "naturescompass:naturescompass",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "ready_for_more"
+      ],
+      "source": "first_steps",
+      "section": "first_steps"
+    },
+    {
+      "key": "path_chosen",
+      "title": "Somewhere to Start",
+      "icon": "minecraft:map",
+      "x": 9.6,
+      "y": 7.2,
+      "description": [
+        "None of this locks you in - just gives you a feel for what's out there.",
+        "Chase whichever one pulled at you the most."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "taste_of_engineering",
+        "taste_of_magic",
+        "taste_of_farming",
+        "taste_of_the_skies",
+        "taste_of_adventure",
+        "taste_of_exploration"
+      ],
+      "source": "first_steps",
+      "size": 1.8,
+      "section": "first_steps"
+    },
+    {
+      "key": "the_road_ahead",
+      "title": "The Road Ahead",
+      "icon": "minecraft:written_book",
+      "x": 11.2,
+      "y": 7.2,
+      "description": [
+        "Settling in, engineering, magic, the skies, and worse things than skeletons - it's all through this book, organised so you always know where you left off.",
+        "Your skills grow on their own as you play. Nothing here demands grinding - just curiosity, and a willingness to open the next chapter."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "path_chosen"
+      ],
+      "source": "first_steps",
+      "shape": "hexagon",
+      "size": 1.4,
+      "section": "first_steps"
+    }
+  ],
+  "images": [
+    {
+      "x": 3.2,
+      "y": -1.6,
+      "width": 13.2,
+      "height": 0.8,
+      "text": [
+        "Establish Your First Camp"
+      ]
+    },
+    {
+      "x": 5.6,
+      "y": 5.6,
+      "width": 13.2,
+      "height": 0.8,
+      "text": [
+        "Choose Your Next Adventure"
+      ]
+    }
+  ]
+}

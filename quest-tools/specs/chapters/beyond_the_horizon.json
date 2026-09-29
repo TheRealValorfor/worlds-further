@@ -1,0 +1,378 @@
+{
+  "key": "beyond_the_horizon",
+  "group": "exploration",
+  "order_index": 1,
+  "title": "Beyond the Horizon",
+  "icon": "naturescompass:naturescompass",
+  "subtitle": "The map is bigger than you think",
+  "quests": [
+    {
+      "key": "first_steps_beyond",
+      "title": "First Steps Beyond",
+      "icon": "minecraft:map",
+      "x": 0.0,
+      "y": 2.4,
+      "description": [
+        "Near a crafting table, in a hole in the ground - that's where every story here begins.",
+        "The horizon has been waiting this whole time."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:map",
+          "count": 1
+        }
+      ],
+      "source": "the_explorer",
+      "dependencies": [],
+      "section": "the_explorer"
+    },
+    {
+      "key": "natures_compass",
+      "title": "Nature's Compass",
+      "icon": "naturescompass:naturescompass",
+      "x": 1.6,
+      "y": 0.0,
+      "description": [
+        "Point it anywhere and feel the pull toward whatever biome you're chasing.",
+        "No more blind wandering, hoping the terrain agrees with you."
+      ],
+      "tasks": [
+        {
+          "item": "naturescompass:naturescompass",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:compass",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "first_steps_beyond"
+      ],
+      "source": "the_explorer",
+      "section": "the_explorer"
+    },
+    {
+      "key": "explorers_compass",
+      "title": "Explorer's Compass",
+      "icon": "explorerscompass:explorerscompass",
+      "x": 1.6,
+      "y": 4.8,
+      "description": [
+        "Hidden structures don't advertise themselves - this one finds them anyway.",
+        "Aim it at a rumor and start walking."
+      ],
+      "tasks": [
+        {
+          "item": "explorerscompass:explorerscompass",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:paper",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "first_steps_beyond"
+      ],
+      "source": "the_explorer",
+      "section": "the_explorer"
+    },
+    {
+      "key": "biome_variety",
+      "title": "A World of Many Faces",
+      "icon": "minecraft:oak_sapling",
+      "x": 3.2,
+      "y": 0.0,
+      "description": [
+        "Walk far enough and the world keeps changing its mind about what it wants to be.",
+        "A handful of biomes that felt like a different planet entirely."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "natures_compass"
+      ],
+      "source": "the_explorer",
+      "section": "the_explorer"
+    },
+    {
+      "key": "significant_structure",
+      "title": "Something Worth Finding",
+      "icon": "minecraft:bricks",
+      "x": 3.2,
+      "y": 4.8,
+      "description": [
+        "A ruin, a tower, something half-buried and strange enough to stop you mid-stride.",
+        "You'll know it the moment you see it."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "explorers_compass"
+      ],
+      "source": "the_explorer",
+      "section": "the_explorer"
+    },
+    {
+      "key": "far_from_home",
+      "title": "Far From Home",
+      "icon": "minecraft:leather_boots",
+      "x": 4.8,
+      "y": 2.4,
+      "description": [
+        "There's a moment when spawn stops feeling like the center of everything.",
+        "Put real distance behind you and see what answers."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:ender_pearl",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "biome_variety",
+        "significant_structure"
+      ],
+      "source": "the_explorer",
+      "section": "the_explorer"
+    },
+    {
+      "key": "beneath_the_waves",
+      "title": "Beneath the Waves",
+      "icon": "minecraft:trident",
+      "x": 6.4,
+      "y": 0.0,
+      "description": [
+        "The ocean keeps its best secrets where the light gives up.",
+        "Bring something back worth telling people about."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:nautilus_shell",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "far_from_home"
+      ],
+      "source": "the_explorer",
+      "section": "the_explorer"
+    },
+    {
+      "key": "unusual_encounter",
+      "title": "An Unusual Encounter",
+      "icon": "minecraft:spyglass",
+      "x": 6.4,
+      "y": 4.8,
+      "description": [
+        "Not everything out there is common, and not every common thing behaves itself.",
+        "Something crossed your path and made you stop and stare."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:name_tag",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "far_from_home"
+      ],
+      "source": "the_explorer",
+      "section": "the_explorer"
+    },
+    {
+      "key": "marks_on_the_map",
+      "title": "Marks on the Map",
+      "icon": "minecraft:filled_map",
+      "x": 8.0,
+      "y": 2.4,
+      "description": [
+        "Every explorer starts leaving their own trail of shortcuts and landmarks eventually.",
+        "You may already have a Waystone or two out there without calling it anything special."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "beneath_the_waves",
+        "unusual_encounter"
+      ],
+      "source": "the_explorer",
+      "section": "the_explorer"
+    },
+    {
+      "key": "seasoned_explorer",
+      "title": "Seasoned Explorer",
+      "icon": "minecraft:golden_boots",
+      "x": 9.6,
+      "y": 2.4,
+      "description": [
+        "A destination stopped mattering somewhere along the way - direction was always enough.",
+        "The map in your head has outgrown the one in your hand."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:golden_apple",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "marks_on_the_map"
+      ],
+      "source": "the_explorer",
+      "size": 1.4,
+      "shape": "hexagon",
+      "section": "the_explorer"
+    },
+    {
+      "key": "claim_your_land",
+      "title": "Claim Your Land",
+      "icon": "minecraft:filled_map",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "Press M to open the FTB Chunks map. Claim the ground under your boots.",
+        "A claimed chunk is home, even before the house exists."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:oak_log",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "first_steps_beyond"
+      ],
+      "source": "the_explorer",
+      "section": "the_explorer"
+    },
+    {
+      "key": "nether_spark",
+      "title": "A Spark for the Nether",
+      "icon": "minecraft:flint_and_steel",
+      "x": 8.0,
+      "y": 0.0,
+      "description": [
+        "Obsidian and a spark. The portal does not stay broken if you walk away - NetherPortalFix keeps the other side honest.",
+        "Light a nether portal when you are ready to leave the overworld's rules behind."
+      ],
+      "tasks": [
+        {
+          "item": "minecraft:flint_and_steel",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:obsidian",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "far_from_home"
+      ],
+      "source": "the_explorer",
+      "section": "the_explorer"
+    },
+    {
+      "key": "sleeping_under_stars",
+      "title": "No Bed Required",
+      "icon": "comforts:sleeping_bag_red",
+      "x": 8.0,
+      "y": 4.8,
+      "description": [
+        "A red sleeping bag is a statement: you are not going back tonight.",
+        "Sleep through the dark without moving your respawn."
+      ],
+      "tasks": [
+        {
+          "item": "comforts:sleeping_bag_red",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:red_wool",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "far_from_home"
+      ],
+      "source": "the_explorer",
+      "section": "the_explorer"
+    }
+  ],
+  "images": [
+    {
+      "x": 4.8,
+      "y": -1.6,
+      "width": 12,
+      "height": 0.8,
+      "text": [
+        "Explore Beyond Your Base"
+      ]
+    }
+  ]
+}

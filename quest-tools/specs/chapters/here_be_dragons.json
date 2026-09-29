@@ -1,0 +1,626 @@
+{
+  "key": "here_be_dragons",
+  "group": "challenges",
+  "order_index": 1,
+  "title": "Here Be Dragons",
+  "icon": "iceandfire:dragonegg",
+  "subtitle": "Rumours first. Then proof",
+  "quests": [
+    {
+      "key": "ready_for_dragon_country",
+      "title": "Ready for Dragon Country",
+      "icon": "minecraft:netherite_chestplate",
+      "x": 0.0,
+      "y": 1.6,
+      "description": [
+        "The rumours are true. Somewhere out past the frontier, something with wings is old enough to remember when the land looked different.",
+        "This isn't early-game country. Come with diamond gear or better, and something that's already survived worse than a skeleton."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [],
+      "dependencies": [],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "dragonbone",
+      "title": "Dragon Bone",
+      "icon": "iceandfire:dragonbone",
+      "x": 1.6,
+      "y": 0.0,
+      "description": [
+        "Torn from a dragon's kill, or scavenged from the bones littering its lair.",
+        "The foundation of a whole arsenal built to survive what's coming."
+      ],
+      "tasks": [
+        {
+          "item": "iceandfire:dragonbone",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bone",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "ready_for_dragon_country"
+      ],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "dragonscales",
+      "title": "Dragon Scales",
+      "icon": "iceandfire:dragonscales_red",
+      "x": 1.6,
+      "y": 1.6,
+      "description": [
+        "Shed scales, still warm, gathered where dragons rest or fall.",
+        "Light enough to move in, tough enough to matter."
+      ],
+      "tasks": [
+        {
+          "item": "iceandfire:dragonscales_red",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:leather",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "ready_for_dragon_country"
+      ],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "silver_ore",
+      "title": "Silver Ore",
+      "icon": "iceandfire:silver_ore",
+      "x": 1.6,
+      "y": 3.2,
+      "description": [
+        "A pale ore veined through the deep rock, waiting to be melted down.",
+        "The first ingredient in gear built for things that don't die easy."
+      ],
+      "tasks": [
+        {
+          "item": "iceandfire:silver_ore",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_nugget",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "ready_for_dragon_country"
+      ],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "dragonbone_sword",
+      "title": "Dragon Bone Sword",
+      "icon": "iceandfire:dragonbone_sword",
+      "x": 3.2,
+      "y": 0.0,
+      "description": [
+        "A blade carved from the bones of something that used to be unstoppable.",
+        "Your first real answer to dragon country."
+      ],
+      "tasks": [
+        {
+          "item": "iceandfire:dragonbone_sword",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:arrow",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "dragonbone"
+      ],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "dragon_chestplate",
+      "title": "Dragon Scale Chestplate",
+      "icon": "iceandfire:armor_red_chestplate",
+      "x": 3.2,
+      "y": 1.6,
+      "description": [
+        "Armor pieced together from scales that once belonged to something enormous.",
+        "Light on your back, heavy in what it says about you."
+      ],
+      "tasks": [
+        {
+          "item": "iceandfire:armor_red_chestplate",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "dragonscales"
+      ],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "silver_sword",
+      "title": "Silver Sword",
+      "icon": "iceandfire:silver_sword",
+      "x": 3.2,
+      "y": 3.2,
+      "description": [
+        "Smelted, forged, and sharpened against things that fear silver more than steel.",
+        "The undead in particular will not enjoy this."
+      ],
+      "tasks": [
+        {
+          "item": "iceandfire:silver_sword",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "silver_ore"
+      ],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "dragon_meal",
+      "title": "Taming a Dragon",
+      "icon": "iceandfire:dragon_meal",
+      "x": 4.8,
+      "y": 1.6,
+      "description": [
+        "Feed it to a hatchling and hope it decides to trust you.",
+        "Armed and ready - now it's time to find a nest."
+      ],
+      "tasks": [
+        {
+          "item": "iceandfire:dragon_meal",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:wheat",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "dragonbone_sword",
+        "dragon_chestplate",
+        "silver_sword"
+      ],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "dragon_horn",
+      "title": "Dragon Horn",
+      "icon": "iceandfire:dragon_horn",
+      "x": 6.4,
+      "y": 1.6,
+      "description": [
+        "One blast calls your dragon out of the sky and straight to your side.",
+        "Command, at last, over something that could kill you outright."
+      ],
+      "tasks": [
+        {
+          "item": "iceandfire:dragon_horn",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:feather",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "dragon_meal"
+      ],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "fire_dragon_heart",
+      "title": "Heart of a Fire Dragon",
+      "icon": "iceandfire:fire_dragon_heart",
+      "x": 8.0,
+      "y": 0.0,
+      "description": [
+        "Still smoldering when you pull it free of the dragon that carried it.",
+        "Your own dragon won't give this up - you'll need to bring down a wild one.",
+        "Everything a Fire Dragonsteel weapon needs to exist."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "iceandfire:fire_dragon",
+          "value": 1
+        },
+        {
+          "item": "iceandfire:fire_dragon_heart",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:blaze_powder",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "dragon_horn"
+      ],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "dragonsteel_fire_ingot",
+      "title": "Fire Dragonsteel Ingot",
+      "icon": "iceandfire:dragonsteel_fire_ingot",
+      "x": 9.6,
+      "y": 0.0,
+      "description": [
+        "A heart, a forge, and heat most things wouldn't survive.",
+        "What comes out the other side is close to unbreakable."
+      ],
+      "tasks": [
+        {
+          "item": "iceandfire:dragonsteel_fire_ingot",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "fire_dragon_heart"
+      ],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "dragonsteel_fire_sword",
+      "title": "Fire Dragonsteel Sword",
+      "icon": "iceandfire:dragonsteel_fire_sword",
+      "x": 11.2,
+      "y": 0.0,
+      "description": [
+        "Forged in fire that used to belong to something with wings.",
+        "Among the fiercest things you can carry into a fight."
+      ],
+      "tasks": [
+        {
+          "item": "iceandfire:dragonsteel_fire_sword",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "dragonsteel_fire_ingot"
+      ],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "ice_dragon_heart",
+      "title": "Heart of an Ice Dragon",
+      "icon": "iceandfire:ice_dragon_heart",
+      "x": 8.0,
+      "y": 1.6,
+      "description": [
+        "Cold even in your hand, taken from a dragon that never once blinked.",
+        "The Ice Dragonsteel line begins here - but it starts with a kill."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "iceandfire:ice_dragon",
+          "value": 1
+        },
+        {
+          "item": "iceandfire:ice_dragon_heart",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:snowball",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "dragon_horn"
+      ],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "dragonsteel_ice_ingot",
+      "title": "Ice Dragonsteel Ingot",
+      "icon": "iceandfire:dragonsteel_ice_ingot",
+      "x": 9.6,
+      "y": 1.6,
+      "description": [
+        "Frost-forged, and every bit as dangerous as its fiery cousin.",
+        "Cold to the touch, unforgiving in a fight."
+      ],
+      "tasks": [
+        {
+          "item": "iceandfire:dragonsteel_ice_ingot",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "ice_dragon_heart"
+      ],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "lightning_dragon_heart",
+      "title": "Heart of a Lightning Dragon",
+      "icon": "iceandfire:lightning_dragon_heart",
+      "x": 8.0,
+      "y": 3.2,
+      "description": [
+        "Still crackling faintly, taken from something that ruled the storm.",
+        "The spark that Lightning Dragonsteel needs to exist - and storms don't give up their hearts quietly."
+      ],
+      "tasks": [
+        {
+          "type": "kill",
+          "entity": "iceandfire:lightning_dragon",
+          "value": 1
+        },
+        {
+          "item": "iceandfire:lightning_dragon_heart",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "dragon_horn"
+      ],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "dragonsteel_lightning_ingot",
+      "title": "Lightning Dragonsteel Ingot",
+      "icon": "iceandfire:dragonsteel_lightning_ingot",
+      "x": 9.6,
+      "y": 3.2,
+      "description": [
+        "Forged from a storm given shape, and then given a heart.",
+        "It hums faintly, like it's still deciding whether to strike."
+      ],
+      "tasks": [
+        {
+          "item": "iceandfire:dragonsteel_lightning_ingot",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "lightning_dragon_heart"
+      ],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "dragonarmor_dragon_steel_fire",
+      "title": "Fire Dragonsteel Chestplate",
+      "icon": "iceandfire:dragonsteel_fire_chestplate",
+      "x": 12.8,
+      "y": 1.6,
+      "description": [
+        "A full chestplate demanding fire, ice, and lightning all pay their toll first.",
+        "You don't wear this until three different dragons have already tried to stop you."
+      ],
+      "tasks": [
+        {
+          "item": "iceandfire:dragonsteel_fire_chestplate",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "dragonsteel_fire_sword",
+        "dragonsteel_ice_ingot",
+        "dragonsteel_lightning_ingot"
+      ],
+      "source": "ice_and_fire",
+      "size": 1.2,
+      "shape": "diamond",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "hippogryph_egg",
+      "title": "Hippogryph Egg",
+      "icon": "iceandfire:hippogryph_egg",
+      "x": 8.0,
+      "y": 4.8,
+      "description": [
+        "Stolen from a nest perched somewhere no sane creature builds a home.",
+        "Raise it right and it will carry you further than your legs ever could."
+      ],
+      "tasks": [
+        {
+          "item": "iceandfire:hippogryph_egg",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:egg",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "dragon_meal"
+      ],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "iron_hippogryph_armor",
+      "title": "Iron Hippogryph Armor",
+      "icon": "iceandfire:iron_hippogryph_armor",
+      "x": 9.6,
+      "y": 4.8,
+      "description": [
+        "Barding forged to keep your mount alive when the fight follows you into the air.",
+        "A flying companion is only as safe as the armor on its back."
+      ],
+      "tasks": [
+        {
+          "item": "iceandfire:iron_hippogryph_armor",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "hippogryph_egg"
+      ],
+      "source": "ice_and_fire",
+      "size": 1.8,
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "dragon_breath_bucket",
+      "title": "Bottling Dragon's Breath",
+      "icon": "create_dragons_plus:dragon_breath_bucket",
+      "x": 14.4,
+      "y": 1.6,
+      "description": [
+        "Something a dragon exhales, bottled before it dissolves into the wind.",
+        "The first strange step toward automating what a dragon leaves behind."
+      ],
+      "tasks": [
+        {
+          "item": "create_dragons_plus:dragon_breath_bucket",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:glass_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "dragonarmor_dragon_steel_fire"
+      ],
+      "source": "ice_and_fire",
+      "section": "ice_and_fire"
+    },
+    {
+      "key": "fluid_hatch",
+      "title": "Automating Dragon's Breath",
+      "icon": "create_dragons_plus:fluid_hatch",
+      "x": 16.0,
+      "y": 1.6,
+      "description": [
+        "A hatch built to move something that really shouldn't be pipeable.",
+        "Dragon slaying, meeting full-blown automation."
+      ],
+      "tasks": [
+        {
+          "item": "create_dragons_plus:fluid_hatch",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "dragon_breath_bucket"
+      ],
+      "source": "ice_and_fire",
+      "shape": "hexagon",
+      "size": 1.4,
+      "section": "ice_and_fire"
+    }
+  ],
+  "images": [
+    {
+      "x": 8.0,
+      "y": -1.6,
+      "width": 18.0,
+      "height": 0.8,
+      "text": [
+        "Prepare for Dragons"
+      ]
+    }
+  ]
+}

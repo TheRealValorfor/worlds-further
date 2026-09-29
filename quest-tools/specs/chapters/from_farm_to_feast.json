@@ -1,0 +1,1924 @@
+{
+  "key": "from_farm_to_feast",
+  "group": "homestead",
+  "order_index": 2,
+  "title": "From Farm to Feast",
+  "icon": "farmersdelight:cutting_board",
+  "subtitle": "A proper kitchen, a proper farm, and a proper meal",
+  "quests": [
+    {
+      "key": "cutting_board_basics",
+      "title": "The Cutting Board",
+      "icon": "farmersdelight:cutting_board",
+      "x": 0.0,
+      "y": 3.2,
+      "description": [
+        "Every good kitchen starts somewhere simple.",
+        "A cutting board's as good a start as any."
+      ],
+      "tasks": [
+        {
+          "item": "farmersdelight:cutting_board",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [],
+      "source": "farmers_delight",
+      "section": "farmers_delight"
+    },
+    {
+      "key": "first_knife",
+      "title": "A Sharp Edge",
+      "icon": "farmersdelight:flint_knife",
+      "x": 1.6,
+      "y": 3.2,
+      "description": [
+        "A blade turns that board into a real prep station.",
+        "The flint knife won't win awards, but it'll do."
+      ],
+      "tasks": [
+        {
+          "item": "farmersdelight:flint_knife",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:string",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "cutting_board_basics"
+      ],
+      "source": "farmers_delight",
+      "section": "farmers_delight"
+    },
+    {
+      "key": "slice_ingredients",
+      "title": "Slice It Up",
+      "icon": "farmersdelight:cod_slice",
+      "x": 3.2,
+      "y": 3.2,
+      "description": [
+        "Knife and board together make quick work of dinner prep.",
+        "Cod slices are a fine place to start."
+      ],
+      "tasks": [
+        {
+          "item": "farmersdelight:cod_slice",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bowl",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "first_knife"
+      ],
+      "source": "farmers_delight",
+      "section": "farmers_delight"
+    },
+    {
+      "key": "cooking_pot_setup",
+      "title": "The Cooking Pot",
+      "icon": "farmersdelight:cooking_pot",
+      "x": 1.6,
+      "y": 4.8,
+      "description": [
+        "Set a pot over the fire and something warm is never far off."
+      ],
+      "tasks": [
+        {
+          "item": "farmersdelight:cooking_pot",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bowl",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "cutting_board_basics"
+      ],
+      "source": "farmers_delight",
+      "section": "farmers_delight"
+    },
+    {
+      "key": "vegetable_soup",
+      "title": "Vegetable Soup",
+      "icon": "farmersdelight:vegetable_soup",
+      "x": 3.2,
+      "y": 4.8,
+      "description": [
+        "Simple, filling, and grown right in your own garden."
+      ],
+      "tasks": [
+        {
+          "item": "farmersdelight:vegetable_soup",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bread",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "cooking_pot_setup"
+      ],
+      "source": "farmers_delight",
+      "section": "farmers_delight"
+    },
+    {
+      "key": "beef_stew",
+      "title": "Hearty Beef Stew",
+      "icon": "farmersdelight:beef_stew",
+      "x": 4.8,
+      "y": 4.8,
+      "description": [
+        "Thick, meaty, and just the thing after a long day's work."
+      ],
+      "tasks": [
+        {
+          "item": "farmersdelight:beef_stew",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:cooked_beef",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "vegetable_soup"
+      ],
+      "source": "farmers_delight",
+      "section": "farmers_delight"
+    },
+    {
+      "key": "stove_setup",
+      "title": "Fire Up the Stove",
+      "icon": "farmersdelight:stove",
+      "x": 3.2,
+      "y": 6.4,
+      "description": [
+        "The stove is the heart of a proper kitchen.",
+        "It's what gets the skillet going."
+      ],
+      "tasks": [
+        {
+          "item": "farmersdelight:stove",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:coal",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "cooking_pot_setup"
+      ],
+      "source": "farmers_delight",
+      "section": "farmers_delight"
+    },
+    {
+      "key": "skillet_craft",
+      "title": "The Skillet",
+      "icon": "farmersdelight:skillet",
+      "x": 4.8,
+      "y": 6.4,
+      "description": [
+        "Fry, sear, and get creative with what the stove can do."
+      ],
+      "tasks": [
+        {
+          "item": "farmersdelight:skillet",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "stove_setup"
+      ],
+      "source": "farmers_delight",
+      "section": "farmers_delight"
+    },
+    {
+      "key": "fried_rice",
+      "title": "Fried Rice",
+      "icon": "farmersdelight:fried_rice",
+      "x": 6.4,
+      "y": 6.4,
+      "description": [
+        "Put the skillet to good use with a quick, satisfying batch of fried rice."
+      ],
+      "tasks": [
+        {
+          "item": "farmersdelight:fried_rice",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:golden_apple",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "skillet_craft"
+      ],
+      "source": "farmers_delight",
+      "section": "farmers_delight"
+    },
+    {
+      "key": "grow_tomatoes",
+      "title": "Growing Tomatoes",
+      "icon": "farmersdelight:tomato_seeds",
+      "x": 1.6,
+      "y": 1.6,
+      "description": [
+        "A garden's better with a bit of red in it.",
+        "Get some tomato seeds in the ground."
+      ],
+      "tasks": [
+        {
+          "item": "farmersdelight:tomato_seeds",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:wheat",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "cutting_board_basics"
+      ],
+      "source": "farmers_delight",
+      "section": "farmers_delight"
+    },
+    {
+      "key": "grow_onions",
+      "title": "Growing Onions",
+      "icon": "farmersdelight:onion",
+      "x": 1.6,
+      "y": 0.0,
+      "description": [
+        "Every good dish needs an onion nearby.",
+        "Grow a patch of your own."
+      ],
+      "tasks": [
+        {
+          "item": "farmersdelight:onion",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:wheat",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "cutting_board_basics"
+      ],
+      "source": "farmers_delight",
+      "section": "farmers_delight"
+    },
+    {
+      "key": "tomato_sauce",
+      "title": "Tomato Sauce",
+      "icon": "farmersdelight:tomato_sauce",
+      "x": 3.2,
+      "y": 1.6,
+      "description": [
+        "Simmer your tomatoes down into something worth saving."
+      ],
+      "tasks": [
+        {
+          "item": "farmersdelight:tomato_sauce",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bread",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "grow_tomatoes",
+        "cooking_pot_setup"
+      ],
+      "source": "farmers_delight",
+      "section": "farmers_delight"
+    },
+    {
+      "key": "ratatouille",
+      "title": "Ratatouille",
+      "icon": "farmersdelight:ratatouille",
+      "x": 4.8,
+      "y": 1.6,
+      "description": [
+        "Tomato sauce and fresh onions, brought together into a rustic little classic."
+      ],
+      "tasks": [
+        {
+          "item": "farmersdelight:ratatouille",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:golden_apple",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "tomato_sauce",
+        "grow_onions"
+      ],
+      "source": "farmers_delight",
+      "section": "farmers_delight"
+    },
+    {
+      "key": "mechanical_cutter",
+      "title": "The Mechanical Cutter",
+      "icon": "delightfulcreators:mechanical_cutter",
+      "x": 6.4,
+      "y": 1.6,
+      "description": [
+        "Let a machine take over the slicing, so your hands are free for everything else."
+      ],
+      "tasks": [
+        {
+          "item": "delightfulcreators:mechanical_cutter",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "ratatouille"
+      ],
+      "source": "farmers_delight",
+      "section": "farmers_delight"
+    },
+    {
+      "key": "hearty_stew_bucket",
+      "title": "Stew by the Bucket",
+      "icon": "delightfulcreators:rabbit_stew_bucket",
+      "x": 8.0,
+      "y": 1.6,
+      "description": [
+        "Make a big batch and keep it close.",
+        "A bucket of stew never goes to waste."
+      ],
+      "tasks": [
+        {
+          "item": "delightfulcreators:rabbit_stew_bucket",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "mechanical_cutter"
+      ],
+      "source": "farmers_delight",
+      "section": "farmers_delight"
+    },
+    {
+      "key": "fish_and_chips_capstone",
+      "title": "Fish and Chips",
+      "icon": "aquaculturedelight:fish_and_chips",
+      "x": 9.6,
+      "y": 3.2,
+      "description": [
+        "River and kitchen finally meet, in a classic worth the wait."
+      ],
+      "tasks": [
+        {
+          "item": "aquaculturedelight:fish_and_chips",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "fried_rice",
+        "hearty_stew_bucket"
+      ],
+      "source": "farmers_delight",
+      "size": 1.8,
+      "section": "farmers_delight"
+    },
+    {
+      "key": "plant_tomato_seeds",
+      "title": "Plant Tomatoes",
+      "icon": "pamhc2crops:tomatoseeditem",
+      "x": 0.0,
+      "y": 12.0,
+      "description": [
+        "There's no shortage of things to grow here.",
+        "Start easy, with a row of tomatoes."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2crops:tomatoseeditem",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bread",
+          "count": 1
+        }
+      ],
+      "dependencies": [],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "plant_onion_seeds",
+      "title": "Plant Onions",
+      "icon": "pamhc2crops:onionseeditem",
+      "x": 0.0,
+      "y": 13.6,
+      "description": [
+        "Onions turn up in more recipes than you'd expect.",
+        "Get a patch growing."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2crops:onionseeditem",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bowl",
+          "count": 1
+        }
+      ],
+      "dependencies": [],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "plant_sweetpotato",
+      "title": "Plant Sweet Potatoes",
+      "icon": "pamhc2crops:sweetpotatoseeditem",
+      "x": 0.0,
+      "y": 10.4,
+      "description": [
+        "A hearty root crop worth keeping in the pantry.",
+        "Plant a few and let them settle in."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2crops:sweetpotatoseeditem",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bread",
+          "count": 1
+        }
+      ],
+      "dependencies": [],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "harvest_rice",
+      "title": "Harvest Rice",
+      "icon": "pamhc2crops:riceitem",
+      "x": 1.6,
+      "y": 12.0,
+      "description": [
+        "A versatile little grain that turns up in dish after dish."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2crops:riceitem",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:sugar",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "plant_tomato_seeds"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "cotton_harvest",
+      "title": "Harvest Cotton",
+      "icon": "pamhc2crops:cottonitem",
+      "x": 1.6,
+      "y": 13.6,
+      "description": [
+        "Not everything in the garden is for eating.",
+        "Cotton grows well alongside the rest."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2crops:cottonitem",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:string",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "plant_onion_seeds"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "cutting_board_pam",
+      "title": "Pam's Cutting Board",
+      "icon": "pamhc2foodcore:cuttingboarditem",
+      "x": 3.2,
+      "y": 12.0,
+      "description": [
+        "A whole new set of kitchen tools begins here.",
+        "Craft a cutting board and start prepping."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2foodcore:cuttingboarditem",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "harvest_rice",
+        "cotton_harvest"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "juicer",
+      "title": "The Juicer",
+      "icon": "pamhc2foodcore:juiceritem",
+      "x": 4.8,
+      "y": 10.4,
+      "description": [
+        "Turn fruit from the orchard into something worth drinking."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2foodcore:juiceritem",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:glass_bottle",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "cutting_board_pam"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "grinder",
+      "title": "The Grinder",
+      "icon": "pamhc2foodcore:grinderitem",
+      "x": 4.8,
+      "y": 13.6,
+      "description": [
+        "Grind meat down for all the recipes that call for it."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2foodcore:grinderitem",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "cutting_board_pam"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "mixing_bowl_and_stew",
+      "title": "The Mixing Bowl",
+      "icon": "pamhc2foodcore:mixingbowlitem",
+      "x": 4.8,
+      "y": 12.0,
+      "description": [
+        "Every finished dish starts by bringing ingredients together in a bowl."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2foodcore:mixingbowlitem",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bowl",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "cutting_board_pam"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "first_juice",
+      "title": "Fresh Apple Juice",
+      "icon": "pamhc2foodcore:applejuiceitem",
+      "x": 6.4,
+      "y": 10.4,
+      "description": [
+        "Put the juicer to work on your first batch of apple juice."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2foodcore:applejuiceitem",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:sugar",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "juicer"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "first_stew",
+      "title": "A Simple Stew",
+      "icon": "pamhc2foodcore:stewitem",
+      "x": 6.4,
+      "y": 12.0,
+      "description": [
+        "Mix it up and see what a simple stew tastes like."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2foodcore:stewitem",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bread",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "mixing_bowl_and_stew"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "plant_apple_orchard",
+      "title": "Plant an Apple Orchard",
+      "icon": "pamhc2trees:apple_sapling",
+      "x": 8.0,
+      "y": 12.0,
+      "description": [
+        "So many trees to try.",
+        "Apples are a fine place to start an orchard."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2trees:apple_sapling",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:apple",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "first_stew"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "harvest_walnut_tree",
+      "title": "Walnut Trees",
+      "icon": "pamhc2trees:walnut_sapling",
+      "x": 8.0,
+      "y": 13.6,
+      "description": [
+        "Nut trees like walnut are worth the wait, come roasting time."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2trees:walnut_sapling",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:hay_block",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "plant_apple_orchard"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "roasted_nuts",
+      "title": "Roasted Walnuts",
+      "icon": "pamhc2trees:roastedwalnutitem",
+      "x": 9.6,
+      "y": 13.6,
+      "description": [
+        "A handful of walnuts, roasted into a good little snack."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2trees:roastedwalnutitem",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:coal",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "harvest_walnut_tree"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "bake_cornbread",
+      "title": "Cornbread",
+      "icon": "pamhc2foodextended:cornbreaditem",
+      "x": 9.6,
+      "y": 12.0,
+      "description": [
+        "So many finished dishes to try.",
+        "Cornbread's a warm place to begin."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2foodextended:cornbreaditem",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:wheat",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "plant_apple_orchard"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "bake_cherry_pie",
+      "title": "Cherry Pie",
+      "icon": "pamhc2foodextended:cherrypieitem",
+      "x": 11.2,
+      "y": 12.0,
+      "description": [
+        "A classic dessert, sweet with cherries from your own trees."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2foodextended:cherrypieitem",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bowl",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "bake_cornbread"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "cook_tomato_soup",
+      "title": "Tomato Soup",
+      "icon": "pamhc2foodextended:tomatosoupitem",
+      "x": 9.6,
+      "y": 10.4,
+      "description": [
+        "A warm bowl made from a harvest you grew yourself."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2foodextended:tomatosoupitem",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bread",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "first_stew"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "brew_chai_tea",
+      "title": "Chai Tea",
+      "icon": "pamhc2foodextended:chaiteaitem",
+      "x": 11.2,
+      "y": 10.4,
+      "description": [
+        "Brew up something warming for a quiet evening."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2foodextended:chaiteaitem",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:sugar",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "cook_tomato_soup"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "make_banana_smoothie",
+      "title": "Banana Smoothie",
+      "icon": "pamhc2foodextended:bananasmoothieitem",
+      "x": 12.8,
+      "y": 12.0,
+      "description": [
+        "Blend it up for something cool and refreshing."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2foodextended:bananasmoothieitem",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:golden_apple",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "bake_cherry_pie",
+        "brew_chai_tea"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "garlic_bread_feast",
+      "title": "Garlic Bread Feast",
+      "icon": "pamhc2foodextended:garlicbreaditem",
+      "x": 14.4,
+      "y": 12.0,
+      "description": [
+        "Round out the table with a warm loaf of garlic bread."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2foodextended:garlicbreaditem",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "make_banana_smoothie"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "slime_harvest",
+      "title": "Slime Jelly",
+      "icon": "pamhc2fantasy:slimejellyitem",
+      "x": 16.0,
+      "y": 12.0,
+      "description": [
+        "Not every crop here is ordinary.",
+        "Gather slime jelly for something a little stranger."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2fantasy:slimejellyitem",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "garlic_bread_feast",
+        "roasted_nuts"
+      ],
+      "source": "pams_harvestcraft",
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "slime_pie_capstone",
+      "title": "Slime Pie",
+      "icon": "pamhc2fantasy:slimepieitem",
+      "x": 17.6,
+      "y": 12.0,
+      "description": [
+        "The oddest dessert in the whole harvest.",
+        "Bake one to round it all off."
+      ],
+      "tasks": [
+        {
+          "item": "pamhc2fantasy:slimepieitem",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "slime_harvest"
+      ],
+      "source": "pams_harvestcraft",
+      "shape": "hexagon",
+      "size": 1.4,
+      "section": "pams_harvestcraft"
+    },
+    {
+      "key": "first_cast",
+      "title": "Cast a Line",
+      "icon": "minecraft:fishing_rod",
+      "x": 0.0,
+      "y": 19.2,
+      "description": [
+        "There's more swimming out there than you'd think.",
+        "Grab a rod and find out what's biting."
+      ],
+      "tasks": [
+        {
+          "item": "minecraft:fishing_rod",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "aquaculture:worm",
+          "count": 8
+        }
+      ],
+      "dependencies": [],
+      "source": "aquaculture",
+      "section": "aquaculture"
+    },
+    {
+      "key": "wooden_fillet_knife",
+      "title": "Wooden Fillet Knife",
+      "icon": "aquaculture:wooden_fillet_knife",
+      "x": 1.6,
+      "y": 20.8,
+      "description": [
+        "A good fillet knife turns a catch into supper.",
+        "The wooden one's cheap, but it'll do."
+      ],
+      "tasks": [
+        {
+          "item": "aquaculture:wooden_fillet_knife",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bowl",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "first_cast"
+      ],
+      "source": "aquaculture",
+      "section": "aquaculture"
+    },
+    {
+      "key": "catch_fish_variety",
+      "title": "Catch of the Day",
+      "icon": "aquaculture:carp",
+      "x": 1.6,
+      "y": 19.2,
+      "description": [
+        "Carp are a fine start to a much bigger tackle box.",
+        "Reel a few in and get a feel for the water."
+      ],
+      "tasks": [
+        {
+          "item": "aquaculture:carp",
+          "count": 3
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:cooked_cod",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "first_cast"
+      ],
+      "source": "aquaculture",
+      "section": "aquaculture"
+    },
+    {
+      "key": "fillet_your_catch",
+      "title": "Fillet Your Catch",
+      "icon": "aquaculture:fish_fillet_raw",
+      "x": 3.2,
+      "y": 19.2,
+      "description": [
+        "Knife in hand, turn your catch into clean fillets, ready for the pan."
+      ],
+      "tasks": [
+        {
+          "item": "aquaculture:fish_fillet_raw",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "aquaculture:fish_fillet_cooked",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "wooden_fillet_knife",
+        "catch_fish_variety"
+      ],
+      "source": "aquaculture",
+      "section": "aquaculture"
+    },
+    {
+      "key": "iron_fishing_rod",
+      "title": "Iron Fishing Rod",
+      "icon": "aquaculture:iron_fishing_rod",
+      "x": 3.2,
+      "y": 17.6,
+      "description": [
+        "An iron rod holds up longer and finds better luck.",
+        "Worth the upgrade."
+      ],
+      "tasks": [
+        {
+          "item": "aquaculture:iron_fishing_rod",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "catch_fish_variety"
+      ],
+      "source": "aquaculture",
+      "section": "aquaculture"
+    },
+    {
+      "key": "catch_deep_fish",
+      "title": "Deep Water Catch",
+      "icon": "aquaculture:tuna",
+      "x": 4.8,
+      "y": 17.6,
+      "description": [
+        "Head out where the water runs deep. Tuna are waiting."
+      ],
+      "tasks": [
+        {
+          "item": "aquaculture:tuna",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "iron_fishing_rod"
+      ],
+      "source": "aquaculture",
+      "section": "aquaculture"
+    },
+    {
+      "key": "gold_fishing_rod",
+      "title": "Golden Fishing Rod",
+      "icon": "aquaculture:gold_fishing_rod",
+      "x": 6.4,
+      "y": 17.6,
+      "description": [
+        "Gold fishes faster still, for an angler who's always got somewhere else to be."
+      ],
+      "tasks": [
+        {
+          "item": "aquaculture:gold_fishing_rod",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "catch_deep_fish"
+      ],
+      "source": "aquaculture",
+      "section": "aquaculture"
+    },
+    {
+      "key": "diamond_fishing_rod",
+      "title": "Diamond Fishing Rod",
+      "icon": "aquaculture:diamond_fishing_rod",
+      "x": 8.0,
+      "y": 17.6,
+      "description": [
+        "For the angler who's serious about it. A diamond rod earns its keep."
+      ],
+      "tasks": [
+        {
+          "item": "aquaculture:diamond_fishing_rod",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "gold_fishing_rod"
+      ],
+      "source": "aquaculture",
+      "section": "aquaculture"
+    },
+    {
+      "key": "tackle_box",
+      "title": "The Tackle Box",
+      "icon": "aquaculture:tackle_box",
+      "x": 4.8,
+      "y": 20.8,
+      "description": [
+        "Keep your hooks and gear tidy, right where you can find them."
+      ],
+      "tasks": [
+        {
+          "item": "aquaculture:tackle_box",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:leather",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "fillet_your_catch"
+      ],
+      "source": "aquaculture",
+      "section": "aquaculture"
+    },
+    {
+      "key": "neptunium_ingot",
+      "title": "Neptunium Ingots",
+      "icon": "aquaculture:neptunium_ingot",
+      "x": 9.6,
+      "y": 19.2,
+      "description": [
+        "Deep beneath the waves lies neptunium.",
+        "Melt the ore down into something useful."
+      ],
+      "tasks": [
+        {
+          "item": "aquaculture:neptunium_ingot",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "diamond_fishing_rod",
+        "fillet_your_catch"
+      ],
+      "source": "aquaculture",
+      "section": "aquaculture"
+    },
+    {
+      "key": "neptunium_fishing_rod",
+      "title": "Neptunium Fishing Rod",
+      "icon": "aquaculture:neptunium_fishing_rod",
+      "x": 11.2,
+      "y": 19.2,
+      "description": [
+        "The finest rod a river's ever seen, forged from what the depths gave up."
+      ],
+      "tasks": [
+        {
+          "item": "aquaculture:neptunium_fishing_rod",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 3
+        }
+      ],
+      "dependencies": [
+        "neptunium_ingot"
+      ],
+      "source": "aquaculture",
+      "section": "aquaculture"
+    },
+    {
+      "key": "treasure_chest_capstone",
+      "title": "Treasure Chest",
+      "icon": "aquaculture:treasure_chest",
+      "x": 12.8,
+      "y": 19.2,
+      "description": [
+        "With your best gear finally in hand, go see what the water's been hiding."
+      ],
+      "tasks": [
+        {
+          "item": "aquaculture:treasure_chest",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "neptunium_fishing_rod",
+        "tackle_box"
+      ],
+      "source": "aquaculture",
+      "section": "aquaculture"
+    },
+    {
+      "key": "track_seasons",
+      "title": "Track the Seasons",
+      "icon": "sereneseasons:calendar",
+      "x": 0.0,
+      "y": 24.8,
+      "description": [
+        "The seasons turn here, and they shape what grows.",
+        "A calendar helps you keep up."
+      ],
+      "tasks": [
+        {
+          "item": "sereneseasons:calendar",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:paper",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "homestead_milestones",
+      "section": "homestead_milestones"
+    },
+    {
+      "key": "automate_seasons",
+      "title": "Build Around the Weather",
+      "icon": "sereneseasons:season_sensor",
+      "x": 1.6,
+      "y": 24.8,
+      "description": [
+        "Once you know what's coming, let redstone take it from here."
+      ],
+      "tasks": [
+        {
+          "item": "sereneseasons:season_sensor",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:redstone",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "track_seasons"
+      ],
+      "source": "homestead_milestones",
+      "section": "homestead_milestones"
+    },
+    {
+      "key": "raise_animals",
+      "title": "Livestock and Care",
+      "icon": "minecraft:wheat",
+      "x": 0.0,
+      "y": 26.4,
+      "description": [
+        "A homestead's better with some company in the pasture.",
+        "Fence in a few animals and look after them."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:hay_block",
+          "count": 2
+        }
+      ],
+      "dependencies": [],
+      "source": "homestead_milestones",
+      "section": "homestead_milestones"
+    },
+    {
+      "key": "make_it_home",
+      "title": "Make It Feel Like Home",
+      "icon": "minecraft:red_bed",
+      "x": 1.6,
+      "y": 26.4,
+      "description": [
+        "Walls and a roof make shelter. A little care makes it home."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "dependencies": [],
+      "source": "homestead_milestones",
+      "section": "homestead_milestones"
+    },
+    {
+      "key": "settled_skills",
+      "title": "A Grower's Instinct",
+      "icon": "minecraft:composter",
+      "x": 3.2,
+      "y": 24.8,
+      "description": [
+        "After enough seasons of farming and building, it all starts to come naturally."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "dependencies": [
+        "automate_seasons"
+      ],
+      "source": "homestead_milestones",
+      "section": "homestead_milestones"
+    },
+    {
+      "key": "crushed_cocoa",
+      "title": "Crushed Cocoa",
+      "icon": "create_confectionery:crushed_cocoa",
+      "x": 0.0,
+      "y": 32.0,
+      "description": [
+        "Run cocoa beans under a millstone or crushing wheels.",
+        "Every chocolate recipe in this line traces back to this step."
+      ],
+      "tasks": [
+        {
+          "item": "create_confectionery:crushed_cocoa",
+          "count": 8
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:cocoa_beans",
+          "count": 8
+        }
+      ],
+      "dependencies": [],
+      "source": "create_culinary",
+      "section": "create_culinary"
+    },
+    {
+      "key": "cocoa_powder",
+      "title": "Cocoa Powder",
+      "icon": "create_confectionery:cocoa_powder",
+      "x": 1.6,
+      "y": 30.4,
+      "description": [
+        "Mix it down to a fine powder - the base for anything",
+        "dark and bitter."
+      ],
+      "tasks": [
+        {
+          "item": "create_confectionery:cocoa_powder",
+          "count": 4
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "crushed_cocoa"
+      ],
+      "source": "create_culinary",
+      "section": "create_culinary"
+    },
+    {
+      "key": "cocoa_butter",
+      "title": "Cocoa Butter",
+      "icon": "create_confectionery:cocoa_butter",
+      "x": 1.6,
+      "y": 33.6,
+      "description": [
+        "Press instead of mix and you get cocoa butter,",
+        "the fatty base behind the paler chocolates."
+      ],
+      "tasks": [
+        {
+          "item": "create_confectionery:cocoa_butter",
+          "count": 4
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "crushed_cocoa"
+      ],
+      "source": "create_culinary",
+      "section": "create_culinary"
+    },
+    {
+      "key": "black_chocolate",
+      "title": "Dark Chocolate",
+      "icon": "create_confectionery:black_chocolate_bucket",
+      "x": 3.2,
+      "y": 30.4,
+      "description": [
+        "Blend the powder down and you've got dark chocolate -",
+        "bitter, intense, and the backbone of half this chapter."
+      ],
+      "tasks": [
+        {
+          "item": "create_confectionery:black_chocolate_bucket",
+          "count": 4
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "cocoa_powder"
+      ],
+      "source": "create_culinary",
+      "section": "create_culinary"
+    },
+    {
+      "key": "white_chocolate",
+      "title": "White Chocolate",
+      "icon": "create_confectionery:white_chocolate_bucket",
+      "x": 3.2,
+      "y": 33.6,
+      "description": [
+        "Whip the butter alone, no powder needed, and you",
+        "get smooth white chocolate."
+      ],
+      "tasks": [
+        {
+          "item": "create_confectionery:white_chocolate_bucket",
+          "count": 4
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "cocoa_butter"
+      ],
+      "source": "create_culinary",
+      "section": "create_culinary"
+    },
+    {
+      "key": "ruby_chocolate",
+      "title": "Ruby Chocolate",
+      "icon": "create_confectionery:ruby_chocolate_bucket",
+      "x": 3.2,
+      "y": 32.0,
+      "description": [
+        "Powder and butter together, and out comes ruby chocolate -",
+        "the rarest of the three, worth the extra step."
+      ],
+      "tasks": [
+        {
+          "item": "create_confectionery:ruby_chocolate_bucket",
+          "count": 4
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "cocoa_powder",
+        "cocoa_butter"
+      ],
+      "source": "create_culinary",
+      "section": "create_culinary"
+    },
+    {
+      "key": "chocolate_bricks",
+      "title": "Chocolate Bricks",
+      "icon": "create_confectionery:chocolate_bricks",
+      "x": 4.8,
+      "y": 32.0,
+      "description": [
+        "All three chocolates, blended and moulded into bricks.",
+        "This is the building block everything downstream uses."
+      ],
+      "tasks": [
+        {
+          "item": "create_confectionery:chocolate_bricks",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bucket",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "black_chocolate",
+        "white_chocolate",
+        "ruby_chocolate"
+      ],
+      "source": "create_culinary",
+      "section": "create_culinary"
+    },
+    {
+      "key": "chocolate_candy",
+      "title": "Chocolate Candy",
+      "icon": "create_confectionery:chocolate_candy",
+      "x": 6.4,
+      "y": 30.4,
+      "description": [
+        "Roll a brick out and cut it into bite-sized candy.",
+        "Dead simple, and it belts up nicely."
+      ],
+      "tasks": [
+        {
+          "item": "create_confectionery:chocolate_candy",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "create_confectionery:honey_candy",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "chocolate_bricks"
+      ],
+      "source": "create_culinary",
+      "section": "create_culinary"
+    },
+    {
+      "key": "marshmallow",
+      "title": "Marshmallow",
+      "icon": "create_confectionery:marshmallow",
+      "x": 0.0,
+      "y": 35.2,
+      "description": [
+        "Whip these up soft and fluffy.",
+        "Good on their own, better once they meet chocolate."
+      ],
+      "tasks": [
+        {
+          "item": "create_confectionery:marshmallow",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "create_confectionery:marshmallow_on_a_stick",
+          "count": 1
+        }
+      ],
+      "dependencies": [],
+      "source": "create_culinary",
+      "section": "create_culinary"
+    },
+    {
+      "key": "chocolate_glazed_marshmallow",
+      "title": "Chocolate Glazed Marshmallow",
+      "icon": "create_confectionery:chocolate_glazed_marshmallow",
+      "x": 6.4,
+      "y": 33.6,
+      "description": [
+        "Dip the marshmallow in melted chocolate and both branches",
+        "of this line finally meet."
+      ],
+      "tasks": [
+        {
+          "item": "create_confectionery:chocolate_glazed_marshmallow",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:stick",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "chocolate_bricks",
+        "marshmallow"
+      ],
+      "source": "create_culinary",
+      "section": "create_culinary"
+    },
+    {
+      "key": "hot_chocolate",
+      "title": "Hot Chocolate",
+      "icon": "create_confectionery:hot_chocolate_bottle",
+      "x": 8.0,
+      "y": 32.0,
+      "description": [
+        "Melt a brick down into a proper drink.",
+        "A fitting reward for a fully automated cocoa line."
+      ],
+      "tasks": [
+        {
+          "item": "create_confectionery:hot_chocolate_bottle",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:milk_bucket",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "chocolate_bricks"
+      ],
+      "source": "create_culinary",
+      "section": "create_culinary"
+    },
+    {
+      "key": "candy_cane",
+      "title": "Candy Cane",
+      "icon": "create_confectionery:candy_cane",
+      "x": 0.0,
+      "y": 36.8,
+      "description": [
+        "Twist sugar into stripes, no cocoa line required.",
+        "A quick treat you can make on the side."
+      ],
+      "tasks": [
+        {
+          "item": "create_confectionery:candy_cane",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:sugar",
+          "count": 4
+        }
+      ],
+      "dependencies": [],
+      "source": "create_culinary",
+      "section": "create_culinary"
+    },
+    {
+      "key": "the_whole_spread",
+      "title": "The Whole Spread",
+      "icon": "minecraft:cake",
+      "x": 0.0,
+      "y": 40.8,
+      "description": [
+        "A cutting board here, a fishing rod there, a season tracked, a chocolate line running on its own.",
+        "None of it looked connected at first. Laid out on one table, it very much is."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:golden_carrot",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "fish_and_chips_capstone",
+        "slime_pie_capstone",
+        "treasure_chest_capstone",
+        "settled_skills",
+        "hot_chocolate"
+      ],
+      "source": "from_farm_to_feast_bridge",
+      "shape": "hexagon",
+      "size": 1.4,
+      "section": "chapter_completion"
+    },
+    {
+      "key": "eat_a_varied_diet",
+      "title": "Eat a Varied Diet",
+      "icon": "farmersdelight:vegetable_soup",
+      "x": 8.0,
+      "y": 4.8,
+      "description": [
+        "The same meal over and over fills you less each time. Mix it up: Farmer's Delight, Pam's, a fish supper, leftover stew.",
+        "AppleSkin shows hunger and saturation. Spice of Life is why repeating yesterday's lunch stops working."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:golden_carrot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "vegetable_soup"
+      ],
+      "source": "spice_of_life",
+      "section": "farmers_delight"
+    }
+  ],
+  "images": [
+    {
+      "x": 4.8,
+      "y": -1.6,
+      "width": 19.6,
+      "height": 0.8,
+      "text": [
+        "Set Up Your Kitchen"
+      ]
+    },
+    {
+      "x": 8.8,
+      "y": 8.8,
+      "width": 19.6,
+      "height": 0.8,
+      "text": [
+        "Grow a Varied Pantry"
+      ]
+    },
+    {
+      "x": 6.4,
+      "y": 16.0,
+      "width": 19.6,
+      "height": 0.8,
+      "text": [
+        "Fish for Food and Treasure"
+      ]
+    },
+    {
+      "x": 1.6,
+      "y": 23.2,
+      "width": 19.6,
+      "height": 0.8,
+      "text": [
+        "Build a Thriving Homestead"
+      ]
+    },
+    {
+      "x": 4.0,
+      "y": 28.8,
+      "width": 19.6,
+      "height": 0.8,
+      "text": [
+        "Automate Your Sweet Treats"
+      ]
+    },
+    {
+      "x": 0.0,
+      "y": 39.2,
+      "width": 19.6,
+      "height": 0.8,
+      "text": [
+        "Bring It All Together"
+      ]
+    }
+  ]
+}

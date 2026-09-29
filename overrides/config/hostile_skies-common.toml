@@ -6,6 +6,10 @@
 	enableShipCapture = true
 	#Broadcast raid debug messages in chat
 	debugChatMessages = false
+	#Minutes the raid will patrol for until they get bored and leave.
+	# Default: 14
+	# Range: 1 ~ 60
+	patrolTimeMinutes = 14
 
 #.
 #Controls when and how often raids spawn.
@@ -66,11 +70,11 @@
 [tier_system]
 	#Enable tier 1 ships (Scout)
 	enableTier1 = true
-	#Enable tier 2 ships (Skiff)
+	#Enable tier 2 ships (Patrol)
 	enableTier2 = true
 	#Enable tier 3 ships (Warship)
 	enableTier3 = true
-	#Enable tier 4 ships (Flagship
+	#Enable tier 4 ships (Flagship)
 	enableTier4 = true
 	#Captain kills required to unlock tier 2
 	# Default: 8
@@ -88,7 +92,7 @@
 	#Spawn weights per tier. Higher number = more likely to be selected
 	[tier_system.weights]
 		#Tier 1 spawn weight
-		# Default: 50
+		# Default: 35
 		# Range: 0 ~ 1000
 		tier1Weight = 50
 		#Tier 2 spawn weight
@@ -96,11 +100,11 @@
 		# Range: 0 ~ 1000
 		tier2Weight = 30
 		#Tier 3 spawn weight
-		# Default: 15
+		# Default: 25
 		# Range: 0 ~ 1000
 		tier3Weight = 15
 		#Tier 4 spawn weight
-		# Default: 5
+		# Default: 10
 		# Range: 0 ~ 1000
 		tier4Weight = 5
 

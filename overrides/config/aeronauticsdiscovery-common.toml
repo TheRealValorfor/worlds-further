@@ -2,7 +2,6 @@
 	#Maximum lifetime of a flyover in ticks before it despawns (20 ticks = 1 second)
 	# Default: 6000
 	# Range: > 1
-	# Worlds Further: 4 minutes so trader planes leave even if they never leave render distance.
 	maxLifetimeTicks = 4800
 	#Base cooldown between flyover spawns per macro chunk (20 ticks = 1 second)
 	# Default: 12000
@@ -17,7 +16,6 @@
 	# Range: 0 ~ 1024
 	maxUnloadDistance = 64
 	#When enabled, flyovers try to avoid spawning position where a block wall exists between the spawn point and the player. May introduce a minor performance overhead
-	# Worlds Further: skip mountain/wall spawns that immediately crash.
 	obstacleCheck = true
 
 	[flyover.promotion]
@@ -33,7 +31,6 @@
 	#Controls the number of rays cast per tick and how finely the forward cone is sampled.
 	#LOW = fewest rays, MEDIUM = balanced, HIGH = finest detection (most rays per tick)
 	#Allowed Values: LOW, MEDIUM, HIGH
-	# Worlds Further: finer avoid/terrain rays so Soaring Trader biplanes crash less.
 	raycastPrecision = "HIGH"
 
 [impact]
@@ -81,3 +78,6 @@
 	# Default: 5.0
 	# Range: 1.0 ~ 256.0
 	playerProximityRadius = 5.0
+	#When enabled, pins with the execute behavior run their inline command and/or datapack function.
+	#Set to true to globally enable execute pins. Runs at permission level 2, like command blocks.
+	executeEnabled = false

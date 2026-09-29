@@ -125,7 +125,7 @@ That string is in `ADDITIONAL_JVM_ARGS.txt`. Do **not** also paste `-Xmx`; the m
 - Vanilla render **4**, simulation **8**, graphics **Fancy**, mipmaps **2**, entity distance **0.8**
 - Mac Retina resolution reduction on; Flywheel lighting **TRI_LINEAR**, 2 worker threads
 - Dynamic Render Distance HUD **off**; Inventory HUD empty arrows **hidden**; Combat Roll prompt **left of hotbar**; FTB sidebar **top_left**; Shoulder Surfing **over-shoulder** default
-- Pack keybinds: quests **N**, map **M**, skills **K**, Curios **G**, Ars book **C**, roll **R**, backpack **Shift+E**, Tom's terminal **B**, shaders **F6**, configs **`**
+- Pack keybinds: quests **N**, map **M**, skills **K**, Curios **G**, Ars book **C**, roll **R**, backpack **Shift+E**, shaders **F6**, configs **`**
 
 ## After upload
 

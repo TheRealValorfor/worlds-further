@@ -1401,5 +1401,24 @@
 			x: 0.0d
 			y: 53.0d
 		}
+		{
+			dependencies: ["275224B316B1195B"]
+			id: "105D64D4C598EE82"
+			rewards: [{
+				count: 2
+				id: "0F65657889F9B4E9"
+				item: {
+					count: 1
+					id: "minecraft:golden_carrot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "49529AF859D2B19F"
+				type: "checkmark"
+			}]
+			x: 10.4d
+			y: 6.2d
+		}
 	]
 }

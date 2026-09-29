@@ -1,0 +1,1807 @@
+{
+  "key": "engineers_workshop",
+  "group": "engineering",
+  "order_index": 0,
+  "title": "The Engineer's Workshop",
+  "icon": "create:andesite_alloy",
+  "subtitle": "From andesite alloy to a factory that runs itself",
+  "quests": [
+    {
+      "key": "andesite_alloy",
+      "title": "Andesite Alloy",
+      "icon": "create:andesite_alloy",
+      "x": 0.0,
+      "y": 3.2,
+      "description": [
+        "Zinc, Iron and Andesite, melted together into the stuff that holds",
+        "the rest of this pack up. Keep a stockpile going."
+      ],
+      "tasks": [
+        {
+          "item": "create:andesite_alloy",
+          "count": 16
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:andesite",
+          "count": 16
+        }
+      ],
+      "dependencies": [],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "shaft",
+      "title": "Shaft",
+      "icon": "create:shaft",
+      "x": 1.6,
+      "y": 3.2,
+      "description": [
+        "Straight-line power transfer, nothing fancy about it.",
+        "Every contraption you build will have a few of these running through it."
+      ],
+      "tasks": [
+        {
+          "item": "create:shaft",
+          "count": 8
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "andesite_alloy"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "cogwheel",
+      "title": "Cogwheel",
+      "icon": "create:cogwheel",
+      "x": 1.6,
+      "y": 4.8,
+      "description": [
+        "Mesh two together and rotation changes direction.",
+        "Pair with a Shaft and you've got your first real machine."
+      ],
+      "tasks": [
+        {
+          "item": "create:cogwheel",
+          "count": 8
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "andesite_alloy"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "large_cogwheel",
+      "title": "Large Cogwheel",
+      "icon": "create:large_cogwheel",
+      "x": 3.2,
+      "y": 4.8,
+      "description": [
+        "Mesh with a regular Cogwheel and you can gear speed up or down.",
+        "Simple as that."
+      ],
+      "tasks": [
+        {
+          "item": "create:large_cogwheel",
+          "count": 4
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "cogwheel"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "gearbox",
+      "title": "Gearbox",
+      "icon": "create:gearbox",
+      "x": 3.2,
+      "y": 3.2,
+      "description": [
+        "Turns power ninety degrees, no fuss.",
+        "Handy the moment your build stops being a straight line."
+      ],
+      "tasks": [
+        {
+          "item": "create:gearbox",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "shaft"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "hand_crank",
+      "title": "Hand Crank",
+      "icon": "create:hand_crank",
+      "x": 4.8,
+      "y": 1.6,
+      "description": [
+        "Turn it yourself when you don't want to wait on a generator.",
+        "Good for testing a build before you bother automating it."
+      ],
+      "tasks": [
+        {
+          "item": "create:hand_crank",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "gearbox"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "water_wheel",
+      "title": "Water Wheel",
+      "icon": "create:water_wheel",
+      "x": 4.8,
+      "y": 3.2,
+      "description": [
+        "Drop it in flowing water and forget about it.",
+        "Steady power, zero upkeep."
+      ],
+      "tasks": [
+        {
+          "item": "create:water_wheel",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:water_bucket",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "gearbox",
+        "large_cogwheel"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "windmill_bearing",
+      "title": "Windmill Bearing",
+      "icon": "create:windmill_bearing",
+      "x": 4.8,
+      "y": 4.8,
+      "description": [
+        "Bolt on Windmill Sails and output climbs with every one you add.",
+        "Big footprint, bigger payoff."
+      ],
+      "tasks": [
+        {
+          "item": "create:windmill_bearing",
+          "count": 1
+        },
+        {
+          "item": "create:white_sail",
+          "count": 8
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "gearbox",
+        "large_cogwheel"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "millstone",
+      "title": "Millstone",
+      "icon": "create:millstone",
+      "x": 6.4,
+      "y": 3.2,
+      "description": [
+        "Set it beside a spinning shaft and let it grind out bonus",
+        "materials while you do something else."
+      ],
+      "tasks": [
+        {
+          "item": "create:millstone",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 16
+        }
+      ],
+      "dependencies": [
+        "water_wheel"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "mechanical_press",
+      "title": "Mechanical Press",
+      "icon": "create:mechanical_press",
+      "x": 8.0,
+      "y": 1.6,
+      "description": [
+        "Flattens metal into sheets, or set it over a Basin for",
+        "compacting recipes. One tool, two jobs."
+      ],
+      "tasks": [
+        {
+          "item": "create:mechanical_press",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "millstone"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "basin_and_mixer",
+      "title": "Basin and Mechanical Mixer",
+      "icon": "create:mechanical_mixer",
+      "x": 8.0,
+      "y": 3.2,
+      "description": [
+        "The Basin catches items and fluids; the Mixer stirs them together.",
+        "Between the two, half your crafting table becomes obsolete."
+      ],
+      "tasks": [
+        {
+          "item": "create:basin",
+          "count": 1
+        },
+        {
+          "item": "create:mechanical_mixer",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "millstone"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "crushing_wheels",
+      "title": "Crushing Wheels",
+      "icon": "create:crushing_wheel",
+      "x": 8.0,
+      "y": 4.8,
+      "description": [
+        "Two wheels spinning against each other, crushing ore for",
+        "a shot at bonus output. Worth the setup."
+      ],
+      "tasks": [
+        {
+          "item": "create:crushing_wheel",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:raw_iron",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "windmill_bearing"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "zinc_and_brass",
+      "title": "Zinc and Brass",
+      "icon": "create:brass_ingot",
+      "x": 9.6,
+      "y": 3.2,
+      "description": [
+        "Smelt the Zinc, mix it with Copper in the Mixer, and you've",
+        "got Brass - the metal the rest of this pack runs on."
+      ],
+      "tasks": [
+        {
+          "item": "create:zinc_ingot",
+          "count": 8
+        },
+        {
+          "item": "create:brass_ingot",
+          "count": 8
+        }
+      ],
+      "rewards": [
+        {
+          "item": "create:brass_sheet",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "basin_and_mixer",
+        "crushing_wheels"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "blaze_burner",
+      "title": "Blaze Burner",
+      "icon": "create:blaze_burner",
+      "x": 11.2,
+      "y": 1.6,
+      "description": [
+        "Feed it Blaze Cake and it superheats whatever's sitting above it.",
+        "Unlocks the hotter alloying recipes, Brass included."
+      ],
+      "tasks": [
+        {
+          "item": "create:blaze_burner",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:blaze_rod",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "zinc_and_brass"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "mechanical_arm",
+      "title": "Mechanical Arm",
+      "icon": "create:mechanical_arm",
+      "x": 11.2,
+      "y": 3.2,
+      "description": [
+        "Picks and places between inventories, belts and depots -",
+        "wherever you point it. Beats a wall of funnels."
+      ],
+      "tasks": [
+        {
+          "item": "create:mechanical_arm",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "zinc_and_brass"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "deployer",
+      "title": "Deployer",
+      "icon": "create:deployer",
+      "x": 11.2,
+      "y": 4.8,
+      "description": [
+        "Hand it an item and it'll punch, place or craft just like",
+        "you would. Automated hands, basically."
+      ],
+      "tasks": [
+        {
+          "item": "create:deployer",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "zinc_and_brass"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "encased_fan",
+      "title": "Encased Fan",
+      "icon": "create:encased_fan",
+      "x": 12.8,
+      "y": 3.2,
+      "description": [
+        "Blows air down a belt for smelting, smoking, blasting or",
+        "washing - no furnace required."
+      ],
+      "tasks": [
+        {
+          "item": "create:encased_fan",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "blaze_burner",
+        "mechanical_arm"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "sequenced_gearshift",
+      "title": "Sequenced Gearshift",
+      "icon": "create:sequenced_gearshift",
+      "x": 14.4,
+      "y": 3.2,
+      "description": [
+        "Program a string of rotational steps and it repeats them",
+        "exactly, every time. This is how contraptions stop needing you."
+      ],
+      "tasks": [
+        {
+          "item": "create:sequenced_gearshift",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "encased_fan",
+        "deployer"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "electron_tube",
+      "title": "Electron Tube",
+      "icon": "create:electron_tube",
+      "x": 16.0,
+      "y": 1.6,
+      "description": [
+        "Refined Radiance and Shadow Steel, fused into a component your",
+        "logic and display setups will lean on."
+      ],
+      "tasks": [
+        {
+          "item": "create:electron_tube",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "sequenced_gearshift"
+      ],
+      "source": "create_core",
+      "shape": "hexagon",
+      "size": 1.4,
+      "section": "create_core"
+    },
+    {
+      "key": "trains_ahead",
+      "title": "All Aboard: Trains",
+      "icon": "create:track",
+      "x": 16.0,
+      "y": 4.8,
+      "description": [
+        "Brass tier down, tracks next. Lay rail and put up a",
+        "station - your logistics just went off-road."
+      ],
+      "tasks": [
+        {
+          "item": "create:track",
+          "count": 16
+        },
+        {
+          "item": "create:track_station",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "create:schedule",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "sequenced_gearshift"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "copper_tools",
+      "title": "Copper Tools",
+      "icon": "create_sa:copper_pickaxe",
+      "x": 0.0,
+      "y": 10.4,
+      "description": [
+        "Copper's cheap and you've got plenty of it.",
+        "Start your tool line here."
+      ],
+      "tasks": [
+        {
+          "item": "create_sa:copper_pickaxe",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "zinc_and_brass"
+      ],
+      "source": "create_stuff_additions",
+      "section": "create_stuff_additions"
+    },
+    {
+      "key": "zinc_tools",
+      "title": "Zinc Tools",
+      "icon": "create_sa:zinc_pickaxe",
+      "x": 1.6,
+      "y": 10.4,
+      "description": [
+        "Hits a bit harder than Copper and lasts a bit longer too.",
+        "Small upgrade, worth making."
+      ],
+      "tasks": [
+        {
+          "item": "create_sa:zinc_pickaxe",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "create:zinc_ingot",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "copper_tools"
+      ],
+      "source": "create_stuff_additions",
+      "section": "create_stuff_additions"
+    },
+    {
+      "key": "brass_tools",
+      "title": "Brass Tools",
+      "icon": "create_sa:brass_pickaxe",
+      "x": 3.2,
+      "y": 10.4,
+      "description": [
+        "Forged from Brass, roughly Iron-grade.",
+        "A solid mid-tier set while you work toward Blazing."
+      ],
+      "tasks": [
+        {
+          "item": "create_sa:brass_pickaxe",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "create:brass_ingot",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "zinc_tools"
+      ],
+      "source": "create_stuff_additions",
+      "section": "create_stuff_additions"
+    },
+    {
+      "key": "blazing_pickaxe",
+      "title": "Blazing Pickaxe",
+      "icon": "create_sa:blazing_pickaxe",
+      "x": 4.8,
+      "y": 8.8,
+      "description": [
+        "Tempered over a Blaze Burner. Hits like Diamond",
+        "and never needs repairing."
+      ],
+      "tasks": [
+        {
+          "item": "create_sa:blazing_pickaxe",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:blaze_rod",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "brass_tools"
+      ],
+      "source": "create_stuff_additions",
+      "section": "create_stuff_additions"
+    },
+    {
+      "key": "blazing_axe",
+      "title": "Blazing Axe",
+      "icon": "create_sa:blazing_axe",
+      "x": 4.8,
+      "y": 10.4,
+      "description": [
+        "Same heat treatment as the pickaxe, aimed at",
+        "your tree farm instead."
+      ],
+      "tasks": [
+        {
+          "item": "create_sa:blazing_axe",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "brass_tools"
+      ],
+      "source": "create_stuff_additions",
+      "section": "create_stuff_additions"
+    },
+    {
+      "key": "blazing_shovel_cleaver",
+      "title": "Blazing Shovel and Cleaver",
+      "icon": "create_sa:blazing_cleaver",
+      "x": 4.8,
+      "y": 12.0,
+      "description": [
+        "A Shovel for digging, a Cleaver for mobs -",
+        "rounds out the Blazing set nicely."
+      ],
+      "tasks": [
+        {
+          "item": "create_sa:blazing_shovel",
+          "count": 1
+        },
+        {
+          "item": "create_sa:blazing_cleaver",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "brass_tools"
+      ],
+      "source": "create_stuff_additions",
+      "section": "create_stuff_additions"
+    },
+    {
+      "key": "copper_exoskeleton",
+      "title": "Copper Exoskeleton",
+      "icon": "create_sa:copper_exoskeleton_chestplate",
+      "x": 6.4,
+      "y": 10.4,
+      "description": [
+        "Straps on over your chestplate and speeds up mining",
+        "and movement both. Your first taste of powered gear."
+      ],
+      "tasks": [
+        {
+          "item": "create_sa:copper_exoskeleton_chestplate",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "blazing_pickaxe",
+        "blazing_axe"
+      ],
+      "source": "create_stuff_additions",
+      "section": "create_stuff_additions"
+    },
+    {
+      "key": "andesite_exoskeleton",
+      "title": "Andesite Exoskeleton",
+      "icon": "create_sa:andesite_exoskeleton_chestplate",
+      "x": 8.0,
+      "y": 10.4,
+      "description": [
+        "Andesite plating over the frame.",
+        "More protection, more utility, same idea."
+      ],
+      "tasks": [
+        {
+          "item": "create_sa:andesite_exoskeleton_chestplate",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "copper_exoskeleton"
+      ],
+      "source": "create_stuff_additions",
+      "section": "create_stuff_additions"
+    },
+    {
+      "key": "copper_jetpack",
+      "title": "Copper Jetpack",
+      "icon": "create_sa:copper_jetpack_chestplate",
+      "x": 6.4,
+      "y": 12.0,
+      "description": [
+        "Basic powered flight, running on the same steam",
+        "engineering as the rest of Create. Not fast, but it flies."
+      ],
+      "tasks": [
+        {
+          "item": "create_sa:copper_jetpack_chestplate",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "blazing_shovel_cleaver"
+      ],
+      "source": "create_stuff_additions",
+      "section": "create_stuff_additions"
+    },
+    {
+      "key": "brass_jetpack",
+      "title": "Brass Jetpack",
+      "icon": "create_sa:brass_jetpack_chestplate",
+      "x": 8.0,
+      "y": 12.0,
+      "description": [
+        "Brass-built and better tuned - smoother flight,",
+        "more control than the Copper model."
+      ],
+      "tasks": [
+        {
+          "item": "create_sa:brass_jetpack_chestplate",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "create:brass_sheet",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "copper_jetpack",
+        "andesite_exoskeleton"
+      ],
+      "source": "create_stuff_additions",
+      "size": 1.8,
+      "section": "create_stuff_additions"
+    },
+    {
+      "key": "biomass",
+      "title": "Biomass",
+      "icon": "createaddition:biomass",
+      "x": 0.0,
+      "y": 17.6,
+      "description": [
+        "Compost your organic scraps down to Biomass.",
+        "First step on the road to brewing your own fuel."
+      ],
+      "tasks": [
+        {
+          "item": "createaddition:biomass",
+          "count": 8
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:wheat",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "zinc_and_brass"
+      ],
+      "source": "create_electric",
+      "section": "create_electric"
+    },
+    {
+      "key": "bioethanol",
+      "title": "Bioethanol",
+      "icon": "createaddition:bioethanol_bucket",
+      "x": 1.6,
+      "y": 17.6,
+      "description": [
+        "Ferment it further and you've got Bioethanol -",
+        "clean fuel for your generators."
+      ],
+      "tasks": [
+        {
+          "item": "createaddition:bioethanol_bucket",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "biomass"
+      ],
+      "source": "create_electric",
+      "section": "create_electric"
+    },
+    {
+      "key": "copper_wiring",
+      "title": "Copper Wiring",
+      "icon": "createaddition:copper_wire",
+      "x": 1.6,
+      "y": 19.2,
+      "description": [
+        "Draw Copper Rods into wire. Every electrical connection",
+        "in this network starts with a spool of this."
+      ],
+      "tasks": [
+        {
+          "item": "createaddition:copper_rod",
+          "count": 4
+        },
+        {
+          "item": "createaddition:copper_wire",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "zinc_and_brass"
+      ],
+      "source": "create_electric",
+      "section": "create_electric"
+    },
+    {
+      "key": "alternator",
+      "title": "Alternator",
+      "icon": "createaddition:alternator",
+      "x": 3.2,
+      "y": 17.6,
+      "description": [
+        "Spin it fast enough and rotational power turns into real",
+        "electricity. The bridge between kinetic and electric."
+      ],
+      "tasks": [
+        {
+          "item": "createaddition:alternator",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "bioethanol",
+        "copper_wiring"
+      ],
+      "source": "create_electric",
+      "section": "create_electric"
+    },
+    {
+      "key": "electric_motor",
+      "title": "Electric Motor",
+      "icon": "createaddition:electric_motor",
+      "x": 4.8,
+      "y": 16.0,
+      "description": [
+        "The Alternator in reverse - feed it electricity,",
+        "get rotation back out."
+      ],
+      "tasks": [
+        {
+          "item": "createaddition:electric_motor",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "alternator"
+      ],
+      "source": "create_electric",
+      "section": "create_electric"
+    },
+    {
+      "key": "connectors",
+      "title": "Connectors",
+      "icon": "createaddition:connector",
+      "x": 4.8,
+      "y": 17.6,
+      "description": [
+        "Small and Large Connectors join your wire runs together,",
+        "routing power wherever it needs to go."
+      ],
+      "tasks": [
+        {
+          "item": "createaddition:connector",
+          "count": 4
+        },
+        {
+          "item": "createaddition:large_connector",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "alternator"
+      ],
+      "source": "create_electric",
+      "section": "create_electric"
+    },
+    {
+      "key": "accumulator",
+      "title": "Accumulator",
+      "icon": "createaddition:modular_accumulator",
+      "x": 6.4,
+      "y": 17.6,
+      "description": [
+        "Banks the surplus from your Alternators so demand",
+        "spikes don't leave you short."
+      ],
+      "tasks": [
+        {
+          "item": "createaddition:modular_accumulator",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:redstone",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "connectors"
+      ],
+      "source": "create_electric",
+      "section": "create_electric"
+    },
+    {
+      "key": "capacitor",
+      "title": "Capacitor",
+      "icon": "createaddition:capacitor",
+      "x": 8.0,
+      "y": 19.2,
+      "description": [
+        "Regulates current flow for the heavier machinery",
+        "further down the line."
+      ],
+      "tasks": [
+        {
+          "item": "createaddition:capacitor",
+          "count": 2
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "accumulator"
+      ],
+      "source": "create_electric",
+      "section": "create_electric"
+    },
+    {
+      "key": "electrum_upgrade",
+      "title": "Electrum Wiring",
+      "icon": "createaddition:electrum_wire",
+      "x": 8.0,
+      "y": 16.0,
+      "description": [
+        "Gold and Silver alloyed into Electrum wire - carries",
+        "current more efficiently than Copper ever could."
+      ],
+      "tasks": [
+        {
+          "item": "createaddition:electrum_ingot",
+          "count": 4
+        },
+        {
+          "item": "createaddition:electrum_wire",
+          "count": 4
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "electric_motor"
+      ],
+      "source": "create_electric",
+      "section": "create_electric"
+    },
+    {
+      "key": "tesla_coil",
+      "title": "Tesla Coil",
+      "icon": "createaddition:tesla_coil",
+      "x": 9.6,
+      "y": 17.6,
+      "description": [
+        "The payoff for the whole network: a Tesla Coil that lets",
+        "your stored power go out with a bang."
+      ],
+      "tasks": [
+        {
+          "item": "createaddition:tesla_coil",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:experience_bottle",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "capacitor",
+        "electrum_upgrade"
+      ],
+      "source": "create_electric",
+      "section": "create_electric"
+    },
+    {
+      "key": "cross_connector",
+      "title": "Cross Connector",
+      "icon": "create_connected:cross_connector",
+      "x": 0.0,
+      "y": 26.4,
+      "description": [
+        "Drop one down and it links up with its neighbors automatically.",
+        "The starting point for any wired network."
+      ],
+      "tasks": [
+        {
+          "item": "create_connected:cross_connector",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "zinc_and_brass"
+      ],
+      "source": "create_connected",
+      "section": "create_connected"
+    },
+    {
+      "key": "andesite_encased_cross_connector",
+      "title": "Andesite Encased Connector",
+      "icon": "create_connected:andesite_encased_cross_connector",
+      "x": 1.6,
+      "y": 26.4,
+      "description": [
+        "Andesite casing tidies up the wiring and toughens it -",
+        "the first upgrade tier."
+      ],
+      "tasks": [
+        {
+          "item": "create_connected:andesite_encased_cross_connector",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:andesite",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "cross_connector"
+      ],
+      "source": "create_connected",
+      "section": "create_connected"
+    },
+    {
+      "key": "brass_encased_cross_connector",
+      "title": "Brass Encased Connector",
+      "icon": "create_connected:brass_encased_cross_connector",
+      "x": 3.2,
+      "y": 26.4,
+      "description": [
+        "Brass casing for the runs that matter.",
+        "You'll need this tier before the fancier components unlock."
+      ],
+      "tasks": [
+        {
+          "item": "create_connected:brass_encased_cross_connector",
+          "count": 4
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "andesite_encased_cross_connector"
+      ],
+      "source": "create_connected",
+      "section": "create_connected"
+    },
+    {
+      "key": "linked_transmitter",
+      "title": "Linked Transmitter",
+      "icon": "create_connected:linked_transmitter",
+      "x": 1.6,
+      "y": 23.2,
+      "description": [
+        "Link two together and the signal jumps between them",
+        "with no wire in sight."
+      ],
+      "tasks": [
+        {
+          "item": "create_connected:linked_transmitter",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:redstone_torch",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "zinc_and_brass"
+      ],
+      "source": "create_connected",
+      "section": "create_connected"
+    },
+    {
+      "key": "redstone_link_wildcard",
+      "title": "Redstone Link Wildcard",
+      "icon": "create_connected:redstone_link_wildcard",
+      "x": 3.2,
+      "y": 23.2,
+      "description": [
+        "Binds devices across different frequencies, tying your",
+        "whole wireless setup into one network."
+      ],
+      "tasks": [
+        {
+          "item": "create_connected:redstone_link_wildcard",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "linked_transmitter"
+      ],
+      "source": "create_connected",
+      "section": "create_connected"
+    },
+    {
+      "key": "incomplete_control_chip",
+      "title": "Incomplete Control Chip",
+      "icon": "create_connected:incomplete_control_chip",
+      "x": 4.8,
+      "y": 24.8,
+      "description": [
+        "Brings your casing and linking branches together into one",
+        "precision part - the base of something bigger."
+      ],
+      "tasks": [
+        {
+          "item": "create_connected:incomplete_control_chip",
+          "count": 1
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "brass_encased_cross_connector",
+        "redstone_link_wildcard"
+      ],
+      "source": "create_connected",
+      "section": "create_connected"
+    },
+    {
+      "key": "control_chip",
+      "title": "Control Chip",
+      "icon": "create_connected:control_chip",
+      "x": 6.4,
+      "y": 24.8,
+      "description": [
+        "Finish it off and you've got the core logic chip every",
+        "advanced block in this network needs."
+      ],
+      "tasks": [
+        {
+          "item": "create_connected:control_chip",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "create_connected:kinetic_battery",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "incomplete_control_chip"
+      ],
+      "source": "create_connected",
+      "section": "create_connected"
+    },
+    {
+      "key": "dashboard",
+      "title": "Dashboard",
+      "icon": "create_connected:dashboard",
+      "x": 8.0,
+      "y": 23.2,
+      "description": [
+        "One panel, the whole network.",
+        "Monitor and control everything from a single dashboard."
+      ],
+      "tasks": [
+        {
+          "item": "create_connected:dashboard",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:glass_pane",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "control_chip"
+      ],
+      "source": "create_connected",
+      "section": "create_connected"
+    },
+    {
+      "key": "kinetic_bridge",
+      "title": "Kinetic Bridge",
+      "icon": "create_connected:kinetic_bridge",
+      "x": 8.0,
+      "y": 26.4,
+      "description": [
+        "A matched pair sends rotational power wirelessly.",
+        "Run machinery clear across your base without laying a single shaft."
+      ],
+      "tasks": [
+        {
+          "item": "create_connected:kinetic_bridge",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "create_connected:crank_wheel",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "control_chip"
+      ],
+      "source": "create_connected",
+      "section": "create_connected"
+    },
+    {
+      "key": "red_bricks_intro",
+      "title": "Scarlet Brick Palette",
+      "icon": "createdeco:scarlet_bricks",
+      "x": 0.0,
+      "y": 30.4,
+      "description": [
+        "Warm brick for walls that feel lived-in.",
+        "Start with a batch of Scarlet Bricks."
+      ],
+      "tasks": [
+        {
+          "item": "createdeco:scarlet_bricks",
+          "count": 16
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:bricks",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "zinc_and_brass"
+      ],
+      "source": "create_decor",
+      "section": "create_decor"
+    },
+    {
+      "key": "red_brick_shapes",
+      "title": "Brick Shapes",
+      "icon": "createdeco:scarlet_brick_stairs",
+      "x": 1.6,
+      "y": 30.4,
+      "description": [
+        "Matching slabs and stairs round the set out nicely."
+      ],
+      "tasks": [
+        {
+          "item": "createdeco:scarlet_brick_slab",
+          "count": 8
+        },
+        {
+          "item": "createdeco:scarlet_brick_stairs",
+          "count": 8
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:brick",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "red_bricks_intro"
+      ],
+      "source": "create_decor",
+      "section": "create_decor"
+    },
+    {
+      "key": "red_brick_wall",
+      "title": "Brick Wall",
+      "icon": "createdeco:scarlet_brick_wall",
+      "x": 3.2,
+      "y": 30.4,
+      "description": [
+        "A low brick wall gives the yard a tidy edge."
+      ],
+      "tasks": [
+        {
+          "item": "createdeco:scarlet_brick_wall",
+          "count": 8
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "red_brick_shapes"
+      ],
+      "source": "create_decor",
+      "section": "create_decor"
+    },
+    {
+      "key": "sanded_finish",
+      "title": "Sanded Finish",
+      "icon": "createoplenty:white_sand_paper",
+      "x": 4.8,
+      "y": 30.4,
+      "description": [
+        "Smooth things over with sand paper in a few different grits."
+      ],
+      "tasks": [
+        {
+          "item": "createoplenty:black_sand_paper",
+          "count": 1
+        },
+        {
+          "item": "createoplenty:white_sand_paper",
+          "count": 1
+        },
+        {
+          "item": "createoplenty:orange_sand_paper",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:paper",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "red_brick_wall"
+      ],
+      "source": "create_decor",
+      "section": "create_decor"
+    },
+    {
+      "key": "blue_bricks_intro",
+      "title": "Blue Brick Palette",
+      "icon": "createdeco:blue_bricks",
+      "x": 0.0,
+      "y": 32.0,
+      "description": [
+        "Fancy a cooler look? Try a batch of Blue Bricks instead."
+      ],
+      "tasks": [
+        {
+          "item": "createdeco:blue_bricks",
+          "count": 16
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:lapis_lazuli",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "zinc_and_brass"
+      ],
+      "source": "create_decor",
+      "section": "create_decor"
+    },
+    {
+      "key": "blue_brick_set",
+      "title": "Blue Brick Set",
+      "icon": "createdeco:blue_brick_wall",
+      "x": 1.6,
+      "y": 32.0,
+      "description": [
+        "Slabs, stairs, and a wall finish the blue set off."
+      ],
+      "tasks": [
+        {
+          "item": "createdeco:blue_brick_slab",
+          "count": 4
+        },
+        {
+          "item": "createdeco:blue_brick_stairs",
+          "count": 4
+        },
+        {
+          "item": "createdeco:blue_brick_wall",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "blue_bricks_intro"
+      ],
+      "source": "create_decor",
+      "section": "create_decor"
+    },
+    {
+      "key": "basic_windows",
+      "title": "Windows",
+      "icon": "createdeco:andesite_window",
+      "x": 0.0,
+      "y": 33.6,
+      "description": [
+        "Let a little daylight in with a window and matching pane."
+      ],
+      "tasks": [
+        {
+          "item": "createdeco:andesite_window",
+          "count": 4
+        },
+        {
+          "item": "createdeco:andesite_window_pane",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:glass",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "zinc_and_brass"
+      ],
+      "source": "create_decor",
+      "section": "create_decor"
+    },
+    {
+      "key": "doors_and_trapdoors",
+      "title": "Doors and Trapdoors",
+      "icon": "createdeco:andesite_door",
+      "x": 1.6,
+      "y": 33.6,
+      "description": [
+        "Every room deserves a proper door, and a trapdoor besides."
+      ],
+      "tasks": [
+        {
+          "item": "createdeco:andesite_door",
+          "count": 1
+        },
+        {
+          "item": "createdeco:andesite_trapdoor",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "basic_windows"
+      ],
+      "source": "create_decor",
+      "section": "create_decor"
+    },
+    {
+      "key": "catwalks_and_railings",
+      "title": "Catwalks and Railings",
+      "icon": "createdeco:brass_catwalk",
+      "x": 3.2,
+      "y": 33.6,
+      "description": [
+        "Brass catwalks and railings keep you steady above it all."
+      ],
+      "tasks": [
+        {
+          "item": "createdeco:brass_catwalk",
+          "count": 4
+        },
+        {
+          "item": "createdeco:brass_catwalk_railing",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "doors_and_trapdoors"
+      ],
+      "source": "create_decor",
+      "section": "create_decor"
+    },
+    {
+      "key": "bars_and_mesh_fences",
+      "title": "Bars and Mesh Fences",
+      "icon": "createdeco:zinc_bars",
+      "x": 4.8,
+      "y": 33.6,
+      "description": [
+        "A little zinc fencing keeps things secure, and still looks the part."
+      ],
+      "tasks": [
+        {
+          "item": "createdeco:zinc_bars",
+          "count": 4
+        },
+        {
+          "item": "createdeco:zinc_mesh_fence",
+          "count": 4
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:lantern",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "catwalks_and_railings"
+      ],
+      "source": "create_decor",
+      "section": "create_decor"
+    },
+    {
+      "key": "cage_lighting",
+      "title": "Cage Lighting",
+      "icon": "createdeco:blue_iron_lamp",
+      "x": 0.0,
+      "y": 35.2,
+      "description": [
+        "Cozy up the dim corners with a couple of cage lamps."
+      ],
+      "tasks": [
+        {
+          "item": "createdeco:blue_iron_lamp",
+          "count": 2
+        },
+        {
+          "item": "createdeco:red_brass_lamp",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:glowstone_dust",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "zinc_and_brass"
+      ],
+      "source": "create_decor",
+      "section": "create_decor"
+    },
+    {
+      "key": "shipping_storage",
+      "title": "Shipping Containers",
+      "icon": "createdeco:blue_shipping_container",
+      "x": 1.6,
+      "y": 35.2,
+      "description": [
+        "A couple of colorful containers keep your goods tidy and dry."
+      ],
+      "tasks": [
+        {
+          "item": "createdeco:blue_shipping_container",
+          "count": 1
+        },
+        {
+          "item": "createdeco:gray_shipping_container",
+          "count": 1
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "cage_lighting"
+      ],
+      "source": "create_decor",
+      "section": "create_decor"
+    },
+    {
+      "key": "signage_and_decals",
+      "title": "Signage and Decals",
+      "icon": "createdeco:red_placard",
+      "x": 3.2,
+      "y": 35.2,
+      "description": [
+        "A placard and a decal help everyone find their way around."
+      ],
+      "tasks": [
+        {
+          "item": "createdeco:red_placard",
+          "count": 2
+        },
+        {
+          "item": "createdeco:decal_warning",
+          "count": 2
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:paper",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "shipping_storage"
+      ],
+      "source": "create_decor",
+      "section": "create_decor"
+    },
+    {
+      "key": "first_contraption",
+      "title": "Something That Moves",
+      "icon": "create:mechanical_piston",
+      "x": 3.2,
+      "y": 0.0,
+      "description": [
+        "Everything so far has stayed bolted to the ground.",
+        "Assemble a Contraption - a piston, a train, anything that carries its machinery with it when it moves - and Create stops being a factory and starts being an engine."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:piston",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "gearbox"
+      ],
+      "source": "create_core",
+      "section": "create_core"
+    },
+    {
+      "key": "the_complete_workshop",
+      "title": "The Complete Workshop",
+      "icon": "create:brass_ingot",
+      "x": 0.0,
+      "y": 39.2,
+      "description": [
+        "Rotation, power, fluids, wiring, and a workshop that finally looks the part.",
+        "Every corner of Create you touched, working together instead of sitting in separate corners."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:netherite_scrap",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "electron_tube",
+        "brass_jetpack",
+        "tesla_coil",
+        "dashboard",
+        "kinetic_bridge",
+        "signage_and_decals"
+      ],
+      "source": "engineers_workshop_bridge",
+      "shape": "hexagon",
+      "size": 1.4,
+      "section": "chapter_completion"
+    }
+  ],
+  "images": [
+    {
+      "x": 8.0,
+      "y": -1.6,
+      "width": 18.0,
+      "height": 0.8,
+      "text": [
+        "Power Your First Workshop"
+      ]
+    },
+    {
+      "x": 4.0,
+      "y": 7.2,
+      "width": 18.0,
+      "height": 0.8,
+      "text": [
+        "Upgrade Your Tools and Gear"
+      ]
+    },
+    {
+      "x": 4.8,
+      "y": 14.4,
+      "width": 18.0,
+      "height": 0.8,
+      "text": [
+        "Generate and Store Electricity"
+      ]
+    },
+    {
+      "x": 4.0,
+      "y": 21.6,
+      "width": 18.0,
+      "height": 0.8,
+      "text": [
+        "Control Your Machinery"
+      ]
+    },
+    {
+      "x": 2.4,
+      "y": 28.8,
+      "width": 18.0,
+      "height": 0.8,
+      "text": [
+        "Build Your Factory Floor"
+      ]
+    },
+    {
+      "x": 0.0,
+      "y": 37.6,
+      "width": 18.0,
+      "height": 0.8,
+      "text": [
+        "Bring It All Together"
+      ]
+    }
+  ]
+}

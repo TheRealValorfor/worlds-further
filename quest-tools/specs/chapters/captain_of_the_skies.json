@@ -1,0 +1,385 @@
+{
+  "key": "captain_of_the_skies",
+  "group": "aviation",
+  "order_index": 1,
+  "title": "Captain of the Skies",
+  "icon": "create_aeronautics_ftb_chunks:contraption_claim_block",
+  "subtitle": "A ship of your own, and everything it takes to keep it in the air",
+  "quests": [
+    {
+      "key": "charting_your_course",
+      "title": "Charting Your Course",
+      "icon": "simulated:navigation_table",
+      "x": 0.0,
+      "y": 1.6,
+      "description": [
+        "The basics of flight are behind you - now, where are you actually going?",
+        "Craft a navigation table and start plotting real courses."
+      ],
+      "tasks": [
+        {
+          "item": "simulated:navigation_table"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:paper",
+          "count": 8
+        }
+      ],
+      "source": "airship_mastery",
+      "dependencies": [
+        "taking_to_the_skies:steamless_engine"
+      ],
+      "section": "airship_mastery"
+    },
+    {
+      "key": "docking_systems",
+      "title": "Docking Systems",
+      "icon": "simulated:docking_connector",
+      "x": 1.6,
+      "y": 1.6,
+      "description": [
+        "A docking connector on your ship, ready to link up with another vessel or a mobile base."
+      ],
+      "tasks": [
+        {
+          "item": "simulated:docking_connector"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "charting_your_course"
+      ],
+      "source": "airship_mastery",
+      "section": "airship_mastery"
+    },
+    {
+      "key": "airship_station",
+      "title": "Airship Station",
+      "icon": "create_aeronautics_automated_logistics:airship_station",
+      "x": 3.2,
+      "y": 1.6,
+      "description": [
+        "Every ship needs somewhere official to call home.",
+        "Build an airship station as your hub for arrivals and departures."
+      ],
+      "tasks": [
+        {
+          "item": "create_aeronautics_automated_logistics:airship_station"
+        }
+      ],
+      "dependencies": [
+        "docking_systems"
+      ],
+      "source": "airship_mastery",
+      "section": "airship_mastery"
+    },
+    {
+      "key": "logistics_network",
+      "title": "Logistics Network",
+      "icon": "create_aeronautics_automated_logistics:logistics_terminal",
+      "x": 4.8,
+      "y": 0.0,
+      "description": [
+        "Cargo won't sort and route itself - well, almost.",
+        "Craft a logistics terminal and automate the flow of goods through your station."
+      ],
+      "tasks": [
+        {
+          "item": "create_aeronautics_automated_logistics:logistics_terminal"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 6
+        }
+      ],
+      "dependencies": [
+        "airship_station"
+      ],
+      "source": "airship_mastery",
+      "section": "airship_mastery"
+    },
+    {
+      "key": "transponders",
+      "title": "Transponders",
+      "icon": "create_aeronautics_automated_logistics:ship_transponder",
+      "x": 6.4,
+      "y": 0.0,
+      "description": [
+        "A transponder that broadcasts your ship's identity to logistics networks below."
+      ],
+      "tasks": [
+        {
+          "item": "create_aeronautics_automated_logistics:ship_transponder"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "logistics_network"
+      ],
+      "source": "airship_mastery",
+      "section": "airship_mastery"
+    },
+    {
+      "key": "grounded_logistics",
+      "title": "Grounded Logistics",
+      "icon": "create_aeronautics_automated_logistics:train_station",
+      "x": 4.8,
+      "y": 3.2,
+      "description": [
+        "Not everything you move needs to leave the ground.",
+        "Build a train station alongside your airship station for cargo that's happy to stay earthbound."
+      ],
+      "tasks": [
+        {
+          "item": "create_aeronautics_automated_logistics:train_station"
+        }
+      ],
+      "dependencies": [
+        "airship_station"
+      ],
+      "source": "airship_mastery",
+      "section": "airship_mastery"
+    },
+    {
+      "key": "claim_the_skies",
+      "title": "Claim the Skies",
+      "icon": "create_aeronautics_ftb_chunks:contraption_claim_block",
+      "x": 8.0,
+      "y": 1.6,
+      "description": [
+        "A ship this valuable needs protecting - from raiders, from griefers, from anyone who isn't you.",
+        "Place a claim block aboard and bring it under your protection, wherever it flies."
+      ],
+      "tasks": [
+        {
+          "item": "create_aeronautics_ftb_chunks:contraption_claim_block"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "transponders",
+        "grounded_logistics"
+      ],
+      "source": "airship_mastery",
+      "section": "airship_mastery"
+    },
+    {
+      "key": "how_high_can_we_go",
+      "title": "How High Can We Go?",
+      "icon": "simulated:altitude_sensor",
+      "x": 9.6,
+      "y": 0.0,
+      "description": [
+        "Your ship is claimed and ready - nothing's stopping you from testing its ceiling now.",
+        "Push it to a genuinely dizzying altitude."
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "advancement": "simulated:can_we_get_much_higher"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:ender_pearl",
+          "count": 2
+        }
+      ],
+      "dependencies": [
+        "claim_the_skies"
+      ],
+      "source": "airship_mastery",
+      "size": 1.2,
+      "shape": "diamond",
+      "section": "airship_mastery"
+    },
+    {
+      "key": "under_the_black_flag",
+      "title": "Under the Black Flag",
+      "icon": "hostile_skies:captains_orders",
+      "x": 9.6,
+      "y": 3.2,
+      "description": [
+        "Not everyone in the sky is friendly - raiders have been known to board unprepared ships.",
+        "Survive the encounter and pull a set of captain's orders from the wreckage."
+      ],
+      "tasks": [
+        {
+          "item": "hostile_skies:captains_orders"
+        }
+      ],
+      "dependencies": [
+        "claim_the_skies"
+      ],
+      "source": "airship_mastery",
+      "section": "airship_mastery"
+    },
+    {
+      "key": "i_declare_thee",
+      "title": "I Declare Thee...",
+      "icon": "simulated:black_nameplate",
+      "x": 11.2,
+      "y": 0.0,
+      "description": [
+        "A true ship deserves a name, not just a pile of blocks that happens to fly.",
+        "Complete the ceremony that makes it official."
+      ],
+      "tasks": [
+        {
+          "type": "advancement",
+          "advancement": "simulated:i_declare_thee"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:emerald_block",
+          "count": 1
+        }
+      ],
+      "dependencies": [
+        "how_high_can_we_go"
+      ],
+      "source": "airship_mastery",
+      "size": 1.2,
+      "shape": "diamond",
+      "section": "airship_mastery"
+    },
+    {
+      "key": "master_of_the_skies",
+      "title": "Master of the Skies",
+      "icon": "create_aeronautics_automated_logistics:airship_station",
+      "x": 12.8,
+      "y": 1.6,
+      "description": [
+        "Navigation, docking, logistics, claims, altitude, a name of its own.",
+        "You don't just fly anymore - you command a travelling base worth admiring."
+      ],
+      "tasks": [
+        {
+          "type": "checkmark"
+        }
+      ],
+      "dependencies": [
+        "i_declare_thee",
+        "under_the_black_flag",
+        "keep_her_steady",
+        "eyes_on_the_horizon"
+      ],
+      "source": "airship_mastery",
+      "size": 1.4,
+      "shape": "hexagon",
+      "section": "airship_mastery"
+    },
+    {
+      "key": "eyes_on_the_horizon",
+      "title": "Eyes on the Horizon",
+      "icon": "simulated:optical_sensor",
+      "x": 0.0,
+      "y": 0.0,
+      "description": [
+        "A ship without lookouts is just a slow way to hit a mountain.",
+        "Craft an optical sensor and give the helm something that sees farther than you do."
+      ],
+      "tasks": [
+        {
+          "item": "simulated:optical_sensor"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:glass",
+          "count": 8
+        }
+      ],
+      "dependencies": [
+        "charting_your_course"
+      ],
+      "source": "airship_mastery",
+      "section": "airship_mastery"
+    },
+    {
+      "key": "a_place_to_sit",
+      "title": "A Place to Sit",
+      "icon": "create:white_seat",
+      "x": 3.2,
+      "y": 3.2,
+      "description": [
+        "Crew need somewhere that is not a plank.",
+        "Fit a seat before the first long voyage."
+      ],
+      "tasks": [
+        {
+          "item": "create:white_seat"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:white_wool",
+          "count": 4
+        }
+      ],
+      "dependencies": [
+        "airship_station"
+      ],
+      "source": "airship_mastery",
+      "section": "airship_mastery"
+    },
+    {
+      "key": "keep_her_steady",
+      "title": "Keep Her Steady",
+      "icon": "simulated:gyroscopic_mechanism",
+      "x": 11.2,
+      "y": 3.2,
+      "description": [
+        "Altitude is bragging. Remaining upright is seamanship.",
+        "Build a gyroscopic mechanism so the deck stays a deck."
+      ],
+      "tasks": [
+        {
+          "item": "simulated:gyroscopic_mechanism"
+        }
+      ],
+      "rewards": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 6
+        }
+      ],
+      "dependencies": [
+        "claim_the_skies"
+      ],
+      "source": "airship_mastery",
+      "section": "airship_mastery"
+    }
+  ],
+  "images": [
+    {
+      "x": 6.4,
+      "y": -1.6,
+      "width": 14.8,
+      "height": 0.8,
+      "text": [
+        "Master Life in the Skies"
+      ]
+    }
+  ]
+}
